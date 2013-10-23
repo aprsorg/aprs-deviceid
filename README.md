@@ -58,3 +58,11 @@ Device class index:
 * shown: An english shown string for the identifier
 * description: An english description string
 
+
+Lookup algorithm for destination callsigns
+---------------------------------------------
+
+1. Try an exact match against those tocalls in the index which have no
+   wildcards (?, lower-case n, *)
+
+

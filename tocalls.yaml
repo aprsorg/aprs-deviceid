@@ -195,17 +195,17 @@ tocalls:
    os: embedded
    model: PLXTracker
 
- - tocall: APAMxx
+ - tocall: APAM??
    vendor: Altus Metrum
    model: AltOS
    class: tracker
 
- - tocall: APJIxx
+ - tocall: APJI??
    vendor: Peter Loveall, AE5PL
    model: jAPRSIgate
    class: software
 
- - tocall: APBPQx
+ - tocall: APBPQ?
    vendor: John Wiseman, G8BPQ
    model: BPQ32
    class: software
@@ -217,242 +217,242 @@ tocalls:
    class: software
    os: Linux/Unix
 
- - tocall: APDGxx
+ - tocall: APDG??
    vendor: Jonathan, G4KLX
    model: ircDDB Gateway
    class: dstar
 
- - tocall: APDIxx
+ - tocall: APDI??
    vendor: Bela, HA5DI
    model: DIXPRS
    class: software
 
- - tocall: APDSxx
+ - tocall: APDS??
    vendor: SP9UOB
    model: dsDIGI
    os: embedded
 
- - tocall: APDSTx
+ - tocall: APDST?
    vendor: SP9UOB
    model: dsTracker
    os: embedded
 
- - tocall: APDUxx
+ - tocall: APDU??
    vendor: JA7UDE
    model: U2APRS
    class: app
    os: Android
 
- - tocall: APDWxx
+ - tocall: APDW??
    vendor: WB2OSZ
    model: DireWolf
 
- - tocall: APMGxx
+ - tocall: APMG??
    vendor: Alex, AB0TJ
    model: MiniGate
    class: software
    os: Netduino
 
- - tocall: APJYxx
+ - tocall: APJY??
    vendor: KA2DDO
    model: YAAC
    class: software
 
- - tocall: AP4Rxx
+ - tocall: AP4R??
    vendor: Open Source
    model: APRS4R
    class: software
 
- - tocall: APxxxD
+ - tocall: AP???D
    vendor: Painter Engineering
    model: uSmartDigi D-Gate
    class: dstar
 
- - tocall: APxxxU
+ - tocall: AP???U
    vendor: Painter Engineering
    model: uSmartDigi Digipeater
    class: digi
 
- - tocall: APAFxx
+ - tocall: APAF??
    model: AFilter
 
- - tocall: APAGxx
+ - tocall: APAG??
    model: AGate
 
- - tocall: APAGWx
+ - tocall: APAGW?
    vendor: SV2AGW
    model: AGWtracker
    class: software
    os: Windows
 
- - tocall: APAXxx
+ - tocall: APAX??
    model: AFilterX
 
- - tocall: APAHxx
+ - tocall: APAH??
    model: AHub
 
- - tocall: APAWxx
+ - tocall: APAW??
    vendor: SV2AGW
    model: AGWPE
    class: software
    os: Windows
 
- - tocall: APBLxx
+ - tocall: APBL??
    vendor: BigRedBee
    model: BeeLine GPS
    class: tracker
 
- - tocall: APCxxx
+ - tocall: APC???
    vendor: Rob Wittner, KZ5RW
    model: APRS/CE
    class: app
 
- - tocall: APCLxx
+ - tocall: APCL??
    vendor: maprs.org
    model: maprs
    class: app
 
- - tocall: APDTxx
+ - tocall: APDT??
    vendor: unknown
    model: APRStouch Tone (DTMF)
 
- - tocall: APDFxx
+ - tocall: APDF??
    model: Automatic DF units
 
- - tocall: APExxx
+ - tocall: APE???
    model: Telemetry devices
 
- - tocall: APFGxx
+ - tocall: APFG??
    vendor: KP4DJT
    model: Flood Gage
    class: software
 
- - tocall: APFIxx
+ - tocall: APFI??
    vendor: aprs.fi
    class: app
 
- - tocall: APFIIx
+ - tocall: APFII?
    vendor: aprs.fi
    os: ios
    class: app
 
- - tocall: APGOxx
+ - tocall: APGO??
    vendor: AA3NJ
    model: APRS-Go
    class: app
 
- - tocall: APHAXx
+ - tocall: APHAX?
    vendor: PY2UEP
    model: SM2APRS SondeMonitor
    class: software
    os: Windows
 
- - tocall: APHHx
+ - tocall: APHH?
    vendor: Steven D. Bragg, KA9MVA
    model: HamHud
    class: tracker
 
- - tocall: APHKxx
+ - tocall: APHK??
    vendor: LA1BR
    model: Digipeater/tracker
 
- - tocall: APIxxx
+ - tocall: API???
    vendor: Icom
    model: unknown
    class: dstar
 
- - tocall: APICxx
+ - tocall: APIC??
    vendor: HA9MCQ
    model: PICiGATE
 
- - tocall: APJAxx
+ - tocall: APJA??
    vendor: K4HG & AE5PL
    model: JavAPRS
 
- - tocall: APJExx
+ - tocall: APJE??
    vendor: Gregg Wonderly, W5GGW
    model: JeAPRS
 
- - tocall: APJSxx
+ - tocall: APJS??
    vendor: Peter Loveall, AE5PL
    model: javAPRSSrvr
 
- - tocall: APK0xx
+ - tocall: APK0??
    vendor: Kenwood
    model: TH-D7
    class: ht
 
- - tocall: APK1xx
+ - tocall: APK1??
    vendor: Kenwood
    model: TM-D700
    class: rig
 
- - tocall: APLMxx
+ - tocall: APLM??
    vendor: WA0TQG
    class: software
 
- - tocall: APANDx
+ - tocall: APAND?
    vendor: Open Source
    model: APRSdroid
    os: Android
    class: app
 
- - tocall: APDRxx
+ - tocall: APDR??
    vendor: Open Source
    model: APRSdroid
    os: Android
    class: app
 
- - tocall: APMIxx
+ - tocall: APMI??
    vendor: Microsat
    os: embedded
 
- - tocall: APN3xx
+ - tocall: APN3??
    vendor: Kantronics
    model: KPC-3
 
- - tocall: APN9xx
+ - tocall: APN9??
    vendor: Kantronics
    model: KPC-9612
 
- - tocall: APNDxx
+ - tocall: APND??
    vendor: PE1MEW
    model: DIGI_NED
 
- - tocall: APNMxx
+ - tocall: APNM??
    vendor: MFJ
    model: TNC
 
- - tocall: APNPxx
+ - tocall: APNP??
    vendor: PacComm
    model: TNC
 
- - tocall: APNTxx
+ - tocall: APNT??
    vendor: SV2AGW
    model: TNT TNC as a digipeater
    class: digi
 
- - tocall: APNUxx
+ - tocall: APNU??
    vendor: IW3FQG
    model: UIdigi
    class: digi
 
- - tocall: APNWxx
+ - tocall: APNW??
    vendor: SQ3FYK
    model: WX3in1
    os: embedded
 
- - tocall: APNXxx
+ - tocall: APNX??
    vendor: K6DBG
    model: TNC-X
 
- - tocall: APOAxx
+ - tocall: APOA??
    vendor: OpenAPRS
    model: app
    class: app
    os: ios
 
- - tocall: APOLUx
+ - tocall: APOLU?
    vendor: AMSAT-LU
    model: Oscar
    class: satellite
@@ -477,27 +477,27 @@ tocalls:
    model: APRSdos
    class: software
 
- - tocall: APRRTx
+ - tocall: APRRT?
    vendor: RPC Electronics
    model: RTrak
    class: tracker
 
- - tocall: APRHHx
+ - tocall: APRHH?
    vendor: Steven D. Bragg, KA9MVA
    model: HamHud
    class: tracker
 
- - tocall: APRXxx
+ - tocall: APRX??
    vendor: OH2MQK
    model: aprx
    class: software
 
- - tocall: APSxxx
+ - tocall: APS???
    vendor: Brent Hildebrand, KH2Z
    model: APRS+SA
    class: software
 
- - tocall: APSCxx
+ - tocall: APSC??
    vendor: OH2MQK, OH7LZB
    model: aprsc
    class: software
@@ -507,27 +507,27 @@ tocalls:
    model: TinyTrak
    class: tracker
 
- - tocall: APT2xx
+ - tocall: APT2??
    vendor: Byonics
    model: TinyTrak2
    class: tracker
 
- - tocall: APT3xx
+ - tocall: APT3??
    vendor: Byonics
    model: TinyTrak3
    class: tracker
 
- - tocall: APT4xx
+ - tocall: APT4??
    vendor: Byonics
    model: TinyTrak4
    class: tracker
 
- - tocall: APTWxx
+ - tocall: APTW??
    vendor: Byonics
    model: WXTrak
    class: wx
 
- - tocall: APTRxx
+ - tocall: APTR??
    vendor: Motorola
    model: MotoTRBO
 
@@ -537,65 +537,65 @@ tocalls:
    class: software
    os: Windows
 
- - tocall: APU1xx
+ - tocall: APU1??
    vendor: Roger Barker, G4IDE
    model: UI-View16
    class: software
    os: Windows
 
- - tocall: APUDRx
+ - tocall: APUDR?
    vendor: NW Digital Radio
    model: UDR
 
- - tocall: APVRxx
+ - tocall: APVR??
    vendor: unknown
    model: IRLP
 
- - tocall: APVExx
+ - tocall: APVE??
    vendor: unknown
    model: EchoLink
 
- - tocall: APWxxx
+ - tocall: APW???
    vendor: Sproul Brothers
    model: WinAPRS
    class: software
    os: Windows
 
- - tocall: APWAxx
+ - tocall: APWA??
    vendor: KJ4ERJ
    model: APRSISCE
    class: software
    os: Android
 
- - tocall: APWMxx
+ - tocall: APWM??
    vendor: KJ4ERJ
    model: APRSISCE
    class: software
    os: Windows Mobile
 
- - tocall: APWWxx
+ - tocall: APWW??
    vendor: KJ4ERJ
    model: APRSIS32
    class: software
    os: Windows
 
- - tocall: APXxxx
+ - tocall: APX???
    vendor: Open Source
    model: Xastir
    class: software
    os: Linux/Unix
 
- - tocall: APXRxx
+ - tocall: APXR??
    vendor: G8PZT
    model: Xrouter
 
- - tocall: APZGxx
+ - tocall: APZG??
    vendor: OH2GVE
    model: aprsg
    class: software
    os: Linux/Unix
 
- - tocall: APRGxx
+ - tocall: APRG??
    vendor: OH2GVE
    model: aprsg
    class: software
