@@ -180,3 +180,406 @@ tocalls:
    os: embedded
    model: PLXTracker
 
+ - tocall: APAM(\\d+)
+   vendor: Altus Metrum
+   model: AltOS
+   class: tracker
+
+ - tocall: APJI(\\d+)
+   vendor: Peter Loveall, AE5PL
+   model: jAPRSIgate
+   class: software
+
+ - tocall: APBPQ(\\d)
+   vendor: John Wiseman, G8BPQ
+   model: BPQ32
+   class: software
+   os: Windows
+
+ - tocall: APD(\\d+)
+   vendor: Open Source
+   model: aprsd
+   class: software
+   os: Linux/Unix
+
+ - tocall: APDG(\\d+)
+   vendor: Jonathan, G4KLX
+   model: ircDDB Gateway
+   class: dstar
+
+ - tocall: APDI(\\d+)
+   vendor: Bela, HA5DI
+   model: DIXPRS
+   class: software
+
+ - tocall: APDS(\\d+)
+   vendor: SP9UOB
+   model: dsDIGI
+   os: embedded
+
+ - tocall: APDST(\\d)
+   vendor: SP9UOB
+   model: dsTracker
+   os: embedded
+
+ - tocall: APDU(\\d+)
+   vendor: JA7UDE
+   model: U2APRS
+   class: mobile
+   os: Android
+
+ - tocall: APDW(\\d+)
+   vendor: WB2OSZ
+   model: DireWolf
+
+ - tocall: APMG(\\d+)
+   vendor: Alex, AB0TJ
+   model: MiniGate
+   class: software
+   os: Netduino
+
+ - tocall: APJY(\\d+)
+   vendor: KA2DDO
+   model: YAAC
+   class: software
+
+ - tocall: AP4R(\\d+)
+   vendor: Open Source
+   model: APRS4R
+   class: software
+
+ - tocall: AP(\\d{3})D
+   vendor: Painter Engineering
+   model: uSmartDigi D-Gate
+   class: dstar
+
+ - tocall: AP(\\d{3})U
+   vendor: Painter Engineering
+   model: uSmartDigi Digipeater
+   class: digi
+
+ - tocall: APAF(\\d{2})
+   model: AFilter
+
+ - tocall: APAG(\\d{2})
+   model: AGate
+
+ - tocall: APAGW(\\d)
+   vendor: SV2AGW
+   model: AGWtracker
+   class: software
+   os: Windows
+
+ - tocall: APAX(\\d{2})
+   model: AFilterX
+
+ - tocall: APAH(\\d{2})
+   model: AHub
+
+ - tocall: APAW(\\d{2})
+   vendor: SV2AGW
+   model: AGWPE
+   class: software
+   os: Windows
+
+ - tocall: APBL(\\d{2})
+   vendor: BigRedBee
+   model: BeeLine GPS
+   class: tracker
+
+ - tocall: APC(\\d{3})
+   vendor: Rob Wittner, KZ5RW
+   model: APRS/CE
+   class: mobile
+
+ - tocall: APCL(\\d{2})
+   vendor: maprs.org
+   model: maprs
+   class: mobile
+
+ - tocall: APDT(\\d{2})
+   vendor: unknown
+   model: APRStouch Tone (DTMF)
+
+ - tocall: APDF(\\d{2})
+   model: Automatic DF units
+
+ - tocall: APE(\\d{3})
+   model: Telemetry devices
+
+ - tocall: APFG(\\d{2})
+   vendor: KP4DJT
+   model: Flood Gage
+   class: software
+
+ - tocall: APGO(\\d{2})
+   vendor: AA3NJ
+   model: APRS-Go
+   class: mobile
+
+ - tocall: APHAX(\\d)
+   vendor: PY2UEP
+   model: SM2APRS SondeMonitor
+   class: software
+   os: Windows
+
+ - tocall: APHH(\\d)
+   vendor: Steven D. Bragg, KA9MVA
+   model: HamHud
+   class: tracker
+
+ - tocall: APHK(\\d{2})
+   vendor: LA1BR
+   model: Digipeater/tracker
+
+ - tocall: API(\\d{3})
+   vendor: Icom
+   model: unknown
+   class: dstar
+
+ - tocall: APIC(\\d{2})
+   vendor: HA9MCQ
+   model: PICiGATE
+
+ - tocall: APJA(\\d{2})
+   vendor: K4HG & AE5PL
+   model: JavAPRS
+
+ - tocall: APJE(\\d{2})
+   vendor: Gregg Wonderly, W5GGW
+   model: JeAPRS
+
+ - tocall: APJS(\\d{2})
+   vendor: Peter Loveall, AE5PL
+   model: javAPRSSrvr
+
+ - tocall: APK0(\\d{2})
+   vendor: Kenwood
+   model: TH-D7
+   class: ht
+
+ - tocall: APK1(\\d{2})
+   vendor: Kenwood
+   model: TM-D700
+   class: rig
+
+ - tocall: APLM(..)
+   vendor: WA0TQG
+   class: software
+
+ - tocall: APAND(\\d)
+   vendor: Open Source
+   model: APRSdroid
+   os: Android
+   class: mobile
+
+ - tocall: APDR(\\d{2})
+   vendor: Open Source
+   model: APRSdroid
+   os: Android
+   class: mobile
+
+ - tocall: APMI(..)
+   vendor: Microsat
+   os: embedded
+
+ - tocall: APN3(\\d{2})
+   vendor: Kantronics
+   model: KPC-3
+
+ - tocall: APN9(\\d{2})
+   vendor: Kantronics
+   model: KPC-9612
+
+	
+ - tocall: APND([0-9A-Z]{2})
+   vendor: PE1MEW
+   model: DIGI_NED
+
+ - tocall: APNM(\\d{2})
+   vendor: MFJ
+   model: TNC
+
+ - tocall: APNP(\\d{2})
+   vendor: PacComm
+   model: TNC
+
+ - tocall: APNT(\\d{2})
+   vendor: SV2AGW
+   model: TNT TNC as a digipeater
+   class: digi
+
+ - tocall: APNU([A-Z0-9]{2})
+   vendor: IW3FQG
+   model: UIdigi
+   class: digi
+
+ - tocall: APNU([0-9]{2}\\-[0-9])
+   vendor: IW3FQG
+   model: UIdigi
+   class: digi
+
+ - tocall: APNW(\\d{2})
+   vendor: SQ3FYK
+   model: WX3in1
+   os: embedded
+
+ - tocall: APNX(\\d{2})
+   vendor: K6DBG
+   model: TNC-X
+
+ - tocall: APOA(\\d{2})
+   vendor: OpenAPRS
+   model: app
+   class: mobile
+   os: ios
+
+ - tocall: APOLU(.)
+   vendor: AMSAT-LU
+   model: Oscar
+   class: satellite
+
+ - tocall: APOT([A-Z0-9]{2})
+   vendor: Argent Data Systems
+   model: OpenTracker
+   class: tracker
+
+ - tocall: APOZ([A-Z0-9]{2})
+   vendor: OZ1EKD, OZ7HVO
+   model: KissOZ
+   class: tracker
+
+ - tocall: APPT([A-Z0-9]{2})
+   vendor: JF6LZE
+   model: KetaiTracker
+   class: tracker
+
+ - tocall: APR(8\\d{2})
+   vendor: Bob Bruninga, WB4APR
+   model: APRSdos
+   class: software
+
+ - tocall: APRRT(\d)
+   vendor: RPC Electronics
+   model: RTrak
+   class: tracker
+
+ - tocall: APRHH(\d)
+   vendor: Steven D. Bragg, KA9MVA
+   model: HamHud
+   class: tracker
+
+ - tocall: APRX(\\d+)
+   vendor: OH2MQK
+   model: aprx
+   class: software
+
+ - tocall: APS(\\d{3})
+   vendor: Brent Hildebrand, KH2Z
+   model: APRS+SA
+   class: software
+
+ - tocall: APSC(\\d{2})
+   vendor: OH2MQK, OH7LZB
+   model: aprsc
+   class: software
+
+ - tocall: APTT([0-9])
+   vendor: Byonics
+   model: TinyTrak
+   class: tracker
+
+ - tocall: APT2([0-9]{2})
+   vendor: Byonics
+   model: TinyTrak2
+   class: tracker
+
+ - tocall: APT3([0-9A-Z]{2})
+   vendor: Byonics
+   model: TinyTrak3
+   class: tracker
+
+ - tocall: APT4([0-9A-Z]{2})
+   vendor: Byonics
+   model: TinyTrak4
+   class: tracker
+
+ - tocall: APTW(\\d{2})
+   vendor: Byonics
+   model: WXTrak
+   class: wx
+
+ - tocall: APTR(\\d{2})
+   vendor: Motorola
+   model: MotoTRBO
+
+ - tocall: APU(2\\d.)(.{0,1})
+   vendor: Roger Barker, G4IDE
+   model: UI-View32
+   class: software
+   os: Windows
+
+ - tocall: APU(1\\d.)
+   vendor: Roger Barker, G4IDE
+   model: UI-View16
+   class: software
+   os: Windows
+
+ - tocall: APUDR(\\d)
+   vendor: NW Digital Radio
+   model: UDR
+
+ - tocall: APVR(\\d{2})
+   vendor: unknown
+   model: IRLP
+
+ - tocall: APVE(\\d{2})
+   vendor: unknown
+   model: EchoLink
+
+ - tocall: APW(\\d{3})
+   vendor: Sproul Brothers
+   model: WinAPRS
+   class: software
+   os: Windows
+
+ - tocall: APWA(..)
+   vendor: KJ4ERJ
+   model: APRSISCE
+   class: software
+   os: Android
+
+ - tocall: APWM(..)
+   vendor: KJ4ERJ
+   model: APRSISCE
+   class: software
+   os: Windows Mobile
+
+ - tocall: APWW(\\d{2})
+   vendor: KJ4ERJ
+   model: APRSIS32
+   class: software
+   os: Windows
+
+ - tocall: APX(\\d{3})
+   vendor: Open Source
+   model: Xastir
+   class: software
+   os: Linux/Unix
+
+ - tocall: APXR(\\d{2})
+   vendor: G8PZT
+   model: Xrouter
+
+ - tocall: APZG(\\d{2})
+   vendor: OH2GVE
+   model: aprsg
+   class: software
+   os: Linux/Unix
+
+ - tocall: APRG(\\d{2})
+   vendor: OH2GVE
+   model: aprsg
+   class: software
+   os: Linux/Unix
+
