@@ -35,6 +35,7 @@ my %class_keys = (
 	'description' => 1
 );
 
+my %classes;
 foreach my $c (@{ $c->{'classes'} }) {
 	$count_class++;
 	foreach my $r (keys %class_keys) {
@@ -45,6 +46,8 @@ foreach my $c (@{ $c->{'classes'} }) {
 		die sprintf("Class '%s' has unknown  key '%s'\n", $c->{'class'}, $r)
 			if (!defined $class_keys{$r});
 	}
+	
+	$classes{$c->{'class'}} = $c;
 }
 warn "  ... $count_class device classes found.\n";
 
@@ -71,6 +74,10 @@ foreach my $t (@{ $c->{'tocalls'} }) {
 	foreach my $r (keys %{ $t }) {
 		die sprintf("Tocall '%s' has unknown  key '%s'\n", $t->{'tocall'}, $r)
 			if (!defined $tocall_keys{$r});
+	}
+	
+	if (defined $t->{'class'} && !defined $classes{ $t->{'class'} }) {
+		die sprintf("Tocall '%s' has unknown class '%s'\n", $t->{'tocall'}, $t->{'class'});
 	}
 }
 warn "  ... $count_tocall tocalls found.\n";

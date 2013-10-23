@@ -27,6 +27,10 @@ classes:
  - class: rig
    shown: Rig
    description: Mobile or desktop radio
+ 
+ - class: ht
+   shown: HT
+   description: Hand-held radio
 
  - class: app
    shown: Mobile app
@@ -39,6 +43,14 @@ classes:
  - class: digi
    shown: Digipeater
    description: Digipeater firmware
+ 
+ - class: dstar
+   shown: D-Star
+   description: D-Star radio
+ 
+ - class: satellite
+   shown: Satellite
+   description: Satellite-based station
 
 #
 # TOCALL index
