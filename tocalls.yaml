@@ -65,17 +65,17 @@ tocalls:
    vendor: Peter Loveall, AE5PL
    model: D-Star APJID2
    class: dstar
-	
+
  - tocall: APDPRS
    vendor: unknown
    model: D-Star APDPRS
    class: dstar
-	
+
  - tocall: APERXQ
    vendor: PE1RXQ
    model: PE1RXQ APRS Tracker
    class: tracker
-	
+
  - tocall: APNK01
    vendor: Kenwood
    model: TM-D700
@@ -391,7 +391,6 @@ tocalls:
    vendor: Kantronics
    model: KPC-9612
 
-	
  - tocall: APND([0-9A-Z]{2})
    vendor: PE1MEW
    model: DIGI_NED
