@@ -275,12 +275,12 @@ tocalls:
    model: APRS4R
    class: software
 
- - tocall: AP???D
+ - tocall: APnnnD
    vendor: Painter Engineering
    model: uSmartDigi D-Gate
    class: dstar
 
- - tocall: AP???U
+ - tocall: APnnnU
    vendor: Painter Engineering
    model: uSmartDigi Digipeater
    class: digi

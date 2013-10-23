@@ -102,11 +102,6 @@
          "class" : "dstar",
          "vendor" : "unknown"
       },
-      "AP???U" : {
-         "model" : "uSmartDigi Digipeater",
-         "class" : "digi",
-         "vendor" : "Painter Engineering"
-      },
       "APOT??" : {
          "model" : "OpenTracker",
          "class" : "tracker",
@@ -255,6 +250,11 @@
          "class" : "rig",
          "vendor" : "Kenwood"
       },
+      "APnnnD" : {
+         "model" : "uSmartDigi D-Gate",
+         "class" : "dstar",
+         "vendor" : "Painter Engineering"
+      },
       "APSK63" : {
          "model" : "APRS Messenger",
          "class" : "software",
@@ -374,11 +374,6 @@
          "class" : "digi",
          "vendor" : "IW3FQG"
       },
-      "AP???D" : {
-         "model" : "uSmartDigi D-Gate",
-         "class" : "dstar",
-         "vendor" : "Painter Engineering"
-      },
       "API???" : {
          "model" : "unknown",
          "class" : "dstar",
@@ -400,6 +395,11 @@
          "model" : "T-238+",
          "class" : "wx",
          "vendor" : "TAPR"
+      },
+      "APnnnU" : {
+         "model" : "uSmartDigi Digipeater",
+         "class" : "digi",
+         "vendor" : "Painter Engineering"
       },
       "APVR??" : {
          "model" : "IRLP",
