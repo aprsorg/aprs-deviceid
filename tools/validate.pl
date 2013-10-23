@@ -7,9 +7,21 @@ use strict;
 use warnings;
 
 use YAML::Tiny;
+use JSON;
 use Data::Dumper;
 
 my $src = 'tocalls.yaml';
+my $out_dir = 'generated';
+
+sub print_out($$)
+{
+	my($fn, $s) = @_;
+	open(F, ">$fn") || die "Could not open $fn for writing: $!\n";
+	print F $s;
+	close(F) || die "Could not close $fn after writing: $!\n";
+}
+
+# main
 
 warn "Reading and parsing YAML from $src ...\n";
 my $yaml = YAML::Tiny->new;
@@ -65,6 +77,7 @@ my %tocall_keys_mandatory = (
 	'tocall' => 1
 );
 
+my %tocalls;
 foreach my $t (@{ $c->{'tocalls'} }) {
 	$count_tocall++;
 	foreach my $r (keys %tocall_keys_mandatory) {
@@ -79,8 +92,19 @@ foreach my $t (@{ $c->{'tocalls'} }) {
 	if (defined $t->{'class'} && !defined $classes{ $t->{'class'} }) {
 		die sprintf("Tocall '%s' has unknown class '%s'\n", $t->{'tocall'}, $t->{'class'});
 	}
+	
+	$tocalls{$t->{'tocall'}} = $t;
 }
 warn "  ... $count_tocall tocalls found.\n";
 
-
 #print Dumper($c);
+
+
+warn "Converting...\n";
+
+my $json_tree = {
+	'classes' => \%classes,
+	'tocalls' => \%tocalls
+};
+
+print_out("$out_dir/tocalls.json", encode_json($json_tree));
