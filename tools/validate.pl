@@ -108,3 +108,4 @@ my $json_tree = {
 };
 
 print_out("$out_dir/tocalls.json", encode_json($json_tree));
+print_out("$out_dir/tocalls.pretty.json", to_json($json_tree, { pretty => 1 } ));
