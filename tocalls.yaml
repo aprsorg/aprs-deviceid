@@ -104,7 +104,6 @@ tocalls:
  - tocall: APNK80
    vendor: Kantronics
    model: KAM
-   version: 8.0
 
  - tocall: APNKMP
    vendor: Kantronics
@@ -149,19 +148,16 @@ tocalls:
    vendor: IW3FQG
    model: UIdigi
    class: digi
-   version: 186
 
  - tocall: APZ18
    vendor: IW3FQG
    model: UIdigi
    class: digi
-   version: 18
 
  - tocall: APZ19
    vendor: IW3FQG
    model: UIdigi
    class: digi
-   version: 19
 
  - tocall: APKRAM
    vendor: kramstuff.com

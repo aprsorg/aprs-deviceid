@@ -31,6 +31,9 @@ If you want me to add a new device in the database, please file an issue
 ticket in github (https://github.com/hessu/aprs-deviceid/issues) - I'll be
 notified by email.
 
+Please include all the relevant fields (vendor, model, class, os, messaging
+capability).
+
 
 Contents
 ----------
@@ -42,6 +45,8 @@ Tocall index:
   producing the device or application.
 * model: Device or software model
 * class: A device class identifier, referring to the class index
+* os: Operating system identifier
+* messaging: a flag (1) identifying that the device is messaging capable
 
 Mic-E device identifier index:
 
