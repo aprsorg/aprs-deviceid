@@ -63,6 +63,8 @@ Lookup algorithm for destination callsigns
 ---------------------------------------------
 
 1. Try an exact match against those tocalls in the index which have no
-   wildcards (?, lower-case n, *)
-
-
+   wildcards (?, lower-case n, *). The quickest way to do this is to
+   preload those tocalls from the database to a hash table or binary
+   tree of some sort.
+2. Go for the wildcarded entries next. Look for an entry having the
+   longest match: APXYZ? should match before APXY??.
