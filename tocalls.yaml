@@ -195,12 +195,12 @@ tocalls:
    os: embedded
    model: PLXTracker
 
- - tocall: APAM(\\d+)
+ - tocall: APAMxx
    vendor: Altus Metrum
    model: AltOS
    class: tracker
 
- - tocall: APJI(\\d+)
+ - tocall: APJIxx
    vendor: Peter Loveall, AE5PL
    model: jAPRSIgate
    class: software
@@ -211,23 +211,23 @@ tocalls:
    class: software
    os: Windows
 
- - tocall: APD(\\d+)
+ - tocall: APDnnn
    vendor: Open Source
    model: aprsd
    class: software
    os: Linux/Unix
 
- - tocall: APDG(\\d+)
+ - tocall: APDGxx
    vendor: Jonathan, G4KLX
    model: ircDDB Gateway
    class: dstar
 
- - tocall: APDI(\\d+)
+ - tocall: APDIxx
    vendor: Bela, HA5DI
    model: DIXPRS
    class: software
 
- - tocall: APDS(\\d+)
+ - tocall: APDSxx
    vendor: SP9UOB
    model: dsDIGI
    os: embedded
@@ -237,28 +237,28 @@ tocalls:
    model: dsTracker
    os: embedded
 
- - tocall: APDU(\\d+)
+ - tocall: APDUxx
    vendor: JA7UDE
    model: U2APRS
    class: app
    os: Android
 
- - tocall: APDW(\\d+)
+ - tocall: APDWxx
    vendor: WB2OSZ
    model: DireWolf
 
- - tocall: APMG(\\d+)
+ - tocall: APMGxx
    vendor: Alex, AB0TJ
    model: MiniGate
    class: software
    os: Netduino
 
- - tocall: APJY(\\d+)
+ - tocall: APJYxx
    vendor: KA2DDO
    model: YAAC
    class: software
 
- - tocall: AP4R(\\d+)
+ - tocall: AP4Rxx
    vendor: Open Source
    model: APRS4R
    class: software
@@ -387,7 +387,7 @@ tocalls:
    model: TM-D700
    class: rig
 
- - tocall: APLM(..)
+ - tocall: APLMxx
    vendor: WA0TQG
    class: software
 
@@ -403,7 +403,7 @@ tocalls:
    os: Android
    class: app
 
- - tocall: APMI(..)
+ - tocall: APMIxx
    vendor: Microsat
    os: embedded
 
@@ -415,7 +415,7 @@ tocalls:
    vendor: Kantronics
    model: KPC-9612
 
- - tocall: APND([0-9A-Z]{2})
+ - tocall: APNDxx
    vendor: PE1MEW
    model: DIGI_NED
 
@@ -432,12 +432,7 @@ tocalls:
    model: TNT TNC as a digipeater
    class: digi
 
- - tocall: APNU([A-Z0-9]{2})
-   vendor: IW3FQG
-   model: UIdigi
-   class: digi
-
- - tocall: APNU([0-9]{2}\\-[0-9])
+ - tocall: APNUxx
    vendor: IW3FQG
    model: UIdigi
    class: digi
@@ -482,17 +477,17 @@ tocalls:
    model: APRSdos
    class: software
 
- - tocall: APRRT(\d)
+ - tocall: APRRTx
    vendor: RPC Electronics
    model: RTrak
    class: tracker
 
- - tocall: APRHH(\d)
+ - tocall: APRHHx
    vendor: Steven D. Bragg, KA9MVA
    model: HamHud
    class: tracker
 
- - tocall: APRX(\\d+)
+ - tocall: APRXxx
    vendor: OH2MQK
    model: aprx
    class: software
@@ -507,22 +502,22 @@ tocalls:
    model: aprsc
    class: software
 
- - tocall: APTT([0-9])
+ - tocall: APTT*
    vendor: Byonics
    model: TinyTrak
    class: tracker
 
- - tocall: APT2([0-9]{2})
+ - tocall: APT2xx
    vendor: Byonics
    model: TinyTrak2
    class: tracker
 
- - tocall: APT3([0-9A-Z]{2})
+ - tocall: APT3xx
    vendor: Byonics
    model: TinyTrak3
    class: tracker
 
- - tocall: APT4([0-9A-Z]{2})
+ - tocall: APT4xx
    vendor: Byonics
    model: TinyTrak4
    class: tracker
@@ -536,13 +531,13 @@ tocalls:
    vendor: Motorola
    model: MotoTRBO
 
- - tocall: APU(2\\d.)(.{0,1})
+ - tocall: APU2*
    vendor: Roger Barker, G4IDE
    model: UI-View32
    class: software
    os: Windows
 
- - tocall: APU(1\\d.)
+ - tocall: APU1xx
    vendor: Roger Barker, G4IDE
    model: UI-View16
    class: software
@@ -566,13 +561,13 @@ tocalls:
    class: software
    os: Windows
 
- - tocall: APWA(..)
+ - tocall: APWAxx
    vendor: KJ4ERJ
    model: APRSISCE
    class: software
    os: Android
 
- - tocall: APWM(..)
+ - tocall: APWMxx
    vendor: KJ4ERJ
    model: APRSISCE
    class: software
