@@ -327,6 +327,15 @@ tocalls:
    model: Flood Gage
    class: software
 
+ - tocall: APFIxx
+   vendor: aprs.fi
+   class: app
+
+ - tocall: APFIIx
+   vendor: aprs.fi
+   os: ios
+   class: app
+
  - tocall: APGO(\\d{2})
    vendor: AA3NJ
    model: APRS-Go
