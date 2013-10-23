@@ -1,0 +1,182 @@
+
+classes:
+ - class: wx
+   shown: Weather station
+   description: Dedicated weather station
+   
+ - class: tracker
+   shown: Tracker
+   description: Tracker device
+ 
+ - class: rig
+   shown: Rig
+   description: Mobile or desktop radio
+
+ - class: app
+   shown: Mobile app
+   description: Mobile phone or tablet app
+ 
+ - class: software
+   shown: Software
+   description: Desktop software
+
+ - class: digi
+   shown: Digipeater
+   description: Digipeater firmware
+
+tocalls:
+ - tocall: APRS
+   vendor: Unknown
+   model: Unknown
+
+ - tocall: AP1WWX
+   vendor: TAPR
+   model: T-238+
+   class: wx
+
+ - tocall: APCLEY
+   vendor: ZS6EY
+   model: EYTraker
+   class: tracker
+
+ - tocall: APCLWX
+   vendor: ZS6EY
+   model: EYWeather
+   class: wx
+   
+ - tocall: APCLEZ
+   vendor: ZS6EY
+   model: Telit EZ10 GSM application
+   class: tracker
+
+ - tocall: APZMDR
+   vendor: Open Source
+   model: HaMDR
+   class: tracker
+   os: embedded
+
+ - tocall: APZTKP
+   vendor: Nick Hanks, N0LP
+   model: TrackPoint
+   class: tracker
+   os: embedded
+
+ - tocall: APJID2
+   vendor: Peter Loveall, AE5PL
+   model: D-Star APJID2
+   class: dstar
+	
+ - tocall: APDPRS
+   vendor: unknown
+   model: D-Star APDPRS
+   class: dstar
+	
+ - tocall: APERXQ
+   vendor: PE1RXQ
+   model: PE1RXQ APRS Tracker
+   class: tracker
+	
+ - tocall: APNK01
+   vendor: Kenwood
+   model: TM-D700
+   class: rig
+   messaging: 1
+
+ - tocall: APNK80
+   vendor: Kantronics
+   model: KAM
+   version: 8.0
+
+ - tocall: APNKMP
+   vendor: Kantronics
+   model: KAM+
+
+ - tocall: APAGW
+   vendor: SV2AGW
+   model: AGWtracker
+   class: software
+   os: Windows
+
+ - tocall: PSKAPR
+   vendor: Open Source
+   model: PSKmail
+   class: software
+
+ - tocall: APSK63
+   vendor: Chris Moulding, G4HYG
+   model: APRS Messenger
+   class: software
+   os: Windows
+
+ - tocall: APSAR
+   vendor: ZL4FOX
+   model: SARTrack
+   class: software
+   os: Windows
+
+ - tocall: APN102
+   vendor: Gregg Wonderly, W5GGW
+   model: APRSNow
+   class: app
+   os: ipad
+
+ - tocall: APRNOW
+   vendor: Gregg Wonderly, W5GGW
+   model: APRSNow
+   class: app
+   os: ipad
+
+ - tocall: APZ186
+   vendor: IW3FQG
+   model: UIdigi
+   class: digi
+   version: 186
+
+ - tocall: APZ18
+   vendor: IW3FQG
+   model: UIdigi
+   class: digi
+   version: 18
+
+ - tocall: APZ19
+   vendor: IW3FQG
+   model: UIdigi
+   class: digi
+   version: 19
+
+ - tocall: APKRAM
+   vendor: kramstuff.com
+   model: Ham Tracker
+   class: app
+   os: ios
+
+ - tocall: APK003
+   vendor: Kenwood
+   model: TH-D72
+   class: ht
+
+ - tocall: APMI01
+   vendor: Microsat
+   os: embedded
+   model: WX3in1
+
+ - tocall: APMI02
+   vendor: Microsat
+   os: embedded
+   model: WXEth
+
+ - tocall: APMI03
+   vendor: Microsat
+   os: embedded
+   model: PLXDigi
+
+ - tocall: APMI04
+   vendor: Microsat
+   os: embedded
+   model: WX3in1 Mini
+
+ - tocall: APMI05
+   vendor: Microsat
+   os: embedded
+   model: PLXTracker
+
