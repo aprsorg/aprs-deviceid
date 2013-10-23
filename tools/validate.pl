@@ -8,6 +8,8 @@ use warnings;
 
 use YAML::Tiny;
 use JSON;
+use XML::Writer;
+use IO::File;
 use Data::Dumper;
 
 my $src = 'tocalls.yaml';
@@ -58,8 +60,9 @@ foreach my $c (@{ $c->{'classes'} }) {
 		die sprintf("Class '%s' has unknown  key '%s'\n", $c->{'class'}, $r)
 			if (!defined $class_keys{$r});
 	}
-	
-	$classes{$c->{'class'}} = $c;
+	my $cid = $c->{'class'};
+	delete $c->{'class'};
+	$classes{$cid} = $c;
 }
 warn "  ... $count_class device classes found.\n";
 
@@ -93,14 +96,16 @@ foreach my $t (@{ $c->{'tocalls'} }) {
 		die sprintf("Tocall '%s' has unknown class '%s'\n", $t->{'tocall'}, $t->{'class'});
 	}
 	
-	$tocalls{$t->{'tocall'}} = $t;
+	my $tocall = $t->{'tocall'};
+	delete $t->{'tocall'};
+	$tocalls{$tocall} = $t;
 }
 warn "  ... $count_tocall tocalls found.\n";
 
 #print Dumper($c);
 
 
-warn "Converting...\n";
+warn "Converting ...\n";
 
 my $json_tree = {
 	'classes' => \%classes,
@@ -109,3 +114,41 @@ my $json_tree = {
 
 print_out("$out_dir/tocalls.dense.json", encode_json($json_tree));
 print_out("$out_dir/tocalls.pretty.json", to_json($json_tree, { pretty => 1 } ));
+warn "   ... JSON done.\n";
+
+# XML
+my $output = new IO::File(">$out_dir/tocalls.xml");
+my $xw = new XML::Writer(OUTPUT => $output);
+
+$xw->startTag("aprsdevices");
+
+$xw->startTag("classes");
+foreach my $c (keys %classes) {
+	$xw->startTag("class", "id" => $c);
+	foreach my $k (keys %{ $classes{$c} }) {
+		$xw->startTag($k);
+		$xw->characters($classes{$c}{$k});
+		$xw->endTag($k);
+	}
+	$xw->endTag("class");
+}
+$xw->endTag("classes");
+
+$xw->startTag("tocalls");
+foreach my $t (keys %tocalls) {
+	$xw->startTag("tocall", "id" => $t);
+	foreach my $k (keys %{ $tocalls{$t} }) {
+		$xw->startTag($k);
+		$xw->characters($tocalls{$t}{$k});
+		$xw->endTag($k);
+	}
+	$xw->endTag("tocall");
+}
+$xw->endTag("tocalls");
+
+$xw->endTag("aprsdevices");
+
+$xw->end();
+
+warn "   ... XML done.\n";
+
