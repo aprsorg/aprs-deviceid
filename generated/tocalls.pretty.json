@@ -83,7 +83,7 @@
       "APWM??" : {
          "features" : [
             "messaging",
-            "item-in-message"
+            "item-in-msg"
          ],
          "model" : "APRSISCE",
          "class" : "software",
@@ -500,7 +500,7 @@
       "APWW??" : {
          "features" : [
             "messaging",
-            "item-in-message"
+            "item-in-msg"
          ],
          "model" : "APRSIS32",
          "class" : "software",
