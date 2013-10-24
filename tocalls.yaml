@@ -587,7 +587,7 @@ tocalls:
    os: Windows Mobile
    features:
      - messaging
-     - item-in-message
+     - item-in-msg
 
  - tocall: APWW??
    vendor: KJ4ERJ
@@ -596,7 +596,7 @@ tocalls:
    os: Windows
    features:
      - messaging
-     - item-in-message
+     - item-in-msg
 
  - tocall: APX???
    vendor: Open Source
