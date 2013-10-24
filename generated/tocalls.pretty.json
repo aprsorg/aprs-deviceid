@@ -81,6 +81,10 @@
          "vendor" : "PE1RXQ"
       },
       "APWM??" : {
+         "features" : [
+            "messaging",
+            "item-in-message"
+         ],
          "model" : "APRSISCE",
          "class" : "software",
          "os" : "Windows Mobile",
@@ -452,7 +456,9 @@
          "vendor" : "PE1MEW"
       },
       "APNK01" : {
-         "messaging" : "1",
+         "features" : [
+            "messaging"
+         ],
          "model" : "TM-D700",
          "class" : "rig",
          "vendor" : "Kenwood"
@@ -492,6 +498,10 @@
          "vendor" : "Jonathan, G4KLX"
       },
       "APWW??" : {
+         "features" : [
+            "messaging",
+            "item-in-message"
+         ],
          "model" : "APRSIS32",
          "class" : "software",
          "os" : "Windows",

@@ -74,7 +74,7 @@ my %tocall_keys = (
 	'model' => 1,
 	'class' => 1,
 	'os' => 1,
-	'messaging' => 1,
+	'features' => 1,
 );
 my %tocall_keys_mandatory = (
 	'tocall' => 1
@@ -139,7 +139,13 @@ foreach my $t (keys %tocalls) {
 	$xw->startTag("tocall", "id" => $t);
 	foreach my $k (keys %{ $tocalls{$t} }) {
 		$xw->startTag($k);
-		$xw->characters($tocalls{$t}{$k});
+		if ($k eq 'features') {
+			foreach my $featid (@{ $tocalls{$t}{$k} }) {
+				$xw->emptyTag("feature", "id" => $featid);
+			}
+		} else {
+			$xw->characters($tocalls{$t}{$k});
+		}
 		$xw->endTag($k);
 	}
 	$xw->endTag("tocall");

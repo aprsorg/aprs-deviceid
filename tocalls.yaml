@@ -111,7 +111,8 @@ tocalls:
    vendor: Kenwood
    model: TM-D700
    class: rig
-   messaging: 1
+   features:
+     - messaging
 
  - tocall: APNK80
    vendor: Kantronics
@@ -584,12 +585,18 @@ tocalls:
    model: APRSISCE
    class: software
    os: Windows Mobile
+   features:
+     - messaging
+     - item-in-message
 
  - tocall: APWW??
    vendor: KJ4ERJ
    model: APRSIS32
    class: software
    os: Windows
+   features:
+     - messaging
+     - item-in-message
 
  - tocall: APX???
    vendor: Open Source
