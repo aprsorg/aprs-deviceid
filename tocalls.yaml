@@ -620,3 +620,7 @@ tocalls:
    class: software
    os: Linux/Unix
 
+ - tocall: APY01D
+   vendor: Yaesu
+   model: FT1D
+   class: ht
