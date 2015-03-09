@@ -58,6 +58,7 @@ $c = $c->[0];
 # validate main sections
 die "Class definitions not found!\n" if (!defined $c->{'classes'});
 die "TOCALL definitions not found!\n" if (!defined $c->{'tocalls'});
+die "Mic-E definitions not found!\n" if (!defined $c->{'mice'});
 warn "  ... main sections found.\n";
 
 # validate classes
