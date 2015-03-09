@@ -53,6 +53,55 @@ classes:
    description: Satellite-based station
 
 #
+# mic-e device identifier index, does not include
+# the "legacy" single-character Kenwood radios yet
+#
+mice:
+ - code: "_b"
+   vendor: Yaesu
+   model: VX-8
+   class: ht
+   
+ - code: "_\""
+   vendor: Yaesu
+   model: FTM-350
+   class: rig
+   
+ - code: "_#"
+   vendor: Yaesu
+   model: VX-8G
+   class: ht
+   
+ - code: "_$"
+   vendor: Yaesu
+   model: FT1D
+   class: ht
+ 
+ - code: "_%"
+   vendor: Yaesu
+   model: FTM-400DR
+   class: rig
+ 
+ - code: "|3"
+   vendor: Byonics
+   model: TinyTrack3
+   class: tracker
+ 
+ - code: "|4"
+   vendor: Byonics
+   model: TinyTrack4
+   class: tracker
+ 
+ - code: "^v"
+   vendor: HinzTec
+   model: anyfrog
+ 
+ - code: "*v"
+   vendor: KissOZ
+   model: Tracker
+   class: tracker
+ 
+#
 # TOCALL index
 #
 tocalls:

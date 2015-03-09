@@ -1,4 +1,50 @@
 {
+   "mice" : {
+      "*v" : {
+         "model" : "Tracker",
+         "class" : "tracker",
+         "vendor" : "KissOZ"
+      },
+      "|3" : {
+         "model" : "TinyTrack3",
+         "class" : "tracker",
+         "vendor" : "Byonics"
+      },
+      "_\"" : {
+         "model" : "FTM-350",
+         "class" : "rig",
+         "vendor" : "Yaesu"
+      },
+      "_$" : {
+         "model" : "FT1D",
+         "class" : "ht",
+         "vendor" : "Yaesu"
+      },
+      "_#" : {
+         "model" : "VX-8G",
+         "class" : "ht",
+         "vendor" : "Yaesu"
+      },
+      "^v" : {
+         "model" : "anyfrog",
+         "vendor" : "HinzTec"
+      },
+      "_%" : {
+         "model" : "FTM-400DR",
+         "class" : "rig",
+         "vendor" : "Yaesu"
+      },
+      "_b" : {
+         "model" : "VX-8",
+         "class" : "ht",
+         "vendor" : "Yaesu"
+      },
+      "|4" : {
+         "model" : "TinyTrack4",
+         "class" : "tracker",
+         "vendor" : "Byonics"
+      }
+   },
    "classes" : {
       "app" : {
          "shown" : "Mobile app",
@@ -161,6 +207,11 @@
          "model" : "WX3in1 Mini",
          "os" : "embedded",
          "vendor" : "Microsat"
+      },
+      "APY01D" : {
+         "model" : "FT1D",
+         "class" : "ht",
+         "vendor" : "Yaesu"
       },
       "APAND?" : {
          "model" : "APRSdroid",
