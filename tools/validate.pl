@@ -88,6 +88,7 @@ warn "  ... $count_class device classes found.\n";
 
 my $count_tocall = 0;
 my $count_mice = 0;
+my $count_mice_legacy = 0;
 
 # validate tocalls
 my %tocall_keys = (
@@ -115,7 +116,7 @@ warn "  ... $count_tocall tocalls found.\n";
 
 # validate mic-e keys
 my %mice_keys = (
-	'code' => 1,
+	'suffix' => 1,
 	'vendor' => 1,
 	'model' => 1,
 	'class' => 1,
@@ -123,19 +124,36 @@ my %mice_keys = (
 	'features' => 1,
 );
 my %mice_keys_mandatory = (
-	'code' => 1
+	'suffix' => 1
+);
+
+my %mice_keys_legacy = %mice_keys;
+$mice_keys_legacy{'prefix'} = 1;
+my %mice_keys_mandatory_legacy = (
+	'prefix' => 1
 );
 
 my %mice;
 foreach my $t (@{ $c->{'mice'} }) {
 	$count_mice++;
-	check_entry($t->{'code'}, $t, \%mice_keys, \%mice_keys_mandatory, \%classes);
+	check_entry($t->{'suffix'}, $t, \%mice_keys, \%mice_keys_mandatory, \%classes);
 	
-	my $code = $t->{'code'};
-	delete $t->{'code'};
-	$mice{$code} = $t;
+	my $suffix = $t->{'suffix'};
+	delete $t->{'suffix'};
+	$mice{$suffix} = $t;
 }
 warn "  ... $count_mice Mic-E codes found.\n";
+
+my %mice_leg;
+foreach my $t (@{ $c->{'micelegacy'} }) {
+	$count_mice_legacy++;
+	my $key = $t->{'prefix'};
+	$key .= $t->{'suffix'} if (defined $t->{'suffix'});
+	check_entry($key, $t, \%mice_keys_legacy, \%mice_keys_mandatory_legacy, \%classes);
+	
+	$mice_leg{$key} = $t;
+}
+warn "  ... $count_mice_legacy legacy Mic-E codes found.\n";
 
 #print Dumper($c);
 
@@ -145,7 +163,8 @@ warn "Converting ...\n";
 my $json_tree = {
 	'classes' => \%classes,
 	'tocalls' => \%tocalls,
-	'mice' => \%mice
+	'mice' => \%mice,
+	'micelegacy' => \%mice_leg
 };
 
 print_out("$out_dir/tocalls.dense.json", encode_json($json_tree));
@@ -190,7 +209,7 @@ $xw->endTag("tocalls");
 
 $xw->startTag("mice");
 foreach my $t (keys %mice) {
-	$xw->startTag("code", "id" => $t);
+	$xw->startTag("suffix", "id" => $t);
 	foreach my $k (keys %{ $mice{$t} }) {
 		$xw->startTag($k);
 		if ($k eq 'features') {
@@ -202,9 +221,27 @@ foreach my $t (keys %mice) {
 		}
 		$xw->endTag($k);
 	}
-	$xw->endTag("code");
+	$xw->endTag("suffix");
 }
 $xw->endTag("mice");
+
+$xw->startTag("micelegacy");
+foreach my $t (keys %mice_leg) {
+	$xw->startTag("key", "id" => $t);
+	foreach my $k (keys %{ $mice_leg{$t} }) {
+		$xw->startTag($k);
+		if ($k eq 'features') {
+			foreach my $featid (@{ $mice_leg{$t}{$k} }) {
+				$xw->emptyTag("feature", "id" => $featid);
+			}
+		} else {
+			$xw->characters($mice_leg{$t}{$k});
+		}
+		$xw->endTag($k);
+	}
+	$xw->endTag("key");
+}
+$xw->endTag("micelegacy");
 
 $xw->endTag("aprsdevices");
 

@@ -57,50 +57,85 @@ classes:
 # the "legacy" single-character Kenwood radios yet
 #
 mice:
- - code: "_ "
+ - suffix: "_ "
    vendor: Yaesu
    model: VX-8
    class: ht
    
- - code: "_\""
+ - suffix: "_\""
    vendor: Yaesu
    model: FTM-350
    class: rig
    
- - code: "_#"
+ - suffix: "_#"
    vendor: Yaesu
    model: VX-8G
    class: ht
    
- - code: "_$"
+ - suffix: "_$"
    vendor: Yaesu
    model: FT1D
    class: ht
  
- - code: "_%"
+ - suffix: "_%"
    vendor: Yaesu
    model: FTM-400DR
    class: rig
  
- - code: "|3"
+ - suffix: "|3"
    vendor: Byonics
    model: TinyTrak3
    class: tracker
  
- - code: "|4"
+ - suffix: "|4"
    vendor: Byonics
    model: TinyTrak4
    class: tracker
  
- - code: "^v"
+ - suffix: "^v"
    vendor: HinzTec
    model: anyfrog
  
- - code: "*v"
+ - suffix: "*v"
    vendor: KissOZ
    model: Tracker
    class: tracker
- 
+
+#
+# mic-e legacy devices, with an unique comment suffix and prefix
+#
+
+micelegacy:
+ - prefix: ">"
+   vendor: Kenwood
+   model: TH-D7A
+   class: ht
+   features:
+     - messaging
+
+ - prefix: ">"
+   suffix: "="
+   vendor: Kenwood
+   model: TH-D72
+   class: ht
+   features:
+     - messaging
+
+ - prefix: "]"
+   vendor: Kenwood
+   model: TM-D700
+   class: rig
+   features:
+     - messaging
+
+ - prefix: "]"
+   suffix: "="
+   vendor: Kenwood
+   model: TM-D710
+   class: rig
+   features:
+     - messaging
+
 #
 # TOCALL index
 #
