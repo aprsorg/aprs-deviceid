@@ -77,6 +77,16 @@ Device class index (classes):
 * description: An english description string
 
 
+Libraries and applications using this database
+-------------------------------------------------
+
+* Ham::APRS::DeviceID for Perl, available at CPAN and
+  https://github.com/hessu/perl-aprs-deviceid
+* aprs.fi, using Ham::APRS::DeviceID
+
+Others? Let me know.
+
+
 Lookup algorithm for destination callsigns
 ---------------------------------------------
 
@@ -86,3 +96,4 @@ Lookup algorithm for destination callsigns
    tree of some sort.
 2. Go for the wildcarded entries next. Look for an entry having the
    longest match: APXYZ? should match before APXY??.
+
