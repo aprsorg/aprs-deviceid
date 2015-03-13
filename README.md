@@ -31,8 +31,12 @@ If you want me to add a new device in the database, please file an issue
 ticket in github (https://github.com/hessu/aprs-deviceid/issues) - I'll be
 notified by email.
 
+Before adding in this index, the device should be present in Bob's master
+index (http://aprs.org/aprs11/tocalls.txt).
+
 Please include all the relevant fields (vendor, model, class, os, messaging
-capability).
+capability). The master file is tocalls.yaml, and all the other files
+are generated from that file, so please use that format. Thank you!
 
 
 Contents
