@@ -6,7 +6,7 @@
          "vendor" : "KissOZ"
       },
       "|3" : {
-         "model" : "TinyTrack3",
+         "model" : "TinyTrak3",
          "class" : "tracker",
          "vendor" : "Byonics"
       },
@@ -17,6 +17,11 @@
       },
       "_$" : {
          "model" : "FT1D",
+         "class" : "ht",
+         "vendor" : "Yaesu"
+      },
+      "_ " : {
+         "model" : "VX-8",
          "class" : "ht",
          "vendor" : "Yaesu"
       },
@@ -34,13 +39,8 @@
          "class" : "rig",
          "vendor" : "Yaesu"
       },
-      "_b" : {
-         "model" : "VX-8",
-         "class" : "ht",
-         "vendor" : "Yaesu"
-      },
       "|4" : {
-         "model" : "TinyTrack4",
+         "model" : "TinyTrak4",
          "class" : "tracker",
          "vendor" : "Byonics"
       }
@@ -81,6 +81,46 @@
       "satellite" : {
          "shown" : "Satellite",
          "description" : "Satellite-based station"
+      }
+   },
+   "micelegacy" : {
+      "]=" : {
+         "features" : [
+            "messaging"
+         ],
+         "suffix" : "=",
+         "model" : "TM-D710",
+         "class" : "rig",
+         "vendor" : "Kenwood",
+         "prefix" : "]"
+      },
+      ">=" : {
+         "features" : [
+            "messaging"
+         ],
+         "suffix" : "=",
+         "model" : "TH-D72",
+         "class" : "ht",
+         "vendor" : "Kenwood",
+         "prefix" : ">"
+      },
+      "]" : {
+         "features" : [
+            "messaging"
+         ],
+         "model" : "TM-D700",
+         "class" : "rig",
+         "vendor" : "Kenwood",
+         "prefix" : "]"
+      },
+      ">" : {
+         "features" : [
+            "messaging"
+         ],
+         "model" : "TH-D7A",
+         "class" : "ht",
+         "vendor" : "Kenwood",
+         "prefix" : ">"
       }
    },
    "tocalls" : {
