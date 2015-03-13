@@ -54,8 +54,8 @@ classes:
    description: Satellite-based station
 
 #
-# mic-e device identifier index, does not include
-# the "legacy" single-character Kenwood radios yet
+# mic-e device identifier index for new-style 2-character device
+# suffixes. The first prefix byte indicates messaging capability.
 #
 mice:
  - suffix: "_ "
