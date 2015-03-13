@@ -128,6 +128,11 @@
          "model" : "JavAPRS",
          "vendor" : "K4HG & AE5PL"
       },
+      "APSTM?" : {
+         "model" : "Balloon tracker",
+         "class" : "tracker",
+         "vendor" : "W7QO"
+      },
       "APX???" : {
          "model" : "Xastir",
          "class" : "software",
@@ -191,6 +196,11 @@
          "model" : "D-Star APDPRS",
          "class" : "dstar",
          "vendor" : "unknown"
+      },
+      "APSMS?" : {
+         "model" : "SMS gateway",
+         "class" : "software",
+         "vendor" : "Paul Defrusne"
       },
       "APOT??" : {
          "model" : "OpenTracker",
@@ -572,6 +582,11 @@
       "APDF??" : {
          "model" : "Automatic DF units"
       },
+      "APCWP8" : {
+         "model" : "WinphoneAPRS",
+         "class" : "app",
+         "vendor" : "GM7HHB"
+      },
       "APDU??" : {
          "model" : "U2APRS",
          "class" : "app",
@@ -664,6 +679,11 @@
          "model" : "UIdigi",
          "class" : "digi",
          "vendor" : "IW3FQG"
+      },
+      "APZWKR" : {
+         "model" : "NetSked",
+         "class" : "software",
+         "vendor" : "GM1WKR"
       },
       "APK003" : {
          "model" : "TH-D72",

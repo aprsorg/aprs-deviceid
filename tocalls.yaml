@@ -708,3 +708,24 @@ tocalls:
    vendor: Yaesu
    model: FT1D
    class: ht
+
+ - tocall: APZWKR
+   vendor: GM1WKR
+   model: NetSked
+   class: software
+
+ - tocall: APCWP8
+   vendor: GM7HHB
+   model: WinphoneAPRS
+   class: app
+ 
+ - tocall: APSMS?
+   vendor: Paul Defrusne
+   model: SMS gateway
+   class: software
+ 
+ - tocall: APSTM?
+   vendor: W7QO
+   model: Balloon tracker
+   class: tracker
+
