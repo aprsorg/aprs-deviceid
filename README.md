@@ -38,7 +38,7 @@ capability).
 Contents
 ----------
 
-Tocall index:
+Tocall index (tocalls):
 
 * tocall: The APRS destination callsign allocated for an application
 * vendor: Vendor / author string identifying either the person or organisation
@@ -46,13 +46,31 @@ Tocall index:
 * model: Device or software model
 * class: A device class identifier, referring to the class index
 * os: Operating system identifier
-* messaging: a flag (1) identifying that the device is messaging capable
+* features: Feature flags indicating optional features implemented on this device
+   * messaging: a flag (1) identifying that the device is messaging capable
 
-Mic-E device identifier index:
+Mic-E device identifier index (mice):
 
-* TODO
+This index contains the new-style two-character comment suffix part, which
+is assigned to new Mic-E devices.  The first comment prefix character
+indicates whether the device is messaging capable (` for messaging capable,
+' for a non-messaging capable dumb tracker).
 
-Device class index:
+* suffix: The 2-character device
+* vendor, model, class, os: same as in Tocall index
+
+Mic-E legacy device identifier index (micelegacy):
+
+This index contains the old-style prefix + suffix parts for Kenwood devices.
+Messaging capability is listed in this index. A device may be identified by
+only a 1-character prefix (the old devices), or both a 1-character prefix
+and a 1-character suffix.
+
+* prefix: The 1-character comment prefix
+* suffix: The 1-character comment suffix
+* vendor, model, class, os, features: same as in Tocall index
+
+Device class index (classes):
 
 * class: A device class identifier
 * shown: An english shown string for the identifier
