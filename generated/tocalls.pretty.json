@@ -283,6 +283,11 @@
          "model" : "Xrouter",
          "vendor" : "G8PZT"
       },
+      "APECAN" : {
+         "model" : "Pecan Pico APRS Balloon Tracker",
+         "class" : "tracker",
+         "vendor" : "KT5TK/DL7AD"
+      },
       "APS???" : {
          "model" : "APRS+SA",
          "class" : "software",
