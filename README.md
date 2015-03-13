@@ -4,8 +4,8 @@ APRS device identification database
 
 This is a machine-readable index of APRS device and software identification
 strings.  For easy manual editing and validation, the master file is in YAML
-format, but conversions to other formats (XML, JSON, CSV) are
-easy and will be provided a bit later.
+format.  A conversion tool and pre-converted versions in XML and JSON are
+also provided for environments where those are more convenient to parse.
 
 This list is maintained by Hessu, OH7LZB, for the device identification
 feature of the aprs.fi service.  The list is published here in a
