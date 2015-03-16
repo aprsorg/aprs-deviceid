@@ -624,3 +624,9 @@ tocalls:
    vendor: Yaesu
    model: FT1D
    class: ht
+
+ - tocall: APSAR?
+   vendor: http://www.sartrack.co.nz/ Bart Kindt - ZL4FOX
+   model: SARTrack
+   class: software
+   os: Windows
