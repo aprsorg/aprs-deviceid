@@ -701,6 +701,11 @@
          "os" : "Windows",
          "vendor" : "Sproul Brothers"
       },
+      "APAVT5" : {
+         "model" : "AP510",
+         "class" : "tracker",
+         "vendor" : "SainSonic"
+      },
       "APT2??" : {
          "model" : "TinyTrak2",
          "class" : "tracker",

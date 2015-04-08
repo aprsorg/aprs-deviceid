@@ -400,6 +400,11 @@ tocalls:
    class: software
    os: Windows
 
+ - tocall: APAVT5
+   vendor: SainSonic
+   model: AP510
+   class: tracker
+
  - tocall: APBL??
    vendor: BigRedBee
    model: BeeLine GPS
