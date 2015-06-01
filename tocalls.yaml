@@ -77,7 +77,17 @@ mice:
    vendor: Yaesu
    model: FT1D
    class: ht
- 
+
+ - suffix: "_("
+   vendor: Yaesu
+   model: FT2D
+   class: ht
+   
+ - suffix: "_)"
+   vendor: Yaesu
+   model: FTM-100D
+   class: rig 
+   
  - suffix: "_%"
    vendor: Yaesu
    model: FTM-400DR
@@ -720,6 +730,11 @@ tocalls:
    model: FT1D
    class: ht
 
+ - tocall: APY400
+   vendor: Yaesu
+   model: FTM-400
+   class: ht
+   
  - tocall: APZWKR
    vendor: GM1WKR
    model: NetSked
