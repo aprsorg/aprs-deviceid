@@ -730,6 +730,11 @@ tocalls:
    model: FT1D
    class: ht
 
+ - tocall: APY02D
+   vendor: Yaesu
+   model: FT2D
+   class: ht
+   
  - tocall: APY400
    vendor: Yaesu
    model: FTM-400
