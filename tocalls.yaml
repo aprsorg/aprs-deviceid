@@ -343,14 +343,16 @@ tocalls:
    os: Windows
  
  - tocall: APB2MF
-   vendor: DL2MF
-   model: MF2APRS Radiosonde for balloons
+   vendor: Mike, DL2MF
+   model: MF2APRS Radiosonde tracking tool
    class: software
+   os: Windows
 
  - tocall: APR2MF
-   vendor: DL2MF
-   model: MF2APRS Radiosonde WX
-   class: software
+   vendor: Mike, DL2MF
+   model: MF2wxAPRS Tinkerforge gateway
+   class: wx
+   os: Windows
 
  - tocall: APDnnn
    vendor: Open Source
