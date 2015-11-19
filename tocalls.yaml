@@ -174,6 +174,10 @@ tocalls:
    vendor: ZS6EY
    model: Telit EZ10 GSM application
    class: tracker
+   
+ - tocall: APZMAJ
+   vendor: M1MAJ
+   model: DeLorme inReach Tracker
 
  - tocall: APZMDR
    vendor: Open Source
@@ -186,6 +190,10 @@ tocalls:
    model: TrackPoint
    class: tracker
    os: embedded
+   
+ - tocall: APZ247
+   model: UPRS
+   vendor: NR0Q
 
  - tocall: APJID2
    vendor: Peter Loveall, AE5PL
@@ -244,6 +252,11 @@ tocalls:
    model: SARTrack
    class: software
    os: Windows
+   
+ - tocall: APSTPO
+   vendor: N0AGI
+   model: Satellite Tracking and Operations
+   class: software
 
  - tocall: APN102
    vendor: Gregg Wonderly, W5GGW
@@ -307,6 +320,11 @@ tocalls:
    vendor: Microsat
    os: embedded
    model: PLXTracker
+ 
+ - tocall: APMT??
+   vendor: LZ1PPL
+   model: Micro APRS Tracker
+   class: tracker
 
  - tocall: APAM??
    vendor: Altus Metrum
@@ -323,6 +341,16 @@ tocalls:
    model: BPQ32
    class: software
    os: Windows
+ 
+ - tocall: APB2MF
+   vendor: DL2MF
+   model: MF2APRS Radiosonde for balloons
+   class: software
+
+ - tocall: APR2MF
+   vendor: DL2MF
+   model: MF2APRS Radiosonde WX
+   class: software
 
  - tocall: APDnnn
    vendor: Open Source
@@ -473,6 +501,11 @@ tocalls:
  - tocall: APHK??
    vendor: LA1BR
    model: Digipeater/tracker
+   
+ - tocall: APHT??
+   vendor: IU0AAC
+   model: HMTracker
+   class: tracker
 
  - tocall: API???
    vendor: Icom
