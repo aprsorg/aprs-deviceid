@@ -380,6 +380,12 @@ tocalls:
    model: dsTracker
    os: embedded
 
+ - tocall: APDNO?
+   vendor: DO3SWW
+   model: APRSduino
+   class: tracker
+   os: embedded
+
  - tocall: APDU??
    vendor: JA7UDE
    model: U2APRS
