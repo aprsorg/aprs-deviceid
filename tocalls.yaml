@@ -661,9 +661,10 @@ tocalls:
    class: tracker
 
  - tocall: APRX??
-   vendor: OH2MQK
+   vendor: Kenneth W. Finnegan, W6KWF
    model: aprx
    class: software
+   os: Linux/Unix
 
  - tocall: APS???
    vendor: Brent Hildebrand, KH2Z
