@@ -296,6 +296,11 @@ tocalls:
    model: TH-D72
    class: ht
 
+ - tocall: APK004
+   vendor: Kenwood
+   model: TH-D74A
+   class: ht
+
  - tocall: APMI01
    vendor: Microsat
    os: embedded
