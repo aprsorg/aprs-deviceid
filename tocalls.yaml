@@ -296,6 +296,11 @@ tocalls:
    model: TH-D72
    class: ht
 
+ - tocall: APK004
+   vendor: Kenwood
+   model: TH-D74A
+   class: ht
+
  - tocall: APMI01
    vendor: Microsat
    os: embedded
@@ -461,6 +466,10 @@ tocalls:
    model: APRS/CE
    class: app
 
+ - tocall: APCDS0
+   vendor: Leon Lessing, ZS6LMG
+   model: Cell Tracker
+
  - tocall: APCL??
    vendor: maprs.org
    model: maprs
@@ -489,6 +498,11 @@ tocalls:
    vendor: aprs.fi
    os: ios
    class: app
+
+ - tocall: APFPRS
+   vendor: Jeroen Vreeken, PE1RXQ
+   model: FreeDV
+   class: software
 
  - tocall: APGO??
    vendor: AA3NJ
@@ -647,9 +661,10 @@ tocalls:
    class: tracker
 
  - tocall: APRX??
-   vendor: OH2MQK
+   vendor: Kenneth W. Finnegan, W6KWF
    model: aprx
    class: software
+   os: Linux/Unix
 
  - tocall: APS???
    vendor: Brent Hildebrand, KH2Z
