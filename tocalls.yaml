@@ -466,6 +466,10 @@ tocalls:
    model: APRS/CE
    class: app
 
+ - tocall: APCDS0
+   vendor: Leon Lessing, ZS6LMG
+   model: Cell Tracker
+
  - tocall: APCL??
    vendor: maprs.org
    model: maprs
