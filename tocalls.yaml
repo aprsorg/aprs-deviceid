@@ -298,7 +298,7 @@ tocalls:
 
  - tocall: APK004
    vendor: Kenwood
-   model: TH-D74A
+   model: TH-D74
    class: ht
 
  - tocall: APMI01
