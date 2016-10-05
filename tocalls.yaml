@@ -653,7 +653,7 @@ tocalls:
 
  - tocall: APRX??
    vendor: Kenneth W. Finnegan, W6KWF
-   model: aprx
+   model: Aprx
    class: software
    os: Linux/Unix
 
