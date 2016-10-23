@@ -132,6 +132,14 @@ micelegacy:
    features:
      - messaging
 
+ - prefix: ">"
+   suffix: "^"
+   vendor: Kenwood
+   model: TH-D74
+   class: ht
+   features:
+     - messaging
+
  - prefix: "]"
    vendor: Kenwood
    model: TM-D700
