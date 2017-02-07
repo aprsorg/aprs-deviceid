@@ -537,6 +537,14 @@ tocalls:
    vendor: HA9MCQ
    model: PICiGATE
 
+ - tocall: APIE??
+   vendor: W7KMV
+   model: PiAPRS
+
+ - tocall: APIN??
+   vendor: AB0WV
+   model: PinPoint
+
  - tocall: APJA??
    vendor: K4HG & AE5PL
    model: JavAPRS
@@ -795,6 +803,11 @@ tocalls:
    model: FTM-400
    class: ht
    
+ - tocall: APYS??
+   vendor: W2GMD
+   model: Python APRS
+   class: software
+
  - tocall: APZWKR
    vendor: GM1WKR
    model: NetSked
