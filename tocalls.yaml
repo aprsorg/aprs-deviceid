@@ -503,6 +503,11 @@ tocalls:
    os: ios
    class: app
 
+ - tocall: APGBLN
+   vendor: NW5W
+   model: GoBalloon
+   class: tracker
+
  - tocall: APGO??
    vendor: AA3NJ
    model: APRS-Go
