@@ -713,6 +713,10 @@ tocalls:
    model: TinyTrak4
    class: tracker
 
+ - tocall: APTB??
+   vendor: BG5HHP
+   model: TinyAPRS
+
  - tocall: APTW??
    vendor: Byonics
    model: WXTrak
