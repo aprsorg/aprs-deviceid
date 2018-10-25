@@ -168,6 +168,11 @@ tocalls:
    model: T-238+
    class: wx
 
+ - tocall: APCDS0
+   vendor: ZS6LMG
+   model: cell tracker
+   class: tracker
+
  - tocall: APCLEY
    vendor: ZS6EY
    model: EYTraker
