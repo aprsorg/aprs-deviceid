@@ -842,8 +842,8 @@ tocalls:
    model: Balloon tracker
    class: tracker
 
-- tocall: APRARX
-  vendor: Open Source
-  model: radiosonde_auto_rx
-  class: software
-  os: Linux/Unix
+ - tocall: APRARX
+   vendor: Open Source
+   model: radiosonde_auto_rx
+   class: software
+   os: Linux/Unix
