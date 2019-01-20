@@ -693,6 +693,17 @@ tocalls:
    model: aprsc
    class: software
 
+ - tocall: APSF??
+   vendor: Pierre SAINT-FELIX-CASTETS, F5OPV
+   model: Embedded APRS devices
+   os: embedded
+
+ - tocall: APSFWX
+   vendor: Pierre SAINT-FELIX-CASTETS, F5OPV
+   model: embedded Weather Station
+   class: wx
+   os: embedded
+
  - tocall: APTT*
    vendor: Byonics
    model: TinyTrak
