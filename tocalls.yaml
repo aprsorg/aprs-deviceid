@@ -577,6 +577,11 @@ tocalls:
    model: TM-D700
    class: rig
 
+ - tocall: APLIG?
+   vendor: TA2MUN/TA9OHC
+   model: LightAPRS Tracker
+   class: tracker
+
  - tocall: APLM??
    vendor: WA0TQG
    class: software
