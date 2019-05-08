@@ -1,5 +1,8 @@
 #!/usr/bin/perl
 
+# Debian/ubuntu dependencies:
+# libyaml-tiny-perl libjson-perl libxml-writer-perl libxml-writer-perl
+
 eval 'exec /usr/bin/perl  -S $0 ${1+"$@"}'
     if 0; # not running under some shell
 
