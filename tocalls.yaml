@@ -667,6 +667,14 @@ tocalls:
    model: KetaiTracker
    class: tracker
 
+ - tocall: APQTH?
+   vendor: Weston Bustraan, W8WJB
+   model: QTH.app
+   class: software
+   os: macOS
+   features:
+     - messaging
+
  - tocall: APR8??
    vendor: Bob Bruninga, WB4APR
    model: APRSdos
