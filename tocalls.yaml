@@ -63,7 +63,7 @@ mice:
    model: VX-8
    class: ht
    
- - suffix: "_\""
+ - suffix: "_""
    vendor: Yaesu
    model: FTM-350
    class: rig
