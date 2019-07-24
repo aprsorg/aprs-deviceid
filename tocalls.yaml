@@ -862,7 +862,7 @@ tocalls:
    class: app
  
  - tocall: APSMS?
-   vendor: Paul Defrusne
+   vendor: Paul Dufresne
    model: SMS gateway
    class: software
  
