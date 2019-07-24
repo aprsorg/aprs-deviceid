@@ -741,6 +741,11 @@ tocalls:
    vendor: BG5HHP
    model: TinyAPRS
 
+ - tocall: APTCMA
+   vendor: Cleber, PU1CMA
+   model: CAPI Tracker
+   class: tracker
+
  - tocall: APTW??
    vendor: Byonics
    model: WXTrak
