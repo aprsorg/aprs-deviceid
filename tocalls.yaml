@@ -565,6 +565,9 @@ tocalls:
    model: HMTracker
    class: tracker
 
+ - tocall: APHW??
+   vendor: HamWAN
+
  - tocall: API???
    vendor: Icom
    model: unknown
