@@ -711,6 +711,9 @@ tocalls:
    model: KetaiTracker
    class: tracker
 
+ - tocall: APP6??
+   model: APRSlib
+
  - tocall: APQTH?
    vendor: Weston Bustraan, W8WJB
    model: QTH.app
