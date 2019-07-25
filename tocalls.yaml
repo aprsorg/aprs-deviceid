@@ -697,6 +697,11 @@ tocalls:
    model: KissOZ
    class: tracker
 
+ - tocall: APPIC?
+   vendor: DB1NTO
+   model: PicoAPRS
+   class: tracker
+
  - tocall: APPT??
    vendor: JF6LZE
    model: KetaiTracker
