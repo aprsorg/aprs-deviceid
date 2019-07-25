@@ -349,6 +349,19 @@ tocalls:
    model: AltOS
    class: tracker
 
+ - tocall: APAT??
+   vendor: Anytone
+
+ - tocall: APAT81
+   vendor: Anytone
+   model: AT-D878
+   class: ht
+
+ - tocall: APAT51
+   vendor: Anytone
+   model: AT-D578
+   class: rig
+
  - tocall: APJI??
    vendor: Peter Loveall, AE5PL
    model: jAPRSIgate
@@ -416,9 +429,8 @@ tocalls:
 
  - tocall: APMG??
    vendor: Alex, AB0TJ
-   model: MiniGate
+   model: PiCrumbs and MiniGate
    class: software
-   os: Netduino
 
  - tocall: APJY??
    vendor: KA2DDO
