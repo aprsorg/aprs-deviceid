@@ -686,6 +686,10 @@ tocalls:
    class: app
    os: ios
 
+ - tocall: APOCSG
+   vendor: N0AGI
+   model: POCSAG
+
  - tocall: APOLU?
    vendor: AMSAT-LU
    model: Oscar
