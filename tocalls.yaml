@@ -506,6 +506,10 @@ tocalls:
    model: BeeLine GPS
    class: tracker
 
+ - tocall: APBM??
+   vendor: R3ABM
+   model: BrandMeister DMR
+
  - tocall: APC???
    vendor: Rob Wittner, KZ5RW
    model: APRS/CE
