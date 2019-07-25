@@ -768,6 +768,11 @@ tocalls:
    vendor: BG5HHP
    model: TinyAPRS
 
+ - tocall: APTCHE
+   vendor: PU3IKE
+   model: TcheTracker, Tcheduino
+   class: tracker
+
  - tocall: APTCMA
    vendor: Cleber, PU1CMA
    model: CAPI Tracker
