@@ -486,6 +486,11 @@ tocalls:
    model: AP510
    class: tracker
 
+ - tocall: APBK??
+   vendor: PY5BK
+   model: Bravo Tracker
+   class: tracker
+
  - tocall: APBL??
    vendor: BigRedBee
    model: BeeLine GPS
