@@ -218,6 +218,11 @@ tocalls:
    model: D-Star APDPRS
    class: dstar
 
+ - tocall: APERS?
+   vendor: Jason, KG7YKZ
+   model: Runner tracking
+   class: tracker
+
  - tocall: APERXQ
    vendor: PE1RXQ
    model: PE1RXQ APRS Tracker
