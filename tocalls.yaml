@@ -187,7 +187,11 @@ tocalls:
    vendor: ZS6EY
    model: Telit EZ10 GSM application
    class: tracker
-   
+
+ - tocall: APCSMS
+   vendor: USNA
+   model: Cosmos
+
  - tocall: APZMAJ
    vendor: M1MAJ
    model: DeLorme inReach Tracker
