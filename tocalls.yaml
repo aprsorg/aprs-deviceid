@@ -228,6 +228,11 @@ tocalls:
    model: Pecan Pico APRS Balloon Tracker
    class: tracker
 
+ - tocall: APELK?
+   vendor: WB8ELK
+   model: Balloon tracker
+   class: tracker
+
  - tocall: APNK01
    vendor: Kenwood
    model: TM-D700
