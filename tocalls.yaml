@@ -411,6 +411,11 @@ tocalls:
    model: DIXPRS
    class: software
 
+ - tocall: APDV??
+   vendor: OE6PLD
+   model: SSTV with APRS
+   class: software
+
  - tocall: APDS??
    vendor: SP9UOB
    model: dsDIGI
