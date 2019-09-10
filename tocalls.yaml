@@ -82,6 +82,11 @@ mice:
    vendor: Yaesu
    model: FT2D
    class: ht
+
+ - suffix: "_0"
+   vendor: Yaesu
+   model: FT3D
+   class: ht
    
  - suffix: "_)"
    vendor: Yaesu
