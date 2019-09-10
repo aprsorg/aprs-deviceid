@@ -97,7 +97,17 @@ mice:
    vendor: Yaesu
    model: FTM-400DR
    class: rig
- 
+
+ - suffix: "(5"
+   vendor: Anytone
+   model: D578UV
+   class: ht
+
+ - suffix: "(8"
+   vendor: Anytone
+   model: D878UV
+   class: ht
+
  - suffix: "|3"
    vendor: Byonics
    model: TinyTrak3
