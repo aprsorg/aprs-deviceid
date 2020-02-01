@@ -533,6 +533,10 @@ tocalls:
    vendor: R3ABM
    model: BrandMeister DMR
 
+ - tocall: APBSD?
+   vendor: hambsd.org
+   model: HamBSD
+
  - tocall: APC???
    vendor: Rob Wittner, KZ5RW
    model: APRS/CE
