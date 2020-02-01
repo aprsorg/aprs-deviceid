@@ -544,6 +544,10 @@ tocalls:
    vendor: hambsd.org
    model: HamBSD
 
+ - tocall: APBT62
+   vendor: BTech
+   model: DMR 6x2
+
  - tocall: APC???
    vendor: Rob Wittner, KZ5RW
    model: APRS/CE
