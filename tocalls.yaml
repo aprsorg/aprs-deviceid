@@ -203,6 +203,9 @@ tocalls:
    model: Telit EZ10 GSM application
    class: tracker
 
+ - tocall: APCLUB
+   model: Brazil APRS network
+
  - tocall: APCSMS
    vendor: USNA
    model: Cosmos
