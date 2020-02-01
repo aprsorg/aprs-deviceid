@@ -272,6 +272,10 @@ tocalls:
    vendor: Kantronics
    model: KAM+
 
+ - tocall: APNKMX
+   vendor: Kantronics
+   model: KAM-XL
+
  - tocall: APAGW
    vendor: SV2AGW
    model: AGWtracker
