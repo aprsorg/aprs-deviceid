@@ -371,6 +371,10 @@ tocalls:
    vendor: Microsat
    os: embedded
    model: PLXTracker
+
+ - tocall: APMQ??
+   vendor: WB2OSZ
+   model: Ham Radio of Things
  
  - tocall: APMT??
    vendor: LZ1PPL
