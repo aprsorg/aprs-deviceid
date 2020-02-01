@@ -839,6 +839,11 @@ tocalls:
    model: WXTrak
    class: wx
 
+ - tocall: APTPN?
+   vendor: KN4ORB
+   model: TARPN Packet Node Tracker
+   class: tracker
+
  - tocall: APTR??
    vendor: Motorola
    model: MotoTRBO
