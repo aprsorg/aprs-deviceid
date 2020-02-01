@@ -546,11 +546,6 @@ tocalls:
    model: APRS/CE
    class: app
 
- - tocall: APCL??
-   vendor: maprs.org
-   model: maprs
-   class: app
-
  - tocall: APDT??
    vendor: unknown
    model: APRStouch Tone (DTMF)
