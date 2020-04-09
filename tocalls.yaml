@@ -573,6 +573,7 @@ tocalls:
    class: app
 
  - tocall: APFII?
+   model: iPhone/iPad app
    vendor: aprs.fi
    os: ios
    class: app
