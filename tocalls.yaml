@@ -796,15 +796,27 @@ tocalls:
    model: aprsc
    class: software
 
- - tocall: APSF??
-   vendor: Pierre SAINT-FELIX-CASTETS, F5OPV
+-  tocall: APSF??
+   vendor: F5OPV
    model: Embedded APRS devices
    os: embedded
 
  - tocall: APSFWX
-   vendor: Pierre SAINT-FELIX-CASTETS, F5OPV
+   vendor: F5OPV
    model: embedded Weather Station
    class: wx
+   os: embedded
+
+-  tocall: APSFDG
+   vendor: F5OPV
+   model: embedded Digital APRS Gateway
+   class: digi
+   os: embedded
+
+-  tocall: APSFMT
+   vendor: F5OPV
+   model: embedded Mobile Tracker
+   class: tracker
    os: embedded
 
  - tocall: APTT*
