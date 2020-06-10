@@ -169,6 +169,15 @@ micelegacy:
    class: rig
    features:
      - messaging
+     
+
+ - prefix: "_"
+   suffix: "X"
+   vendor: AVRTx.cn
+   model: AP510
+   class: tracker
+   features:
+     - messaging
 
 #
 # TOCALL index
@@ -521,10 +530,10 @@ tocalls:
    class: software
    os: Windows
 
- - tocall: APAVT5
-   vendor: SainSonic
-   model: AP510
-   class: tracker
+ - tocall: APAV??
+   vendor: BG6QBV & BI7NOR
+   model: AVRTx.cn
+   class: tracker/Igate/Digipeater
 
  - tocall: APBK??
    vendor: PY5BK
