@@ -802,12 +802,12 @@ tocalls:
    class: software
 
  - tocall: APSF??
-   vendor: Pierre SAINT-FELIX-CASTETS, F5OPV
-   model: Embedded APRS devices
+   vendor: F5OPV, SFCP_LABS
+   model: embedded APRS devices
    os: embedded
 
  - tocall: APSFWX
-   vendor: Pierre SAINT-FELIX-CASTETS, F5OPV
+   vendor: F5OPV, SFCP_LABS
    model: embedded Weather Station
    class: wx
    os: embedded
