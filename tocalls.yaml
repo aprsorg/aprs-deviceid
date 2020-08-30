@@ -812,6 +812,12 @@ tocalls:
    class: wx
    os: embedded
 
+ - tocall: APSFLG
+   vendor: F5OPV, SFCP_LABS
+   model: LoRa/APRS Gateway
+   class: digi
+   os: embedded
+
  - tocall: APTT*
    vendor: Byonics
    model: TinyTrak
