@@ -655,6 +655,11 @@ tocalls:
    model: TM-D700
    class: rig
 
+ - tocall: APLG??
+   vendor: OE5BPA
+   model: LoRa Gateway/Digipeater
+   class: digi
+
  - tocall: APLIG?
    vendor: TA2MUN/TA9OHC
    model: LightAPRS Tracker
@@ -663,6 +668,11 @@ tocalls:
  - tocall: APLM??
    vendor: WA0TQG
    class: software
+
+ - tocall: APLT??
+   vendor: OE5BPA
+   model: LoRa Tracker
+   class: tracker
 
  - tocall: APAND?
    vendor: Open Source
