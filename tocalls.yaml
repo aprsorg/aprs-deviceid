@@ -710,6 +710,19 @@ tocalls:
    model: UIdigi
    class: digi
 
+ - tocall: APNV??
+   vendor: SQ8L
+
+ - tocall: APNV0?
+   vendor: SQ8L
+   model: VP-Digi
+   os: embedded
+
+ - tocall: APNV1?
+   vendor: SQ8L
+   model: VP-Node
+   os: embedded
+
  - tocall: APNW??
    vendor: SQ3FYK
    model: WX3in1
