@@ -633,6 +633,12 @@ tocalls:
    vendor: AB0WV
    model: PinPoint
 
+ - tocall: APIZCI
+   vendor: TA7W/OH2UDS and TA6AEU
+   model: hymTR IZCI Tracker
+   class: tracker
+   os: embedded
+
  - tocall: APJA??
    vendor: K4HG & AE5PL
    model: JavAPRS
