@@ -380,6 +380,11 @@ tocalls:
    os: embedded
    model: PLXTracker
 
+- tocall: APMI06
+   vendor: Microsat
+   os: embedded
+   model: WX3in1 Plus 2.0
+
  - tocall: APMQ??
    vendor: WB2OSZ
    model: Ham Radio of Things
