@@ -604,6 +604,11 @@ tocalls:
    class: software
    os: Windows
 
+ - tocall: APHBL?
+   vendor: KF7EEL
+   model: HBLink D-APRS Gateway
+   class: software
+
  - tocall: APHH?
    vendor: Steven D. Bragg, KA9MVA
    model: HamHud
