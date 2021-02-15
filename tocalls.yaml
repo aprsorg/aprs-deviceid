@@ -131,7 +131,12 @@ mice:
    vendor: KissOZ
    model: Tracker
    class: tracker
-
+   
+ - suffix: "_X"
+   vendor: SainSonic
+   model: AP510
+   class: tracker
+   
 #
 # mic-e legacy devices, with an unique comment suffix and prefix
 #
