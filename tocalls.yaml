@@ -380,7 +380,7 @@ tocalls:
    os: embedded
    model: PLXTracker
 
-- tocall: APMI06
+ - tocall: APMI06
    vendor: Microsat
    os: embedded
    model: WX3in1 Plus 2.0
