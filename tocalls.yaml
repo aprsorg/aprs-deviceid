@@ -631,6 +631,11 @@ tocalls:
    model: unknown
    class: dstar
 
+ - tocall: API970
+   vendor: Icom
+   model: IC-9700
+   class: dstar
+
  - tocall: APIC??
    vendor: HA9MCQ
    model: PICiGATE
