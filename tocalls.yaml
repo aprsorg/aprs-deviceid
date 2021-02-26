@@ -52,6 +52,10 @@ classes:
  - class: satellite
    shown: Satellite
    description: Satellite-based station
+   
+ - class: AoT
+  shown: APRS of Things
+  description: Autonomous APRS/LoRa MCU-driven Device (Beaconing/Telemetry/Remote-Control/Reporting/Tracking)
 
 #
 # mic-e device identifier index for new-style 2-character device
@@ -860,6 +864,12 @@ tocalls:
    vendor: F5OPV, SFCP_LABS
    model: LoRa/APRS Gateway
    class: digi
+   os: embedded
+
+ - tocall: APSFTL
+   vendor: F5OPV, SFCP_LABS
+   model: LoRa/APRS Telemetry Reporter
+   class: AoT
    os: embedded
 
  - tocall: APTT*
