@@ -43,7 +43,11 @@ classes:
 
  - class: digi
    shown: Digipeater
-   description: Digipeater firmware
+   description: Digipeater software
+
+ - class: igate
+   shown: iGate
+   description: iGate software
  
  - class: dstar
    shown: D-Star
@@ -836,7 +840,7 @@ tocalls:
  - tocall: APRX??
    vendor: Kenneth W. Finnegan, W6KWF
    model: Aprx
-   class: software
+   class: igate
    os: Linux/Unix
 
  - tocall: APS???
@@ -929,6 +933,11 @@ tocalls:
  - tocall: APUDR?
    vendor: NW Digital Radio
    model: UDR
+
+ - tocall: APVM??
+   vendor: Digital Radio China Club
+   model: DRCC-DVM
+   class: igate
 
  - tocall: APVR??
    vendor: unknown
