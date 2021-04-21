@@ -944,6 +944,14 @@ tocalls:
    class: software
    os: Windows
 
+ - tocall: APW9??
+   vendor: Mile Strk, 9A9Y
+   model: WX Katarina
+   class: wx
+   os: embedded
+   features:
+     - messaging
+
  - tocall: APWA??
    vendor: KJ4ERJ
    model: APRSISCE
