@@ -676,6 +676,10 @@ tocalls:
    model: TM-D700
    class: rig
 
+ - tocall: APLC??
+   vendor: DL3DCW
+   model: APRScube
+
  - tocall: APLG??
    vendor: OE5BPA
    model: LoRa Gateway/Digipeater
