@@ -915,16 +915,26 @@ tocalls:
    model: embedded APRS devices
    os: embedded
 
- - tocall: APSFWX
-   vendor: F5OPV, SFCP_LABS
-   model: embedded Weather Station
-   class: wx
-   os: embedded
-
  - tocall: APSFLG
    vendor: F5OPV, SFCP_LABS
    model: LoRa/APRS Gateway
    class: digi
+   os: embedded
+
+ - tocall: APSFRP
+   vendor: F5OPV, SFCP_LABS
+   model: VHF/UHF Repeater
+   os: embedded
+
+ - tocall: APSFTL
+   vendor: F5OPV, SFCP_LABS
+   model: LoRa/APRS Telemetry Reporter
+   os: embedded
+
+ - tocall: APSFWX
+   vendor: F5OPV, SFCP_LABS
+   model: embedded Weather Station
+   class: wx
    os: embedded
 
  - tocall: APTT*
