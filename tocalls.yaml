@@ -870,6 +870,16 @@ tocalls:
    class: digi
    os: embedded
 
+ - tocall: APSFTL
+   vendor: F5OPV, SFCP_LABS
+   model: LoRa/APRS Telemetry Reporter
+   os: embedded
+   
+ - tocall: APSFRP
+   vendor: F5OPV, SFCP_LABS
+   model: VHF/UHF Repeater
+   os: embedded
+   
  - tocall: APTT*
    vendor: Byonics
    model: TinyTrak
