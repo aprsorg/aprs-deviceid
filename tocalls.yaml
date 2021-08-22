@@ -215,6 +215,10 @@ tocalls:
  - tocall: APCLUB
    model: Brazil APRS network
 
+ - tocall: APCN??
+   vendor: DG5OAW
+   model: carNET
+
  - tocall: APCSMS
    vendor: USNA
    model: Cosmos
@@ -249,6 +253,12 @@ tocalls:
    model: D-Star APDPRS
    class: dstar
 
+ - tocall: APE2A?
+   vendor: NoseyNick, VA3NNW
+   model: Email-2-APRS gateway
+   class: software
+   os: Linux/Unix
+
  - tocall: APERS?
    vendor: Jason, KG7YKZ
    model: Runner tracking
@@ -268,6 +278,10 @@ tocalls:
    vendor: WB8ELK
    model: Balloon tracker
    class: tracker
+
+ - tocall: APN2??
+   vendor: VE4KLM
+   model: NOSaprs for JNOS 2.0
 
  - tocall: APNK01
    vendor: Kenwood
@@ -388,6 +402,10 @@ tocalls:
    vendor: Microsat
    os: embedded
    model: WX3in1 Plus 2.0
+
+ - tocall: APMPAD
+   vendor: DF1JSL
+   model: WXBot clone and extension
 
  - tocall: APMQ??
    vendor: WB2OSZ
