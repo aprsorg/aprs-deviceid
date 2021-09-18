@@ -269,6 +269,12 @@ tocalls:
    model: Balloon tracker
    class: tracker
 
+ - tocall: APNIC4
+   vendor: SQ5EKU
+   model: BidaTrak
+   class: tracker
+   os: embedded
+
  - tocall: APNK01
    vendor: Kenwood
    model: TM-D700
