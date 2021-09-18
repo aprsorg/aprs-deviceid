@@ -1,4 +1,3 @@
-
 #
 # This is a machine-readable index of APRS device and software
 # identification strings.  For easy manual editing and validation, the
@@ -12,6 +11,8 @@
 # somewhere in the small print.
 # http://creativecommons.org/licenses/by-sa/2.0/
 #
+
+---
 
 #
 # English shown names and descriptions for device classes
