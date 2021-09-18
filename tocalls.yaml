@@ -1,4 +1,3 @@
-
 #
 # This is a machine-readable index of APRS device and software
 # identification strings.  For easy manual editing and validation, the
@@ -20,15 +19,15 @@ classes:
  - class: wx
    shown: Weather station
    description: Dedicated weather station
-   
+
  - class: tracker
    shown: Tracker
    description: Tracker device
- 
+
  - class: rig
    shown: Rig
    description: Mobile or desktop radio
- 
+
  - class: ht
    shown: HT
    description: Hand-held radio
@@ -36,7 +35,7 @@ classes:
  - class: app
    shown: Mobile app
    description: Mobile phone or tablet app
- 
+
  - class: software
    shown: Software
    description: Desktop software
@@ -48,11 +47,11 @@ classes:
  - class: igate
    shown: iGate
    description: iGate software
- 
+
  - class: dstar
    shown: D-Star
    description: D-Star radio
- 
+
  - class: satellite
    shown: Satellite
    description: Satellite-based station
@@ -66,17 +65,17 @@ mice:
    vendor: Yaesu
    model: VX-8
    class: ht
-   
+
  - suffix: "_\""
    vendor: Yaesu
    model: FTM-350
    class: rig
-   
+
  - suffix: "_#"
    vendor: Yaesu
    model: VX-8G
    class: ht
-   
+
  - suffix: "_$"
    vendor: Yaesu
    model: FT1D
@@ -91,7 +90,7 @@ mice:
    vendor: Yaesu
    model: FT3D
    class: ht
-   
+
  - suffix: "_1"
    vendor: Yaesu
    model: FTM-300D
@@ -100,8 +99,8 @@ mice:
  - suffix: "_)"
    vendor: Yaesu
    model: FTM-100D
-   class: rig 
-   
+   class: rig
+
  - suffix: "_%"
    vendor: Yaesu
    model: FTM-400DR
@@ -121,16 +120,16 @@ mice:
    vendor: Byonics
    model: TinyTrak3
    class: tracker
- 
+
  - suffix: "|4"
    vendor: Byonics
    model: TinyTrak4
    class: tracker
- 
+
  - suffix: "^v"
    vendor: HinzTec
    model: anyfrog
- 
+
  - suffix: "*v"
    vendor: KissOZ
    model: Tracker
@@ -146,7 +145,7 @@ micelegacy:
    model: TH-D7A
    class: ht
    features:
-     - messaging
+    - messaging
 
  - prefix: ">"
    suffix: "="
@@ -154,7 +153,7 @@ micelegacy:
    model: TH-D72
    class: ht
    features:
-     - messaging
+    - messaging
 
  - prefix: ">"
    suffix: "^"
@@ -162,14 +161,14 @@ micelegacy:
    model: TH-D74
    class: ht
    features:
-     - messaging
+    - messaging
 
  - prefix: "]"
    vendor: Kenwood
    model: TM-D700
    class: rig
    features:
-     - messaging
+    - messaging
 
  - prefix: "]"
    suffix: "="
@@ -177,7 +176,7 @@ micelegacy:
    model: TM-D710
    class: rig
    features:
-     - messaging
+    - messaging
 
 #
 # TOCALL index
@@ -206,7 +205,7 @@ tocalls:
    vendor: ZS6EY
    model: EYWeather
    class: wx
-   
+
  - tocall: APCLEZ
    vendor: ZS6EY
    model: Telit EZ10 GSM application
@@ -238,7 +237,7 @@ tocalls:
    model: TrackPoint
    class: tracker
    os: embedded
-   
+
  - tocall: APZ247
    model: UPRS
    vendor: NR0Q
@@ -268,7 +267,7 @@ tocalls:
    vendor: PE1RXQ
    model: PE1RXQ APRS Tracker
    class: tracker
- 
+
  - tocall: APECAN
    vendor: KT5TK/DL7AD
    model: Pecan Pico APRS Balloon Tracker
@@ -288,7 +287,7 @@ tocalls:
    model: TM-D700
    class: rig
    features:
-     - messaging
+    - messaging
 
  - tocall: APNK80
    vendor: Kantronics
@@ -324,7 +323,7 @@ tocalls:
    model: SARTrack
    class: software
    os: Windows
-   
+
  - tocall: APSTPO
    vendor: N0AGI
    model: Satellite Tracking and Operations
@@ -410,7 +409,7 @@ tocalls:
  - tocall: APMQ??
    vendor: WB2OSZ
    model: Ham Radio of Things
- 
+
  - tocall: APMT??
    vendor: LZ1PPL
    model: Micro APRS Tracker
@@ -444,7 +443,7 @@ tocalls:
    model: BPQ32
    class: software
    os: Windows
- 
+
  - tocall: APB2MF
    vendor: Mike, DL2MF
    model: MF2APRS Radiosonde tracking tool
@@ -639,7 +638,7 @@ tocalls:
  - tocall: APHK??
    vendor: LA1BR
    model: Digipeater/tracker
-   
+
  - tocall: APHT??
    vendor: IU0AAC
    model: HMTracker
@@ -888,7 +887,7 @@ tocalls:
    class: software
    os: macOS
    features:
-     - messaging
+    - messaging
 
  - tocall: APR8??
    vendor: Bob Bruninga, WB4APR
@@ -1027,7 +1026,7 @@ tocalls:
    class: wx
    os: embedded
    features:
-     - messaging
+    - messaging
 
  - tocall: APWA??
    vendor: KJ4ERJ
@@ -1041,7 +1040,7 @@ tocalls:
    class: software
    os: Windows Mobile
    features:
-     - messaging
+    - messaging
      - item-in-msg
 
  - tocall: APWW??
@@ -1050,7 +1049,7 @@ tocalls:
    class: software
    os: Windows
    features:
-     - messaging
+    - messaging
      - item-in-msg
 
  - tocall: APX???
@@ -1084,17 +1083,17 @@ tocalls:
    vendor: Yaesu
    model: FT2D
    class: ht
-   
+
  - tocall: APY300
    vendor: Yaesu
    model: FTM-300D
    class: rig
-   
+
  - tocall: APY400
    vendor: Yaesu
    model: FTM-400
    class: rig
-   
+
  - tocall: APYS??
    vendor: W2GMD
    model: Python APRS
@@ -1109,12 +1108,12 @@ tocalls:
    vendor: GM7HHB
    model: WinphoneAPRS
    class: app
- 
+
  - tocall: APSMS?
    vendor: Paul Dufresne
    model: SMS gateway
    class: software
- 
+
  - tocall: APSTM?
    vendor: W7QO
    model: Balloon tracker
