@@ -641,6 +641,56 @@ tocalls:
    model: unknown
    class: dstar
 
+ - tocall: API282
+   vendor: Icom
+   model: IC-2820
+   class: dstar
+
+ - tocall: API31
+   vendor: Icom
+   model: IC-31
+   class: dstar
+
+ - tocall: API410
+   vendor: Icom
+   model: IC-4100
+   class: dstar
+
+ - tocall: API51
+   vendor: Icom
+   model: IC-51
+   class: dstar
+
+ - tocall: API510
+   vendor: Icom
+   model: IC-5100
+   class: dstar
+
+ - tocall: API710
+   vendor: Icom
+   model: IC-7100
+   class: dstar
+
+ - tocall: API80
+   vendor: Icom
+   model: IC-80
+   class: dstar
+
+ - tocall: API880
+   vendor: Icom
+   model: IC-880
+   class: dstar
+
+ - tocall: API910
+   vendor: Icom
+   model: IC-9100
+   class: dstar
+
+ - tocall: API92
+   vendor: Icom
+   model: IC-92
+   class: dstar
+
  - tocall: API970
    vendor: Icom
    model: IC-9700
