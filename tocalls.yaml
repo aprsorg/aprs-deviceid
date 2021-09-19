@@ -270,6 +270,10 @@ tocalls:
    model: Balloon tracker
    class: tracker
 
+ - tocall: APN2??
+   vendor: VE4KLM
+   model: NOSaprs for JNOS 2.0
+
  - tocall: APNIC4
    vendor: SQ5EKU
    model: BidaTrak
