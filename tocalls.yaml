@@ -396,6 +396,10 @@ tocalls:
    os: embedded
    model: WX3in1 Plus 2.0
 
+ - tocall: APMPAD
+   vendor: DF1JSL
+   model: WXBot clone and extension
+
  - tocall: APMQ??
    vendor: WB2OSZ
    model: Ham Radio of Things
