@@ -250,6 +250,12 @@ tocalls:
    model: D-Star APDPRS
    class: dstar
 
+ - tocall: APE2A?
+   vendor: NoseyNick, VA3NNW
+   model: Email-2-APRS gateway
+   class: software
+   os: Linux/Unix
+
  - tocall: APERS?
    vendor: Jason, KG7YKZ
    model: Runner tracking
