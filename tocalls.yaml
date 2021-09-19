@@ -216,6 +216,10 @@ tocalls:
  - tocall: APCLUB
    model: Brazil APRS network
 
+ - tocall: APCN??
+   vendor: DG5OAW
+   model: carNET
+
  - tocall: APCSMS
    vendor: USNA
    model: Cosmos
