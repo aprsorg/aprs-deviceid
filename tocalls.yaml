@@ -773,6 +773,11 @@ tocalls:
    vendor: WA0TQG
    class: software
 
+ - tocall: APLO??
+   vendor: SQ9MDD
+   model: LoRa KISS TNC/Tracker
+   class: tracker
+
  - tocall: APLS??
    vendor: SARIMESH
    model: SARIMESH
