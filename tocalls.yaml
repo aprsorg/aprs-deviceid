@@ -229,6 +229,10 @@ tocalls:
    vendor: USNA
    model: Cosmos
 
+ - tocall: APCSS
+   vendor: AMSAT
+   model: CubeSat
+
  - tocall: APZMAJ
    vendor: M1MAJ
    model: DeLorme inReach Tracker
