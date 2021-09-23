@@ -773,6 +773,11 @@ tocalls:
    vendor: WA0TQG
    class: software
 
+ - tocall: APLS??
+   vendor: SARIMESH
+   model: SARIMESH
+   class: software
+
  - tocall: APLT??
    vendor: OE5BPA
    model: LoRa Tracker
