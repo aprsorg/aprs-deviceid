@@ -93,6 +93,11 @@ mice:
    model: FT3D
    class: ht
    
+ - suffix: "_3"
+   vendor: Yaesu
+   model: FT5D
+   class: ht
+
  - suffix: "_1"
    vendor: Yaesu
    model: FTM-300D
@@ -1111,7 +1116,12 @@ tocalls:
    vendor: Yaesu
    model: FT2D
    class: ht
-   
+
+ - tocall: APY05D
+   vendor: Yaesu
+   model: FT5D
+   class: ht
+
  - tocall: APY300
    vendor: Yaesu
    model: FTM-300D
