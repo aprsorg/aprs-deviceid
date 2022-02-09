@@ -231,7 +231,7 @@ tocalls:
 
  - tocall: APCSS
    vendor: AMSAT
-   model: CubeSat
+   model: CubeSatSim CubeSat Simulator
 
  - tocall: APZMAJ
    vendor: M1MAJ
