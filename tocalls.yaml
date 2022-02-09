@@ -926,6 +926,11 @@ tocalls:
    model: APRSdos
    class: software
 
+ - tocall: APRRDZ
+   model: rdzTTGOsonde
+   vendor: DL9RDZ
+   class: tracker
+
  - tocall: APRRT?
    vendor: RPC Electronics
    model: RTrak
