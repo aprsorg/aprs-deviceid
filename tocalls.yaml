@@ -453,7 +453,7 @@ tocalls:
  - tocall: APATAR
    vendor: TA7W/OH2UDS Baris Dinc and TA6AEU
    model: ATA-R APRS Digipeater
-   class: digipeater
+   class: digi
 
  - tocall: APJI??
    vendor: Peter Loveall, AE5PL
