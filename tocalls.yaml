@@ -450,6 +450,11 @@ tocalls:
    model: AT-D578
    class: rig
 
+ - tocall: APATAR
+   vendor: TA7W/OH2UDS Baris Dinc and TA6AEU
+   model: ATA-R APRS Digipeater
+   class: digipeater
+
  - tocall: APJI??
    vendor: Peter Loveall, AE5PL
    model: jAPRSIgate
