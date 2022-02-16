@@ -56,7 +56,8 @@ Tocall index (tocalls):
 * class: A device class identifier, referring to the class index
 * os: Operating system identifier
 * features: Feature flags indicating optional features implemented on this device
-   * messaging: a flag (1) identifying that the device is messaging capable
+   * messaging: The device is messaging capable
+   * item-in-msg: The device is capable of receiving APRS items in text messages 
 
 Mic-E device identifier index (mice):
 
