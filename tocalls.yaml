@@ -57,6 +57,10 @@ classes:
  - class: satellite
    shown: Satellite
    description: Satellite-based station
+   
+ - class: tlm
+   shown: Telemetry device
+   description: Telemetry device
 
 #
 # mic-e device identifier index for new-style 2-character device
@@ -965,7 +969,7 @@ tocalls:
  - tocall: APSFLG
    vendor: F5OPV, SFCP_LABS
    model: LoRa/APRS Gateway
-   class: digi
+   class: igate
    os: embedded
 
  - tocall: APSFRP
