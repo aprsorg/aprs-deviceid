@@ -71,13 +71,13 @@ Gibhub repository containing the allocation database file (INSERT LINK
 HERE).  This requires a free Github user account.
 
 If it is impossible for the applicant to create one, an email can be sent to
-allocations@aprs.org.  The maintainers will then create the ticket before
-processing the request - email message contents will be posted as ticket
-contents.  Email addresses can be kept secret, but the emails sent to the
-address will be archived by the maintainers.  Direct emails to maintainers
-are not processed - all requests must come in as a ticket or via the email
-alias, and the email alias should only be used if it is impossible to create
-a ticket.
+allocations@aprs.org (NOT YET FUNCTIONAL).  The maintainers will then create
+the ticket before processing the request - email message contents will be
+posted as ticket contents.  Email addresses can be kept secret, but the
+emails sent to the address will be archived by the maintainers.  Direct
+emails to maintainers are not processed - all requests must come in as a
+ticket or via the email alias, and the email alias should only be used if it
+is impossible to create a ticket.
 
 These issue tickets are public, and the discussion, any clarifying questions
 are and their answers are public as well.  This way everyone can see how the
