@@ -49,7 +49,7 @@ Adding new devices
 If you have created a new APRS device, or written a new APRS app, and would
 like to add it in the database, please read through the
 [ALLOCATING](ALLOCATING.md) policy document, and then file an issue ticket
-in Github (https://github.com/hessu/aprs-deviceid/issues) - we'll be
+in Github (https://github.com/aprsorg/aprs-deviceid/issues) - we'll be
 notified by email.
 
 Please include all the relevant fields (vendor, model, class, os, contact).
