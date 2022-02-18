@@ -2,16 +2,35 @@
 APRS device identification database
 ======================================
 
+Beginning from 2022-02-19, this is the master database for APRS device
+identifier allocations.  Previously APRS device identifiers were allocated
+by Bob Bruninga in http://aprs.org/aprs11/tocalls.txt and
+http://www.aprs.org/aprs12/mic-e-types.txt and any new allocations had to be
+made by Bob Bruninga in one of those files, before being added to this
+database.  As Bob is sadly no longer with us, new allocations are now being
+done directly to this database.
+
+This may change in the future, if and when a new organization for APRS
+standards and documentation is formed, as I can then pass on the allocations
+responsibility to them.  I hope the new organisation will retain this
+machine-readable format and continue the work directly from this git
+repository.
+
 This is a machine-readable index of APRS device and software identification
 strings.  For easy manual editing and validation, the master file is in YAML
-format.  A conversion tool and pre-converted versions in XML and JSON are
-also provided for environments where those are more convenient to parse.
+format.  A generator tool, provided in this repository, converts the
+database to XML and JSON, which are also provided in the
+`generated` directory for environments where those are more convenient to
+parse.  The tool also checks the correct formatting of the database.
 
-This list is maintained by Hessu, OH7LZB, for the device identification
-feature of the aprs.fi service.  The list is published here in a
-machine-readable format so that it would be easier for others to implement
-such functionality.  If you choose to use the database, and update from here
-regularly, your APRS app should be relatively well in sync with aprs.fi.
+This database is maintained by Hessu, OH7LZB, and a soon-to-be-named team of
+volunteers.
+
+The database is published in a machine-readable format so that it would be
+easy for developers to implement automatic identification of APRS devices
+and software.  If you choose to use the database, and update from here
+regularly, your APRS app will automatically detect new devices added in the
+future.
 
 
 Licensing
@@ -28,18 +47,17 @@ Adding new devices
 ---------------------
 
 If you have created a new APRS device, or written a new APRS app, and would
-like me to add it in the database, please file an issue ticket in github
-(https://github.com/hessu/aprs-deviceid/issues) - I'll be notified by email.
+like to add it in the database, please read through the
+[ALLOCATING](ALLOCATING.md) policy document, and then file an issue ticket
+in Github (https://github.com/hessu/aprs-deviceid/issues) - we'll be
+notified by email.
 
-Before adding in this index, the device should be present in Bob's master
-index (http://aprs.org/aprs11/tocalls.txt).
-
-Please include all the relevant fields (vendor, model, class, os, messaging
-capability). The master file is tocalls.yaml, and all the other files
-are generated from that file, so please use that format.
+Please include all the relevant fields (vendor, model, class, os, contact).
+The master file is tocalls.yaml, and all the other files are generated from
+that file, so please use that format.
 
 Do not submit new devices on others behalf, let the author of the device or
-application to contact Bob and myself directly. Thank you!
+application to request addition directly. Thank you!
 
 Thank you!
 
@@ -56,7 +74,8 @@ Tocall index (tocalls):
 * class: A device class identifier, referring to the class index
 * os: Operating system identifier
 * features: Feature flags indicating optional features implemented on this device
-   * messaging: a flag (1) identifying that the device is messaging capable
+   * messaging: The device is messaging capable
+   * item-in-msg: The device is capable of receiving APRS items in text messages 
 
 Mic-E device identifier index (mice):
 
@@ -86,8 +105,8 @@ Device class index (classes):
 * description: An english description string
 
 
-Libraries and applications using this database
--------------------------------------------------
+Libraries and applications directly using this database
+----------------------------------------------------------
 
 * Ham::APRS::DeviceID for Perl, available at CPAN and
   https://github.com/hessu/perl-aprs-deviceid
