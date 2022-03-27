@@ -185,9 +185,9 @@ my $xw = new XML::Writer(OUTPUT => $output);
 $xw->startTag("aprsdevices");
 
 $xw->startTag("classes");
-foreach my $c (keys %classes) {
+foreach my $c (sort keys %classes) {
 	$xw->startTag("class", "id" => $c);
-	foreach my $k (keys %{ $classes{$c} }) {
+	foreach my $k (sort keys %{ $classes{$c} }) {
 		$xw->startTag($k);
 		$xw->characters($classes{$c}{$k});
 		$xw->endTag($k);
@@ -197,12 +197,12 @@ foreach my $c (keys %classes) {
 $xw->endTag("classes");
 
 $xw->startTag("tocalls");
-foreach my $t (keys %tocalls) {
+foreach my $t (sort keys %tocalls) {
 	$xw->startTag("tocall", "id" => $t);
-	foreach my $k (keys %{ $tocalls{$t} }) {
+	foreach my $k (sort keys %{ $tocalls{$t} }) {
 		$xw->startTag($k);
 		if ($k eq 'features') {
-			foreach my $featid (@{ $tocalls{$t}{$k} }) {
+			foreach my $featid (sort @{ $tocalls{$t}{$k} }) {
 				$xw->emptyTag("feature", "id" => $featid);
 			}
 		} else {
@@ -215,12 +215,12 @@ foreach my $t (keys %tocalls) {
 $xw->endTag("tocalls");
 
 $xw->startTag("mice");
-foreach my $t (keys %mice) {
+foreach my $t (sort keys %mice) {
 	$xw->startTag("suffix", "id" => $t);
-	foreach my $k (keys %{ $mice{$t} }) {
+	foreach my $k (sort keys %{ $mice{$t} }) {
 		$xw->startTag($k);
 		if ($k eq 'features') {
-			foreach my $featid (@{ $mice{$t}{$k} }) {
+			foreach my $featid (sort @{ $mice{$t}{$k} }) {
 				$xw->emptyTag("feature", "id" => $featid);
 			}
 		} else {
@@ -233,12 +233,12 @@ foreach my $t (keys %mice) {
 $xw->endTag("mice");
 
 $xw->startTag("micelegacy");
-foreach my $t (keys %mice_leg) {
+foreach my $t (sort keys %mice_leg) {
 	$xw->startTag("key", "id" => $t);
-	foreach my $k (keys %{ $mice_leg{$t} }) {
+	foreach my $k (sort keys %{ $mice_leg{$t} }) {
 		$xw->startTag($k);
 		if ($k eq 'features') {
-			foreach my $featid (@{ $mice_leg{$t}{$k} }) {
+			foreach my $featid (sort @{ $mice_leg{$t}{$k} }) {
 				$xw->emptyTag("feature", "id" => $featid);
 			}
 		} else {
