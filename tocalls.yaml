@@ -643,6 +643,20 @@ tocalls:
    model: LoRa KISS TNC/Tracker
    class: tracker
 
+ - tocall: APLP0?
+   vendor: SQ9P
+   model: fajne digi
+   class: digi
+   os: embedded
+   contact: sq9p.peter@gmail.com
+
+ - tocall: APLP1?
+   vendor: SQ9P
+   model: LORA/FSK/AFSK fajny tracker
+   class: tracker
+   os: embedded
+   contact: sq9p.peter@gmail.com
+
  - tocall: APLS??
    vendor: SARIMESH
    model: SARIMESH
