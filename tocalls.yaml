@@ -1004,6 +1004,11 @@ tocalls:
    model: CAPI Tracker
    class: tracker
 
+ - tocall: APTNG?
+   vendor: Filip YU1TTN
+   model: Tango Tracker
+   class: tracker
+
  - tocall: APTPN?
    vendor: KN4ORB
    model: TARPN Packet Node Tracker
