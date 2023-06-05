@@ -1009,6 +1009,11 @@ tocalls:
    model: CAPI Tracker
    class: tracker
 
+ - tocall: APTKJ?
+   vendor: W9JAJ
+   model: ATTiny APRS Tracker
+   os: embedded
+
  - tocall: APTNG?
    vendor: Filip YU1TTN
    model: Tango Tracker
