@@ -915,6 +915,15 @@ tocalls:
    vendor: DL9RDZ
    class: tracker
 
+ - tocall: APRRF?
+   vendor: Jean-Francois Huet F1EVM
+   model: Tracker for RRF
+   class: tracker
+   os: embedded
+   contact: f1evm@f1evm.fr
+   features:
+     - messaging
+
  - tocall: APRRT?
    vendor: RPC Electronics
    model: RTrak
