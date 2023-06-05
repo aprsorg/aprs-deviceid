@@ -111,6 +111,7 @@ my %tocall_keys_mandatory = (
 
 my %tocalls;
 my %longest_keys;
+my $previous_tocall;
 foreach my $t (@{ $c->{'tocalls'} }) {
 	$count_tocall++;
 	check_entry($t->{'tocall'}, $t, \%tocall_keys, \%tocall_keys_mandatory, \%classes, \%longest_keys);
@@ -118,6 +119,10 @@ foreach my $t (@{ $c->{'tocalls'} }) {
 	my $tocall = $t->{'tocall'};
 	delete $t->{'tocall'};
 	$tocalls{$tocall} = $t;
+	if (defined $previous_tocall && $previous_tocall gt $tocall) {
+		warn sprintf("Tocall '%s' is misordered after '%s'\n", $tocall, $previous_tocall);
+	}
+	$previous_tocall = $tocall;
 }
 warn "  ... $count_tocall tocalls found.\n";
 
