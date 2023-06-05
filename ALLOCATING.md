@@ -116,7 +116,8 @@ Prefix allocations
 The normal length of a device identifier is six ASCII characters.
 Manufacturers and developers distributing multiple models or variations can
 also be allocated a 4- or 5-letter prefix, allowing the last 1 or 2
-characters to identify models.
+characters to identify models.  As there are only 676 4-letter prefixes,
+specific 5-letter prefixes are primarily allocated for new devices.
 
 It is a good practice to use letters for the prefix and numbers for the last
 characters, to allow for a fast visual distinction between the manufacturer
