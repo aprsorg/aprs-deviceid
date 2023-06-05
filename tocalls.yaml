@@ -903,6 +903,13 @@ tocalls:
    class: app
    os: ipad
 
+ - tocall: APRPR?
+   vendor: Robert DM4RW, Peter DL6MAA
+   model: Teensy RPR TNC
+   class: tracker
+   os: embedded
+   contact: dm4rw@skywaves.de
+
  - tocall: APRRDZ
    model: rdzTTGOsonde
    vendor: DL9RDZ
