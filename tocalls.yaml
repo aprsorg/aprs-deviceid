@@ -1071,6 +1071,12 @@ tocalls:
    class: software
    os: Android
 
+ - tocall: APWEE?
+   vendor: Tom Keffer and Matthew Wall
+   model: WeeWX Weather Software
+   class: software
+   os: Linux/Unix
+
  - tocall: APWM??
    vendor: KJ4ERJ
    model: APRSISCE
