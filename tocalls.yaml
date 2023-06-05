@@ -485,7 +485,12 @@ tocalls:
  - tocall: APHK??
    vendor: LA1BR
    model: Digipeater/tracker
-   
+
+ - tocall: APHMEY
+   vendor: Tapio Heiskanen, OH2TH
+   model: APRS-IS Client for Athom Homey
+   contact: oh2th@iki.fi
+
  - tocall: APHT??
    vendor: IU0AAC
    model: HMTracker
