@@ -839,6 +839,13 @@ tocalls:
  - tocall: APP6??
    model: APRSlib
 
+ - tocall: APPCOx
+   vendor: RadCommSoft, LLC
+   model: PicoAPRSTracker
+   class: tracker
+   os: embedded
+   contact: ab4mw@radcommsoft.com
+
  - tocall: APPIC?
    vendor: DB1NTO
    model: PicoAPRS
