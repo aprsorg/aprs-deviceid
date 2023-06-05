@@ -26,9 +26,9 @@ sub print_out($$)
 	close(F) || die "Could not close $fn after writing: $!\n";
 }
 
-sub check_entry($$$$$$)
+sub check_entry($$$$$$$)
 {
-	my($name, $t, $optional, $mandatory, $classes, $longest) = @_;
+	my($name, $t, $optional, $mandatory, $classes, $longest, $features) = @_;
 	
 	foreach my $r (keys %{ $t }) {
 		die sprintf("'%s' has unknown  key '%s'\n", $name, $r)
@@ -45,6 +45,12 @@ sub check_entry($$$$$$)
 	
 	if (defined $t->{'class'} && !defined $classes->{ $t->{'class'} }) {
 		die sprintf("'%s' has unknown class '%s'\n", $name, $t->{'class'});
+	}
+	if (defined $t->{'features'}) {
+		foreach my $feature (@{ $t->{'features'} }) {
+			die sprintf("'%s' has unknown feature '%s'\n", $name, $feature)
+				if (!defined $features->{$feature});
+		}
 	}
 }
 
@@ -109,13 +115,17 @@ my %tocall_keys = (
 my %tocall_keys_mandatory = (
 	'tocall' => 1
 );
+my %features = (
+	'messaging' => 1,
+	'item-in-msg' => 1,
+);
 
 my %tocalls;
 my %longest_keys;
 my $previous_tocall;
 foreach my $t (@{ $c->{'tocalls'} }) {
 	$count_tocall++;
-	check_entry($t->{'tocall'}, $t, \%tocall_keys, \%tocall_keys_mandatory, \%classes, \%longest_keys);
+	check_entry($t->{'tocall'}, $t, \%tocall_keys, \%tocall_keys_mandatory, \%classes, \%longest_keys, \%features);
 	
 	my $tocall = $t->{'tocall'};
 	delete $t->{'tocall'};
@@ -150,7 +160,7 @@ my %mice_keys_mandatory_legacy = (
 my %mice;
 foreach my $t (@{ $c->{'mice'} }) {
 	$count_mice++;
-	check_entry($t->{'suffix'}, $t, \%mice_keys, \%mice_keys_mandatory, \%classes, \%longest_keys);
+	check_entry($t->{'suffix'}, $t, \%mice_keys, \%mice_keys_mandatory, \%classes, \%longest_keys, \%features);
 	
 	my $suffix = $t->{'suffix'};
 	delete $t->{'suffix'};
@@ -163,7 +173,7 @@ foreach my $t (@{ $c->{'micelegacy'} }) {
 	$count_mice_legacy++;
 	my $key = $t->{'prefix'};
 	$key .= $t->{'suffix'} if (defined $t->{'suffix'});
-	check_entry($key, $t, \%mice_keys_legacy, \%mice_keys_mandatory_legacy, \%classes, \%longest_keys);
+	check_entry($key, $t, \%mice_keys_legacy, \%mice_keys_mandatory_legacy, \%classes, \%longest_keys, \%features);
 	
 	$mice_leg{$key} = $t;
 }
