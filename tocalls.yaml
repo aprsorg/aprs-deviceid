@@ -1065,12 +1065,6 @@ tocalls:
    features:
      - messaging
 
- - tocall: APW???
-   vendor: Sproul Brothers
-   model: WinAPRS
-   class: software
-   os: Windows
-
  - tocall: APWA??
    vendor: KJ4ERJ
    model: APRSISCE
@@ -1094,6 +1088,12 @@ tocalls:
    features:
      - messaging
      - item-in-msg
+
+ - tocall: APWnnn
+   vendor: Sproul Brothers
+   model: WinAPRS
+   class: software
+   os: Windows
 
  - tocall: APX???
    vendor: Open Source
