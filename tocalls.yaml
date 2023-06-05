@@ -678,6 +678,13 @@ tocalls:
    os: embedded
    contact: sq9p.peter@gmail.com
 
+ - tocall: APLR0?
+   vendor: Ricardo, CD2RXU
+   model: ESP32 LoRa Station
+   class: tracker
+   os: embedded
+   contact: richonguzman@gmail.com
+
  - tocall: APLS??
    vendor: SARIMESH
    model: SARIMESH
