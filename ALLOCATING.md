@@ -133,14 +133,14 @@ optionally a classification identifier `class` and the name of the operating
 system `os` the software runs on.  An optional technical `contact` email
 address may be supplied.
 
-     - tocall: APxxxx
+     - tocall: APACMx
        vendor: ACME APRS Solutions Ltd
        model: MegaTracker
        class: tracker
        os: embedded
        contact: developers@example.com
 
-     - tocall: APxxxx
+     - tocall: APFOOx
        vendor: Firstname Lastname, N0CALL
        model: First and Last APRS
        class: software
