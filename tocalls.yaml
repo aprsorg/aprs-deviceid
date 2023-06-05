@@ -854,6 +854,10 @@ tocalls:
    model: OpenTracker
    class: tracker
 
+ - tocall: APOVU?
+   vendor: K J Somaiya Institute
+   model: BeliefSat
+
  - tocall: APOZ??
    vendor: OZ1EKD, OZ7HVO
    model: KissOZ
