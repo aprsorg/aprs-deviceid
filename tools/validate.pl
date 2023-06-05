@@ -104,6 +104,7 @@ my %tocall_keys = (
 	'class' => 1,
 	'os' => 1,
 	'features' => 1,
+	'contact' => 1,
 );
 my %tocall_keys_mandatory = (
 	'tocall' => 1
@@ -134,6 +135,7 @@ my %mice_keys = (
 	'class' => 1,
 	'os' => 1,
 	'features' => 1,
+	'contact' => 1,
 );
 my %mice_keys_mandatory = (
 	'suffix' => 1
