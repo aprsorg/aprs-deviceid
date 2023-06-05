@@ -435,6 +435,11 @@ tocalls:
    vendor: PE1RXQ
    model: PE1RXQ APRS Tracker
    class: tracker
+
+ - tocall: APESP?
+   vendor: LY3PH
+   model: APRS-ESP
+   os: embedded
  
  - tocall: APFG??
    vendor: KP4DJT
