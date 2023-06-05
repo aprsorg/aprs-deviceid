@@ -619,6 +619,13 @@ tocalls:
    model: TM-D700
    class: rig
 
+ - tocall: APKHTW
+   vendor: Kip, W3SN
+   model: Tempest Weather Bridge
+   class: wx
+   os: embedded
+   contact: w3sn@moxracing.33mail.com
+
  - tocall: APKRAM
    vendor: kramstuff.com
    model: Ham Tracker
