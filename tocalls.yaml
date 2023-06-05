@@ -491,6 +491,10 @@ tocalls:
    model: APRS-IS Client for Athom Homey
    contact: oh2th@iki.fi
 
+ - tocall: APHPI?
+   vendor: HP3ICC
+   model: Raspbian Project
+
  - tocall: APHT??
    vendor: IU0AAC
    model: HMTracker
