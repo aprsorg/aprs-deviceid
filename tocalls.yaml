@@ -678,9 +678,16 @@ tocalls:
    os: embedded
    contact: sq9p.peter@gmail.com
 
- - tocall: APLR0?
+ - tocall: APLRG?
    vendor: Ricardo, CD2RXU
-   model: ESP32 LoRa Station
+   model: ESP32 LoRa iGate
+   class: igate
+   os: embedded
+   contact: richonguzman@gmail.com
+
+ - tocall: APLRT?
+   vendor: Ricardo, CD2RXU
+   model: ESP32 LoRa Tracker
    class: tracker
    os: embedded
    contact: richonguzman@gmail.com
