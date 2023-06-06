@@ -491,9 +491,13 @@ tocalls:
    model: APRS-IS Client for Athom Homey
    contact: oh2th@iki.fi
 
- - tocall: APHPI?
+ - tocall: APHPIB
    vendor: HP3ICC
-   model: Raspbian Project
+   model: Python APRS Beacon
+
+ - tocall: APHPIW
+   vendor: HP3ICC
+   model: Python APRS WX
 
  - tocall: APHT??
    vendor: IU0AAC
