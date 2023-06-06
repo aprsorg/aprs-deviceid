@@ -26,6 +26,14 @@ sub print_out($$)
 	close(F) || die "Could not close $fn after writing: $!\n";
 }
 
+sub check_tocall($)
+{
+	my($tocall) = @_;
+
+	die sprintf("'%s' is not a valid tocall", $tocall)
+		if ($tocall !~ /^[A-Z0-9n\?\*]{3,6}$/);
+}
+
 sub check_entry($$$$$$$)
 {
 	my($name, $t, $optional, $mandatory, $classes, $longest, $features) = @_;
@@ -130,6 +138,7 @@ foreach my $t (@{ $c->{'tocalls'} }) {
 	my $tocall = $t->{'tocall'};
 	delete $t->{'tocall'};
 	$tocalls{$tocall} = $t;
+	check_tocall($tocall);
 	if (defined $previous_tocall && $previous_tocall gt $tocall) {
 		warn sprintf("Tocall '%s' is misordered after '%s'\n", $tocall, $previous_tocall);
 	}
