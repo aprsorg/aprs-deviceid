@@ -873,7 +873,7 @@ tocalls:
  - tocall: APP6??
    model: APRSlib
 
- - tocall: APPCOx
+ - tocall: APPCO?
    vendor: RadCommSoft, LLC
    model: PicoAPRSTracker
    class: tracker
