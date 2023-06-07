@@ -170,6 +170,14 @@ micelegacy:
    features:
      - messaging
 
+ - prefix: ">"
+   suffix: "&"
+   vendor: Kenwood
+   model: TH-D75
+   class: ht
+   features:
+     - messaging
+
  - prefix: "]"
    vendor: Kenwood
    model: TM-D700
@@ -620,6 +628,11 @@ tocalls:
  - tocall: APK004
    vendor: Kenwood
    model: TH-D74
+   class: ht
+
+ - tocall: APK005
+   vendor: Kenwood
+   model: TH-D75
    class: ht
 
  - tocall: APK0??
