@@ -789,6 +789,13 @@ tocalls:
    vendor: Kantronics
    model: KPC-9612
 
+ - tocall: APNCM
+   vendor: Keith Kaiser, WA0TJT
+   model: Net Control Manager
+   class: software
+   os: browser
+   contact: wa0tjt@gmail.com
+
  - tocall: APND??
    vendor: PE1MEW
    model: DIGI_NED
