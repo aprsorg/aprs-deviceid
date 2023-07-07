@@ -345,6 +345,11 @@ tocalls:
    vendor: AMSAT
    model: CubeSatSim CubeSat Simulator
 
+ - tocall: APCTLK
+   vendor: Open Source
+   model: Codec2Talkie
+   class: app
+
  - tocall: APCWP8
    vendor: GM7HHB
    model: WinphoneAPRS
@@ -498,6 +503,10 @@ tocalls:
    vendor: Tapio Heiskanen, OH2TH
    model: APRS-IS Client for Athom Homey
    contact: oh2th@iki.fi
+
+ - tocall: APHPIA
+   vendor: HP3ICC
+   model: Arduino APRS
 
  - tocall: APHPIB
    vendor: HP3ICC
@@ -943,6 +952,73 @@ tocalls:
    model: radiosonde_auto_rx
    class: software
    os: Linux/Unix
+
+ - tocall: APRFG?
+   vendor: RF.Guru
+   contact: info@rf.guru
+
+ - tocall: APRFGD
+   vendor: RF.Guru
+   model: APRS Digipeater
+   class: digi
+   os: embedded
+   contact: info@rf.guru
+
+ - tocall: APRFGH
+   vendor: RF.Guru
+   model: Hotspot
+   class: rig
+   os: embedded
+   contact: info@rf.guru
+
+ - tocall: APRFGI
+   vendor: RF.Guru
+   model: LoRa APRS iGate
+   class: igate
+   os: embedded
+   contact: info@rf.guru
+
+ - tocall: APRFGL
+   vendor: RF.Guru
+   model: Lora APRS Digipeater
+   class: digi
+   os: embedded
+   contact: info@rf.guru
+
+ - tocall: APRFGM
+   vendor: RF.Guru
+   model: Mobile Radio
+   class: rig
+   os: embedded
+   contact: info@rf.guru
+
+ - tocall: APRFGP
+   vendor: RF.Guru
+   model: Portable Radio
+   class: ht
+   os: embedded
+   contact: info@rf.guru
+
+ - tocall: APRFGR
+   vendor: RF.Guru
+   model: Repeater
+   class: rig
+   os: embedded
+   contact: info@rf.guru
+
+ - tocall: APRFGT
+   vendor: RF.Guru
+   model: LoRa APRS Tracker
+   class: tracker
+   os: embedded
+   contact: info@rf.guru
+
+ - tocall: APRFGW
+   vendor: RF.Guru
+   model: LoRa APRS Weather Station
+   class: wx
+   os: embedded
+   contact: info@rf.guru
 
  - tocall: APRG??
    vendor: OH2GVE
