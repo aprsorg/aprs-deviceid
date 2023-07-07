@@ -944,6 +944,73 @@ tocalls:
    class: software
    os: Linux/Unix
 
+ - tocall: APRFG?
+   vendor: RF.Guru
+   contact: info@rf.guru
+
+ - tocall: APRFGD
+   vendor: RF.Guru
+   model: APRS Digipeater
+   class: digi
+   os: embedded
+   contact: info@rf.guru
+
+ - tocall: APRFGH
+   vendor: RF.Guru
+   model: Hotspot
+   class: rig
+   os: embedded
+   contact: info@rf.guru
+
+ - tocall: APRFGI
+   vendor: RF.Guru
+   model: LoRa APRS iGate
+   class: igate
+   os: embedded
+   contact: info@rf.guru
+
+ - tocall: APRFGL
+   vendor: RF.Guru
+   model: Lora APRS Digipeater
+   class: digi
+   os: embedded
+   contact: info@rf.guru
+
+ - tocall: APRFGM
+   vendor: RF.Guru
+   model: Mobile Radio
+   class: rig
+   os: embedded
+   contact: info@rf.guru
+
+ - tocall: APRFGP
+   vendor: RF.Guru
+   model: Portable Radio
+   class: ht
+   os: embedded
+   contact: info@rf.guru
+
+ - tocall: APRFGR
+   vendor: RF.Guru
+   model: Repeater
+   class: rig
+   os: embedded
+   contact: info@rf.guru
+
+ - tocall: APRFGT
+   vendor: RF.Guru
+   model: LoRa APRS Tracker
+   class: tracker
+   os: embedded
+   contact: info@rf.guru
+
+ - tocall: APRFGW
+   vendor: RF.Guru
+   model: LoRa APRS Weather Station
+   class: wx
+   os: embedded
+   contact: info@rf.guru
+
  - tocall: APRG??
    vendor: OH2GVE
    model: aprsg
