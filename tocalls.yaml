@@ -345,6 +345,11 @@ tocalls:
    vendor: AMSAT
    model: CubeSatSim CubeSat Simulator
 
+ - tocall: APCTLK
+   vendor: Open Source
+   model: Codec2Talkie
+   class: app
+
  - tocall: APCWP8
    vendor: GM7HHB
    model: WinphoneAPRS
