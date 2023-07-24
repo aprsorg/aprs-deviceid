@@ -602,6 +602,11 @@ tocalls:
    class: tracker
    os: embedded
 
+ - tocall: APJ8??
+   vendor: KN4CRD
+   model: JS8Call
+   class: software
+
  - tocall: APJA??
    vendor: K4HG & AE5PL
    model: JavAPRS
