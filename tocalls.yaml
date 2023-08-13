@@ -824,6 +824,14 @@ tocalls:
    class: tracker
    os: embedded
 
+ - tocall: APNJS?
+   vendor: Julien Sansonnens, HB9HRD
+   model: Web messaging service
+   class: service
+   contact: julien.owls@gmail.com
+   features:
+     - messaging
+
  - tocall: APNK01
    vendor: Kenwood
    model: TM-D700
