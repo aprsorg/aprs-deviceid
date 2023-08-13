@@ -213,6 +213,9 @@ mandatory - if a suitable class is not available, it can be omitted.
    - A dedicated weather station.
  * satellite: Satellite-based station
    - APRS software running on the satellite itself.
+ * service: Software running as a service
+   - Web services
+   - Message gateways (SMS, etc)
 
 
 Operating systems
