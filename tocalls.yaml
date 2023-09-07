@@ -981,6 +981,12 @@ tocalls:
    vendor: RF.Guru
    contact: info@rf.guru
 
+ - tocall: APRFGB
+   vendor: RF.Guru
+   model: APRS LoRa Pager
+   os: embedded
+   contact: info@rf.guru
+
  - tocall: APRFGD
    vendor: RF.Guru
    model: APRS Digipeater
