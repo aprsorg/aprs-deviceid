@@ -908,6 +908,12 @@ tocalls:
    vendor: N0AGI
    model: POCSAG
 
+ - tocall: APOG7?
+   vendor: OpenGD77
+   model: OpenGD77
+   os: embedded
+   contact: Roger VK3KYY/G4KYF
+
  - tocall: APOLU?
    vendor: AMSAT-LU
    model: Oscar
