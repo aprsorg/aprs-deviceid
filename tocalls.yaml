@@ -1162,7 +1162,13 @@ tocalls:
    vendor: Paul Dufresne
    model: SMS gateway
    class: software
- 
+
+ - tocall: APSRF?
+   vendor: SoftRF
+   model: Ham Edition
+   class: tracker
+   os: embedded
+
  - tocall: APSTM?
    vendor: W7QO
    model: Balloon tracker
