@@ -680,6 +680,13 @@ tocalls:
    vendor: DL3DCW
    model: APRScube
 
+ - tocall: APLETK
+   vendor: DL5TKL
+   model: T-Echo
+   class: tracker
+   os: embedded
+   contact: cfr34k-git@tkolb.de
+
  - tocall: APLG??
    vendor: OE5BPA
    model: LoRa Gateway/Digipeater
@@ -901,6 +908,12 @@ tocalls:
    vendor: N0AGI
    model: POCSAG
 
+ - tocall: APOG7?
+   vendor: OpenGD77
+   model: OpenGD77
+   os: embedded
+   contact: Roger VK3KYY/G4KYF
+
  - tocall: APOLU?
    vendor: AMSAT-LU
    model: Oscar
@@ -972,6 +985,12 @@ tocalls:
 
  - tocall: APRFG?
    vendor: RF.Guru
+   contact: info@rf.guru
+
+ - tocall: APRFGB
+   vendor: RF.Guru
+   model: APRS LoRa Pager
+   os: embedded
    contact: info@rf.guru
 
  - tocall: APRFGD
@@ -1143,7 +1162,13 @@ tocalls:
    vendor: Paul Dufresne
    model: SMS gateway
    class: software
- 
+
+ - tocall: APSRF?
+   vendor: SoftRF
+   model: Ham Edition
+   class: tracker
+   os: embedded
+
  - tocall: APSTM?
    vendor: W7QO
    model: Balloon tracker
