@@ -680,6 +680,13 @@ tocalls:
    vendor: DL3DCW
    model: APRScube
 
+ - tocall: APLETK
+   vendor: DL5TKL
+   model: T-Echo
+   class: tracker
+   os: embedded
+   contact: cfr34k-git@tkolb.de
+
  - tocall: APLG??
    vendor: OE5BPA
    model: LoRa Gateway/Digipeater
