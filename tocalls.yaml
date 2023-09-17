@@ -117,6 +117,11 @@ mice:
    model: FTM-400DR
    class: rig
 
+ - suffix: "_4"
+   vendor: Yaesu
+   model: FTM-500DE
+   class: rig
+
  - suffix: "(5"
    vendor: Anytone
    model: D578UV
@@ -1343,6 +1348,11 @@ tocalls:
  - tocall: APY400
    vendor: Yaesu
    model: FTM-400
+   class: rig
+
+ - tocall: APY500
+   vendor: Yaesu
+   model: FTM-500
    class: rig
    
  - tocall: APYS??
