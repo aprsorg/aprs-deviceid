@@ -798,6 +798,12 @@ tocalls:
    vendor: Microsat
    os: embedded
 
+ - tocall: APMON?
+   vendor: Amon Schumann, DL9AS
+   model: APRS Balloon Tracker
+   class: tracker
+   os: embedded
+
  - tocall: APMPAD
    vendor: DF1JSL
    model: Multi-Purpose APRS Daemon
