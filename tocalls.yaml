@@ -211,6 +211,11 @@ tocalls:
    model: APRS4R
    class: software
 
+ - tocall: APAEP1
+   vendor: Paraguay Space Agency (AEP)
+   model: "EIRUAPRSDIGIS&FV1"
+   class: satellite
+
  - tocall: APAF??
    model: AFilter
 
@@ -680,6 +685,16 @@ tocalls:
    vendor: DL3DCW
    model: APRScube
 
+ - tocall: APLDI?
+   vendor: David, OK2DDS
+   model: LoRa IGate/Digipeater
+   class: digi
+
+ - tocall: APLDM?
+   vendor: David, OK2DDS
+   model: LoRa Meteostation
+   class: wx
+
  - tocall: APLETK
    vendor: DL5TKL
    model: T-Echo
@@ -783,9 +798,19 @@ tocalls:
    vendor: Microsat
    os: embedded
 
+ - tocall: APMON?
+   vendor: Amon Schumann, DL9AS
+   model: APRS Balloon Tracker
+   class: tracker
+   os: embedded
+
  - tocall: APMPAD
    vendor: DF1JSL
-   model: WXBot clone and extension
+   model: Multi-Purpose APRS Daemon
+   class: service
+   contact: joerg.schultze.lutter@gmail.com
+   features:
+     - messaging
 
  - tocall: APMQ??
    vendor: WB2OSZ
@@ -919,6 +944,14 @@ tocalls:
    model: Oscar
    class: satellite
 
+ - tocall: APOSMS
+   vendor: Mike, NA7Q
+   model: Open Source SMS Gateway
+   class: service
+   contact: mike.ph4@gmail.com
+   features:
+     - messaging
+
  - tocall: APOT??
    vendor: Argent Data Systems
    model: OpenTracker
@@ -952,6 +985,14 @@ tocalls:
    vendor: DL1MX
    model: rtl-sdr Python iGate
    class: software
+
+ - tocall: APPRIS
+   vendor: DF1JSL
+   model: Apprise APRS plugin
+   class: service
+   contact: joerg.schultze.lutter@gmail.com
+   features:
+     - messaging
 
  - tocall: APPT??
    vendor: JF6LZE
