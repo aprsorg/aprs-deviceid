@@ -685,6 +685,16 @@ tocalls:
    vendor: DL3DCW
    model: APRScube
 
+ - tocall: APLDI?
+   vendor: David, OK2DDS
+   model: LoRa IGate/Digipeater
+   class: digi
+
+ - tocall: APLDM?
+   vendor: David, OK2DDS
+   model: LoRa Meteostation
+   class: wx
+
  - tocall: APLETK
    vendor: DL5TKL
    model: T-Echo
