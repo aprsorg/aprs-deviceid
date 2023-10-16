@@ -211,6 +211,11 @@ tocalls:
    model: APRS4R
    class: software
 
+ - tocall: APAEP1
+   vendor: Paraguay Space Agency (AEP)
+   model: "EIRUAPRSDIGIS&FV1"
+   class: satellite
+
  - tocall: APAF??
    model: AFilter
 
