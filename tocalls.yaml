@@ -938,6 +938,14 @@ tocalls:
    model: Oscar
    class: satellite
 
+ - tocall: APOSMS
+   vendor: Mike, NA7Q
+   model: Open Source SMS Gateway
+   class: service
+   contact: mike.ph4@gmail.com
+   features:
+     - messaging
+
  - tocall: APOT??
    vendor: Argent Data Systems
    model: OpenTracker
