@@ -800,7 +800,11 @@ tocalls:
 
  - tocall: APMPAD
    vendor: DF1JSL
-   model: WXBot clone and extension
+   model: Multi-Purpose APRS Daemon
+   class: service
+   contact: joerg.schultze.lutter@gmail.com
+   features:
+     - messaging
 
  - tocall: APMQ??
    vendor: WB2OSZ
@@ -967,6 +971,14 @@ tocalls:
    vendor: DL1MX
    model: rtl-sdr Python iGate
    class: software
+
+ - tocall: APPRIS
+   vendor: DF1JSL
+   model: Apprise APRS plugin
+   class: service
+   contact: joerg.schultze.lutter@gmail.com
+   features:
+     - messaging
 
  - tocall: APPT??
    vendor: JF6LZE
