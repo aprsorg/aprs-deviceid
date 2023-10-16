@@ -759,6 +759,20 @@ tocalls:
    model: LoRa Tracker
    class: tracker
 
+ - tocall: APLU0?
+   vendor: SP9UP
+   model: ESP32/SX12xx LoRa iGate / Digi
+   class: digi
+   os: embedded
+   contact: wajdzik.m@gmail.com
+
+ - tocall: APLU1?
+   vendor: SP9UP
+   model: ESP32/SX12xx LoRa Tracker
+   class: tracker
+   os: embedded
+   contact: wajdzik.m@gmail.com
+
  - tocall: APMG??
    vendor: Alex, AB0TJ
    model: PiCrumbs and MiniGate
