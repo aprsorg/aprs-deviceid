@@ -958,6 +958,12 @@ tocalls:
    model: Oscar
    class: satellite
 
+ - tocall: APOSAT
+   vendor: Mike, NA7Q
+   model: Open Source Satellite Gateway
+   class: service
+   contact: mike.ph4@gmail.com
+
  - tocall: APOSMS
    vendor: Mike, NA7Q
    model: Open Source SMS Gateway
@@ -1262,6 +1268,13 @@ tocalls:
    vendor: Cleber, PU1CMA
    model: CAPI Tracker
    class: tracker
+
+ - tocall: APTEMP
+   vendor: KL7AF
+   model: APRS-Tempest Weather Gateway
+   class: wx
+   os: Linux/Unix
+   contact: kl7af@foghaven.net
 
  - tocall: APTKJ?
    vendor: W9JAJ
