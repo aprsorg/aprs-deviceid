@@ -958,6 +958,12 @@ tocalls:
    model: Oscar
    class: satellite
 
+ - tocall: APOSAT
+   vendor: Mike, NA7Q
+   model: Open Source Satellite Gateway
+   class: service
+   contact: mike.ph4@gmail.com
+
  - tocall: APOSMS
    vendor: Mike, NA7Q
    model: Open Source SMS Gateway
