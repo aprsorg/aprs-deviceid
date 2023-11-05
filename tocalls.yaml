@@ -1269,6 +1269,13 @@ tocalls:
    model: CAPI Tracker
    class: tracker
 
+ - tocall: APTEMP
+   vendor: KL7AF
+   model: APRS-Tempest Weather Gateway
+   class: wx
+   os: Linux/Unix
+   contact: kl7af@foghaven.net
+
  - tocall: APTKJ?
    vendor: W9JAJ
    model: ATTiny APRS Tracker
