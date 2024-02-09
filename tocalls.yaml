@@ -564,6 +564,17 @@ tocalls:
    vendor: HP3ICC
    model: Python APRS WX
 
+ - tocall: APHRM?
+   vendor: Giovanni, IW1CGW
+   model: Meteo
+   class: wx
+   contact: iw1cgw@libero.it
+
+ - tocall: APHRT?
+   vendor: Giovanni, IW1CGW
+   model: Telemetry
+   contact: iw1cgw@libero.it
+
  - tocall: APHT??
    vendor: IU0AAC
    model: HMTracker
@@ -751,6 +762,18 @@ tocalls:
    vendor: OE5BPA
    model: LoRa Gateway/Digipeater
    class: digi
+
+ - tocall: APLHI?
+   vendor: Giovanni, IW1CGW
+   model: LoRa IGate/Digipeater/Telemetry
+   class: digi
+   contact: iw1cgw@libero.it
+
+ - tocall: APLHM?
+   vendor: Giovanni, IW1CGW
+   model: LoRa Meteostation
+   class: wx
+   contact: iw1cgw@libero.it
 
  - tocall: APLIG?
    vendor: TA2MUN/TA9OHC
