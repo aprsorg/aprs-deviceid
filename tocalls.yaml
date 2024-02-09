@@ -702,6 +702,12 @@ tocalls:
    os: embedded
    contact: cfr34k-git@tkolb.de
 
+ - tocall: APLFM?
+   vendor: DO1MA
+   model: FemtoAPRS
+   class: tracker
+   os: embedded
+
  - tocall: APLG??
    vendor: OE5BPA
    model: LoRa Gateway/Digipeater
