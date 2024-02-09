@@ -248,6 +248,12 @@ tocalls:
    os: Android
    class: app
 
+ - tocall: APAR??
+   vendor: Øyvind, LA7ECA
+   model: Arctic Tracker
+   class: tracker
+   os: embedded
+
  - tocall: APAT51
    vendor: Anytone
    model: AT-D578
@@ -702,6 +708,12 @@ tocalls:
    os: embedded
    contact: cfr34k-git@tkolb.de
 
+ - tocall: APLFM?
+   vendor: DO1MA
+   model: FemtoAPRS
+   class: tracker
+   os: embedded
+
  - tocall: APLG??
    vendor: OE5BPA
    model: LoRa Gateway/Digipeater
@@ -736,14 +748,14 @@ tocalls:
    contact: sq9p.peter@gmail.com
 
  - tocall: APLRG?
-   vendor: Ricardo, CD2RXU
+   vendor: Ricardo, CA2RXU
    model: ESP32 LoRa iGate
    class: igate
    os: embedded
    contact: richonguzman@gmail.com
 
  - tocall: APLRT?
-   vendor: Ricardo, CD2RXU
+   vendor: Ricardo, CA2RXU
    model: ESP32 LoRa Tracker
    class: tracker
    os: embedded
@@ -947,6 +959,11 @@ tocalls:
    vendor: N0AGI
    model: POCSAG
 
+ - tocall: APODOT
+   vendor: Mike, NA7Q
+   model: Oregon Department of Transportion Traffic Alerts
+   class: service
+
  - tocall: APOG7?
    vendor: OpenGD77
    model: OpenGD77
@@ -957,6 +974,12 @@ tocalls:
    vendor: AMSAT-LU
    model: Oscar
    class: satellite
+
+ - tocall: APOPYT
+   vendor: Mike, NA7Q
+   model: NA7Q Messenger
+   class: software
+   contact: mike.ph4@gmail.com
 
  - tocall: APOSAT
    vendor: Mike, NA7Q
@@ -1013,6 +1036,12 @@ tocalls:
    contact: joerg.schultze.lutter@gmail.com
    features:
      - messaging
+
+ - tocall: APPS??
+   vendor: Øyvind, LA7ECA (for the Norwegian Radio Relay League)
+   model: Polaric Server
+   class: software
+   os: Linux
 
  - tocall: APPT??
    vendor: JF6LZE
