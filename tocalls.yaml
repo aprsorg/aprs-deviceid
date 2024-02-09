@@ -742,14 +742,14 @@ tocalls:
    contact: sq9p.peter@gmail.com
 
  - tocall: APLRG?
-   vendor: Ricardo, CD2RXU
+   vendor: Ricardo, CA2RXU
    model: ESP32 LoRa iGate
    class: igate
    os: embedded
    contact: richonguzman@gmail.com
 
  - tocall: APLRT?
-   vendor: Ricardo, CD2RXU
+   vendor: Ricardo, CA2RXU
    model: ESP32 LoRa Tracker
    class: tracker
    os: embedded
