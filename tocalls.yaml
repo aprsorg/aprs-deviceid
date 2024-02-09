@@ -465,6 +465,12 @@ tocalls:
    model: Balloon tracker
    class: tracker
 
+ - tocall: APEML?
+   vendor: Leszek, SP9MLI
+   model: SP9MLI for WX, Telemetry
+   class: software
+   contact: sp9mli@gmail.com
+
  - tocall: APEP??
    vendor: Patrick EGLOFF, TK5EP
    model: LoRa WX station
