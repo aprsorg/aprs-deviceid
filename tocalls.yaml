@@ -975,6 +975,12 @@ tocalls:
    model: Oscar
    class: satellite
 
+ - tocall: APOPYT
+   vendor: Mike, NA7Q
+   model: NA7Q Messenger
+   class: software
+   contact: mike.ph4@gmail.com
+
  - tocall: APOSAT
    vendor: Mike, NA7Q
    model: Open Source Satellite Gateway
