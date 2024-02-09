@@ -146,6 +146,11 @@ mice:
    model: Tracker
    class: tracker
 
+ - suffix: ":2"
+   vendor: SQ8L
+   model: VP-Tracker
+   class: tracker
+
 #
 # mic-e legacy devices, with an unique comment suffix and prefix
 #
@@ -944,11 +949,17 @@ tocalls:
    vendor: SQ8L
    model: VP-Digi
    os: embedded
+   class: digi
 
  - tocall: APNV1?
    vendor: SQ8L
    model: VP-Node
    os: embedded
+
+ - tocall: APNV2?
+   vendor: SQ8L
+   model: VP-Tracker
+   class: tracker
 
  - tocall: APNV??
    vendor: SQ8L
