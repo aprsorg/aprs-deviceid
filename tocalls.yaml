@@ -146,6 +146,11 @@ mice:
    model: Tracker
    class: tracker
 
+ - suffix: ":2"
+   vendor: SQ8L
+   model: VP-Tracker
+   class: tracker
+
 #
 # mic-e legacy devices, with an unique comment suffix and prefix
 #
@@ -236,6 +241,15 @@ tocalls:
 
  - tocall: APAH??
    model: AHub
+
+ - tocall: APAIOR
+   vendor: J. Angelo Racoma DU2XXR/N2RAC
+   model: APRSPH net bot based on Ioreth
+   class: service
+   os: linux
+   contact: info@aprsph.net
+   features:
+     - messaging
 
  - tocall: APAM??
    vendor: Altus Metrum
@@ -370,6 +384,12 @@ tocalls:
    model: WinphoneAPRS
    class: app
 
+ - tocall: APD5T?
+   vendor: Geoffrey, F4FXL
+   model: Open Source DStarGateway
+   class: dstar
+   contact: f4fxl@dstargateway.digital
+
  - tocall: APDF??
    model: Automatic DF units
 
@@ -453,6 +473,19 @@ tocalls:
    vendor: WB8ELK
    model: Balloon tracker
    class: tracker
+
+ - tocall: APEML?
+   vendor: Leszek, SP9MLI
+   model: SP9MLI for WX, Telemetry
+   class: software
+   contact: sp9mli@gmail.com
+
+ - tocall: APEP??
+   vendor: Patrick EGLOFF, TK5EP
+   model: LoRa WX station
+   class: wx
+   os: embedded
+   contact: pegloff@gmail.com
 
  - tocall: APERS?
    vendor: Jason, KG7YKZ
@@ -931,11 +964,17 @@ tocalls:
    vendor: SQ8L
    model: VP-Digi
    os: embedded
+   class: digi
 
  - tocall: APNV1?
    vendor: SQ8L
    model: VP-Node
    os: embedded
+
+ - tocall: APNV2?
+   vendor: SQ8L
+   model: VP-Tracker
+   class: tracker
 
  - tocall: APNV??
    vendor: SQ8L
@@ -1446,6 +1485,10 @@ tocalls:
    vendor: W2GMD
    model: Python APRS
    class: software
+
+ - tocall: "APZ*"
+   vendor: Unknown
+   model: Experimental
 
  - tocall: APZ18
    vendor: IW3FQG
