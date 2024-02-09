@@ -21,11 +21,11 @@ jobs:
     - name: validate and build
       run: |
         tools/validate.pl
+        cp -a tocalls.yaml generated/
 
     - name: Archive artifacts
       uses: actions/upload-artifact@v4
       with:
         name: aprs-deviceid-release
         path: |
-            tocalls.yaml
             generated
