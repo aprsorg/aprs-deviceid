@@ -460,6 +460,13 @@ tocalls:
    model: Balloon tracker
    class: tracker
 
+ - tocall: APEP??
+   vendor: Patrick EGLOFF, TK5EP
+   model: LoRa WX station
+   class: wx
+   os: embedded
+   contact: pegloff@gmail.com
+
  - tocall: APERS?
    vendor: Jason, KG7YKZ
    model: Runner tracking
