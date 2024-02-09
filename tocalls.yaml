@@ -248,6 +248,12 @@ tocalls:
    os: Android
    class: app
 
+ - tocall: APAR??
+   vendor: Øyvind, LA7ECA
+   model: Arctic Tracker
+   class: tracker
+   os: embedded
+
  - tocall: APAT51
    vendor: Anytone
    model: AT-D578
