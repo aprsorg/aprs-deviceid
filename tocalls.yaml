@@ -242,6 +242,15 @@ tocalls:
  - tocall: APAH??
    model: AHub
 
+ - tocall: APAIOR
+   vendor: J. Angelo Racoma DU2XXR/N2RAC
+   model: APRSPH net bot based on Ioreth
+   class: service
+   os: linux
+   contact: info@aprsph.net
+   features:
+     - messaging
+
  - tocall: APAM??
    vendor: Altus Metrum
    model: AltOS
