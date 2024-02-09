@@ -44,13 +44,13 @@ jobs:
           name: aprs-deviceid-release
           path: build
 
-      - name: Sunc artifacts with AWS S3
+      - name: Sync artifacts with AWS S3
         env:
           AWS_S3_BUCKET: ${{ secrets.AWS_S3_BUCKET }}
           AWS_KEY_ID: ${{ secrets.AWS_KEY_ID }}
           AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
         run: |
           aws s3 sync \
-          ./build "s3:$AWS_S3_BUCKET" \
+          ./build "s3://$AWS_S3_BUCKET" \
           --region eu-west-1
 
