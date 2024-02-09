@@ -370,6 +370,12 @@ tocalls:
    model: WinphoneAPRS
    class: app
 
+ - tocall: APD5T?
+   vendor: Geoffrey, F4FXL
+   model: Open Source DStarGateway
+   class: dstar
+   contact: f4fxl@dstargateway.digital
+
  - tocall: APDF??
    model: Automatic DF units
 
