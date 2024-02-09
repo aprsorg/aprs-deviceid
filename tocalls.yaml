@@ -953,6 +953,11 @@ tocalls:
    vendor: N0AGI
    model: POCSAG
 
+ - tocall: APODOT
+   vendor: Mike, NA7Q
+   model: Oregon Department of Transportion Traffic Alerts
+   class: service
+
  - tocall: APOG7?
    vendor: OpenGD77
    model: OpenGD77
