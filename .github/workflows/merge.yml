@@ -1,7 +1,7 @@
-name: PR Tests
+name: Build and Deploy
 
 on:
-  pull_request:
+  push:
     branches: [ main ]
 
 jobs:
@@ -22,4 +22,10 @@ jobs:
       run: |
         tools/validate.pl
 
-
+    - name: Archive artifacts
+      uses: actions/upload-artifact@v4
+      with:
+        name: release
+        path: |
+            tocalls.yaml
+            generated
