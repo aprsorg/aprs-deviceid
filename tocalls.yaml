@@ -1471,6 +1471,10 @@ tocalls:
    model: Python APRS
    class: software
 
+ - tocall: "APZ*"
+   vendor: Unknown
+   model: Experimental
+
  - tocall: APZ18
    vendor: IW3FQG
    model: UIdigi
