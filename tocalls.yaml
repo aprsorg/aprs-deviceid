@@ -1025,6 +1025,12 @@ tocalls:
    features:
      - messaging
 
+ - tocall: APPS??
+   vendor: Øyvind, LA7ECA (for the Norwegian Radio Relay League)
+   model: Polaric Server
+   class: software
+   os: Linux
+
  - tocall: APPT??
    vendor: JF6LZE
    model: KetaiTracker
