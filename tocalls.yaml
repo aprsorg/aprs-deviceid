@@ -1372,6 +1372,11 @@ tocalls:
    model: ATTiny APRS Tracker
    os: embedded
 
+ - tocall: APTLVC
+   vendor: TA5LVC
+   model: TR80 APRS Tracker
+   class: tracker
+
  - tocall: APTNG?
    vendor: Filip YU1TTN
    model: Tango Tracker
