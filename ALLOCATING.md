@@ -74,7 +74,7 @@ the name of the device and the vendor/author, so that the titles are unique.
 Thanks!
 
 If it is impossible for the applicant to create one, an email can be sent to
-allocations@aprs.org (NOT YET FUNCTIONAL).  The maintainers will then create
+aprs-allocations-2024@aprs.fi .  The maintainers will then create
 the ticket before processing the request - email message contents will be
 posted as ticket contents.  Email addresses can be kept secret, but the
 emails sent to the address will be archived by the maintainers.  Direct
