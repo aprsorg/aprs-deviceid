@@ -1367,6 +1367,15 @@ tocalls:
    os: Linux/Unix
    contact: kl7af@foghaven.net
 
+ - tocall: APTHUR
+   model: APRSThursday weekly event mapbot daemon
+   contact: harihend1973@gmail.com
+   vendor: YD0BCX
+   class: service
+   os: linux/unix
+   features:
+     - messaging
+
  - tocall: APTKJ?
    vendor: W9JAJ
    model: ATTiny APRS Tracker
