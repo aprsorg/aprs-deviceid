@@ -1,485 +1,1044 @@
 {
-   "micelegacy" : {
-      ">&" : {
-         "vendor" : "Kenwood",
-         "suffix" : "&",
-         "prefix" : ">",
-         "class" : "ht",
-         "features" : [
-            "messaging"
-         ],
-         "model" : "TH-D75"
-      },
-      ">^" : {
-         "features" : [
-            "messaging"
-         ],
-         "class" : "ht",
-         "suffix" : "^",
-         "vendor" : "Kenwood",
-         "prefix" : ">",
-         "model" : "TH-D74"
-      },
-      "]" : {
-         "model" : "TM-D700",
-         "features" : [
-            "messaging"
-         ],
-         "class" : "rig",
-         "vendor" : "Kenwood",
-         "prefix" : "]"
-      },
-      ">" : {
-         "prefix" : ">",
-         "vendor" : "Kenwood",
-         "model" : "TH-D7A",
-         "features" : [
-            "messaging"
-         ],
-         "class" : "ht"
-      },
-      "]=" : {
-         "model" : "TM-D710",
-         "class" : "rig",
-         "features" : [
-            "messaging"
-         ],
-         "prefix" : "]",
-         "vendor" : "Kenwood",
-         "suffix" : "="
-      },
-      ">=" : {
-         "model" : "TH-D72",
-         "vendor" : "Kenwood",
-         "suffix" : "=",
-         "prefix" : ">",
-         "class" : "ht",
-         "features" : [
-            "messaging"
-         ]
-      }
-   },
    "mice" : {
-      "_$" : {
-         "vendor" : "Yaesu",
-         "model" : "FT1D",
-         "class" : "ht"
-      },
-      "|4" : {
-         "vendor" : "Byonics",
-         "class" : "tracker",
-         "model" : "TinyTrak4"
-      },
-      "|3" : {
-         "class" : "tracker",
-         "model" : "TinyTrak3",
-         "vendor" : "Byonics"
-      },
       "_ " : {
-         "vendor" : "Yaesu",
          "model" : "VX-8",
+         "vendor" : "Yaesu",
          "class" : "ht"
       },
-      "_#" : {
-         "model" : "VX-8G",
-         "class" : "ht",
-         "vendor" : "Yaesu"
-      },
-      "_3" : {
-         "model" : "FT5D",
-         "class" : "ht",
-         "vendor" : "Yaesu"
+      "*v" : {
+         "class" : "tracker",
+         "model" : "Tracker",
+         "vendor" : "KissOZ"
       },
       "_%" : {
-         "class" : "rig",
-         "model" : "FTM-400DR",
-         "vendor" : "Yaesu"
-      },
-      "_0" : {
          "vendor" : "Yaesu",
-         "class" : "ht",
-         "model" : "FT3D"
-      },
-      "(5" : {
-         "class" : "ht",
-         "model" : "D578UV",
-         "vendor" : "Anytone"
-      },
-      "(8" : {
-         "vendor" : "Anytone",
-         "model" : "D878UV",
-         "class" : "ht"
+         "model" : "FTM-400DR",
+         "class" : "rig"
       },
       ":2" : {
          "vendor" : "SQ8L",
          "model" : "VP-Tracker",
          "class" : "tracker"
       },
-      "_(" : {
-         "model" : "FT2D",
+      "_$" : {
          "class" : "ht",
+         "vendor" : "Yaesu",
+         "model" : "FT1D"
+      },
+      "_3" : {
+         "class" : "ht",
+         "model" : "FT5D",
          "vendor" : "Yaesu"
       },
-      "_1" : {
-         "model" : "FTM-300D",
-         "class" : "rig",
-         "vendor" : "Yaesu"
+      "|4" : {
+         "class" : "tracker",
+         "vendor" : "Byonics",
+         "model" : "TinyTrak4"
       },
-      "^v" : {
-         "vendor" : "HinzTec",
-         "model" : "anyfrog"
+      "_#" : {
+         "vendor" : "Yaesu",
+         "model" : "VX-8G",
+         "class" : "ht"
+      },
+      "(8" : {
+         "class" : "ht",
+         "model" : "D878UV",
+         "vendor" : "Anytone"
       },
       "_)" : {
          "vendor" : "Yaesu",
          "model" : "FTM-100D",
          "class" : "rig"
       },
-      "*v" : {
-         "vendor" : "KissOZ",
-         "model" : "Tracker",
-         "class" : "tracker"
+      "(5" : {
+         "vendor" : "Anytone",
+         "model" : "D578UV",
+         "class" : "ht"
+      },
+      "_1" : {
+         "vendor" : "Yaesu",
+         "model" : "FTM-300D",
+         "class" : "rig"
       },
       "_\"" : {
+         "vendor" : "Yaesu",
          "model" : "FTM-350",
-         "class" : "rig",
+         "class" : "rig"
+      },
+      "_(" : {
+         "class" : "ht",
+         "model" : "FT2D",
          "vendor" : "Yaesu"
+      },
+      "|3" : {
+         "class" : "tracker",
+         "model" : "TinyTrak3",
+         "vendor" : "Byonics"
+      },
+      "^v" : {
+         "model" : "anyfrog",
+         "vendor" : "HinzTec"
+      },
+      "_0" : {
+         "model" : "FT3D",
+         "vendor" : "Yaesu",
+         "class" : "ht"
       }
    },
    "tocalls" : {
-      "APSTPO" : {
-         "class" : "software",
-         "model" : "Satellite Tracking and Operations",
-         "vendor" : "N0AGI"
-      },
-      "APLP1?" : {
-         "contact" : "sq9p.peter@gmail.com",
-         "vendor" : "SQ9P",
-         "os" : "embedded",
-         "model" : "LORA/FSK/AFSK fajny tracker",
-         "class" : "tracker"
-      },
-      "APCN??" : {
-         "vendor" : "DG5OAW",
-         "model" : "carNET"
-      },
-      "APESP?" : {
-         "os" : "embedded",
-         "vendor" : "LY3PH",
-         "model" : "APRS-ESP"
-      },
-      "APRX??" : {
-         "vendor" : "Kenneth W. Finnegan, W6KWF",
-         "os" : "Linux/Unix",
-         "model" : "Aprx",
-         "class" : "igate"
-      },
-      "APnnnD" : {
-         "model" : "uSmartDigi D-Gate",
+      "API510" : {
          "class" : "dstar",
-         "vendor" : "Painter Engineering"
-      },
-      "APDI??" : {
-         "class" : "software",
-         "model" : "DIXPRS",
-         "vendor" : "Bela, HA5DI"
-      },
-      "APRFGD" : {
-         "model" : "APRS Digipeater",
-         "class" : "digi",
-         "contact" : "info@rf.guru",
-         "os" : "embedded",
-         "vendor" : "RF.Guru"
-      },
-      "APTPN?" : {
-         "vendor" : "KN4ORB",
-         "class" : "tracker",
-         "model" : "TARPN Packet Node Tracker"
-      },
-      "APCDS0" : {
-         "class" : "tracker",
-         "model" : "cell tracker",
-         "vendor" : "ZS6LMG"
-      },
-      "APRNOW" : {
-         "vendor" : "Gregg Wonderly, W5GGW",
-         "os" : "ipad",
-         "model" : "APRSNow",
-         "class" : "app"
-      },
-      "APAGW" : {
-         "class" : "software",
-         "model" : "AGWtracker",
-         "os" : "Windows",
-         "vendor" : "SV2AGW"
-      },
-      "APSFRP" : {
-         "model" : "VHF/UHF Repeater",
-         "os" : "embedded",
-         "vendor" : "F5OPV, SFCP_LABS"
-      },
-      "API80" : {
-         "class" : "dstar",
-         "model" : "IC-80",
+         "model" : "IC-5100",
          "vendor" : "Icom"
-      },
-      "APAGW?" : {
-         "class" : "software",
-         "model" : "AGWtracker",
-         "os" : "Windows",
-         "vendor" : "SV2AGW"
-      },
-      "APRFGR" : {
-         "vendor" : "RF.Guru",
-         "os" : "embedded",
-         "contact" : "info@rf.guru",
-         "model" : "Repeater",
-         "class" : "rig"
-      },
-      "APJA??" : {
-         "model" : "JavAPRS",
-         "vendor" : "K4HG & AE5PL"
-      },
-      "APN9??" : {
-         "model" : "KPC-9612",
-         "vendor" : "Kantronics"
-      },
-      "APRG??" : {
-         "os" : "Linux/Unix",
-         "vendor" : "OH2GVE",
-         "class" : "software",
-         "model" : "aprsg"
-      },
-      "APNM??" : {
-         "model" : "TNC",
-         "vendor" : "MFJ"
-      },
-      "APTT*" : {
-         "model" : "TinyTrak",
-         "class" : "tracker",
-         "vendor" : "Byonics"
-      },
-      "APNJS?" : {
-         "model" : "Web messaging service",
-         "vendor" : "Julien Sansonnens, HB9HRD",
-         "contact" : "julien.owls@gmail.com",
-         "class" : "service",
-         "features" : [
-            "messaging"
-         ]
-      },
-      "APLP0?" : {
-         "contact" : "sq9p.peter@gmail.com",
-         "vendor" : "SQ9P",
-         "os" : "embedded",
-         "model" : "fajne digi",
-         "class" : "digi"
-      },
-      "APWnnn" : {
-         "vendor" : "Sproul Brothers",
-         "os" : "Windows",
-         "class" : "software",
-         "model" : "WinAPRS"
       },
       "APZ247" : {
          "vendor" : "NR0Q",
          "model" : "UPRS"
       },
-      "APSRF?" : {
-         "os" : "embedded",
-         "vendor" : "SoftRF",
-         "model" : "Ham Edition",
-         "class" : "tracker"
-      },
-      "APJI??" : {
+      "APJID2" : {
+         "class" : "dstar",
          "vendor" : "Peter Loveall, AE5PL",
-         "class" : "software",
-         "model" : "jAPRSIgate"
+         "model" : "D-Star APJID2"
+      },
+      "APLO??" : {
+         "class" : "tracker",
+         "model" : "LoRa KISS TNC/Tracker",
+         "vendor" : "SQ9MDD"
+      },
+      "APDS??" : {
+         "model" : "dsDIGI",
+         "vendor" : "SP9UOB",
+         "os" : "embedded"
+      },
+      "APY05D" : {
+         "class" : "ht",
+         "model" : "FT5D",
+         "vendor" : "Yaesu"
       },
       "APRFGT" : {
-         "contact" : "info@rf.guru",
-         "vendor" : "RF.Guru",
-         "os" : "embedded",
          "class" : "tracker",
-         "model" : "LoRa APRS Tracker"
+         "vendor" : "RF.Guru",
+         "model" : "LoRa APRS Tracker",
+         "contact" : "info@rf.guru",
+         "os" : "embedded"
       },
-      "APOPYT" : {
-         "class" : "software",
-         "model" : "NA7Q Messenger",
-         "vendor" : "Mike, NA7Q",
-         "contact" : "mike.ph4@gmail.com"
+      "APESP?" : {
+         "os" : "embedded",
+         "model" : "APRS-ESP",
+         "vendor" : "LY3PH"
       },
-      "APCWP8" : {
-         "model" : "WinphoneAPRS",
+      "APDT??" : {
+         "vendor" : "unknown",
+         "model" : "APRStouch Tone (DTMF)"
+      },
+      "APHPIA" : {
+         "vendor" : "HP3ICC",
+         "model" : "Arduino APRS"
+      },
+      "APNV??" : {
+         "vendor" : "SQ8L"
+      },
+      "APAGW" : {
+         "os" : "Windows",
+         "model" : "AGWtracker",
+         "vendor" : "SV2AGW",
+         "class" : "software"
+      },
+      "APOA??" : {
          "class" : "app",
-         "vendor" : "GM7HHB"
+         "os" : "ios",
+         "model" : "app",
+         "vendor" : "OpenAPRS"
       },
-      "API710" : {
-         "vendor" : "Icom",
-         "class" : "dstar",
-         "model" : "IC-7100"
+      "APMPAD" : {
+         "class" : "service",
+         "features" : [
+            "messaging"
+         ],
+         "contact" : "joerg.schultze.lutter@gmail.com",
+         "model" : "Multi-Purpose APRS Daemon",
+         "vendor" : "DF1JSL"
+      },
+      "APMI02" : {
+         "os" : "embedded",
+         "model" : "WXEth",
+         "vendor" : "Microsat"
+      },
+      "APBL??" : {
+         "class" : "tracker",
+         "vendor" : "BigRedBee",
+         "model" : "BeeLine GPS"
       },
       "APSMS?" : {
          "class" : "software",
          "model" : "SMS gateway",
          "vendor" : "Paul Dufresne"
       },
-      "APJS??" : {
-         "model" : "javAPRSSrvr",
-         "vendor" : "Peter Loveall, AE5PL"
+      "APK003" : {
+         "model" : "TH-D72",
+         "vendor" : "Kenwood",
+         "class" : "ht"
       },
-      "APEP??" : {
-         "contact" : "pegloff@gmail.com",
+      "APATAR" : {
+         "vendor" : "TA7W/OH2UDS Baris Dinc and TA6AEU",
+         "model" : "ATA-R APRS Digipeater",
+         "class" : "digi"
+      },
+      "APND??" : {
+         "vendor" : "PE1MEW",
+         "model" : "DIGI_NED"
+      },
+      "APUDR?" : {
+         "vendor" : "NW Digital Radio",
+         "model" : "UDR"
+      },
+      "APSFWX" : {
+         "class" : "wx",
          "os" : "embedded",
-         "vendor" : "Patrick EGLOFF, TK5EP",
-         "model" : "LoRa WX station",
-         "class" : "wx"
+         "model" : "embedded Weather Station",
+         "vendor" : "F5OPV, SFCP_LABS"
       },
-      "APMI05" : {
-         "model" : "PLXTracker",
-         "vendor" : "Microsat",
+      "APOPYT" : {
+         "model" : "NA7Q Messenger",
+         "contact" : "mike.ph4@gmail.com",
+         "vendor" : "Mike, NA7Q",
+         "class" : "software"
+      },
+      "APDF??" : {
+         "model" : "Automatic DF units"
+      },
+      "APSRF?" : {
+         "model" : "Ham Edition",
+         "vendor" : "SoftRF",
+         "os" : "embedded",
+         "class" : "tracker"
+      },
+      "APJE??" : {
+         "model" : "JeAPRS",
+         "vendor" : "Gregg Wonderly, W5GGW"
+      },
+      "APOG7?" : {
+         "vendor" : "OpenGD77",
+         "contact" : "Roger VK3KYY/G4KYF",
+         "model" : "OpenGD77",
          "os" : "embedded"
       },
-      "APBPQ?" : {
-         "os" : "Windows",
-         "vendor" : "John Wiseman, G8BPQ",
-         "class" : "software",
-         "model" : "BPQ32"
+      "APTT*" : {
+         "class" : "tracker",
+         "model" : "TinyTrak",
+         "vendor" : "Byonics"
       },
-      "APZWKR" : {
-         "model" : "NetSked",
-         "class" : "software",
-         "vendor" : "GM1WKR"
+      "APOZ??" : {
+         "model" : "KissOZ",
+         "vendor" : "OZ1EKD, OZ7HVO",
+         "class" : "tracker"
       },
-      "API282" : {
-         "class" : "dstar",
-         "model" : "IC-2820",
-         "vendor" : "Icom"
+      "APRRDZ" : {
+         "class" : "tracker",
+         "vendor" : "DL9RDZ",
+         "model" : "rdzTTGOsonde"
       },
-      "APY01D" : {
+      "APRPR?" : {
+         "class" : "tracker",
+         "os" : "embedded",
+         "vendor" : "Robert DM4RW, Peter DL6MAA",
+         "model" : "Teensy RPR TNC",
+         "contact" : "dm4rw@skywaves.de"
+      },
+      "APN3??" : {
+         "vendor" : "Kantronics",
+         "model" : "KPC-3"
+      },
+      "APY02D" : {
          "class" : "ht",
-         "model" : "FT1D",
+         "model" : "FT2D",
          "vendor" : "Yaesu"
       },
-      "APDU??" : {
-         "vendor" : "JA7UDE",
-         "os" : "Android",
-         "class" : "app",
-         "model" : "U2APRS"
+      "APNP??" : {
+         "model" : "TNC",
+         "vendor" : "PacComm"
       },
-      "APERS?" : {
-         "class" : "tracker",
-         "model" : "Runner tracking",
-         "vendor" : "Jason, KG7YKZ"
+      "APRS" : {
+         "model" : "Unknown",
+         "vendor" : "Unknown"
       },
-      "APDNO?" : {
-         "class" : "tracker",
-         "model" : "APRSduino",
-         "os" : "embedded",
-         "vendor" : "DO3SWW"
+      "APCSMS" : {
+         "vendor" : "USNA",
+         "model" : "Cosmos"
       },
-      "APTR??" : {
-         "vendor" : "Motorola",
-         "model" : "MotoTRBO"
+      "APJA??" : {
+         "model" : "JavAPRS",
+         "vendor" : "K4HG & AE5PL"
       },
-      "APHPIA" : {
-         "model" : "Arduino APRS",
-         "vendor" : "HP3ICC"
-      },
-      "APQTH?" : {
-         "vendor" : "Weston Bustraan, W8WJB",
-         "os" : "macOS",
-         "features" : [
-            "messaging"
-         ],
+      "APU1??" : {
          "class" : "software",
-         "model" : "QTH.app"
+         "vendor" : "Roger Barker, G4IDE",
+         "model" : "UI-View16",
+         "os" : "Windows"
       },
-      "APAT51" : {
-         "vendor" : "Anytone",
-         "class" : "rig",
-         "model" : "AT-D578"
+      "APAF??" : {
+         "model" : "AFilter"
       },
-      "APAVT5" : {
-         "class" : "tracker",
-         "model" : "AP510",
-         "vendor" : "SainSonic"
+      "APnnnU" : {
+         "vendor" : "Painter Engineering",
+         "model" : "uSmartDigi Digipeater",
+         "class" : "digi"
       },
-      "APSK63" : {
-         "model" : "APRS Messenger",
-         "class" : "software",
-         "os" : "Windows",
-         "vendor" : "Chris Moulding, G4HYG"
-      },
-      "APIE??" : {
-         "vendor" : "W7KMV",
-         "model" : "PiAPRS"
+      "APHW??" : {
+         "vendor" : "HamWAN"
       },
       "APMI04" : {
          "os" : "embedded",
          "vendor" : "Microsat",
          "model" : "WX3in1 Mini"
       },
+      "APRFGD" : {
+         "os" : "embedded",
+         "vendor" : "RF.Guru",
+         "contact" : "info@rf.guru",
+         "model" : "APRS Digipeater",
+         "class" : "digi"
+      },
+      "APAH??" : {
+         "model" : "AHub"
+      },
+      "APRFGH" : {
+         "os" : "embedded",
+         "model" : "Hotspot",
+         "contact" : "info@rf.guru",
+         "vendor" : "RF.Guru",
+         "class" : "rig"
+      },
+      "APP6??" : {
+         "model" : "APRSlib"
+      },
+      "APLHI?" : {
+         "contact" : "iw1cgw@libero.it",
+         "model" : "LoRa IGate/Digipeater/Telemetry",
+         "vendor" : "Giovanni, IW1CGW",
+         "class" : "digi"
+      },
+      "APZMDR" : {
+         "class" : "tracker",
+         "vendor" : "Open Source",
+         "model" : "HaMDR",
+         "os" : "embedded"
+      },
+      "APSAR" : {
+         "model" : "SARTrack",
+         "vendor" : "ZL4FOX",
+         "os" : "Windows",
+         "class" : "software"
+      },
+      "APRFGM" : {
+         "os" : "embedded",
+         "contact" : "info@rf.guru",
+         "vendor" : "RF.Guru",
+         "model" : "Mobile Radio",
+         "class" : "rig"
+      },
+      "APMI05" : {
+         "model" : "PLXTracker",
+         "vendor" : "Microsat",
+         "os" : "embedded"
+      },
+      "APMI01" : {
+         "os" : "embedded",
+         "model" : "WX3in1",
+         "vendor" : "Microsat"
+      },
+      "APNW??" : {
+         "os" : "embedded",
+         "model" : "WX3in1",
+         "vendor" : "SQ3FYK"
+      },
+      "APNM??" : {
+         "model" : "TNC",
+         "vendor" : "MFJ"
+      },
+      "APECAN" : {
+         "class" : "tracker",
+         "model" : "Pecan Pico APRS Balloon Tracker",
+         "vendor" : "KT5TK/DL7AD"
+      },
+      "APELK?" : {
+         "class" : "tracker",
+         "vendor" : "WB8ELK",
+         "model" : "Balloon tracker"
+      },
+      "APCSS" : {
+         "model" : "CubeSatSim CubeSat Simulator",
+         "vendor" : "AMSAT"
+      },
+      "PSKAPR" : {
+         "class" : "software",
+         "vendor" : "Open Source",
+         "model" : "PSKmail"
+      },
+      "APAT??" : {
+         "vendor" : "Anytone"
+      },
+      "APnnnD" : {
+         "model" : "uSmartDigi D-Gate",
+         "vendor" : "Painter Engineering",
+         "class" : "dstar"
+      },
+      "APK0??" : {
+         "class" : "ht",
+         "model" : "TH-D7",
+         "vendor" : "Kenwood"
+      },
       "APNV0?" : {
-         "model" : "VP-Digi",
          "class" : "digi",
+         "model" : "VP-Digi",
          "vendor" : "SQ8L",
          "os" : "embedded"
       },
+      "APLP1?" : {
+         "class" : "tracker",
+         "os" : "embedded",
+         "vendor" : "SQ9P",
+         "contact" : "sq9p.peter@gmail.com",
+         "model" : "LORA/FSK/AFSK fajny tracker"
+      },
+      "APNKMP" : {
+         "model" : "KAM+",
+         "vendor" : "Kantronics"
+      },
+      "APSTPO" : {
+         "class" : "software",
+         "vendor" : "N0AGI",
+         "model" : "Satellite Tracking and Operations"
+      },
+      "APMG??" : {
+         "class" : "software",
+         "vendor" : "Alex, AB0TJ",
+         "model" : "PiCrumbs and MiniGate"
+      },
+      "APHRM?" : {
+         "class" : "wx",
+         "contact" : "iw1cgw@libero.it",
+         "model" : "Meteo",
+         "vendor" : "Giovanni, IW1CGW"
+      },
+      "APPM??" : {
+         "model" : "rtl-sdr Python iGate",
+         "vendor" : "DL1MX",
+         "class" : "software"
+      },
+      "APOLU?" : {
+         "model" : "Oscar",
+         "vendor" : "AMSAT-LU",
+         "class" : "satellite"
+      },
+      "APNK01" : {
+         "features" : [
+            "messaging"
+         ],
+         "class" : "rig",
+         "model" : "TM-D700",
+         "vendor" : "Kenwood"
+      },
+      "APE???" : {
+         "model" : "Telemetry devices"
+      },
+      "APRFGB" : {
+         "contact" : "info@rf.guru",
+         "model" : "APRS LoRa Pager",
+         "vendor" : "RF.Guru",
+         "os" : "embedded"
+      },
+      "APIE??" : {
+         "model" : "PiAPRS",
+         "vendor" : "W7KMV"
+      },
+      "API970" : {
+         "class" : "dstar",
+         "model" : "IC-9700",
+         "vendor" : "Icom"
+      },
+      "APR2MF" : {
+         "os" : "Windows",
+         "vendor" : "Mike, DL2MF",
+         "model" : "MF2wxAPRS Tinkerforge gateway",
+         "class" : "wx"
+      },
+      "APBK??" : {
+         "model" : "Bravo Tracker",
+         "vendor" : "PY5BK",
+         "class" : "tracker"
+      },
+      "APTW??" : {
+         "class" : "wx",
+         "vendor" : "Byonics",
+         "model" : "WXTrak"
+      },
+      "API31" : {
+         "class" : "dstar",
+         "model" : "IC-31",
+         "vendor" : "Icom"
+      },
+      "APIZCI" : {
+         "model" : "hymTR IZCI Tracker",
+         "vendor" : "TA7W/OH2UDS and TA6AEU",
+         "os" : "embedded",
+         "class" : "tracker"
+      },
+      "APCDS0" : {
+         "class" : "tracker",
+         "model" : "cell tracker",
+         "vendor" : "ZS6LMG"
+      },
+      "APMON?" : {
+         "model" : "APRS Balloon Tracker",
+         "vendor" : "Amon Schumann, DL9AS",
+         "os" : "embedded",
+         "class" : "tracker"
+      },
+      "APPCO?" : {
+         "os" : "embedded",
+         "contact" : "ab4mw@radcommsoft.com",
+         "vendor" : "RadCommSoft, LLC",
+         "model" : "PicoAPRSTracker",
+         "class" : "tracker"
+      },
+      "APTCMA" : {
+         "model" : "CAPI Tracker",
+         "vendor" : "Cleber, PU1CMA",
+         "class" : "tracker"
+      },
       "APDG??" : {
-         "vendor" : "Jonathan, G4KLX",
          "model" : "ircDDB Gateway",
+         "vendor" : "Jonathan, G4KLX",
          "class" : "dstar"
       },
-      "APOT??" : {
-         "vendor" : "Argent Data Systems",
-         "class" : "tracker",
-         "model" : "OpenTracker"
+      "APSFRP" : {
+         "os" : "embedded",
+         "model" : "VHF/UHF Repeater",
+         "vendor" : "F5OPV, SFCP_LABS"
       },
-      "APNV??" : {
-         "vendor" : "SQ8L"
+      "APAT81" : {
+         "model" : "AT-D878",
+         "vendor" : "Anytone",
+         "class" : "ht"
+      },
+      "APLDM?" : {
+         "model" : "LoRa Meteostation",
+         "vendor" : "David, OK2DDS",
+         "class" : "wx"
+      },
+      "APRNOW" : {
+         "os" : "ipad",
+         "model" : "APRSNow",
+         "vendor" : "Gregg Wonderly, W5GGW",
+         "class" : "app"
+      },
+      "APAT51" : {
+         "class" : "rig",
+         "model" : "AT-D578",
+         "vendor" : "Anytone"
+      },
+      "APTNG?" : {
+         "class" : "tracker",
+         "vendor" : "Filip YU1TTN",
+         "model" : "Tango Tracker"
+      },
+      "APNV1?" : {
+         "model" : "VP-Node",
+         "vendor" : "SQ8L",
+         "os" : "embedded"
+      },
+      "APFI??" : {
+         "class" : "app",
+         "vendor" : "aprs.fi"
       },
       "APZ*" : {
-         "vendor" : "Unknown",
-         "model" : "Experimental"
+         "model" : "Experimental",
+         "vendor" : "Unknown"
+      },
+      "APLP0?" : {
+         "model" : "fajne digi",
+         "vendor" : "SQ9P",
+         "contact" : "sq9p.peter@gmail.com",
+         "os" : "embedded",
+         "class" : "digi"
+      },
+      "APCN??" : {
+         "model" : "carNET",
+         "vendor" : "DG5OAW"
+      },
+      "APZTKP" : {
+         "class" : "tracker",
+         "model" : "TrackPoint",
+         "vendor" : "Nick Hanks, N0LP",
+         "os" : "embedded"
       },
       "APAX??" : {
          "model" : "AFilterX"
       },
-      "APMON?" : {
-         "class" : "tracker",
-         "model" : "APRS Balloon Tracker",
-         "os" : "embedded",
-         "vendor" : "Amon Schumann, DL9AS"
-      },
-      "APPS??" : {
-         "model" : "Polaric Server",
-         "class" : "software",
-         "vendor" : "Øyvind, LA7ECA (for the Norwegian Radio Relay League)",
-         "os" : "Linux"
-      },
-      "APRARX" : {
-         "os" : "Linux/Unix",
-         "vendor" : "Open Source",
-         "model" : "radiosonde_auto_rx",
-         "class" : "software"
-      },
-      "APDS??" : {
-         "os" : "embedded",
-         "vendor" : "SP9UOB",
-         "model" : "dsDIGI"
-      },
-      "APW9??" : {
-         "vendor" : "Mile Strk, 9A9Y",
-         "os" : "embedded",
-         "class" : "wx",
-         "features" : [
-            "messaging"
-         ],
-         "model" : "WX Katarina"
+      "APN9??" : {
+         "model" : "KPC-9612",
+         "vendor" : "Kantronics"
       },
       "APLM??" : {
          "vendor" : "WA0TQG",
          "class" : "software"
+      },
+      "APRFGW" : {
+         "class" : "wx",
+         "vendor" : "RF.Guru",
+         "contact" : "info@rf.guru",
+         "model" : "LoRa APRS Weather Station",
+         "os" : "embedded"
+      },
+      "APLETK" : {
+         "os" : "embedded",
+         "model" : "T-Echo",
+         "vendor" : "DL5TKL",
+         "contact" : "cfr34k-git@tkolb.de",
+         "class" : "tracker"
+      },
+      "APAEP1" : {
+         "model" : "EIRUAPRSDIGIS&FV1",
+         "vendor" : "Paraguay Space Agency (AEP)",
+         "class" : "satellite"
+      },
+      "APTR??" : {
+         "model" : "MotoTRBO",
+         "vendor" : "Motorola"
+      },
+      "APNKMX" : {
+         "model" : "KAM-XL",
+         "vendor" : "Kantronics"
+      },
+      "APRFG?" : {
+         "contact" : "info@rf.guru",
+         "vendor" : "RF.Guru"
+      },
+      "APMT??" : {
+         "model" : "Micro APRS Tracker",
+         "vendor" : "LZ1PPL",
+         "class" : "tracker"
+      },
+      "APT4??" : {
+         "vendor" : "Byonics",
+         "model" : "TinyTrak4",
+         "class" : "tracker"
+      },
+      "APT3??" : {
+         "class" : "tracker",
+         "model" : "TinyTrak3",
+         "vendor" : "Byonics"
+      },
+      "APCWP8" : {
+         "class" : "app",
+         "model" : "WinphoneAPRS",
+         "vendor" : "GM7HHB"
+      },
+      "APXR??" : {
+         "model" : "Xrouter",
+         "vendor" : "G8PZT"
+      },
+      "APC???" : {
+         "class" : "app",
+         "model" : "APRS/CE",
+         "vendor" : "Rob Wittner, KZ5RW"
+      },
+      "APU2*" : {
+         "class" : "software",
+         "model" : "UI-View32",
+         "vendor" : "Roger Barker, G4IDE",
+         "os" : "Windows"
+      },
+      "APNIC4" : {
+         "os" : "embedded",
+         "model" : "BidaTrak",
+         "vendor" : "SQ5EKU",
+         "class" : "tracker"
+      },
+      "APOSAT" : {
+         "contact" : "mike.ph4@gmail.com",
+         "model" : "Open Source Satellite Gateway",
+         "vendor" : "Mike, NA7Q",
+         "class" : "service"
+      },
+      "APKRAM" : {
+         "model" : "Ham Tracker",
+         "vendor" : "kramstuff.com",
+         "os" : "ios",
+         "class" : "app"
+      },
+      "APJI??" : {
+         "model" : "jAPRSIgate",
+         "vendor" : "Peter Loveall, AE5PL",
+         "class" : "software"
+      },
+      "APAG??" : {
+         "model" : "AGate"
+      },
+      "APDU??" : {
+         "class" : "app",
+         "os" : "Android",
+         "vendor" : "JA7UDE",
+         "model" : "U2APRS"
+      },
+      "APAGW?" : {
+         "class" : "software",
+         "model" : "AGWtracker",
+         "vendor" : "SV2AGW",
+         "os" : "Windows"
+      },
+      "APRRF?" : {
+         "features" : [
+            "messaging"
+         ],
+         "class" : "tracker",
+         "vendor" : "Jean-Francois Huet F1EVM",
+         "model" : "Tracker for RRF",
+         "contact" : "f1evm@f1evm.fr",
+         "os" : "embedded"
+      },
+      "API710" : {
+         "model" : "IC-7100",
+         "vendor" : "Icom",
+         "class" : "dstar"
+      },
+      "APRFGR" : {
+         "contact" : "info@rf.guru",
+         "vendor" : "RF.Guru",
+         "model" : "Repeater",
+         "os" : "embedded",
+         "class" : "rig"
+      },
+      "APMQ??" : {
+         "vendor" : "WB2OSZ",
+         "model" : "Ham Radio of Things"
+      },
+      "APBT62" : {
+         "model" : "DMR 6x2",
+         "vendor" : "BTech"
+      },
+      "APSFTL" : {
+         "vendor" : "F5OPV, SFCP_LABS",
+         "model" : "LoRa/APRS Telemetry Reporter",
+         "os" : "embedded"
+      },
+      "APHH?" : {
+         "class" : "tracker",
+         "model" : "HamHud",
+         "vendor" : "Steven D. Bragg, KA9MVA"
+      },
+      "APRFGI" : {
+         "os" : "embedded",
+         "contact" : "info@rf.guru",
+         "vendor" : "RF.Guru",
+         "model" : "LoRa APRS iGate",
+         "class" : "igate"
+      },
+      "APNX??" : {
+         "model" : "TNC-X",
+         "vendor" : "K6DBG"
+      },
+      "APPRIS" : {
+         "features" : [
+            "messaging"
+         ],
+         "class" : "service",
+         "contact" : "joerg.schultze.lutter@gmail.com",
+         "model" : "Apprise APRS plugin",
+         "vendor" : "DF1JSL"
+      },
+      "APTB??" : {
+         "model" : "TinyAPRS",
+         "vendor" : "BG5HHP"
+      },
+      "APRX??" : {
+         "class" : "igate",
+         "model" : "Aprx",
+         "vendor" : "Kenneth W. Finnegan, W6KWF",
+         "os" : "Linux/Unix"
+      },
+      "APT2??" : {
+         "model" : "TinyTrak2",
+         "vendor" : "Byonics",
+         "class" : "tracker"
+      },
+      "APZ19" : {
+         "model" : "UIdigi",
+         "vendor" : "IW3FQG",
+         "class" : "digi"
+      },
+      "APLRT?" : {
+         "model" : "ESP32 LoRa Tracker",
+         "contact" : "richonguzman@gmail.com",
+         "vendor" : "Ricardo, CA2RXU",
+         "os" : "embedded",
+         "class" : "tracker"
+      },
+      "API51" : {
+         "class" : "dstar",
+         "model" : "IC-51",
+         "vendor" : "Icom"
+      },
+      "API910" : {
+         "class" : "dstar",
+         "model" : "IC-9100",
+         "vendor" : "Icom"
+      },
+      "APAIOR" : {
+         "class" : "service",
+         "features" : [
+            "messaging"
+         ],
+         "contact" : "info@aprsph.net",
+         "vendor" : "J. Angelo Racoma DU2XXR/N2RAC",
+         "model" : "APRSPH net bot based on Ioreth",
+         "os" : "linux"
+      },
+      "APLT??" : {
+         "model" : "LoRa Tracker",
+         "vendor" : "OE5BPA",
+         "class" : "tracker"
+      },
+      "APCLEY" : {
+         "class" : "tracker",
+         "model" : "EYTraker",
+         "vendor" : "ZS6EY"
+      },
+      "APDnnn" : {
+         "class" : "software",
+         "model" : "aprsd",
+         "vendor" : "Open Source",
+         "os" : "Linux/Unix"
+      },
+      "APLS??" : {
+         "class" : "software",
+         "model" : "SARIMESH",
+         "vendor" : "SARIMESH"
+      },
+      "APTCHE" : {
+         "vendor" : "PU3IKE",
+         "model" : "TcheTracker, Tcheduino",
+         "class" : "tracker"
+      },
+      "APZ186" : {
+         "model" : "UIdigi",
+         "vendor" : "IW3FQG",
+         "class" : "digi"
+      },
+      "APZMAJ" : {
+         "vendor" : "M1MAJ",
+         "model" : "DeLorme inReach Tracker"
+      },
+      "APCTLK" : {
+         "model" : "Codec2Talkie",
+         "vendor" : "Open Source",
+         "class" : "app"
+      },
+      "APSF??" : {
+         "model" : "embedded APRS devices",
+         "vendor" : "F5OPV, SFCP_LABS",
+         "os" : "embedded"
+      },
+      "APRFGL" : {
+         "class" : "digi",
+         "model" : "Lora APRS Digipeater",
+         "vendor" : "RF.Guru",
+         "contact" : "info@rf.guru",
+         "os" : "embedded"
+      },
+      "APWnnn" : {
+         "model" : "WinAPRS",
+         "vendor" : "Sproul Brothers",
+         "os" : "Windows",
+         "class" : "software"
+      },
+      "APE2A?" : {
+         "model" : "Email-2-APRS gateway",
+         "vendor" : "NoseyNick, VA3NNW",
+         "os" : "Linux/Unix",
+         "class" : "software"
+      },
+      "APNU??" : {
+         "model" : "UIdigi",
+         "vendor" : "IW3FQG",
+         "class" : "digi"
+      },
+      "APNK80" : {
+         "model" : "KAM",
+         "vendor" : "Kantronics"
+      },
+      "APFG??" : {
+         "class" : "software",
+         "model" : "Flood Gage",
+         "vendor" : "KP4DJT"
+      },
+      "APZ18" : {
+         "model" : "UIdigi",
+         "vendor" : "IW3FQG",
+         "class" : "digi"
+      },
+      "APZWKR" : {
+         "model" : "NetSked",
+         "vendor" : "GM1WKR",
+         "class" : "software"
+      },
+      "APOVU?" : {
+         "vendor" : "K J Somaiya Institute",
+         "model" : "BeliefSat"
+      },
+      "APEP??" : {
+         "os" : "embedded",
+         "contact" : "pegloff@gmail.com",
+         "model" : "LoRa WX station",
+         "vendor" : "Patrick EGLOFF, TK5EP",
+         "class" : "wx"
+      },
+      "APNV2?" : {
+         "model" : "VP-Tracker",
+         "vendor" : "SQ8L",
+         "class" : "tracker"
+      },
+      "APRG??" : {
+         "class" : "software",
+         "model" : "aprsg",
+         "vendor" : "OH2GVE",
+         "os" : "Linux/Unix"
+      },
+      "APHBL?" : {
+         "class" : "software",
+         "vendor" : "KF7EEL",
+         "model" : "HBLink D-APRS Gateway"
+      },
+      "APCLUB" : {
+         "model" : "Brazil APRS network"
+      },
+      "APSK63" : {
+         "class" : "software",
+         "os" : "Windows",
+         "model" : "APRS Messenger",
+         "vendor" : "Chris Moulding, G4HYG"
+      },
+      "APW9??" : {
+         "vendor" : "Mile Strk, 9A9Y",
+         "model" : "WX Katarina",
+         "os" : "embedded",
+         "features" : [
+            "messaging"
+         ],
+         "class" : "wx"
+      },
+      "APRFGP" : {
+         "class" : "ht",
+         "os" : "embedded",
+         "model" : "Portable Radio",
+         "vendor" : "RF.Guru",
+         "contact" : "info@rf.guru"
+      },
+      "APMI06" : {
+         "os" : "embedded",
+         "model" : "WX3in1 Plus 2.0",
+         "vendor" : "Microsat"
+      },
+      "APLU1?" : {
+         "vendor" : "SP9UP",
+         "model" : "ESP32/SX12xx LoRa Tracker",
+         "contact" : "wajdzik.m@gmail.com",
+         "os" : "embedded",
+         "class" : "tracker"
+      },
+      "APBM??" : {
+         "model" : "BrandMeister DMR",
+         "vendor" : "R3ABM"
+      },
+      "APLHM?" : {
+         "contact" : "iw1cgw@libero.it",
+         "model" : "LoRa Meteostation",
+         "vendor" : "Giovanni, IW1CGW",
+         "class" : "wx"
+      },
+      "APRHH?" : {
+         "model" : "HamHud",
+         "vendor" : "Steven D. Bragg, KA9MVA",
+         "class" : "tracker"
+      },
+      "APPIC?" : {
+         "class" : "tracker",
+         "model" : "PicoAPRS",
+         "vendor" : "DB1NTO"
+      },
+      "APLIG?" : {
+         "model" : "LightAPRS Tracker",
+         "vendor" : "TA2MUN/TA9OHC",
+         "class" : "tracker"
+      },
+      "APLFM?" : {
+         "model" : "FemtoAPRS",
+         "vendor" : "DO1MA",
+         "os" : "embedded",
+         "class" : "tracker"
+      },
+      "APDNO?" : {
+         "model" : "APRSduino",
+         "vendor" : "DO3SWW",
+         "os" : "embedded",
+         "class" : "tracker"
+      },
+      "APDI??" : {
+         "model" : "DIXPRS",
+         "vendor" : "Bela, HA5DI",
+         "class" : "software"
+      },
+      "APSTM?" : {
+         "model" : "Balloon tracker",
+         "vendor" : "W7QO",
+         "class" : "tracker"
+      },
+      "APRARX" : {
+         "class" : "software",
+         "vendor" : "Open Source",
+         "model" : "radiosonde_auto_rx",
+         "os" : "Linux/Unix"
+      },
+      "APHPIW" : {
+         "model" : "Python APRS WX",
+         "vendor" : "HP3ICC"
+      },
+      "APQTH?" : {
+         "os" : "macOS",
+         "model" : "QTH.app",
+         "vendor" : "Weston Bustraan, W8WJB",
+         "class" : "software",
+         "features" : [
+            "messaging"
+         ]
+      },
+      "APTEMP" : {
+         "class" : "wx",
+         "os" : "Linux/Unix",
+         "vendor" : "KL7AF",
+         "model" : "APRS-Tempest Weather Gateway",
+         "contact" : "kl7af@foghaven.net"
+      },
+      "APODOT" : {
+         "vendor" : "Mike, NA7Q",
+         "model" : "Oregon Department of Transportion Traffic Alerts",
+         "class" : "service"
+      },
+      "APJ8??" : {
+         "vendor" : "KN4CRD",
+         "model" : "JS8Call",
+         "class" : "software"
+      },
+      "APWW??" : {
+         "features" : [
+            "messaging",
+            "item-in-msg"
+         ],
+         "class" : "software",
+         "os" : "Windows",
+         "model" : "APRSIS32",
+         "vendor" : "KJ4ERJ"
       },
       "APWM??" : {
          "model" : "APRSISCE",
@@ -491,1066 +1050,513 @@
          ],
          "class" : "software"
       },
-      "APKHTW" : {
-         "contact" : "w3sn@moxracing.33mail.com",
-         "vendor" : "Kip, W3SN",
-         "os" : "embedded",
-         "model" : "Tempest Weather Bridge",
-         "class" : "wx"
+      "APSC??" : {
+         "model" : "aprsc",
+         "vendor" : "OH2MQK, OH7LZB",
+         "class" : "software"
       },
-      "APOLU?" : {
-         "vendor" : "AMSAT-LU",
-         "model" : "Oscar",
-         "class" : "satellite"
-      },
-      "APNP??" : {
-         "model" : "TNC",
-         "vendor" : "PacComm"
-      },
-      "API92" : {
-         "vendor" : "Icom",
+      "API282" : {
          "class" : "dstar",
-         "model" : "IC-92"
-      },
-      "API880" : {
-         "class" : "dstar",
-         "model" : "IC-880",
+         "model" : "IC-2820",
          "vendor" : "Icom"
-      },
-      "APAG??" : {
-         "model" : "AGate"
-      },
-      "APNV1?" : {
-         "vendor" : "SQ8L",
-         "os" : "embedded",
-         "model" : "VP-Node"
-      },
-      "APRFGM" : {
-         "os" : "embedded",
-         "vendor" : "RF.Guru",
-         "contact" : "info@rf.guru",
-         "model" : "Mobile Radio",
-         "class" : "rig"
-      },
-      "APLFM?" : {
-         "os" : "embedded",
-         "vendor" : "DO1MA",
-         "class" : "tracker",
-         "model" : "FemtoAPRS"
-      },
-      "APNIC4" : {
-         "vendor" : "SQ5EKU",
-         "os" : "embedded",
-         "class" : "tracker",
-         "model" : "BidaTrak"
-      },
-      "APCLUB" : {
-         "model" : "Brazil APRS network"
-      },
-      "APU2*" : {
-         "vendor" : "Roger Barker, G4IDE",
-         "os" : "Windows",
-         "class" : "software",
-         "model" : "UI-View32"
-      },
-      "APDV??" : {
-         "model" : "SSTV with APRS",
-         "class" : "software",
-         "vendor" : "OE6PLD"
-      },
-      "API970" : {
-         "vendor" : "Icom",
-         "model" : "IC-9700",
-         "class" : "dstar"
-      },
-      "APY300" : {
-         "vendor" : "Yaesu",
-         "class" : "rig",
-         "model" : "FTM-300D"
-      },
-      "APELK?" : {
-         "class" : "tracker",
-         "model" : "Balloon tracker",
-         "vendor" : "WB8ELK"
-      },
-      "APU1??" : {
-         "class" : "software",
-         "model" : "UI-View16",
-         "os" : "Windows",
-         "vendor" : "Roger Barker, G4IDE"
-      },
-      "APBSD?" : {
-         "vendor" : "hambsd.org",
-         "model" : "HamBSD"
-      },
-      "APRFGI" : {
-         "class" : "igate",
-         "model" : "LoRa APRS iGate",
-         "contact" : "info@rf.guru",
-         "vendor" : "RF.Guru",
-         "os" : "embedded"
-      },
-      "APZMDR" : {
-         "vendor" : "Open Source",
-         "os" : "embedded",
-         "class" : "tracker",
-         "model" : "HaMDR"
-      },
-      "APDR??" : {
-         "class" : "app",
-         "model" : "APRSdroid",
-         "vendor" : "Open Source",
-         "os" : "Android"
-      },
-      "APT4??" : {
-         "vendor" : "Byonics",
-         "class" : "tracker",
-         "model" : "TinyTrak4"
       },
       "AP1WWX" : {
-         "vendor" : "TAPR",
          "class" : "wx",
-         "model" : "T-238+"
+         "model" : "T-238+",
+         "vendor" : "TAPR"
       },
-      "APEML?" : {
-         "contact" : "sp9mli@gmail.com",
-         "vendor" : "Leszek, SP9MLI",
-         "model" : "SP9MLI for WX, Telemetry",
-         "class" : "software"
+      "APJS??" : {
+         "model" : "javAPRSSrvr",
+         "vendor" : "Peter Loveall, AE5PL"
       },
-      "APNX??" : {
-         "model" : "TNC-X",
-         "vendor" : "K6DBG"
+      "APLDI?" : {
+         "model" : "LoRa IGate/Digipeater",
+         "vendor" : "David, OK2DDS",
+         "class" : "digi"
       },
-      "APVM??" : {
-         "model" : "DRCC-DVM",
-         "class" : "igate",
-         "vendor" : "Digital Radio China Club"
-      },
-      "APWA??" : {
-         "model" : "APRSISCE",
-         "class" : "software",
-         "os" : "Android",
-         "vendor" : "KJ4ERJ"
-      },
-      "APDnnn" : {
-         "vendor" : "Open Source",
-         "os" : "Linux/Unix",
-         "class" : "software",
-         "model" : "aprsd"
-      },
-      "APRFGH" : {
-         "contact" : "info@rf.guru",
-         "os" : "embedded",
-         "vendor" : "RF.Guru",
-         "class" : "rig",
-         "model" : "Hotspot"
-      },
-      "APOZ??" : {
-         "class" : "tracker",
-         "model" : "KissOZ",
-         "vendor" : "OZ1EKD, OZ7HVO"
-      },
-      "APLHM?" : {
-         "vendor" : "Giovanni, IW1CGW",
-         "contact" : "iw1cgw@libero.it",
-         "model" : "LoRa Meteostation",
-         "class" : "wx"
-      },
-      "APNU??" : {
-         "class" : "digi",
-         "model" : "UIdigi",
-         "vendor" : "IW3FQG"
-      },
-      "API31" : {
+      "APD5T?" : {
          "class" : "dstar",
-         "model" : "IC-31",
-         "vendor" : "Icom"
+         "model" : "Open Source DStarGateway",
+         "contact" : "f4fxl@dstargateway.digital",
+         "vendor" : "Geoffrey, F4FXL"
       },
-      "APCLEZ" : {
-         "vendor" : "ZS6EY",
-         "model" : "Telit EZ10 GSM application",
-         "class" : "tracker"
-      },
-      "APRPR?" : {
-         "os" : "embedded",
-         "vendor" : "Robert DM4RW, Peter DL6MAA",
-         "contact" : "dm4rw@skywaves.de",
-         "model" : "Teensy RPR TNC",
-         "class" : "tracker"
-      },
-      "APSTM?" : {
-         "vendor" : "W7QO",
-         "model" : "Balloon tracker",
-         "class" : "tracker"
-      },
-      "APOG7?" : {
-         "os" : "embedded",
-         "vendor" : "OpenGD77",
-         "contact" : "Roger VK3KYY/G4KYF",
-         "model" : "OpenGD77"
-      },
-      "APE???" : {
-         "model" : "Telemetry devices"
-      },
-      "APAR??" : {
-         "os" : "embedded",
-         "vendor" : "Øyvind, LA7ECA",
-         "class" : "tracker",
-         "model" : "Arctic Tracker"
-      },
-      "APOVU?" : {
-         "vendor" : "K J Somaiya Institute",
-         "model" : "BeliefSat"
-      },
-      "APLDM?" : {
-         "class" : "wx",
-         "model" : "LoRa Meteostation",
-         "vendor" : "David, OK2DDS"
-      },
-      "APMT??" : {
-         "vendor" : "LZ1PPL",
-         "model" : "Micro APRS Tracker",
-         "class" : "tracker"
-      },
-      "APTNG?" : {
-         "model" : "Tango Tracker",
-         "class" : "tracker",
-         "vendor" : "Filip YU1TTN"
-      },
-      "APnnnU" : {
-         "vendor" : "Painter Engineering",
-         "model" : "uSmartDigi Digipeater",
-         "class" : "digi"
-      },
-      "APRFGW" : {
-         "contact" : "info@rf.guru",
-         "os" : "embedded",
-         "vendor" : "RF.Guru",
-         "class" : "wx",
-         "model" : "LoRa APRS Weather Station"
-      },
-      "APVR??" : {
-         "vendor" : "unknown",
-         "model" : "IRLP"
-      },
-      "APK005" : {
-         "vendor" : "Kenwood",
-         "class" : "ht",
-         "model" : "TH-D75"
-      },
-      "APRFG?" : {
-         "contact" : "info@rf.guru",
-         "vendor" : "RF.Guru"
-      },
-      "APKRAM" : {
-         "os" : "ios",
-         "vendor" : "kramstuff.com",
-         "model" : "Ham Tracker",
-         "class" : "app"
-      },
-      "APHPIW" : {
-         "vendor" : "HP3ICC",
-         "model" : "Python APRS WX"
-      },
-      "APCLEY" : {
-         "class" : "tracker",
-         "model" : "EYTraker",
-         "vendor" : "ZS6EY"
-      },
-      "APNKMX" : {
-         "model" : "KAM-XL",
-         "vendor" : "Kantronics"
-      },
-      "APRRF?" : {
-         "model" : "Tracker for RRF",
-         "class" : "tracker",
-         "features" : [
-            "messaging"
-         ],
-         "vendor" : "Jean-Francois Huet F1EVM",
-         "os" : "embedded",
-         "contact" : "f1evm@f1evm.fr"
-      },
-      "APS???" : {
-         "vendor" : "Brent Hildebrand, KH2Z",
+      "APZG??" : {
          "class" : "software",
-         "model" : "APRS+SA"
-      },
-      "APGBLN" : {
-         "model" : "GoBalloon",
-         "class" : "tracker",
-         "vendor" : "NW5W"
-      },
-      "APLG??" : {
-         "model" : "LoRa Gateway/Digipeater",
-         "class" : "digi",
-         "vendor" : "OE5BPA"
-      },
-      "APK004" : {
-         "model" : "TH-D74",
-         "class" : "ht",
-         "vendor" : "Kenwood"
-      },
-      "APZMAJ" : {
-         "model" : "DeLorme inReach Tracker",
-         "vendor" : "M1MAJ"
-      },
-      "APLC??" : {
-         "vendor" : "DL3DCW",
-         "model" : "APRScube"
-      },
-      "APAM??" : {
-         "class" : "tracker",
-         "model" : "AltOS",
-         "vendor" : "Altus Metrum"
-      },
-      "APLU1?" : {
-         "contact" : "wajdzik.m@gmail.com",
-         "os" : "embedded",
-         "vendor" : "SP9UP",
-         "model" : "ESP32/SX12xx LoRa Tracker",
-         "class" : "tracker"
-      },
-      "APN102" : {
-         "os" : "ipad",
-         "vendor" : "Gregg Wonderly, W5GGW",
-         "model" : "APRSNow",
-         "class" : "app"
-      },
-      "APSAR" : {
-         "model" : "SARTrack",
-         "class" : "software",
-         "vendor" : "ZL4FOX",
-         "os" : "Windows"
-      },
-      "APR2MF" : {
-         "class" : "wx",
-         "model" : "MF2wxAPRS Tinkerforge gateway",
-         "vendor" : "Mike, DL2MF",
-         "os" : "Windows"
-      },
-      "APPM??" : {
-         "vendor" : "DL1MX",
-         "model" : "rtl-sdr Python iGate",
-         "class" : "software"
-      },
-      "APBK??" : {
-         "vendor" : "PY5BK",
-         "class" : "tracker",
-         "model" : "Bravo Tracker"
-      },
-      "APWEE?" : {
          "os" : "Linux/Unix",
-         "vendor" : "Tom Keffer and Matthew Wall",
-         "class" : "software",
-         "model" : "WeeWX Weather Software"
-      },
-      "APSC??" : {
-         "vendor" : "OH2MQK, OH7LZB",
-         "class" : "software",
-         "model" : "aprsc"
-      },
-      "APZ19" : {
-         "model" : "UIdigi",
-         "class" : "digi",
-         "vendor" : "IW3FQG"
-      },
-      "APHPIB" : {
-         "model" : "Python APRS Beacon",
-         "vendor" : "HP3ICC"
-      },
-      "APK1??" : {
-         "model" : "TM-D700",
-         "class" : "rig",
-         "vendor" : "Kenwood"
-      },
-      "APAND?" : {
-         "model" : "APRSdroid",
-         "class" : "app",
-         "os" : "Android",
-         "vendor" : "Open Source"
-      },
-      "APLU0?" : {
-         "os" : "embedded",
-         "vendor" : "SP9UP",
-         "contact" : "wajdzik.m@gmail.com",
-         "model" : "ESP32/SX12xx LoRa iGate / Digi",
-         "class" : "digi"
-      },
-      "APIN??" : {
-         "model" : "PinPoint",
-         "vendor" : "AB0WV"
-      },
-      "APLS??" : {
-         "vendor" : "SARIMESH",
-         "class" : "software",
-         "model" : "SARIMESH"
-      },
-      "APRFGB" : {
-         "contact" : "info@rf.guru",
-         "vendor" : "RF.Guru",
-         "os" : "embedded",
-         "model" : "APRS LoRa Pager"
-      },
-      "APNKMP" : {
-         "vendor" : "Kantronics",
-         "model" : "KAM+"
-      },
-      "APTKJ?" : {
-         "vendor" : "W9JAJ",
-         "os" : "embedded",
-         "model" : "ATTiny APRS Tracker"
-      },
-      "APOCSG" : {
-         "model" : "POCSAG",
-         "vendor" : "N0AGI"
-      },
-      "APAEP1" : {
-         "model" : "EIRUAPRSDIGIS&FV1",
-         "class" : "satellite",
-         "vendor" : "Paraguay Space Agency (AEP)"
-      },
-      "APFI??" : {
-         "vendor" : "aprs.fi",
-         "class" : "app"
-      },
-      "APOA??" : {
-         "class" : "app",
-         "model" : "app",
-         "os" : "ios",
-         "vendor" : "OpenAPRS"
+         "model" : "aprsg",
+         "vendor" : "OH2GVE"
       },
       "APDW??" : {
          "vendor" : "WB2OSZ",
          "model" : "DireWolf"
       },
-      "AP4R??" : {
-         "vendor" : "Open Source",
-         "model" : "APRS4R",
-         "class" : "software"
-      },
-      "APVE??" : {
-         "model" : "EchoLink",
-         "vendor" : "unknown"
-      },
-      "APHW??" : {
-         "vendor" : "HamWAN"
-      },
-      "APLETK" : {
-         "model" : "T-Echo",
+      "APCLEZ" : {
          "class" : "tracker",
-         "contact" : "cfr34k-git@tkolb.de",
-         "vendor" : "DL5TKL",
-         "os" : "embedded"
+         "vendor" : "ZS6EY",
+         "model" : "Telit EZ10 GSM application"
       },
-      "APLO??" : {
-         "class" : "tracker",
-         "model" : "LoRa KISS TNC/Tracker",
-         "vendor" : "SQ9MDD"
-      },
-      "APD5T?" : {
-         "model" : "Open Source DStarGateway",
-         "class" : "dstar",
-         "contact" : "f4fxl@dstargateway.digital",
-         "vendor" : "Geoffrey, F4FXL"
-      },
-      "APJ8??" : {
-         "vendor" : "KN4CRD",
-         "model" : "JS8Call",
-         "class" : "software"
-      },
-      "APHBL?" : {
-         "model" : "HBLink D-APRS Gateway",
-         "class" : "software",
-         "vendor" : "KF7EEL"
-      },
-      "APLRT?" : {
-         "class" : "tracker",
-         "model" : "ESP32 LoRa Tracker",
+      "APMI??" : {
          "os" : "embedded",
-         "vendor" : "Ricardo, CA2RXU",
-         "contact" : "richonguzman@gmail.com"
+         "vendor" : "Microsat"
       },
-      "APAW??" : {
-         "vendor" : "SV2AGW",
+      "APBPQ?" : {
+         "model" : "BPQ32",
+         "vendor" : "John Wiseman, G8BPQ",
          "os" : "Windows",
-         "class" : "software",
-         "model" : "AGWPE"
-      },
-      "APGO??" : {
-         "vendor" : "AA3NJ",
-         "class" : "app",
-         "model" : "APRS-Go"
-      },
-      "APTCHE" : {
-         "model" : "TcheTracker, Tcheduino",
-         "class" : "tracker",
-         "vendor" : "PU3IKE"
-      },
-      "APNK01" : {
-         "vendor" : "Kenwood",
-         "features" : [
-            "messaging"
-         ],
-         "class" : "rig",
-         "model" : "TM-D700"
-      },
-      "APODOT" : {
-         "class" : "service",
-         "model" : "Oregon Department of Transportion Traffic Alerts",
-         "vendor" : "Mike, NA7Q"
-      },
-      "PSKAPR" : {
-         "class" : "software",
-         "model" : "PSKmail",
-         "vendor" : "Open Source"
-      },
-      "API51" : {
-         "class" : "dstar",
-         "model" : "IC-51",
-         "vendor" : "Icom"
-      },
-      "APK0??" : {
-         "vendor" : "Kenwood",
-         "model" : "TH-D7",
-         "class" : "ht"
-      },
-      "APSFLG" : {
-         "class" : "digi",
-         "model" : "LoRa/APRS Gateway",
-         "vendor" : "F5OPV, SFCP_LABS",
-         "os" : "embedded"
-      },
-      "APBM??" : {
-         "vendor" : "R3ABM",
-         "model" : "BrandMeister DMR"
-      },
-      "APHK??" : {
-         "vendor" : "LA1BR",
-         "model" : "Digipeater/tracker"
-      },
-      "APDST?" : {
-         "model" : "dsTracker",
-         "vendor" : "SP9UOB",
-         "os" : "embedded"
-      },
-      "APFII?" : {
-         "model" : "iPhone/iPad app",
-         "class" : "app",
-         "os" : "ios",
-         "vendor" : "aprs.fi"
-      },
-      "APRS" : {
-         "vendor" : "Unknown",
-         "model" : "Unknown"
-      },
-      "APUDR?" : {
-         "model" : "UDR",
-         "vendor" : "NW Digital Radio"
+         "class" : "software"
       },
       "APDPRS" : {
-         "vendor" : "unknown",
          "model" : "D-Star APDPRS",
+         "vendor" : "unknown",
          "class" : "dstar"
-      },
-      "APN3??" : {
-         "vendor" : "Kantronics",
-         "model" : "KPC-3"
-      },
-      "APMI01" : {
-         "os" : "embedded",
-         "vendor" : "Microsat",
-         "model" : "WX3in1"
-      },
-      "APIC??" : {
-         "model" : "PICiGATE",
-         "vendor" : "HA9MCQ"
-      },
-      "APXR??" : {
-         "vendor" : "G8PZT",
-         "model" : "Xrouter"
-      },
-      "APZTKP" : {
-         "model" : "TrackPoint",
-         "class" : "tracker",
-         "os" : "embedded",
-         "vendor" : "Nick Hanks, N0LP"
-      },
-      "APMI02" : {
-         "vendor" : "Microsat",
-         "os" : "embedded",
-         "model" : "WXEth"
-      },
-      "APAIOR" : {
-         "model" : "APRSPH net bot based on Ioreth",
-         "contact" : "info@aprsph.net",
-         "vendor" : "J. Angelo Racoma DU2XXR/N2RAC",
-         "os" : "linux",
-         "features" : [
-            "messaging"
-         ],
-         "class" : "service"
-      },
-      "APCSMS" : {
-         "vendor" : "USNA",
-         "model" : "Cosmos"
-      },
-      "APAF??" : {
-         "model" : "AFilter"
-      },
-      "APBT62" : {
-         "vendor" : "BTech",
-         "model" : "DMR 6x2"
-      },
-      "APAT??" : {
-         "vendor" : "Anytone"
-      },
-      "API910" : {
-         "model" : "IC-9100",
-         "class" : "dstar",
-         "vendor" : "Icom"
-      },
-      "APFG??" : {
-         "model" : "Flood Gage",
-         "class" : "software",
-         "vendor" : "KP4DJT"
-      },
-      "APHH?" : {
-         "vendor" : "Steven D. Bragg, KA9MVA",
-         "model" : "HamHud",
-         "class" : "tracker"
-      },
-      "APSFTL" : {
-         "model" : "LoRa/APRS Telemetry Reporter",
-         "vendor" : "F5OPV, SFCP_LABS",
-         "os" : "embedded"
-      },
-      "APTEMP" : {
-         "vendor" : "KL7AF",
-         "os" : "Linux/Unix",
-         "contact" : "kl7af@foghaven.net",
-         "class" : "wx",
-         "model" : "APRS-Tempest Weather Gateway"
-      },
-      "APTB??" : {
-         "vendor" : "BG5HHP",
-         "model" : "TinyAPRS"
       },
       "APERXQ" : {
          "class" : "tracker",
          "model" : "PE1RXQ APRS Tracker",
          "vendor" : "PE1RXQ"
       },
-      "APTCMA" : {
-         "class" : "tracker",
-         "model" : "CAPI Tracker",
-         "vendor" : "Cleber, PU1CMA"
-      },
-      "APB2MF" : {
-         "model" : "MF2APRS Radiosonde tracking tool",
-         "class" : "software",
-         "vendor" : "Mike, DL2MF",
-         "os" : "Windows"
-      },
-      "APRFGL" : {
-         "model" : "Lora APRS Digipeater",
-         "class" : "digi",
-         "os" : "embedded",
-         "vendor" : "RF.Guru",
-         "contact" : "info@rf.guru"
-      },
-      "APPT??" : {
-         "vendor" : "JF6LZE",
-         "model" : "KetaiTracker",
+      "APTPN?" : {
+         "model" : "TARPN Packet Node Tracker",
+         "vendor" : "KN4ORB",
          "class" : "tracker"
       },
-      "APHT??" : {
-         "vendor" : "IU0AAC",
-         "class" : "tracker",
-         "model" : "HMTracker"
-      },
-      "APR8??" : {
-         "class" : "software",
-         "model" : "APRSdos",
-         "vendor" : "Bob Bruninga, WB4APR"
-      },
-      "APY400" : {
-         "class" : "rig",
-         "model" : "FTM-400",
-         "vendor" : "Yaesu"
-      },
-      "API???" : {
-         "class" : "dstar",
-         "model" : "unknown",
-         "vendor" : "Icom"
-      },
-      "APLIG?" : {
-         "model" : "LightAPRS Tracker",
-         "class" : "tracker",
-         "vendor" : "TA2MUN/TA9OHC"
-      },
-      "APDF??" : {
-         "model" : "Automatic DF units"
-      },
-      "APAT81" : {
-         "model" : "AT-D878",
-         "class" : "ht",
-         "vendor" : "Anytone"
-      },
-      "APDT??" : {
-         "model" : "APRStouch Tone (DTMF)",
-         "vendor" : "unknown"
-      },
-      "APIZCI" : {
-         "model" : "hymTR IZCI Tracker",
-         "class" : "tracker",
-         "vendor" : "TA7W/OH2UDS and TA6AEU",
-         "os" : "embedded"
-      },
-      "APRFGP" : {
-         "class" : "ht",
-         "model" : "Portable Radio",
-         "os" : "embedded",
-         "vendor" : "RF.Guru",
-         "contact" : "info@rf.guru"
-      },
-      "APJE??" : {
-         "vendor" : "Gregg Wonderly, W5GGW",
-         "model" : "JeAPRS"
-      },
-      "APT3??" : {
-         "vendor" : "Byonics",
-         "model" : "TinyTrak3",
-         "class" : "tracker"
-      },
-      "APAH??" : {
-         "model" : "AHub"
-      },
-      "APMI03" : {
-         "model" : "PLXDigi",
-         "vendor" : "Microsat",
-         "os" : "embedded"
-      },
-      "APPRIS" : {
-         "contact" : "joerg.schultze.lutter@gmail.com",
-         "vendor" : "DF1JSL",
-         "class" : "service",
-         "features" : [
-            "messaging"
-         ],
-         "model" : "Apprise APRS plugin"
-      },
-      "APWW??" : {
-         "model" : "APRSIS32",
-         "vendor" : "KJ4ERJ",
-         "os" : "Windows",
-         "class" : "software",
-         "features" : [
-            "messaging",
-            "item-in-msg"
-         ]
-      },
-      "APN2??" : {
-         "vendor" : "VE4KLM",
-         "model" : "NOSaprs for JNOS 2.0"
-      },
-      "APLDI?" : {
-         "class" : "digi",
-         "model" : "LoRa IGate/Digipeater",
-         "vendor" : "David, OK2DDS"
+      "API880" : {
+         "model" : "IC-880",
+         "vendor" : "Icom",
+         "class" : "dstar"
       },
       "APHMEY" : {
-         "model" : "APRS-IS Client for Athom Homey",
          "contact" : "oh2th@iki.fi",
+         "model" : "APRS-IS Client for Athom Homey",
          "vendor" : "Tapio Heiskanen, OH2TH"
       },
-      "APP6??" : {
-         "model" : "APRSlib"
-      },
-      "APCSS" : {
-         "vendor" : "AMSAT",
-         "model" : "CubeSatSim CubeSat Simulator"
-      },
-      "APBL??" : {
-         "class" : "tracker",
-         "model" : "BeeLine GPS",
-         "vendor" : "BigRedBee"
-      },
-      "APC???" : {
-         "model" : "APRS/CE",
-         "class" : "app",
-         "vendor" : "Rob Wittner, KZ5RW"
-      },
-      "APNK80" : {
-         "vendor" : "Kantronics",
-         "model" : "KAM"
-      },
-      "APATAR" : {
-         "vendor" : "TA7W/OH2UDS Baris Dinc and TA6AEU",
-         "model" : "ATA-R APRS Digipeater",
-         "class" : "digi"
-      },
-      "API510" : {
-         "model" : "IC-5100",
-         "class" : "dstar",
-         "vendor" : "Icom"
-      },
-      "APJY??" : {
-         "class" : "software",
-         "model" : "YAAC",
-         "vendor" : "KA2DDO"
-      },
-      "APZ18" : {
-         "model" : "UIdigi",
-         "class" : "digi",
-         "vendor" : "IW3FQG"
-      },
-      "APNT??" : {
-         "vendor" : "SV2AGW",
-         "model" : "TNT TNC as a digipeater",
-         "class" : "digi"
-      },
-      "APLHI?" : {
-         "class" : "digi",
-         "model" : "LoRa IGate/Digipeater/Telemetry",
-         "contact" : "iw1cgw@libero.it",
-         "vendor" : "Giovanni, IW1CGW"
-      },
-      "APHAX?" : {
-         "vendor" : "PY2UEP",
-         "os" : "Windows",
-         "model" : "SM2APRS SondeMonitor",
-         "class" : "software"
-      },
-      "APY05D" : {
-         "class" : "ht",
-         "model" : "FT5D",
-         "vendor" : "Yaesu"
-      },
-      "APTLVC" : {
-         "model" : "TR80 APRS Tracker",
-         "class" : "tracker",
-         "vendor" : "TA5LVC"
-      },
-      "APOSMS" : {
-         "model" : "Open Source SMS Gateway",
-         "contact" : "mike.ph4@gmail.com",
-         "vendor" : "Mike, NA7Q",
-         "class" : "service",
-         "features" : [
-            "messaging"
-         ]
-      },
-      "APX???" : {
-         "os" : "Linux/Unix",
-         "vendor" : "Open Source",
-         "class" : "software",
-         "model" : "Xastir"
-      },
-      "APCLWX" : {
-         "vendor" : "ZS6EY",
-         "model" : "EYWeather",
-         "class" : "wx"
-      },
-      "APPIC?" : {
-         "vendor" : "DB1NTO",
-         "class" : "tracker",
-         "model" : "PicoAPRS"
-      },
-      "APOSAT" : {
-         "vendor" : "Mike, NA7Q",
-         "contact" : "mike.ph4@gmail.com",
-         "class" : "service",
-         "model" : "Open Source Satellite Gateway"
-      },
-      "APND??" : {
-         "model" : "DIGI_NED",
-         "vendor" : "PE1MEW"
-      },
-      "APHRT?" : {
-         "model" : "Telemetry",
-         "contact" : "iw1cgw@libero.it",
-         "vendor" : "Giovanni, IW1CGW"
-      },
-      "APT2??" : {
-         "model" : "TinyTrak2",
-         "class" : "tracker",
-         "vendor" : "Byonics"
-      },
-      "APMI??" : {
-         "os" : "embedded",
-         "vendor" : "Microsat"
-      },
-      "APE2A?" : {
-         "vendor" : "NoseyNick, VA3NNW",
-         "os" : "Linux/Unix",
-         "model" : "Email-2-APRS gateway",
-         "class" : "software"
-      },
       "APYS??" : {
-         "vendor" : "W2GMD",
+         "class" : "software",
          "model" : "Python APRS",
-         "class" : "software"
+         "vendor" : "W2GMD"
       },
-      "APSF??" : {
-         "model" : "embedded APRS devices",
-         "os" : "embedded",
-         "vendor" : "F5OPV, SFCP_LABS"
-      },
-      "APSFWX" : {
-         "class" : "wx",
-         "model" : "embedded Weather Station",
-         "vendor" : "F5OPV, SFCP_LABS",
-         "os" : "embedded"
-      },
-      "APZG??" : {
-         "class" : "software",
-         "model" : "aprsg",
-         "os" : "Linux/Unix",
-         "vendor" : "OH2GVE"
-      },
-      "APJID2" : {
-         "vendor" : "Peter Loveall, AE5PL",
-         "class" : "dstar",
-         "model" : "D-Star APJID2"
-      },
-      "APRRDZ" : {
-         "model" : "rdzTTGOsonde",
+      "APAR??" : {
          "class" : "tracker",
-         "vendor" : "DL9RDZ"
+         "os" : "embedded",
+         "model" : "Arctic Tracker",
+         "vendor" : "Øyvind, LA7ECA"
       },
-      "APY02D" : {
-         "class" : "ht",
-         "model" : "FT2D",
-         "vendor" : "Yaesu"
+      "APLU0?" : {
+         "os" : "embedded",
+         "contact" : "wajdzik.m@gmail.com",
+         "vendor" : "SP9UP",
+         "model" : "ESP32/SX12xx LoRa iGate / Digi",
+         "class" : "digi"
       },
-      "APNCM" : {
-         "contact" : "wa0tjt@gmail.com",
-         "vendor" : "Keith Kaiser, WA0TJT",
-         "os" : "browser",
-         "class" : "software",
-         "model" : "Net Control Manager"
+      "APN102" : {
+         "os" : "ipad",
+         "model" : "APRSNow",
+         "vendor" : "Gregg Wonderly, W5GGW",
+         "class" : "app"
       },
-      "APRHH?" : {
-         "vendor" : "Steven D. Bragg, KA9MVA",
-         "model" : "HamHud",
+      "APOT??" : {
+         "model" : "OpenTracker",
+         "vendor" : "Argent Data Systems",
          "class" : "tracker"
       },
-      "APTW??" : {
-         "class" : "wx",
-         "model" : "WXTrak",
-         "vendor" : "Byonics"
+      "APWA??" : {
+         "class" : "software",
+         "os" : "Android",
+         "model" : "APRSISCE",
+         "vendor" : "KJ4ERJ"
       },
-      "APNV2?" : {
-         "vendor" : "SQ8L",
-         "model" : "VP-Tracker",
-         "class" : "tracker"
+      "APHK??" : {
+         "vendor" : "LA1BR",
+         "model" : "Digipeater/tracker"
       },
-      "APMPAD" : {
-         "vendor" : "DF1JSL",
-         "contact" : "joerg.schultze.lutter@gmail.com",
-         "features" : [
-            "messaging"
-         ],
-         "class" : "service",
-         "model" : "Multi-Purpose APRS Daemon"
-      },
-      "APMI06" : {
-         "model" : "WX3in1 Plus 2.0",
-         "vendor" : "Microsat",
-         "os" : "embedded"
-      },
-      "APPCO?" : {
-         "model" : "PicoAPRSTracker",
-         "class" : "tracker",
-         "contact" : "ab4mw@radcommsoft.com",
-         "os" : "embedded",
-         "vendor" : "RadCommSoft, LLC"
-      },
-      "APLRG?" : {
-         "os" : "embedded",
-         "vendor" : "Ricardo, CA2RXU",
-         "contact" : "richonguzman@gmail.com",
-         "class" : "igate",
-         "model" : "ESP32 LoRa iGate"
-      },
-      "APZ186" : {
-         "vendor" : "IW3FQG",
-         "class" : "digi",
-         "model" : "UIdigi"
+      "APK005" : {
+         "model" : "TH-D75",
+         "vendor" : "Kenwood",
+         "class" : "ht"
       },
       "API410" : {
          "class" : "dstar",
          "model" : "IC-4100",
          "vendor" : "Icom"
       },
-      "APECAN" : {
-         "vendor" : "KT5TK/DL7AD",
-         "model" : "Pecan Pico APRS Balloon Tracker",
-         "class" : "tracker"
+      "APOSMS" : {
+         "class" : "service",
+         "features" : [
+            "messaging"
+         ],
+         "vendor" : "Mike, NA7Q",
+         "contact" : "mike.ph4@gmail.com",
+         "model" : "Open Source SMS Gateway"
+      },
+      "APIN??" : {
+         "vendor" : "AB0WV",
+         "model" : "PinPoint"
+      },
+      "APNJS?" : {
+         "contact" : "julien.owls@gmail.com",
+         "model" : "Web messaging service",
+         "vendor" : "Julien Sansonnens, HB9HRD",
+         "class" : "service",
+         "features" : [
+            "messaging"
+         ]
+      },
+      "APIC??" : {
+         "model" : "PICiGATE",
+         "vendor" : "HA9MCQ"
+      },
+      "APVR??" : {
+         "model" : "IRLP",
+         "vendor" : "unknown"
+      },
+      "APEML?" : {
+         "class" : "software",
+         "contact" : "sp9mli@gmail.com",
+         "model" : "SP9MLI for WX, Telemetry",
+         "vendor" : "Leszek, SP9MLI"
+      },
+      "APGO??" : {
+         "model" : "APRS-Go",
+         "vendor" : "AA3NJ",
+         "class" : "app"
+      },
+      "APLC??" : {
+         "model" : "APRScube",
+         "vendor" : "DL3DCW"
+      },
+      "APLG??" : {
+         "class" : "digi",
+         "model" : "LoRa Gateway/Digipeater",
+         "vendor" : "OE5BPA"
+      },
+      "API80" : {
+         "model" : "IC-80",
+         "vendor" : "Icom",
+         "class" : "dstar"
+      },
+      "APHAX?" : {
+         "class" : "software",
+         "os" : "Windows",
+         "model" : "SM2APRS SondeMonitor",
+         "vendor" : "PY2UEP"
+      },
+      "APB2MF" : {
+         "class" : "software",
+         "model" : "MF2APRS Radiosonde tracking tool",
+         "vendor" : "Mike, DL2MF",
+         "os" : "Windows"
+      },
+      "APK004" : {
+         "model" : "TH-D74",
+         "vendor" : "Kenwood",
+         "class" : "ht"
+      },
+      "APHPIB" : {
+         "vendor" : "HP3ICC",
+         "model" : "Python APRS Beacon"
+      },
+      "APDST?" : {
+         "os" : "embedded",
+         "model" : "dsTracker",
+         "vendor" : "SP9UOB"
+      },
+      "APAVT5" : {
+         "class" : "tracker",
+         "vendor" : "SainSonic",
+         "model" : "AP510"
+      },
+      "APTHUR" : {
+         "features" : [
+            "messaging"
+         ],
+         "class" : "service",
+         "model" : "APRSThursday weekly event mapbot daemon",
+         "vendor" : "YD0BCX",
+         "contact" : "harihend1973@gmail.com",
+         "os" : "linux/unix"
+      },
+      "APR8??" : {
+         "model" : "APRSdos",
+         "vendor" : "Bob Bruninga, WB4APR",
+         "class" : "software"
+      },
+      "APJY??" : {
+         "class" : "software",
+         "vendor" : "KA2DDO",
+         "model" : "YAAC"
+      },
+      "APY01D" : {
+         "vendor" : "Yaesu",
+         "model" : "FT1D",
+         "class" : "ht"
+      },
+      "APK1??" : {
+         "class" : "rig",
+         "vendor" : "Kenwood",
+         "model" : "TM-D700"
       },
       "APRRT?" : {
          "model" : "RTrak",
-         "class" : "tracker",
-         "vendor" : "RPC Electronics"
+         "vendor" : "RPC Electronics",
+         "class" : "tracker"
       },
-      "APNW??" : {
-         "model" : "WX3in1",
-         "os" : "embedded",
-         "vendor" : "SQ3FYK"
+      "APNT??" : {
+         "model" : "TNT TNC as a digipeater",
+         "vendor" : "SV2AGW",
+         "class" : "digi"
       },
-      "APMG??" : {
-         "vendor" : "Alex, AB0TJ",
-         "model" : "PiCrumbs and MiniGate",
+      "APDR??" : {
+         "class" : "app",
+         "os" : "Android",
+         "model" : "APRSdroid",
+         "vendor" : "Open Source"
+      },
+      "APWEE?" : {
+         "model" : "WeeWX Weather Software",
+         "vendor" : "Tom Keffer and Matthew Wall",
+         "os" : "Linux/Unix",
          "class" : "software"
       },
-      "APCTLK" : {
-         "vendor" : "Open Source",
-         "class" : "app",
-         "model" : "Codec2Talkie"
+      "APTKJ?" : {
+         "model" : "ATTiny APRS Tracker",
+         "vendor" : "W9JAJ",
+         "os" : "embedded"
       },
-      "APHRM?" : {
-         "vendor" : "Giovanni, IW1CGW",
-         "contact" : "iw1cgw@libero.it",
-         "model" : "Meteo",
+      "APLRG?" : {
+         "os" : "embedded",
+         "vendor" : "Ricardo, CA2RXU",
+         "model" : "ESP32 LoRa iGate",
+         "contact" : "richonguzman@gmail.com",
+         "class" : "igate"
+      },
+      "APVE??" : {
+         "model" : "EchoLink",
+         "vendor" : "unknown"
+      },
+      "APDV??" : {
+         "class" : "software",
+         "vendor" : "OE6PLD",
+         "model" : "SSTV with APRS"
+      },
+      "APHT??" : {
+         "class" : "tracker",
+         "vendor" : "IU0AAC",
+         "model" : "HMTracker"
+      },
+      "APN2??" : {
+         "vendor" : "VE4KLM",
+         "model" : "NOSaprs for JNOS 2.0"
+      },
+      "APNCM" : {
+         "os" : "browser",
+         "vendor" : "Keith Kaiser, WA0TJT",
+         "model" : "Net Control Manager",
+         "contact" : "wa0tjt@gmail.com",
+         "class" : "software"
+      },
+      "APKHTW" : {
+         "os" : "embedded",
+         "vendor" : "Kip, W3SN",
+         "model" : "Tempest Weather Bridge",
+         "contact" : "w3sn@moxracing.33mail.com",
          "class" : "wx"
       },
-      "APMQ??" : {
-         "vendor" : "WB2OSZ",
-         "model" : "Ham Radio of Things"
+      "APMI03" : {
+         "os" : "embedded",
+         "model" : "PLXDigi",
+         "vendor" : "Microsat"
       },
-      "APK003" : {
+      "APHRT?" : {
+         "contact" : "iw1cgw@libero.it",
+         "model" : "Telemetry",
+         "vendor" : "Giovanni, IW1CGW"
+      },
+      "APS???" : {
+         "class" : "software",
+         "model" : "APRS+SA",
+         "vendor" : "Brent Hildebrand, KH2Z"
+      },
+      "APCLWX" : {
+         "model" : "EYWeather",
+         "vendor" : "ZS6EY",
+         "class" : "wx"
+      },
+      "APVM??" : {
+         "model" : "DRCC-DVM",
+         "vendor" : "Digital Radio China Club",
+         "class" : "igate"
+      },
+      "APPT??" : {
+         "class" : "tracker",
+         "vendor" : "JF6LZE",
+         "model" : "KetaiTracker"
+      },
+      "APSFLG" : {
+         "model" : "LoRa/APRS Gateway",
+         "vendor" : "F5OPV, SFCP_LABS",
+         "os" : "embedded",
+         "class" : "digi"
+      },
+      "APTLVC" : {
+         "class" : "tracker",
+         "vendor" : "TA5LVC",
+         "model" : "TR80 APRS Tracker"
+      },
+      "APFII?" : {
+         "os" : "ios",
+         "model" : "iPhone/iPad app",
+         "vendor" : "aprs.fi",
+         "class" : "app"
+      },
+      "AP4R??" : {
+         "class" : "software",
+         "model" : "APRS4R",
+         "vendor" : "Open Source"
+      },
+      "APPS??" : {
+         "model" : "Polaric Server",
+         "vendor" : "Øyvind, LA7ECA (for the Norwegian Radio Relay League)",
+         "os" : "Linux",
+         "class" : "software"
+      },
+      "APERS?" : {
+         "vendor" : "Jason, KG7YKZ",
+         "model" : "Runner tracking",
+         "class" : "tracker"
+      },
+      "APOCSG" : {
+         "vendor" : "N0AGI",
+         "model" : "POCSAG"
+      },
+      "API???" : {
+         "class" : "dstar",
+         "model" : "unknown",
+         "vendor" : "Icom"
+      },
+      "APX???" : {
+         "model" : "Xastir",
+         "vendor" : "Open Source",
+         "os" : "Linux/Unix",
+         "class" : "software"
+      },
+      "APAW??" : {
+         "model" : "AGWPE",
+         "vendor" : "SV2AGW",
+         "os" : "Windows",
+         "class" : "software"
+      },
+      "APAM??" : {
+         "class" : "tracker",
+         "model" : "AltOS",
+         "vendor" : "Altus Metrum"
+      },
+      "APBSD?" : {
+         "model" : "HamBSD",
+         "vendor" : "hambsd.org"
+      },
+      "APY300" : {
+         "model" : "FTM-300D",
+         "vendor" : "Yaesu",
+         "class" : "rig"
+      },
+      "APY400" : {
+         "model" : "FTM-400",
+         "vendor" : "Yaesu",
+         "class" : "rig"
+      },
+      "APAND?" : {
+         "os" : "Android",
+         "vendor" : "Open Source",
+         "model" : "APRSdroid",
+         "class" : "app"
+      },
+      "APGBLN" : {
+         "class" : "tracker",
+         "model" : "GoBalloon",
+         "vendor" : "NW5W"
+      },
+      "API92" : {
+         "class" : "dstar",
+         "vendor" : "Icom",
+         "model" : "IC-92"
+      }
+   },
+   "micelegacy" : {
+      ">" : {
+         "features" : [
+            "messaging"
+         ],
          "class" : "ht",
-         "model" : "TH-D72",
+         "prefix" : ">",
+         "model" : "TH-D7A",
          "vendor" : "Kenwood"
       },
-      "APLT??" : {
-         "class" : "tracker",
-         "model" : "LoRa Tracker",
-         "vendor" : "OE5BPA"
+      "]=" : {
+         "class" : "rig",
+         "features" : [
+            "messaging"
+         ],
+         "suffix" : "=",
+         "model" : "TM-D710",
+         "vendor" : "Kenwood",
+         "prefix" : "]"
+      },
+      "]" : {
+         "vendor" : "Kenwood",
+         "model" : "TM-D700",
+         "prefix" : "]",
+         "class" : "rig",
+         "features" : [
+            "messaging"
+         ]
+      },
+      ">^" : {
+         "features" : [
+            "messaging"
+         ],
+         "class" : "ht",
+         "vendor" : "Kenwood",
+         "model" : "TH-D74",
+         "prefix" : ">",
+         "suffix" : "^"
+      },
+      ">&" : {
+         "suffix" : "&",
+         "model" : "TH-D75",
+         "vendor" : "Kenwood",
+         "prefix" : ">",
+         "class" : "ht",
+         "features" : [
+            "messaging"
+         ]
+      },
+      ">=" : {
+         "suffix" : "=",
+         "vendor" : "Kenwood",
+         "model" : "TH-D72",
+         "prefix" : ">",
+         "class" : "ht",
+         "features" : [
+            "messaging"
+         ]
       }
    },
    "classes" : {
-      "digi" : {
-         "description" : "Digipeater software",
-         "shown" : "Digipeater"
-      },
-      "rig" : {
-         "description" : "Mobile or desktop radio",
-         "shown" : "Rig"
+      "igate" : {
+         "shown" : "iGate",
+         "description" : "iGate software"
       },
       "wx" : {
          "description" : "Dedicated weather station",
          "shown" : "Weather station"
       },
-      "igate" : {
-         "description" : "iGate software",
-         "shown" : "iGate"
+      "software" : {
+         "description" : "Desktop software",
+         "shown" : "Software"
       },
-      "service" : {
-         "description" : "Software running as a web service",
-         "shown" : "Service"
+      "rig" : {
+         "shown" : "Rig",
+         "description" : "Mobile or desktop radio"
       },
       "app" : {
          "shown" : "Mobile app",
@@ -1564,17 +1570,21 @@
          "description" : "Tracker device",
          "shown" : "Tracker"
       },
-      "dstar" : {
-         "shown" : "D-Star",
-         "description" : "D-Star radio"
-      },
-      "software" : {
-         "shown" : "Software",
-         "description" : "Desktop software"
+      "digi" : {
+         "description" : "Digipeater software",
+         "shown" : "Digipeater"
       },
       "satellite" : {
          "shown" : "Satellite",
          "description" : "Satellite-based station"
+      },
+      "service" : {
+         "shown" : "Service",
+         "description" : "Software running as a web service"
+      },
+      "dstar" : {
+         "shown" : "D-Star",
+         "description" : "D-Star radio"
       }
    }
 }
