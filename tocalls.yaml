@@ -1608,3 +1608,16 @@ tocalls:
    model: PSKmail
    class: software
 
+ - tocall: APEDT1
+   vendor: Eddie, 9W2LWK
+   model: 9W2LWK LoraTracker
+   class: tracker
+   os: embedded
+   contact: 9w2lwk@gmail.com
+
+ - tocall: APEDG1
+   vendor: Eddie, 9W2LWK
+   model: 9W2LWK LoRAIGate
+   class: igate
+   os: embedded
+   contact: 9w2lwk@gmail.com
