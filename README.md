@@ -114,6 +114,8 @@ Libraries and applications directly using this database
   https://github.com/xssfox/aprs_tocall
   https://pypi.org/project/aprs-tocall/
 * aprs.fi, using Ham::APRS::DeviceID
+* [Dire Wolf](https://github.com/wb2osz/direwolf)
+  software modem / TNC
 
 Others? Let me know.
 
