@@ -762,6 +762,13 @@ tocalls:
    os: embedded
    contact: cfr34k-git@tkolb.de
 
+ - tocall: APLFG?
+   vendor: Gabor, HG3FUG
+   model: LoRa WX station
+   class: wx
+   os: embedded
+   contact: hg3fug@fazi.hu
+
  - tocall: APLFM?
    vendor: DO1MA
    model: FemtoAPRS
