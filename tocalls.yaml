@@ -851,6 +851,12 @@ tocalls:
    os: embedded
    contact: wajdzik.m@gmail.com
 
+ - tocall: APMAIL
+   vendor: Mike, NA7Q
+   model: APRS Mailbox
+   class: service
+   contact: mike.ph4@gmail.com
+
  - tocall: APMG??
    vendor: Alex, AB0TJ
    model: PiCrumbs and MiniGate
