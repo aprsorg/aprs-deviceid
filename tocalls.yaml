@@ -745,6 +745,20 @@ tocalls:
    vendor: DL3DCW
    model: APRScube
 
+ - tocall: APLDG?
+   vendor: Eddie, 9W2LWK
+   model: LoRAIGate
+   class: igate
+   os: embedded
+   contact: 9w2lwk@gmail.com
+
+ - tocall: APLDH?
+   vendor: Eddie, 9W2LWK
+   model: LoraTracker
+   class: tracker
+   os: embedded
+   contact: 9w2lwk@gmail.com
+
  - tocall: APLDI?
    vendor: David, OK2DDS
    model: LoRa IGate/Digipeater
