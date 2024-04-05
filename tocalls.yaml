@@ -532,6 +532,10 @@ tocalls:
    model: GoBalloon
    class: tracker
 
+ - tocall: APGDT?
+   vendor: VK4FAST
+   model: Graphic Data Terminal
+
  - tocall: APGO??
    vendor: AA3NJ
    model: APRS-Go
@@ -1086,6 +1090,10 @@ tocalls:
    class: service
    contact: mike.ph4@gmail.com
 
+ - tocall: APOSB?
+   vendor: HA2NON
+   model: openSPOT3
+
  - tocall: APOSMS
    vendor: Mike, NA7Q
    model: Open Source SMS Gateway
@@ -1093,6 +1101,10 @@ tocalls:
    contact: mike.ph4@gmail.com
    features:
      - messaging
+
+ - tocall: APOSW?
+   vendor: HA2NON
+   model: openSPOT2
 
  - tocall: APOT??
    vendor: Argent Data Systems
