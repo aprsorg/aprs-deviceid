@@ -507,11 +507,21 @@ tocalls:
    model: PE1RXQ APRS Tracker
    class: tracker
 
- - tocall: APESP?
+ - tocall: APESP1
    vendor: LY3PH
    model: APRS-ESP
    os: embedded
  
+ - tocall: APESPG
+   vendor: OH2TH
+   model: ESP SmartBeacon APRS-IS Client
+   os: embedded
+
+ - tocall: APESPW
+   vendor: OH2TH
+   model: ESP Weather Station APRS-IS Client
+   os: embedded
+
  - tocall: APFG??
    vendor: KP4DJT
    model: Flood Gage
