@@ -497,6 +497,14 @@ tocalls:
    os: embedded
    contact: pegloff@gmail.com
 
+ - tocall: APERRB
+   vendor: KG5JNC
+   model: APRS Backend for Errbot
+   class: service
+   contact: me@kg5jnc.com
+   features:
+     - messaging
+
  - tocall: APERS?
    vendor: Jason, KG7YKZ
    model: Runner tracking
@@ -853,6 +861,12 @@ tocalls:
    os: embedded
    contact: sq9p.peter@gmail.com
 
+ - tocall: APLPS?
+   vendor: Jose, XE3JAC
+   model: ESP-32 LoRa
+   os: embedded
+   contact: xe3jac@gmail.com
+
  - tocall: APLRG?
    vendor: Ricardo, CA2RXU
    model: ESP32 LoRa iGate
@@ -890,6 +904,18 @@ tocalls:
    class: tracker
    os: embedded
    contact: wajdzik.m@gmail.com
+
+ - tocall: APLZA?
+   vendor: Huang Xuewu, BD5HTY
+   model: LoRa
+   os: embedded
+   contact: bd5hty@gmail.com
+
+ - tocall: APLZX?
+   vendor: N1AF
+   model: LoRa-APRS
+   os: embedded
+   contact: lora-aprs@n1af.org
 
  - tocall: APMAIL
    vendor: Mike, NA7Q
