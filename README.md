@@ -18,10 +18,9 @@ repository.
 
 This is a machine-readable index of APRS device and software identification
 strings.  For easy manual editing and validation, the master file is in YAML
-format.  A generator tool, provided in this repository, converts the
-database to XML and JSON, which are also provided in the
-`generated` directory for environments where those are more convenient to
-parse.  The tool also checks the correct formatting of the database.
+format.  A generator tool, provided in this repository, checks the YAML file
+for correctness and converts the database to XML and JSON.  The generated
+versions are also made available for download.
 
 This database is maintained by Hessu, OH7LZB, and a soon-to-be-named team of
 volunteers.
@@ -31,6 +30,22 @@ easy for developers to implement automatic identification of APRS devices
 and software.  If you choose to use the database, and update from here
 regularly, your APRS app will automatically detect new devices added in the
 future.
+
+Validated and generated files are automatically published, after every
+change in the master database, at the following URLs.  APRS applications can
+automatically fetch fresh versions, for example, once per week.  Just
+remember to pick a random day and time - don't schedule all instances to
+download precisely on the same second.
+
+* https://aprs-deviceid.aprsfoundation.org/tocalls.yaml
+* https://aprs-deviceid.aprsfoundation.org/tocalls.dense.json
+* https://aprs-deviceid.aprsfoundation.org/tocalls.pretty.json
+* https://aprs-deviceid.aprsfoundation.org/tocalls.xml
+
+The XML and JSON files were previously published in the `generated/`
+directory of this repository.  Since they're actually build products they do
+not belong in the source code repository.  The copies in the repository are
+no longer updated, and will be removed in 2025.
 
 
 Licensing
