@@ -899,6 +899,12 @@ tocalls:
    os: embedded
    contact: wajdzik.m@gmail.com
 
+ - tocall: APLZX?
+   vendor: N1AF
+   model: LoRa-APRS
+   os: embedded
+   contact: lora-aprs@n1af.org
+
  - tocall: APMAIL
    vendor: Mike, NA7Q
    model: APRS Mailbox
