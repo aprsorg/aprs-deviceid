@@ -50,7 +50,11 @@ jobs:
           AWS_ACCESS_KEY_ID: ${{ secrets.AWS_KEY_ID }}
           AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
         run: |
-          aws s3 sync \
-          ./build "s3://$AWS_S3_BUCKET" \
-          --region eu-west-1
+          aws s3 sync --exclude "*.xml" \
+            ./build "s3://$AWS_S3_BUCKET" \
+            --region eu-west-1
+          aws s3 cp \
+            ./build/tocalls.xml "s3://$AWS_S3_BUCKET/tocalls.xml" \
+            --content-type "application/xml; charset=utf-8" \
+            --region eu-west-1
 
