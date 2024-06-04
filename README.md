@@ -80,6 +80,10 @@ Thank you!
 Contents
 ----------
 
+The files are UTF-8 encoded Unicode.  Vendor names may contain non-ascii
+characters where required for correct spelling of a name, but let's not get
+silly with emojis and funny formatting.
+
 Tocall index (tocalls):
 
 * tocall: The APRS destination callsign allocated for an application
