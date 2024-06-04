@@ -206,8 +206,8 @@ warn "   ... JSON done.\n";
 
 # XML
 my $output = new IO::File(">$out_dir/tocalls.xml");
-my $xw = new XML::Writer(OUTPUT => $output);
-
+my $xw = new XML::Writer(OUTPUT => $output, ENCODING => "utf-8");
+$xw->xmlDecl();
 $xw->startTag("aprsdevices");
 
 $xw->startTag("classes");
