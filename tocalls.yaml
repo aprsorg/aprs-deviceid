@@ -497,6 +497,14 @@ tocalls:
    os: embedded
    contact: pegloff@gmail.com
 
+ - tocall: APERRB
+   vendor: KG5JNC
+   model: APRS Backend for Errbot
+   class: service
+   contact: me@kg5jnc.com
+   features:
+     - messaging
+
  - tocall: APERS?
    vendor: Jason, KG7YKZ
    model: Runner tracking
