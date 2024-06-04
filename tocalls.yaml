@@ -861,6 +861,12 @@ tocalls:
    os: embedded
    contact: sq9p.peter@gmail.com
 
+ - tocall: APLPS?
+   vendor: Jose, XE3JAC
+   model: ESP-32 LoRa
+   os: embedded
+   contact: xe3jac@gmail.com
+
  - tocall: APLRG?
    vendor: Ricardo, CA2RXU
    model: ESP32 LoRa iGate
