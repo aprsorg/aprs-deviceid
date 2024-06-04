@@ -899,6 +899,12 @@ tocalls:
    os: embedded
    contact: wajdzik.m@gmail.com
 
+ - tocall: APLZA?
+   vendor: Huang Xuewu, BD5HTY
+   model: LoRa
+   os: embedded
+   contact: bd5hty@gmail.com
+
  - tocall: APLZX?
    vendor: N1AF
    model: LoRa-APRS
