@@ -26,6 +26,10 @@ classes:
    shown: Tracker
    description: Tracker device
  
+ - class: gadget
+   shown: Gadget
+   description: Small non-tracker APRS device
+
  - class: rig
    shown: Rig
    description: Mobile or desktop radio
@@ -39,8 +43,20 @@ classes:
    description: Mobile phone or tablet app
  
  - class: software
-   shown: Software
+   shown: Desktop software
    description: Desktop software
+
+ - class: daemon
+   shown: Background software
+   description: Computer software without user interface
+
+ - class: service
+   shown: Service
+   description: Software running as a web service or a message bot
+
+ - class: network
+   shown: APRS network hardware appliance
+   description: A hardware appliance with self-contained APRS networking features
 
  - class: digi
    shown: Digipeater
@@ -57,10 +73,6 @@ classes:
  - class: satellite
    shown: Satellite
    description: Satellite-based station
-
- - class: service
-   shown: Service
-   description: Software running as a web service
 
 #
 # mic-e device identifier index for new-style 2-character device

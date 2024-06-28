@@ -190,7 +190,7 @@ mandatory - if a suitable class is not available, it can be omitted.
  * tracker: Small APRS tracker device
    - Typically devices with a GNSS receiver (GPS), primarily reporting a
      moving position.
- * gadget: Small APRS non-tracker device
+ * gadget: Small non-tracker APRS device
    - Portable or fixed devices
    - Typically embedded devices without a GNSS receiver, reporting telemetry
      or otherwise not fitting the tracker category.
@@ -208,14 +208,11 @@ mandatory - if a suitable class is not available, it can be omitted.
  * service: APRS network service: web services, APRS message bots
    - Software not typically installed by users, primarily available as
      a service for users on the APRS network, or on the web for
-     accessing APRS.
+     accessing APRS. APRS message bots, SMS gateways and hosted services.
  * wx: Weather station
    - A dedicated weather station.
  * satellite: Satellite-based station
    - APRS software running on the satellite itself.
- * service: Software running as a service
-   - Web services
-   - Message gateways (SMS, etc)
 
 
 Operating systems
