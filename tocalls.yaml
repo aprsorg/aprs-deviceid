@@ -1339,6 +1339,15 @@ tocalls:
    vendor: DL9RDZ
    class: tracker
 
+ - tocall: APRRES
+   vendor: xssfox
+   model: APRS-RepeaterRescue
+   class: network
+   os: embedded
+   contact: repeater-rescue@michaela.lgbt
+   features:
+     - messaging
+
  - tocall: APRRF?
    vendor: Jean-Francois Huet F1EVM
    model: Tracker for RRF
