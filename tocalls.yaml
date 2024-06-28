@@ -779,6 +779,14 @@ tocalls:
    vendor: DL3DCW
    model: APRScube
 
+ - tocall: APLDAG
+   vendor: Inigo, EA2CQ
+   model: DAGA LoRa/APRS SOTA spotting
+   class: service
+   contact: ea2cq@irratia.org
+   features:
+     - messaging
+
  - tocall: APLDG?
    vendor: Eddie, 9W2LWK
    model: LoRAIGate
@@ -1338,6 +1346,15 @@ tocalls:
    model: rdzTTGOsonde
    vendor: DL9RDZ
    class: tracker
+
+ - tocall: APRRES
+   vendor: xssfox
+   model: APRS-RepeaterRescue
+   class: network
+   os: embedded
+   contact: repeater-rescue@michaela.lgbt
+   features:
+     - messaging
 
  - tocall: APRRF?
    vendor: Jean-Francois Huet F1EVM
