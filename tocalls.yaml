@@ -173,6 +173,11 @@ mice:
    model: VP-Tracker
    class: tracker
 
+ - suffix: " X"
+   vendor: SainSonic
+   model: AP510
+   class: tracker
+
 #
 # mic-e legacy devices, with an unique comment suffix and prefix
 #
