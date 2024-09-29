@@ -1348,6 +1348,14 @@ tocalls:
    class: app
    os: ipad
 
+ - tocall: APRPJU
+   vendor: Piju 9M2PJU
+   model: 9M2PJU Bot
+   class: daemon
+   contact: 9m2pju@hamradio.my
+   features:
+     - messaging
+
  - tocall: APRPR?
    vendor: Robert DM4RW, Peter DL6MAA
    model: Teensy RPR TNC
