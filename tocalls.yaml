@@ -542,6 +542,13 @@ tocalls:
    model: ESP Weather Station APRS-IS Client
    os: embedded
 
+ - tocall: APETBT
+   vendor: PD7R
+   model: TBTracker Balloon Telemetry Tracker
+   class: tracker
+   os: embedded
+   contact: roel@kroes.com
+
  - tocall: APFG??
    vendor: KP4DJT
    model: Flood Gage
