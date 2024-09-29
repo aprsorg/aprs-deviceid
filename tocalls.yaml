@@ -1152,8 +1152,11 @@ tocalls:
    contact: mike.ph4@gmail.com
 
  - tocall: APOSB?
-   vendor: HA2NON
+   vendor: SharkRF
    model: openSPOT3
+   class: gadget
+   os: embedded
+   contact: info@sharkrf.com
 
  - tocall: APOSMS
    vendor: Mike, NA7Q
@@ -1164,8 +1167,11 @@ tocalls:
      - messaging
 
  - tocall: APOSW?
-   vendor: HA2NON
+   vendor: SharkRF
    model: openSPOT2
+   class: gadget
+   os: embedded
+   contact: info@sharkrf.com
 
  - tocall: APOT??
    vendor: Argent Data Systems
