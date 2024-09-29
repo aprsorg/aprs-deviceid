@@ -1519,6 +1519,12 @@ tocalls:
    vendor: Motorola
    model: MotoTRBO
 
+ - tocall: APTSLA
+   vendor: HA2NON
+   model: tesla-aprs
+   class: daemon
+   contact: nonoo@nonoo.hu
+
  - tocall: APTT*
    vendor: Byonics
    model: TinyTrak
