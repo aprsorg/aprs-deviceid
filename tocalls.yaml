@@ -352,9 +352,21 @@ tocalls:
    vendor: hambsd.org
    model: HamBSD
 
+ - tocall: APBT*
+   vendor: BTECH
+   contact: support@baofengtech.com
+
  - tocall: APBT62
-   vendor: BTech
+   vendor: BTECH
    model: DMR 6x2
+   class: ht
+   contact: support@baofengtech.com
+
+ - tocall: APBTUV
+   vendor: BTECH
+   model: UV-PRO
+   class: ht
+   contact: support@baofengtech.com
 
  - tocall: APC???
    vendor: Rob Wittner, KZ5RW
