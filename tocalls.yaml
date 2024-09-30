@@ -1189,11 +1189,22 @@ tocalls:
    class: service
    contact: mike.ph4@gmail.com
 
- - tocall: APOSB?
+ - tocall: APOSB
    vendor: SharkRF
    model: openSPOT3
    class: gadget
    os: embedded
+   contact: info@sharkrf.com
+
+ - tocall: APOSB4
+   vendor: SharkRF
+   model: openSPOT4
+   class: gadget
+   os: embedded
+   contact: info@sharkrf.com
+
+ - tocall: APOSB?
+   vendor: SharkRF
    contact: info@sharkrf.com
 
  - tocall: APOSMS
