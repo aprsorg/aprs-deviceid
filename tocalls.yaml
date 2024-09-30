@@ -352,9 +352,21 @@ tocalls:
    vendor: hambsd.org
    model: HamBSD
 
+ - tocall: APBT*
+   vendor: BTECH
+   contact: support@baofengtech.com
+
  - tocall: APBT62
-   vendor: BTech
+   vendor: BTECH
    model: DMR 6x2
+   class: ht
+   contact: support@baofengtech.com
+
+ - tocall: APBTUV
+   vendor: BTECH
+   model: UV-PRO
+   class: ht
+   contact: support@baofengtech.com
 
  - tocall: APC???
    vendor: Rob Wittner, KZ5RW
@@ -769,6 +781,13 @@ tocalls:
    model: TM-D700
    class: rig
 
+ - tocall: APKEYn
+   vendor: 9W2KEY
+   model: ATMega328P APRS
+   class: tracker
+   os: embedded
+   contact: mzakiab@gmail.com
+
  - tocall: APKHTW
    vendor: Kip, W3SN
    model: Tempest Weather Bridge
@@ -831,6 +850,13 @@ tocalls:
    class: wx
    os: embedded
    contact: hg3fug@fazi.hu
+
+ - tocall: APLFLY
+   vendor: Damian, SQ2CPA
+   model: ESP32 LoRa Balloon
+   class: tracker
+   os: embedded
+   contact: sq2cpa@gmail.com
 
  - tocall: APLFM?
    vendor: DO1MA
