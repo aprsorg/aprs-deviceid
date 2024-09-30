@@ -781,6 +781,13 @@ tocalls:
    model: TM-D700
    class: rig
 
+ - tocall: APKEYn
+   vendor: 9W2KEY
+   model: ATMega328P APRS
+   class: tracker
+   os: embedded
+   contact: mzakiab@gmail.com
+
  - tocall: APKHTW
    vendor: Kip, W3SN
    model: Tempest Weather Bridge
