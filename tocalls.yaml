@@ -357,9 +357,21 @@ tocalls:
    vendor: hambsd.org
    model: HamBSD
 
+ - tocall: APBT*
+   vendor: BTECH
+   contact: support@baofengtech.com
+
  - tocall: APBT62
-   vendor: BTech
+   vendor: BTECH
    model: DMR 6x2
+   class: ht
+   contact: support@baofengtech.com
+
+ - tocall: APBTUV
+   vendor: BTECH
+   model: UV-PRO
+   class: ht
+   contact: support@baofengtech.com
 
  - tocall: APC???
    vendor: Rob Wittner, KZ5RW
@@ -546,6 +558,13 @@ tocalls:
    vendor: OH2TH
    model: ESP Weather Station APRS-IS Client
    os: embedded
+
+ - tocall: APETBT
+   vendor: PD7R
+   model: TBTracker Balloon Telemetry Tracker
+   class: tracker
+   os: embedded
+   contact: roel@kroes.com
 
  - tocall: APFG??
    vendor: KP4DJT
@@ -767,6 +786,13 @@ tocalls:
    model: TM-D700
    class: rig
 
+ - tocall: APKEYn
+   vendor: 9W2KEY
+   model: ATMega328P APRS
+   class: tracker
+   os: embedded
+   contact: mzakiab@gmail.com
+
  - tocall: APKHTW
    vendor: Kip, W3SN
    model: Tempest Weather Bridge
@@ -829,6 +855,13 @@ tocalls:
    class: wx
    os: embedded
    contact: hg3fug@fazi.hu
+
+ - tocall: APLFLY
+   vendor: Damian, SQ2CPA
+   model: ESP32 LoRa Balloon
+   class: tracker
+   os: embedded
+   contact: sq2cpa@gmail.com
 
  - tocall: APLFM?
    vendor: DO1MA
@@ -1157,8 +1190,11 @@ tocalls:
    contact: mike.ph4@gmail.com
 
  - tocall: APOSB?
-   vendor: HA2NON
+   vendor: SharkRF
    model: openSPOT3
+   class: gadget
+   os: embedded
+   contact: info@sharkrf.com
 
  - tocall: APOSMS
    vendor: Mike, NA7Q
@@ -1169,8 +1205,11 @@ tocalls:
      - messaging
 
  - tocall: APOSW?
-   vendor: HA2NON
+   vendor: SharkRF
    model: openSPOT2
+   class: gadget
+   os: embedded
+   contact: info@sharkrf.com
 
  - tocall: APOT??
    vendor: Argent Data Systems
@@ -1339,6 +1378,14 @@ tocalls:
    model: APRSNow
    class: app
    os: ipad
+
+ - tocall: APRPJU
+   vendor: Piju 9M2PJU
+   model: 9M2PJU Bot
+   class: daemon
+   contact: 9m2pju@hamradio.my
+   features:
+     - messaging
 
  - tocall: APRPR?
    vendor: Robert DM4RW, Peter DL6MAA
@@ -1523,6 +1570,12 @@ tocalls:
  - tocall: APTR??
    vendor: Motorola
    model: MotoTRBO
+
+ - tocall: APTSLA
+   vendor: HA2NON
+   model: tesla-aprs
+   class: daemon
+   contact: nonoo@nonoo.hu
 
  - tocall: APTT*
    vendor: Byonics
