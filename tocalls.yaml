@@ -786,6 +786,13 @@ tocalls:
    model: TM-D700
    class: rig
 
+ - tocall: APKDXn
+   vendor: KelateDX, 9M2D
+   model: LAHKHUANO APRS
+   class: tracker
+   os: embedded
+   contact: mzakiab@gmail.com
+
  - tocall: APKEYn
    vendor: 9W2KEY
    model: ATMega328P APRS
