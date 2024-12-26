@@ -881,6 +881,13 @@ tocalls:
    model: LoRa Gateway/Digipeater
    class: digi
 
+ - tocall: APLHB9
+   vendor: SWISS-ARTG
+   model: LoRa iGate RPI
+   class: igate
+   os: Linux/Unix
+   contact: hb9pae@gmail.com
+
  - tocall: APLHI?
    vendor: Giovanni, IW1CGW
    model: LoRa IGate/Digipeater/Telemetry
