@@ -903,6 +903,12 @@ tocalls:
    model: LightAPRS Tracker
    class: tracker
 
+ - tocall: APLLO?
+   vendor: HB4LO
+   model: HAB BOT
+   class: tracker
+   contact: david.perrin@hb9hiz.ch
+
  - tocall: APLM??
    vendor: WA0TQG
    class: software
