@@ -1520,6 +1520,13 @@ tocalls:
    model: Satellite Tracking and Operations
    class: software
 
+ - tocall: APSVX?
+   vendor: Tobias Blomberg, SM0SVX
+   model: SvxLink
+   class: daemon
+   os: Linux/Unix
+   contact: aprs-deviceid@cyberspejs.net
+
  - tocall: APT2??
    vendor: Byonics
    model: TinyTrak2
