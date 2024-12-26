@@ -309,7 +309,7 @@ tocalls:
    vendor: Anytone
 
  - tocall: APATAR
-   vendor: TA7W/OH2UDS Baris Dinc and TA6AEU
+   vendor: TA7W/OH2UDS Baris Dinc, TA6AD Emre Keles
    model: ATA-R APRS Digipeater
    class: digi
 
@@ -724,7 +724,7 @@ tocalls:
    model: PinPoint
 
  - tocall: APIZCI
-   vendor: TA7W/OH2UDS and TA6AEU
+   vendor: TA7W/OH2UDS Baris Dinc, TA6AD Emre Keles
    model: hymTR IZCI Tracker
    class: tracker
    os: embedded
