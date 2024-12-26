@@ -1226,6 +1226,13 @@ tocalls:
    vendor: SharkRF
    contact: info@sharkrf.com
 
+ - tocall: APOSBM
+   vendor: SharkRF
+   model: M1KE
+   class: gadget
+   os: embedded
+   contact: info@sharkrf.com
+
  - tocall: APOSMS
    vendor: Mike, NA7Q
    model: Open Source SMS Gateway
