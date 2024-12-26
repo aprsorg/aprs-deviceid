@@ -309,7 +309,7 @@ tocalls:
    vendor: Anytone
 
  - tocall: APATAR
-   vendor: TA7W/OH2UDS Baris Dinc and TA6AEU
+   vendor: TA7W/OH2UDS Baris Dinc, TA6AD Emre Keles
    model: ATA-R APRS Digipeater
    class: digi
 
@@ -724,7 +724,7 @@ tocalls:
    model: PinPoint
 
  - tocall: APIZCI
-   vendor: TA7W/OH2UDS and TA6AEU
+   vendor: TA7W/OH2UDS Baris Dinc, TA6AD Emre Keles
    model: hymTR IZCI Tracker
    class: tracker
    os: embedded
@@ -881,6 +881,13 @@ tocalls:
    model: LoRa Gateway/Digipeater
    class: digi
 
+ - tocall: APLHB9
+   vendor: SWISS-ARTG
+   model: LoRa iGate RPI
+   class: igate
+   os: Linux/Unix
+   contact: hb9pae@gmail.com
+
  - tocall: APLHI?
    vendor: Giovanni, IW1CGW
    model: LoRa IGate/Digipeater/Telemetry
@@ -902,6 +909,12 @@ tocalls:
    vendor: TA2MUN/TA9OHC
    model: LightAPRS Tracker
    class: tracker
+
+ - tocall: APLLO?
+   vendor: HB4LO
+   model: HAB BOT
+   class: tracker
+   contact: david.perrin@hb9hiz.ch
 
  - tocall: APLM??
    vendor: WA0TQG
@@ -1112,6 +1125,12 @@ tocalls:
    vendor: Kantronics
    model: KAM-XL
 
+ - tocall: APNL??
+   vendor: OE5DXL, OE5HPM
+   model: dxlAPRS
+   class: daemon
+   os: Linux/Unix
+
  - tocall: APNM??
    vendor: MFJ
    model: TNC
@@ -1212,6 +1231,13 @@ tocalls:
 
  - tocall: APOSB?
    vendor: SharkRF
+   contact: info@sharkrf.com
+
+ - tocall: APOSBM
+   vendor: SharkRF
+   model: M1KE
+   class: gadget
+   os: embedded
    contact: info@sharkrf.com
 
  - tocall: APOSMS
@@ -1519,6 +1545,13 @@ tocalls:
    vendor: N0AGI
    model: Satellite Tracking and Operations
    class: software
+
+ - tocall: APSVX?
+   vendor: Tobias Blomberg, SM0SVX
+   model: SvxLink
+   class: daemon
+   os: Linux/Unix
+   contact: aprs-deviceid@cyberspejs.net
 
  - tocall: APT2??
    vendor: Byonics
