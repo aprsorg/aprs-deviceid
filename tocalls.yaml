@@ -1118,6 +1118,12 @@ tocalls:
    vendor: Kantronics
    model: KAM-XL
 
+ - tocall: APNL??
+   vendor: OE5DXL, OE5HPM
+   model: dxlAPRS
+   class: daemon
+   os: Linux/Unix
+
  - tocall: APNM??
    vendor: MFJ
    model: TNC
