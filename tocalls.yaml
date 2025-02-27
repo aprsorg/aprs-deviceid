@@ -945,6 +945,32 @@ tocalls:
    os: embedded
    contact: xe3jac@gmail.com
 
+ - tocall: APLRFD
+   vendor: Damian, SQ2CPA
+   model: LoRa Digi
+   class: digi
+   os: embedded
+   contact: sq2cpa@gmail.com
+
+ - tocall: APLRFG
+   vendor: Damian, SQ2CPA
+   model: LoRa IGate
+   class: igate
+   os: embedded
+   contact: sq2cpa@gmail.com
+
+ - tocall: APLRFT
+   vendor: Damian, SQ2CPA
+   model: LoRa Tracker
+   class: tracker
+   os: embedded
+   contact: sq2cpa@gmail.com
+
+ - tocall: APLRF?
+   vendor: Damian, SQ2CPA
+   os: embedded
+   contact: sq2cpa@gmail.com
+
  - tocall: APLRG?
    vendor: Ricardo, CA2RXU
    model: ESP32 LoRa iGate
