@@ -869,9 +869,9 @@ tocalls:
    os: embedded
    contact: hg3fug@fazi.hu
 
- - tocall: APLFLY
+ - tocall: APLFL?
    vendor: Damian, SQ2CPA
-   model: ESP32 LoRa Balloon
+   model: LoRa/APRS Balloon
    class: tracker
    os: embedded
    contact: sq2cpa@gmail.com
