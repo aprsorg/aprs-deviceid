@@ -1542,6 +1542,12 @@ tocalls:
    class: tracker
    os: embedded
 
+ - tocall: APSTAR
+   vendor: AllStar Link LLC
+   model: Asterisk/app_rpt
+   class: daemon
+   os: Linux/Unix
+
  - tocall: APSTM?
    vendor: W7QO
    model: Balloon tracker
