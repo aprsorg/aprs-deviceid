@@ -1536,6 +1536,17 @@ tocalls:
    model: SMS gateway
    class: software
 
+ - tocall: APSN01
+   vendor: CSN Technologies Inc.
+   model: iGateMini
+   contact: info@igatemini.com
+   os: embedded
+   features:
+     - messaging
+
+ - tocall: APSN??
+   vendor: CSN Technologies Inc.
+
  - tocall: APSRF?
    vendor: SoftRF
    model: Ham Edition
