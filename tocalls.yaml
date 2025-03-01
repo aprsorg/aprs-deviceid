@@ -178,6 +178,12 @@ mice:
    model: AP510
    class: tracker
 
+ - suffix: "[1"
+   vendor: Open Source
+   model: APRSdroid
+   class: software
+   os: Android
+
 #
 # mic-e legacy devices, with an unique comment suffix and prefix
 #
