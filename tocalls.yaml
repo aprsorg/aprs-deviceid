@@ -178,6 +178,12 @@ mice:
    model: AP510
    class: tracker
 
+ - suffix: "[1"
+   vendor: Open Source
+   model: APRSdroid
+   class: software
+   os: Android
+
 #
 # mic-e legacy devices, with an unique comment suffix and prefix
 #
@@ -1530,11 +1536,28 @@ tocalls:
    model: SMS gateway
    class: software
 
+ - tocall: APSN01
+   vendor: CSN Technologies Inc.
+   model: iGateMini
+   contact: info@igatemini.com
+   os: embedded
+   features:
+     - messaging
+
+ - tocall: APSN??
+   vendor: CSN Technologies Inc.
+
  - tocall: APSRF?
    vendor: SoftRF
    model: Ham Edition
    class: tracker
    os: embedded
+
+ - tocall: APSTAR
+   vendor: AllStar Link LLC
+   model: Asterisk/app_rpt
+   class: daemon
+   os: Linux/Unix
 
  - tocall: APSTM?
    vendor: W7QO
@@ -1666,6 +1689,13 @@ tocalls:
  - tocall: APVR??
    vendor: unknown
    model: IRLP
+
+ - tocall: APW2W?
+   vendor: Joachim Sonnabend, DG3FBL
+   model: WiresX2Web Software
+   class: software
+   os: Windows
+   contact: mail@dg3fbl.de
 
  - tocall: APW9??
    vendor: Mile Strk, 9A9Y
