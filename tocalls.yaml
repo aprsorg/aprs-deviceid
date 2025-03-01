@@ -1673,6 +1673,13 @@ tocalls:
    vendor: unknown
    model: IRLP
 
+ - tocall: APW2W?
+   vendor: Joachim Sonnabend, DG3FBL
+   model: WiresX2Web Software
+   class: software
+   os: Windows
+   contact: mail@dg3fbl.de
+
  - tocall: APW9??
    vendor: Mile Strk, 9A9Y
    model: WX Katarina
