@@ -1772,6 +1772,12 @@ tocalls:
      - messaging
      - item-in-msg
 
+ - tocall: APWXS?
+   vendor: Colin Cogle, W1DNS
+   model: aprs-weather-submit
+   class: daemon
+   contact: https://github.com/rhymeswithmogul/aprs-weather-submit/
+
  - tocall: APWnnn
    vendor: Sproul Brothers
    model: WinAPRS
