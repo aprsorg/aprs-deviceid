@@ -1649,6 +1649,12 @@ tocalls:
    os: Linux/Unix
    contact: kl7af@foghaven.net
 
+ - tocall: APTGIK
+   vendor: Juliet Delta, 9M4GIK
+   model: APRS Melaka
+   os: embedded
+   contact: 9m2ikr@gmail.com
+
  - tocall: APTHUR
    model: APRSThursday weekly event mapbot daemon
    contact: harihend1973@gmail.com
