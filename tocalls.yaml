@@ -957,6 +957,12 @@ tocalls:
    os: embedded
    contact: xe3jac@gmail.com
 
+ - tocall: APLRF?
+   vendor: Damian, SQ2CPA
+   model: LoRa APRS
+   os: embedded
+   contact: sq2cpa@gmail.com
+
  - tocall: APLRG?
    vendor: Ricardo, CA2RXU
    model: ESP32 LoRa iGate
@@ -1649,6 +1655,12 @@ tocalls:
    os: Linux/Unix
    contact: kl7af@foghaven.net
 
+ - tocall: APTGIK
+   vendor: Juliet Delta, 9M4GIK
+   model: APRS Melaka
+   os: embedded
+   contact: 9m2ikr@gmail.com
+
  - tocall: APTHUR
    model: APRSThursday weekly event mapbot daemon
    contact: harihend1973@gmail.com
@@ -1771,6 +1783,12 @@ tocalls:
    features:
      - messaging
      - item-in-msg
+
+ - tocall: APWXS?
+   vendor: Colin Cogle, W1DNS
+   model: aprs-weather-submit
+   class: daemon
+   contact: https://github.com/rhymeswithmogul/aprs-weather-submit/
 
  - tocall: APWnnn
    vendor: Sproul Brothers
