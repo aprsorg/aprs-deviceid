@@ -9,6 +9,7 @@ eval 'exec /usr/bin/perl  -S $0 ${1+"$@"}'
 use strict;
 use warnings;
 
+use DateTime;
 use YAML::Tiny;
 use JSON;
 use XML::Writer;
@@ -66,14 +67,14 @@ sub check_entry($$$$$$$)
 
 warn "Reading and parsing YAML from $src ...\n";
 my $yaml = YAML::Tiny->new;
-my $c = YAML::Tiny->read($src);
-if (!defined $c) {
+my $yaml_doc = YAML::Tiny->read($src);
+if (!defined $yaml_doc) {
 	die "Failed to read in $src: " . YAML::Tiny->errstr . "\n";
 }
 warn "  ... parsed successfully.\n";
 
 # get the first document of YAML
-$c = $c->[0];
+my $c = $yaml_doc->[0];
 
 # validate main sections
 die "Class definitions not found!\n" if (!defined $c->{'classes'});
@@ -193,7 +194,18 @@ warn "  ... $count_mice_legacy legacy Mic-E codes found.\n";
 
 warn "Converting ...\n";
 
+my $dt_now = DateTime->now;
+my $iso_timestamp = $dt_now->iso8601() . 'Z';
+
+my $meta = {
+	'generation_time' => $iso_timestamp,
+};
+
+$c->{'meta'} = $meta;
+$yaml_doc->write("$out_dir/tocalls.dense.yaml");
+
 my $json_tree = {
+	'meta' => $meta,
 	'classes' => \%classes,
 	'tocalls' => \%tocalls,
 	'mice' => \%mice,
@@ -209,6 +221,14 @@ my $output = new IO::File(">$out_dir/tocalls.xml");
 my $xw = new XML::Writer(OUTPUT => $output, ENCODING => "utf-8");
 $xw->xmlDecl();
 $xw->startTag("aprsdevices");
+
+$xw->startTag("meta");
+foreach my $c (sort keys %{ $meta }) {
+	$xw->startTag($c);
+	$xw->characters($meta->{$c});
+	$xw->endTag($c);
+}
+$xw->endTag("meta");
 
 $xw->startTag("classes");
 foreach my $c (sort keys %classes) {

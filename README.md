@@ -123,6 +123,12 @@ Device class index (classes):
 * shown: An english shown string for the identifier
 * description: An english description string
 
+Metadata (meta), in generated files only:
+
+* generation_time: An ISO timestamp string for when the file was generated
+
+Metadata is only present in the generated JSON, XML and dense YAML files.
+
 
 Libraries and applications directly using this database
 ----------------------------------------------------------
