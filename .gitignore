@@ -1,4 +1,7 @@
 
+generated/*.xml
+generated/*.json
+
 *~
 
 .DS_Store

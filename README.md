@@ -45,7 +45,7 @@ download precisely on the same second.
 The XML and JSON files were previously published in the `generated/`
 directory of this repository.  Since they're actually build products they do
 not belong in the source code repository.  The copies in the repository are
-no longer updated, and will be removed in 2025.
+no longer updated, and have been removed in April 2025.
 
 
 Licensing
