@@ -855,6 +855,12 @@ tocalls:
    model: LoRa Meteostation
    class: wx
 
+ - tocall: APLER?
+   vendor: Ercan, TA3OER
+   model: TROY LoRa Tracker/iGate
+   os: embedded
+   contact: ta3oer@gmail.com
+
  - tocall: APLETK
    vendor: DL5TKL
    model: T-Echo
@@ -1006,6 +1012,31 @@ tocalls:
    model: APRS Mailbox
    class: service
    contact: mike.ph4@gmail.com
+
+ - tocall: APMBL3
+   vendor: Mobilinkd LLC
+   model: TNC3
+   class: digi
+   os: embedded
+   contact: support@mobilinkd.com
+
+ - tocall: APMBL4
+   vendor: Mobilinkd LLC
+   model: TNC4
+   class: digi
+   os: embedded
+   contact: support@mobilinkd.com
+
+ - tocall: APMBL?
+   vendor: Mobilinkd LLC
+   contact: support@mobilinkd.com
+
+ - tocall: APMBLN
+   vendor: Mobilinkd LLC
+   model: NucleoTNC
+   class: digi
+   os: embedded
+   contact: support@mobilinkd.com
 
  - tocall: APMG??
    vendor: Alex, AB0TJ
@@ -1208,6 +1239,12 @@ tocalls:
    vendor: AMSAT-LU
    model: Oscar
    class: satellite
+
+ - tocall: APOPEN
+   vendor: David Platt, AE6EO
+   model: OpenTNC
+   os: embedded
+   contact: dplatt@radagast.org
 
  - tocall: APOPYT
    vendor: Mike, NA7Q
