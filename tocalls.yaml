@@ -855,6 +855,12 @@ tocalls:
    model: LoRa Meteostation
    class: wx
 
+ - tocall: APLER?
+   vendor: Ercan, TA3OER
+   model: TROY LoRa Tracker/iGate
+   os: embedded
+   contact: ta3oer@gmail.com
+
  - tocall: APLETK
    vendor: DL5TKL
    model: T-Echo
