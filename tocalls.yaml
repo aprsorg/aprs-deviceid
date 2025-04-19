@@ -1007,6 +1007,31 @@ tocalls:
    class: service
    contact: mike.ph4@gmail.com
 
+ - tocall: APMBL3
+   vendor: Mobilinkd LLC
+   model: TNC3
+   class: digi
+   os: embedded
+   contact: support@mobilinkd.com
+
+ - tocall: APMBL4
+   vendor: Mobilinkd LLC
+   model: TNC4
+   class: digi
+   os: embedded
+   contact: support@mobilinkd.com
+
+ - tocall: APMBL?
+   vendor: Mobilinkd LLC
+   contact: support@mobilinkd.com
+
+ - tocall: APMBLN
+   vendor: Mobilinkd LLC
+   model: NucleoTNC
+   class: digi
+   os: embedded
+   contact: support@mobilinkd.com
+
  - tocall: APMG??
    vendor: Alex, AB0TJ
    model: PiCrumbs and MiniGate
