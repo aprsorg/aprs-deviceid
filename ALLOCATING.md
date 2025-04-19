@@ -185,7 +185,13 @@ device.
 
 Each device identifier can only be attached to one class.  Pick the one that
 best describes your device or application.  The class attribute is not
-mandatory - if a suitable class is not available, it can be omitted.
+mandatory - if a suitable class is not available, or when a software
+fits multiple classes, it can be omitted.
+
+If your software implements tracker, digipeater and igate modes, do not
+request multiple device identifiers.  Use different symbols to identify the
+role of each station.  Digipeaters and igates will be also identified by the
+APRS paths of packets traversing through them.
 
  * tracker: Small APRS tracker device
    - Typically devices with a GNSS receiver (GPS), primarily reporting a
