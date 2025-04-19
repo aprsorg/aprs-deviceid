@@ -67,14 +67,14 @@ sub check_entry($$$$$$$)
 
 warn "Reading and parsing YAML from $src ...\n";
 my $yaml = YAML::Tiny->new;
-my $c = YAML::Tiny->read($src);
-if (!defined $c) {
+my $yaml_doc = YAML::Tiny->read($src);
+if (!defined $yaml_doc) {
 	die "Failed to read in $src: " . YAML::Tiny->errstr . "\n";
 }
 warn "  ... parsed successfully.\n";
 
 # get the first document of YAML
-$c = $c->[0];
+my $c = $yaml_doc->[0];
 
 # validate main sections
 die "Class definitions not found!\n" if (!defined $c->{'classes'});
@@ -200,6 +200,9 @@ my $iso_timestamp = $dt_now->iso8601() . 'Z';
 my $meta = {
 	'generation_time' => $iso_timestamp,
 };
+
+$c->{'meta'} = $meta;
+$yaml_doc->write("$out_dir/tocalls.dense.yaml");
 
 my $json_tree = {
 	'meta' => $meta,

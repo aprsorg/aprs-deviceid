@@ -1,6 +1,7 @@
 
 generated/*.xml
 generated/*.json
+generated/*.yaml
 
 *~
 
