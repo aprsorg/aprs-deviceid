@@ -1234,6 +1234,12 @@ tocalls:
    model: Oscar
    class: satellite
 
+ - tocall: APOPEN
+   vendor: David Platt, AE6EO
+   model: OpenTNC
+   os: embedded
+   contact: dplatt@radagast.org
+
  - tocall: APOPYT
    vendor: Mike, NA7Q
    model: NA7Q Messenger
