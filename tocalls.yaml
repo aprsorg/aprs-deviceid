@@ -129,6 +129,11 @@ mice:
    model: FTM-500D
    class: rig
 
+ - suffix: "_5"
+   vendor: Yaesu
+   model: FTM-510D
+   class: rig
+
  - suffix: "_)"
    vendor: Yaesu
    model: FTM-100D
@@ -1839,6 +1844,11 @@ tocalls:
  - tocall: APY500
    vendor: Yaesu
    model: FTM-500D
+   class: rig
+
+ - tocall: APY510
+   vendor: Yaesu
+   model: FTM-510D
    class: rig
 
  - tocall: APYS??
