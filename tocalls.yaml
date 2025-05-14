@@ -1546,6 +1546,12 @@ tocalls:
    model: aprsc
    class: software
 
+ - tocall: APSDR?
+   vendor: Marcus Roskosch, DL8MRE
+   model: sdr-control
+   class: app
+   contact: aprs@ham-radio-apps.com
+
  - tocall: APSF??
    vendor: F5OPV, SFCP_LABS
    model: embedded APRS devices
