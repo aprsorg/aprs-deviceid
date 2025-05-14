@@ -1387,6 +1387,12 @@ tocalls:
    class: software
    os: Linux/Unix
 
+ - tocall: APREST
+   vendor: cwop.rest
+   model: HTTP - TCP CWOP Packet Submission
+   class: service
+   contact: leo@herzog.tech
+
  - tocall: APRFG?
    vendor: RF.Guru
    contact: info@rf.guru
