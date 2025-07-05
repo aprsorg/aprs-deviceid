@@ -1485,7 +1485,7 @@ tocalls:
 
  - tocall: APRPJU
    vendor: Piju 9M2PJU
-   model: 9M2PJU Bot
+   model: 9M2PJU APRS Bot
    class: daemon
    contact: 9m2pju@hamradio.my
    features:
