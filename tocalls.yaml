@@ -1490,6 +1490,12 @@ tocalls:
    class: app
    os: ipad
 
+ - tocall: APRPJH
+   vendor: Piju, 9M2PJU
+   model: 9M2PJU APRS Heat Bot
+   class: service
+   contact: 9m2pju@hamradio.my
+
  - tocall: APRPJU
    vendor: Piju, 9M2PJU
    model: 9M2PJU APRS Bot
@@ -1497,6 +1503,12 @@ tocalls:
    contact: 9m2pju@hamradio.my
    features:
      - messaging
+
+ - tocall: APRPJW
+   vendor: Piju, 9M2PJU
+   model: 9M2PJU APRS WX Bot
+   class: service
+   contact: 9m2pju@hamradio.my
 
  - tocall: APRPR?
    vendor: Robert DM4RW, Peter DL6MAA
