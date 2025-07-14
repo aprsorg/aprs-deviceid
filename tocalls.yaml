@@ -284,7 +284,7 @@ tocalls:
    vendor: J. Angelo Racoma DU2XXR/N2RAC
    model: APRSPH net bot based on Ioreth
    class: service
-   os: linux
+   os: Linux
    contact: info@aprsph.net
    features:
      - messaging
@@ -458,6 +458,13 @@ tocalls:
    model: APRSduino
    class: tracker
    os: embedded
+
+ - tocall: APDP25
+   vendor: vk44.net
+   model: Project 25 (P25)
+   class: tracker
+   os: embedded
+   contact: support@vk44.net
 
  - tocall: APDPRS
    vendor: unknown
@@ -1483,13 +1490,25 @@ tocalls:
    class: app
    os: ipad
 
+ - tocall: APRPJH
+   vendor: Piju, 9M2PJU
+   model: 9M2PJU APRS Heat Bot
+   class: service
+   contact: 9m2pju@hamradio.my
+
  - tocall: APRPJU
-   vendor: Piju 9M2PJU
-   model: 9M2PJU Bot
+   vendor: Piju, 9M2PJU
+   model: 9M2PJU APRS Bot
    class: daemon
    contact: 9m2pju@hamradio.my
    features:
      - messaging
+
+ - tocall: APRPJW
+   vendor: Piju, 9M2PJU
+   model: 9M2PJU APRS WX Bot
+   class: service
+   contact: 9m2pju@hamradio.my
 
  - tocall: APRPR?
    vendor: Robert DM4RW, Peter DL6MAA
@@ -1683,7 +1702,7 @@ tocalls:
    contact: harihend1973@gmail.com
    vendor: YD0BCX
    class: service
-   os: linux/unix
+   os: Linux/Unix
    features:
      - messaging
 
@@ -1782,6 +1801,13 @@ tocalls:
    model: WeeWX Weather Software
    class: software
    os: Linux/Unix
+
+ - tocall: APWHE?
+   vendor: KF6UFO
+   model: WX-Helios
+   class: wx
+   os: Linux
+   contact: https://github.com/kf6ufo/kf6ufo-wx-helios
 
  - tocall: APWM??
    vendor: KJ4ERJ
