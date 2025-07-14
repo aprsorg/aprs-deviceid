@@ -284,7 +284,7 @@ tocalls:
    vendor: J. Angelo Racoma DU2XXR/N2RAC
    model: APRSPH net bot based on Ioreth
    class: service
-   os: linux
+   os: Linux
    contact: info@aprsph.net
    features:
      - messaging
@@ -1702,7 +1702,7 @@ tocalls:
    contact: harihend1973@gmail.com
    vendor: YD0BCX
    class: service
-   os: linux/unix
+   os: Linux/Unix
    features:
      - messaging
 
@@ -1806,7 +1806,7 @@ tocalls:
    vendor: KF6UFO
    model: WX-Helios
    class: wx
-   os: linux
+   os: Linux
    contact: https://github.com/kf6ufo/kf6ufo-wx-helios
 
  - tocall: APWM??
