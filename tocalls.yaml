@@ -459,6 +459,13 @@ tocalls:
    class: tracker
    os: embedded
 
+ - tocall: APDP25
+   vendor: vk44.net
+   model: Project 25 (P25)
+   class: tracker
+   os: embedded
+   contact: support@vk44.net
+
  - tocall: APDPRS
    vendor: unknown
    model: D-Star APDPRS
