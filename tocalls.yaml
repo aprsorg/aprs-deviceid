@@ -1358,6 +1358,13 @@ tocalls:
    features:
      - messaging
 
+ - tocall: APPRJ?
+   vendor: Custom Digital Services, LLC
+   model: "Traveler's ptFlex and ptSolar trackers"
+   class: tracker
+   os: embedded
+   contact: zack@custom-ds.com
+
  - tocall: APPS??
    vendor: Øyvind, LA7ECA (for the Norwegian Radio Relay League)
    model: Polaric Server
