@@ -1718,6 +1718,12 @@ tocalls:
    model: ATTiny APRS Tracker
    os: embedded
 
+ - tocall: APTKVB
+   vendor: IT9KVB
+   model: Python APRS QTH and Weather-Station
+   class: daemon
+   contact: it9kvb@gmail.com
+
  - tocall: APTLVC
    vendor: TA5LVC
    model: TR80 APRS Tracker
