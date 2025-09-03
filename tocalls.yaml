@@ -1497,6 +1497,12 @@ tocalls:
    class: app
    os: ipad
 
+ - tocall: APRPI?
+   vendor: TA2KVC
+   model: Raspberry Pi APRS / Pico W APRS
+   class: tracker
+   contact: volkancevik@live.com
+
  - tocall: APRPJH
    vendor: Piju, 9M2PJU
    model: 9M2PJU APRS Heat Bot
@@ -1718,6 +1724,12 @@ tocalls:
    model: ATTiny APRS Tracker
    os: embedded
 
+ - tocall: APTKVB
+   vendor: IT9KVB
+   model: Python APRS QTH and Weather-Station
+   class: daemon
+   contact: it9kvb@gmail.com
+
  - tocall: APTLVC
    vendor: TA5LVC
    model: TR80 APRS Tracker
@@ -1747,6 +1759,14 @@ tocalls:
    vendor: Byonics
    model: TinyTrak
    class: tracker
+
+ - tocall: APTUR?
+   vendor: aprs.ai, TA7HBK
+   model: "Türkiye'nin APRS Uygulaması"
+   class: app
+   contact: 73@aprs.ai
+   features:
+     - messaging
 
  - tocall: APTW??
    vendor: Byonics
