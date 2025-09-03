@@ -97,6 +97,9 @@ Device identifiers are also allocated to APRS service implementations which
 transmit APRS packets on behalf of APRS users, such as protocol converters
 (DMR, D-Star, and similar), and web services.
 
+Device identifiers are not allocated for generic radios and TNCs which are
+used together with with APRS software.
+
 Manufacturers and developers distributing multiple models or variations can
 also be allocated a 4- or 5-letter prefix, allowing the last 1 or 2
 characters to identify models.

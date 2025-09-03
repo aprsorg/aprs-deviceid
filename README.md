@@ -76,6 +76,10 @@ Please include all the relevant fields (vendor, model, class, os, contact).
 The master file is tocalls.yaml, and all the other files are generated from
 that file, so please use that format.
 
+Note that the database is for software and firmware which implements the
+APRS protocol and generates APRS packets.  It is not for identifying generic
+radios and TNCs which are used together with APRS software.
+
 Do not submit new devices on others behalf, let the author of the device or
 application to request addition directly. Thank you!
 
