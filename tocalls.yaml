@@ -1748,6 +1748,14 @@ tocalls:
    model: TinyTrak
    class: tracker
 
+ - tocall: APTUR?
+   vendor: aprs.ai, TA7HBK
+   model: "Türkiye'nin APRS Uygulaması"
+   class: app
+   contact: 73@aprs.ai
+   features:
+     - messaging
+
  - tocall: APTW??
    vendor: Byonics
    model: WXTrak
