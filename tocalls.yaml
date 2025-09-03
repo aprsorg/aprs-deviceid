@@ -1497,6 +1497,12 @@ tocalls:
    class: app
    os: ipad
 
+ - tocall: APRPI?
+   vendor: TA2KVC
+   model: Raspberry Pi APRS / Pico W APRS
+   class: tracker
+   contact: volkancevik@live.com
+
  - tocall: APRPJH
    vendor: Piju, 9M2PJU
    model: 9M2PJU APRS Heat Bot
