@@ -1480,6 +1480,14 @@ tocalls:
    os: embedded
    contact: info@rf.guru
 
+ - tocall: APRFTH
+   vendor: "Xian Stannard 2E1IPS & Chung Poon M7UNG"
+   model: Treasure Hunt Service
+   class: service
+   contact: maintainers@rftrsr.net
+   features:
+     - messaging
+
  - tocall: APRG??
    vendor: OH2GVE
    model: aprsg
