@@ -982,6 +982,20 @@ tocalls:
    os: embedded
    contact: richonguzman@gmail.com
 
+ - tocall: APLRM?
+   vendor: Railab Srl, IU2TZK
+   model: Railab LoRa board
+   class: tracker
+   os: embedded
+   contact: support@railab.com
+
+ - tocall: APLRS?
+   vendor: Railab Srl, IU2TZK
+   model: Railab LoRa board
+   class: igate
+   os: embedded
+   contact: support@railab.com
+
  - tocall: APLRT?
    vendor: Ricardo, CA2RXU
    model: ESP32 LoRa Tracker
