@@ -1966,6 +1966,17 @@ tocalls:
    model: UPRS
    vendor: NR0Q
 
+ - tocall: APZAAC
+   vendor: LB5ZH
+   model: Advanced APRS Chat
+   class: app
+   os: Windows, macOS, Linux
+   features:
+     - messaging
+     - item
+     - object
+     - map
+
  - tocall: APZG??
    vendor: OH2GVE
    model: aprsg
