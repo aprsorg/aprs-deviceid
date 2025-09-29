@@ -1277,6 +1277,19 @@ tocalls:
    model: Oscar
    class: satellite
 
+ - tocall: APONE?
+   vendor: aprs.one
+
+ - tocall: APONEA
+   vendor: aprs.one
+   model: Mobile app tracker
+   class: app
+
+ - tocall: APONET
+   vendor: aprs.one
+   model: Hardware tracker
+   class: tracker
+
  - tocall: APOPEN
    vendor: David Platt, AE6EO
    model: OpenTNC
