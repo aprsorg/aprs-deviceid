@@ -1167,6 +1167,11 @@ tocalls:
    class: tracker
    os: embedded
 
+ - tocall: APNIFC
+   vendor: Mike, NA7Q
+   model: National Interagency Fire Center Alerts
+   class: service
+
  - tocall: APNJS?
    vendor: Julien Sansonnens, HB9HRD
    model: Web messaging service
