@@ -1167,6 +1167,11 @@ tocalls:
    class: tracker
    os: embedded
 
+ - tocall: APNIFC
+   vendor: Mike, NA7Q
+   model: National Interagency Fire Center Alerts
+   class: service
+
  - tocall: APNJS?
    vendor: Julien Sansonnens, HB9HRD
    model: Web messaging service
@@ -1271,6 +1276,19 @@ tocalls:
    vendor: AMSAT-LU
    model: Oscar
    class: satellite
+
+ - tocall: APONE?
+   vendor: aprs.one
+
+ - tocall: APONEA
+   vendor: aprs.one
+   model: Mobile app tracker
+   class: app
+
+ - tocall: APONET
+   vendor: aprs.one
+   model: Hardware tracker
+   class: tracker
 
  - tocall: APOPEN
    vendor: David Platt, AE6EO
