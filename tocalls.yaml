@@ -306,18 +306,28 @@ tocalls:
    class: tracker
    os: embedded
 
+ - tocall: APAT16
+   vendor: AnyTone
+   model: AT-D168UV
+   class: ht
+
  - tocall: APAT51
-   vendor: Anytone
+   vendor: AnyTone
    model: AT-D578
    class: rig
 
  - tocall: APAT81
-   vendor: Anytone
+   vendor: AnyTone
    model: AT-D878
    class: ht
 
+ - tocall: APAT89
+   vendor: AnyTone
+   model: AT-D890UV
+   class: ht
+
  - tocall: APAT??
-   vendor: Anytone
+   vendor: AnyTone
 
  - tocall: APATAR
    vendor: TA7W/OH2UDS Baris Dinc, TA6AD Emre Keles
