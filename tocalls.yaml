@@ -1674,6 +1674,12 @@ tocalls:
    class: wx
    os: embedded
 
+ - tocall: APSIGK
+   vendor: Henri Bergius, DO7HB
+   model: Signal K APRS Plugin
+   class: service
+   contact: henri.bergius@iki.fi
+
  - tocall: APSK63
    vendor: Chris Moulding, G4HYG
    model: APRS Messenger
