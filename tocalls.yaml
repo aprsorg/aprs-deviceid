@@ -1171,6 +1171,13 @@ tocalls:
    vendor: PE1MEW
    model: DIGI_NED
 
+ - tocall: APNEO?
+   vendor: chevybowtie
+   model: nesdr-aprs-igate
+   class: daemon
+   os: Linux
+   contact: GitHub - chevybowtie
+
  - tocall: APNIC4
    vendor: SQ5EKU
    model: BidaTrak
