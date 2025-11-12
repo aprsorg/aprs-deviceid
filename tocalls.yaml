@@ -1541,6 +1541,13 @@ tocalls:
    model: HamHud
    class: tracker
 
+ - tocall: APRM20
+   vendor: Open Source
+   model: M20 radiosonde
+   class: tracker
+   os: embedded
+   contact: pawel.sq2ips@gmail.com
+
  - tocall: APRNOW
    vendor: Gregg Wonderly, W5GGW
    model: APRSNow
