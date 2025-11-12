@@ -306,18 +306,28 @@ tocalls:
    class: tracker
    os: embedded
 
+ - tocall: APAT16
+   vendor: AnyTone
+   model: AT-D168UV
+   class: ht
+
  - tocall: APAT51
-   vendor: Anytone
+   vendor: AnyTone
    model: AT-D578
    class: rig
 
  - tocall: APAT81
-   vendor: Anytone
+   vendor: AnyTone
    model: AT-D878
    class: ht
 
+ - tocall: APAT89
+   vendor: AnyTone
+   model: AT-D890UV
+   class: ht
+
  - tocall: APAT??
-   vendor: Anytone
+   vendor: AnyTone
 
  - tocall: APATAR
    vendor: TA7W/OH2UDS Baris Dinc, TA6AD Emre Keles
@@ -1161,6 +1171,13 @@ tocalls:
    vendor: PE1MEW
    model: DIGI_NED
 
+ - tocall: APNEO?
+   vendor: chevybowtie
+   model: nesdr-aprs-igate
+   class: daemon
+   os: Linux
+   contact: GitHub - chevybowtie
+
  - tocall: APNIC4
    vendor: SQ5EKU
    model: BidaTrak
@@ -1531,6 +1548,13 @@ tocalls:
    model: HamHud
    class: tracker
 
+ - tocall: APRM20
+   vendor: Open Source
+   model: M20 radiosonde
+   class: tracker
+   os: embedded
+   contact: pawel.sq2ips@gmail.com
+
  - tocall: APRNOW
    vendor: Gregg Wonderly, W5GGW
    model: APRSNow
@@ -1656,6 +1680,12 @@ tocalls:
    model: embedded Weather Station
    class: wx
    os: embedded
+
+ - tocall: APSIGK
+   vendor: Henri Bergius, DO7HB
+   model: Signal K APRS Plugin
+   class: service
+   contact: henri.bergius@iki.fi
 
  - tocall: APSK63
    vendor: Chris Moulding, G4HYG
