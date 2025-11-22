@@ -845,6 +845,13 @@ tocalls:
    vendor: DL3DCW
    model: APRScube
 
+ - tocall: APLDAA
+   vendor: Ebyte
+   model: LoRa E77-400M-22S module
+   class: gadget
+   os: embedded
+   contact: radiohound@gmail.com
+ 
  - tocall: APLDAG
    vendor: Inigo, EA2CQ
    model: DAGA LoRa/APRS SOTA spotting
