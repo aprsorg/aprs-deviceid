@@ -1571,6 +1571,13 @@ tocalls:
    model: HamHud
    class: tracker
 
+ - tocall: APRKEY
+   vendor: Mohammad Zaki, 9W2KEY
+   model: MYANET APRS Bot
+   class: service
+   os: Linux
+   contact: mzakiab@gmail.com
+
  - tocall: APRM20
    vendor: Open Source
    model: M20 radiosonde
