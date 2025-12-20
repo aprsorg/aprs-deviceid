@@ -294,6 +294,14 @@ tocalls:
    model: AltOS
    class: tracker
 
+ - tocall: APANC?
+   vendor: John Rokicki, KC1VMZ
+   model: APRS Net Central
+   class: service
+   contact: kc1vmz@gmail.com
+   features:
+     - messaging
+
  - tocall: APAND?
    vendor: Open Source
    model: APRSdroid
@@ -1437,6 +1445,14 @@ tocalls:
    model: QTH.app
    class: software
    os: macOS
+   features:
+     - messaging
+
+ - tocall: APQUIZ
+   vendor: John Rokicki, KC1VMZ
+   model: QUIZME APRS Quizmaster
+   class: service
+   contact: kc1vmz@gmail.com
    features:
      - messaging
 
