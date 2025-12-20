@@ -609,6 +609,13 @@ tocalls:
    os: ios
    class: app
 
+ - tocall: APFMO?
+   vendor: BG5ESN
+   model: FMO (NFM Over Internet)
+   class: gadget
+   os: embedded
+   contact: xifengzui@yeah.net
+
  - tocall: APGBLN
    vendor: NW5W
    model: GoBalloon
