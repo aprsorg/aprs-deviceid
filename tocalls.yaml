@@ -1585,6 +1585,13 @@ tocalls:
    os: embedded
    contact: pawel.sq2ips@gmail.com
 
+ - tocall: APRNFW
+   vendor: Franek SP5FRA
+   model: RS41-NFW
+   class: tracker
+   os: embedded
+   contact: franeklada18@gmail.com
+
  - tocall: APRNOW
    vendor: Gregg Wonderly, W5GGW
    model: APRSNow
