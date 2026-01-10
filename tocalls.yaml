@@ -1719,7 +1719,7 @@ tocalls:
    os: embedded
 
  - tocall: APSIGK
-   vendor: Henri Bergius, DO7HB
+   vendor: Henri Bergius, DF4HB
    model: Signal K APRS Plugin
    class: service
    contact: henri.bergius@iki.fi
