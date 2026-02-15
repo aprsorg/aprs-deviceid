@@ -617,6 +617,12 @@ tocalls:
    os: ios
    class: app
 
+ - tocall: APFMN?
+   vendor: Thomas Beiderwieden, DL3EL
+   model: FM-Funknetz HS Dashboard
+   class: service
+   contact: dl3el@darc.de
+
  - tocall: APFMO?
    vendor: BG5ESN
    model: FMO (NFM Over Internet)
