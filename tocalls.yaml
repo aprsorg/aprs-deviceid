@@ -655,6 +655,12 @@ tocalls:
    os: embedded
    contact: xifengzui@yeah.net
 
+ - tocall: APFSYC
+   vendor: David McKenzie, K1FSY
+   model: FSY Packet Console
+   class: software
+   contact: k1fsy@vhfwiki.com
+
  - tocall: APGBLN
    vendor: NW5W
    model: GoBalloon
