@@ -1724,6 +1724,12 @@ tocalls:
    model: aprsc
    class: software
 
+ - tocall: APSDA?
+   vendor: APSD Developers
+   model: APSD
+   class: software
+   contact: contact@apsd.app
+
  - tocall: APSDR?
    vendor: Marcus Roskosch, DL8MRE
    model: sdr-control
