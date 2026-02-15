@@ -289,6 +289,19 @@ tocalls:
    features:
      - messaging
 
+ - tocall: APALH*
+   vendor: Retevis
+
+ - tocall: APALH1
+   vendor: Retevis
+   model: Ailunce H1
+   class: ht
+
+ - tocall: APALHA
+   vendor: Retevis
+   model: Ailunce HA2
+   class: ht
+
  - tocall: APAM??
    vendor: Altus Metrum
    model: AltOS
