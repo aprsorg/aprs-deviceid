@@ -1435,6 +1435,13 @@ tocalls:
    os: embedded
    contact: zack@custom-ds.com
 
+ - tocall: APPRO?
+   vendor: KO6IKR
+   model: PyTNC Pro
+   class: software
+   os: Windows
+   contact: KO6IKR@gmail.com
+
  - tocall: APPS??
    vendor: Øyvind, LA7ECA (for the Norwegian Radio Relay League)
    model: Polaric Server
