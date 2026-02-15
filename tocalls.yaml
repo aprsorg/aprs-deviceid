@@ -1163,6 +1163,13 @@ tocalls:
    model: Micro APRS Tracker
    class: tracker
 
+ - tocall: APN0A?
+   vendor: Jeremy Cooper, KE6JJJ
+   model: N0ARY Full Service Packet BBS
+   class: daemon
+   os: Linux/Unix
+   contact: jeremy.gthb@baymoo.org
+
  - tocall: APN102
    vendor: Gregg Wonderly, W5GGW
    model: APRSNow
