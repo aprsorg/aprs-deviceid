@@ -658,6 +658,12 @@ tocalls:
    vendor: VK4FAST
    model: Graphic Data Terminal
 
+ - tocall: APGKEY
+   vendor: Mohammad Zaki, 9W2KEY
+   model: 9W2KEY iGate
+   class: igate
+   contact: mzakiab@gmail.com
+
  - tocall: APGO??
    vendor: AA3NJ
    model: APRS-Go
