@@ -477,6 +477,12 @@ tocalls:
    class: dstar
    contact: f4fxl@dstargateway.digital
 
+ - tocall: APDAGW
+   vendor: Diego Guevara, HJ3DAG
+   model: NodeJS APRS WX
+   class: wx
+   contact: hj3dag@gmail.com
+
  - tocall: APDF??
    model: Automatic DF units
 
