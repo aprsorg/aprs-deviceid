@@ -289,6 +289,19 @@ tocalls:
    features:
      - messaging
 
+ - tocall: APALH*
+   vendor: Retevis
+
+ - tocall: APALH1
+   vendor: Retevis
+   model: Ailunce H1
+   class: ht
+
+ - tocall: APALHA
+   vendor: Retevis
+   model: Ailunce HA2
+   class: ht
+
  - tocall: APAM??
    vendor: Altus Metrum
    model: AltOS
@@ -396,6 +409,12 @@ tocalls:
    class: ht
    contact: support@baofengtech.com
 
+ - tocall: APBT72
+   vendor: BTECH
+   model: DA 7X2
+   class: ht
+   contact: support@baofengtech.com
+
  - tocall: APBTUV
    vendor: BTECH
    model: UV-PRO
@@ -457,6 +476,12 @@ tocalls:
    model: Open Source DStarGateway
    class: dstar
    contact: f4fxl@dstargateway.digital
+
+ - tocall: APDAGW
+   vendor: Diego Guevara, HJ3DAG
+   model: NodeJS APRS WX
+   class: wx
+   contact: hj3dag@gmail.com
 
  - tocall: APDF??
    model: Automatic DF units
@@ -617,12 +642,24 @@ tocalls:
    os: ios
    class: app
 
+ - tocall: APFMN?
+   vendor: Thomas Beiderwieden, DL3EL
+   model: FM-Funknetz HS Dashboard
+   class: service
+   contact: dl3el@darc.de
+
  - tocall: APFMO?
    vendor: BG5ESN
    model: FMO (NFM Over Internet)
    class: gadget
    os: embedded
    contact: xifengzui@yeah.net
+
+ - tocall: APFSYC
+   vendor: David McKenzie, K1FSY
+   model: FSY Packet Console
+   class: software
+   contact: k1fsy@vhfwiki.com
 
  - tocall: APGBLN
    vendor: NW5W
@@ -632,6 +669,12 @@ tocalls:
  - tocall: APGDT?
    vendor: VK4FAST
    model: Graphic Data Terminal
+
+ - tocall: APGKEY
+   vendor: Mohammad Zaki, 9W2KEY
+   model: 9W2KEY iGate
+   class: igate
+   contact: mzakiab@gmail.com
 
  - tocall: APGO??
    vendor: AA3NJ
@@ -1157,6 +1200,13 @@ tocalls:
    model: Micro APRS Tracker
    class: tracker
 
+ - tocall: APN0A?
+   vendor: Jeremy Cooper, KE6JJJ
+   model: N0ARY Full Service Packet BBS
+   class: daemon
+   os: Linux/Unix
+   contact: jeremy.gthb@baymoo.org
+
  - tocall: APN102
    vendor: Gregg Wonderly, W5GGW
    model: APRSNow
@@ -1429,6 +1479,13 @@ tocalls:
    os: embedded
    contact: zack@custom-ds.com
 
+ - tocall: APPRO?
+   vendor: KO6IKR
+   model: PyTNC Pro
+   class: software
+   os: Windows
+   contact: KO6IKR@gmail.com
+
  - tocall: APPS??
    vendor: Øyvind, LA7ECA (for the Norwegian Radio Relay League)
    model: Polaric Server
@@ -1684,6 +1741,12 @@ tocalls:
    vendor: OH2MQK, OH7LZB
    model: aprsc
    class: software
+
+ - tocall: APSDA?
+   vendor: APSD Developers
+   model: APSD
+   class: software
+   contact: contact@apsd.app
 
  - tocall: APSDR?
    vendor: Marcus Roskosch, DL8MRE
