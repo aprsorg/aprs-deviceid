@@ -1667,6 +1667,12 @@ tocalls:
    class: service
    contact: 9m2pju@hamradio.my
 
+ - tocall: APRPJM
+   vendor: Piju, 9M2PJU
+   model: APRSMY Net Bot
+   class: service
+   contact: 9m2pju@hamradio.my
+
  - tocall: APRPJU
    vendor: Piju, 9M2PJU
    model: 9M2PJU APRS Bot
