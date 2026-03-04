@@ -144,6 +144,8 @@ Libraries and applications directly using this database
 
 * Ham::APRS::DeviceID for Perl, available at CPAN and
   https://github.com/hessu/perl-aprs-deviceid
+* go-aprs-deviceid for Go, available at
+  https://github.com/hessu/go-aprs-deviceid
 * aprs_tocall module for Python:
   https://github.com/xssfox/aprs_tocall
   https://pypi.org/project/aprs-tocall/
