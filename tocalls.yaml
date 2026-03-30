@@ -1701,6 +1701,25 @@ tocalls:
    class: tracker
    contact: volkancevik@live.com
 
+ - tocall: APRPJB
+   vendor: Piju, 9M2PJU
+   model: 9M2PJU APRS BBS Bot
+   class: service
+   contact: 9m2pju@hamradio.my
+
+ - tocall: APRPJC
+   vendor: Piju, 9M2PJU
+   model: 9M2PJU Malaysia Callsign Database Bot
+   class: service
+   contact: 9m2pju@hamradio.my
+
+ - tocall: APRPJE
+   vendor: Piju, 9M2PJU
+   model: 9M2PJU APRS Echo and Signal Path Bot
+   class: software
+   os: Linux/Unix
+   contact: 9m2pju@hamradio.my
+
  - tocall: APRPJH
    vendor: Piju, 9M2PJU
    model: 9M2PJU APRS Heat Bot
@@ -1710,6 +1729,18 @@ tocalls:
  - tocall: APRPJM
    vendor: Piju, 9M2PJU
    model: APRSMY Net Bot
+   class: service
+   contact: 9m2pju@hamradio.my
+
+ - tocall: APRPJS
+   vendor: Piju, 9M2PJU
+   model: 9M2PJU APRS Web Messenger
+   class: service
+   contact: 9m2pju@hamradio.my
+
+ - tocall: APRPJT
+   vendor: Piju, 9M2PJU
+   model: 9M2PJU APRS to Telegram Bot
    class: service
    contact: 9m2pju@hamradio.my
 
