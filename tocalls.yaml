@@ -307,13 +307,6 @@ tocalls:
    model: Ailunce HA2
    class: ht
 
- - tocall: APALHT
-   vendor: Shenzhen Retevis Technology Co., LTD
-   model: Ham Radio APRS Tracker
-   class: tracker
-   os: embedded
-   contact: hams@ailunce.com
-
  - tocall: APAM??
    vendor: Altus Metrum
    model: AltOS
