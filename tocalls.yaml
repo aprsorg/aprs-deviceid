@@ -1107,6 +1107,12 @@ tocalls:
    os: embedded
    contact: lora-aprs@n1af.org
 
+ - tocall: APM2A?
+   vendor: ZR1RF
+   model: Meshtastic to APRS (mesh2aprs)
+   class: daemon
+   contact: johannes.leroux@gmail.com
+
  - tocall: APMAIL
    vendor: Mike, NA7Q
    model: APRS Mailbox
