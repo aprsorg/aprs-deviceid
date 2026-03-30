@@ -173,6 +173,11 @@ mice:
    model: Tracker
    class: tracker
 
+ - suffix: "*9"
+   vendor: NOR
+   model: AVRT9
+   class: ht
+
  - suffix: ":2"
    vendor: SQ8L
    model: VP-Tracker
@@ -354,6 +359,11 @@ tocalls:
    vendor: TA7W/OH2UDS Baris Dinc, TA6AD Emre Keles
    model: ATA-R APRS Digipeater
    class: digi
+
+ - tocall: APAVR9
+   vendor: NOR
+   model: AVRT9
+   class: ht
 
  - tocall: APAVT5
    vendor: SainSonic
