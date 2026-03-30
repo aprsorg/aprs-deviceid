@@ -1508,6 +1508,13 @@ tocalls:
    model: KetaiTracker
    class: tracker
 
+ - tocall: APQCA?
+   vendor: Míra Svoboda, OK1IRY
+   model: ClassicAPRS
+   class: software
+   os: macOS
+   contact: ok1iry@proton.me
+
  - tocall: APQTH?
    vendor: Weston Bustraan, W8WJB
    model: QTH.app
