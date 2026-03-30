@@ -1154,6 +1154,11 @@ tocalls:
    os: embedded
    contact: support@mobilinkd.com
 
+ - tocall: APMDN?
+   vendor: Eric Pasch, KM4TJO
+   model: Meridian APRS
+   contact: meridian@pasch.dev
+
  - tocall: APMG??
    vendor: Alex, AB0TJ
    model: PiCrumbs and MiniGate
