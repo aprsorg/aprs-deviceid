@@ -173,6 +173,11 @@ mice:
    model: Tracker
    class: tracker
 
+ - suffix: "*9"
+   vendor: NOR
+   model: AVRT9
+   class: ht
+
  - suffix: ":2"
    vendor: SQ8L
    model: VP-Tracker
@@ -354,6 +359,11 @@ tocalls:
    vendor: TA7W/OH2UDS Baris Dinc, TA6AD Emre Keles
    model: ATA-R APRS Digipeater
    class: digi
+
+ - tocall: APAVR9
+   vendor: NOR
+   model: AVRT9
+   class: ht
 
  - tocall: APAVT5
    vendor: SainSonic
@@ -881,7 +891,7 @@ tocalls:
 
  - tocall: APKEYn
    vendor: 9W2KEY
-   model: ATMega328P APRS
+   model: ESP8266 APRS
    class: tracker
    os: embedded
    contact: mzakiab@gmail.com
@@ -1107,6 +1117,12 @@ tocalls:
    os: embedded
    contact: lora-aprs@n1af.org
 
+ - tocall: APM2A?
+   vendor: ZR1RF
+   model: Meshtastic to APRS (mesh2aprs)
+   class: daemon
+   contact: johannes.leroux@gmail.com
+
  - tocall: APMAIL
    vendor: Mike, NA7Q
    model: APRS Mailbox
@@ -1137,6 +1153,11 @@ tocalls:
    class: digi
    os: embedded
    contact: support@mobilinkd.com
+
+ - tocall: APMDN?
+   vendor: Eric Pasch, KM4TJO
+   model: Meridian APRS
+   contact: meridian@pasch.dev
 
  - tocall: APMG??
    vendor: Alex, AB0TJ
@@ -1359,6 +1380,13 @@ tocalls:
    model: Oscar
    class: satellite
 
+ - tocall: APOMTR
+   vendor: Adrian Craig, M0GLJ
+   model: OZ-TRAK APRS Mobile Tracker
+   class: tracker
+   os: Linux
+   contact: admin@oz-dmr.network
+
  - tocall: APONE?
    vendor: aprs.one
 
@@ -1383,6 +1411,11 @@ tocalls:
    model: NA7Q Messenger
    class: software
    contact: mike.ph4@gmail.com
+
+ - tocall: APORT?
+   vendor: OpenRTX Contributors
+   model: OpenRTX
+   os: embedded
 
  - tocall: APOSAT
    vendor: Mike, NA7Q
@@ -1496,6 +1529,13 @@ tocalls:
    vendor: JF6LZE
    model: KetaiTracker
    class: tracker
+
+ - tocall: APQCA?
+   vendor: Míra Svoboda, OK1IRY
+   model: ClassicAPRS
+   class: software
+   os: macOS
+   contact: ok1iry@proton.me
 
  - tocall: APQTH?
    vendor: Weston Bustraan, W8WJB
@@ -1661,6 +1701,25 @@ tocalls:
    class: tracker
    contact: volkancevik@live.com
 
+ - tocall: APRPJB
+   vendor: Piju, 9M2PJU
+   model: 9M2PJU APRS BBS Bot
+   class: service
+   contact: 9m2pju@hamradio.my
+
+ - tocall: APRPJC
+   vendor: Piju, 9M2PJU
+   model: 9M2PJU Malaysia Callsign Database Bot
+   class: service
+   contact: 9m2pju@hamradio.my
+
+ - tocall: APRPJE
+   vendor: Piju, 9M2PJU
+   model: 9M2PJU APRS Echo and Signal Path Bot
+   class: software
+   os: Linux/Unix
+   contact: 9m2pju@hamradio.my
+
  - tocall: APRPJH
    vendor: Piju, 9M2PJU
    model: 9M2PJU APRS Heat Bot
@@ -1670,6 +1729,18 @@ tocalls:
  - tocall: APRPJM
    vendor: Piju, 9M2PJU
    model: APRSMY Net Bot
+   class: service
+   contact: 9m2pju@hamradio.my
+
+ - tocall: APRPJS
+   vendor: Piju, 9M2PJU
+   model: 9M2PJU APRS Web Messenger
+   class: service
+   contact: 9m2pju@hamradio.my
+
+ - tocall: APRPJT
+   vendor: Piju, 9M2PJU
+   model: 9M2PJU APRS to Telegram Bot
    class: service
    contact: 9m2pju@hamradio.my
 
