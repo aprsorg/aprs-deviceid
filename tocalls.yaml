@@ -1384,6 +1384,11 @@ tocalls:
    class: software
    contact: mike.ph4@gmail.com
 
+ - tocall: APORT?
+   vendor: OpenRTX Contributors
+   model: OpenRTX
+   os: embedded
+
  - tocall: APOSAT
    vendor: Mike, NA7Q
    model: Open Source Satellite Gateway
