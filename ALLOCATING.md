@@ -74,7 +74,7 @@ the name of the device and the vendor/author, so that the titles are unique.
 Thanks!
 
 If it is impossible for the applicant to create one, an email can be sent to
-aprs-allocations-2024@aprs.fi .  The maintainers will then create
+aprs-allocations-2026@aprs.fi .  The maintainers will then create
 the ticket before processing the request - email message contents will be
 posted as ticket contents.  Email addresses can be kept secret, but the
 emails sent to the address will be archived by the maintainers.  Direct
@@ -118,11 +118,13 @@ identification database.
 Prefix allocations
 ---------------------
 
+As per the APRS specification, all prefixes start with 'AP'.
+
 The normal length of a device identifier is six ASCII characters.
 Manufacturers and developers distributing multiple models or variations can
 also be allocated a 4- or 5-letter prefix, allowing the last 1 or 2
 characters to identify models.  As there are only 676 4-letter prefixes,
-specific 5-letter prefixes are primarily allocated for new devices.
+specific 5-letter prefixes are allocated for new requests.
 
 It is a good practice to use letters for the prefix and numbers for the last
 characters, to allow for a fast visual distinction between the manufacturer
@@ -151,8 +153,6 @@ address may be supplied.
        class: software
        os: Windows
        contact: first.lastname@example.com
-       features:
-          - messaging
 
 The amount of information attached to the record is intentionally quite
 limited.  Large descriptions and deep model-specific URLs would likely
@@ -176,7 +176,8 @@ The `features` field is for signaling that the application supports one or
 more of the following features. APRS applications may use these hints to
 adapt to capabilities of other stations.
 
-  * `messaging`: APRS text messages
+  * `messaging`: APRS text messages (only needed for legacy mic-e devices
+    which can not encode messaging capability in a position packet)
   * `item-in-msg`: APRS items embedded in text messages
 
 
@@ -233,6 +234,9 @@ of Java applications), the "Multiple" option is suitable.  If a native
 mobile application is separately written for Android (in Java or Kotlin) and
 iOS (in Objective-C and Swift), and they are technically two different
 applications, two different tocalls may be allocated.
+
+OS identifier is not added for services/bots which are not published for
+users to install.
 
  - Android
  - Browser
