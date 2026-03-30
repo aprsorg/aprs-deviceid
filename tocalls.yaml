@@ -881,7 +881,7 @@ tocalls:
 
  - tocall: APKEYn
    vendor: 9W2KEY
-   model: ATMega328P APRS
+   model: ESP8266 APRS
    class: tracker
    os: embedded
    contact: mzakiab@gmail.com
