@@ -1365,6 +1365,13 @@ tocalls:
    model: Oscar
    class: satellite
 
+ - tocall: APOMTR
+   vendor: Adrian Craig, M0GLJ
+   model: OZ-TRAK APRS Mobile Tracker
+   class: tracker
+   os: Linux
+   contact: admin@oz-dmr.network
+
  - tocall: APONE?
    vendor: aprs.one
 
