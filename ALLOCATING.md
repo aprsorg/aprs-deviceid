@@ -86,6 +86,13 @@ These issue tickets are public, and the discussion, any clarifying questions
 are and their answers are public as well.  This way everyone can see how the
 requests are processed.  This makes the process open and accountable.
 
+You may propose which tocall identifier you'd prefer to receive.  Before
+making a request use the [TOCALL Search](https://aprsorg.github.io/aprs-deviceid-web/)
+tool to confirm it is available and does not match an existing
+wildcard/prefix allocation.  Note that you might be assigned with another
+identifier instead of the preferred one, due to existing allocations or
+conventions.
+
 
 Allocation criteria
 ----------------------
@@ -99,10 +106,6 @@ transmit APRS packets on behalf of APRS users, such as protocol converters
 
 Device identifiers are not allocated for generic radios and TNCs which are
 used together with with APRS software.
-
-Manufacturers and developers distributing multiple models or variations can
-also be allocated a 4- or 5-letter prefix, allowing the last 1 or 2
-characters to identify models.
 
 To reduce maintenance workload and database size, new identifiers are not
 allocated to unique experimental applications which are only used by the
@@ -122,9 +125,9 @@ As per the APRS specification, all prefixes start with 'AP'.
 
 The normal length of a device identifier is six ASCII characters.
 Manufacturers and developers distributing multiple models or variations can
-also be allocated a 4- or 5-letter prefix, allowing the last 1 or 2
-characters to identify models.  As there are only 676 4-letter prefixes,
-specific 5-letter prefixes are allocated for new requests.
+also be allocated a 5-letter prefix, allowing the last 1 character to
+identify models.  As there are only 676 4-letter prefixes, specific 5-letter
+prefixes are allocated for new requests.
 
 It is a good practice to use letters for the prefix and numbers for the last
 characters, to allow for a fast visual distinction between the manufacturer
