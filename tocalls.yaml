@@ -191,7 +191,7 @@ mice:
  - suffix: "[1"
    vendor: Open Source
    model: APRSdroid
-   class: software
+   class: app
    os: Android
 
 #
