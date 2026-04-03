@@ -134,6 +134,16 @@ mice:
    model: FTM-510D
    class: rig
 
+ - suffix: "_6"
+   vendor: Yaesu
+   model: FTX-1
+   class: rig
+
+ - suffix: "_7"
+   vendor: Yaesu
+   model: FTM-310D
+   class: rig
+
  - suffix: "_)"
    vendor: Yaesu
    model: FTM-100D
@@ -2147,7 +2157,12 @@ tocalls:
    vendor: Yaesu
    model: FTM-300D
    class: rig
-   
+
+ - tocall: APY310
+   vendor: Yaesu
+   model: FTM-310D
+   class: rig
+
  - tocall: APY400
    vendor: Yaesu
    model: FTM-400
@@ -2167,6 +2182,11 @@ tocalls:
    vendor: W2GMD
    model: Python APRS
    class: software
+
+ - tocall: APYX01
+   vendor: Yaesu
+   model: FTX-1
+   class: rig
 
  - tocall: "APZ*"
    vendor: Unknown
