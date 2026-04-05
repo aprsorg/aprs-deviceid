@@ -409,6 +409,13 @@ tocalls:
    vendor: R3ABM
    model: BrandMeister DMR
 
+ - tocall: APBOX0
+   vendor: SQ9MDD Ryszard Labus
+   model: APRSBox
+   class: daemon
+   os: Linux/Unix
+   contact: rysieklabus@gmail.com
+
  - tocall: APBPQ?
    vendor: John Wiseman, G8BPQ
    model: BPQ32
