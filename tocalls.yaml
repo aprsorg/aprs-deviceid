@@ -1554,6 +1554,12 @@ tocalls:
    os: macOS
    contact: ok1iry@proton.me
 
+ - tocall: APQRX
+   vendor: Jesse Forkum, N0JLF
+   model: QRX - APRS Missed Message Mailbox
+   class: service
+   contact: qrx@forkum.net
+
  - tocall: APQTH?
    vendor: Weston Bustraan, W8WJB
    model: QTH.app
