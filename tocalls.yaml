@@ -409,6 +409,13 @@ tocalls:
    vendor: R3ABM
    model: BrandMeister DMR
 
+ - tocall: APBOX0
+   vendor: SQ9MDD Ryszard Labus
+   model: APRSBox
+   class: daemon
+   os: Linux/Unix
+   contact: rysieklabus@gmail.com
+
  - tocall: APBPQ?
    vendor: John Wiseman, G8BPQ
    model: BPQ32
@@ -1546,6 +1553,12 @@ tocalls:
    class: software
    os: macOS
    contact: ok1iry@proton.me
+
+ - tocall: APQRX
+   vendor: Jesse Forkum, N0JLF
+   model: QRX - APRS Missed Message Mailbox
+   class: service
+   contact: qrx@forkum.net
 
  - tocall: APQTH?
    vendor: Weston Bustraan, W8WJB
