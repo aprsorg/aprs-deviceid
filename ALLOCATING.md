@@ -67,7 +67,7 @@ How
 ------
 
 Requests for new identifiers are made by creating an issue ticket on the
-master Gibhub repository where this database is maintained
+Gibhub repository where this database is maintained
 (https://github.com/aprsorg/aprs-deviceid/issues).  This requires a free
 Github user account.  Please use a descriptive ticket title - do mention
 the name of the device and the vendor/author, so that the titles are unique.
