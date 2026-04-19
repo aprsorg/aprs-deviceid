@@ -614,6 +614,12 @@ tocalls:
    os: embedded
    contact: pegloff@gmail.com
 
+ - tocall: APERHX
+   vendor: Damian, SQ9RHX
+   model: WX, Telemetry Scripts
+   class: software
+   contact: sq9rhx@gmail.com
+
  - tocall: APERRB
    vendor: KG5JNC
    model: APRS Backend for Errbot
