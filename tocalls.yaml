@@ -269,6 +269,13 @@ tocalls:
    model: APRS4R
    class: software
 
+ - tocall: AP9BBL
+   vendor: BI9BBL
+   model: APRS Beacon Bot
+   class: daemon
+   os: Linux/Unix
+   contact: bi9bbl@outlook.com
+
  - tocall: APAEP1
    vendor: Paraguay Space Agency (AEP)
    model: "EIRUAPRSDIGIS&FV1"
