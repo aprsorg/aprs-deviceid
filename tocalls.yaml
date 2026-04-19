@@ -708,6 +708,12 @@ tocalls:
    model: APRS-Go
    class: app
 
+ - tocall: APGRWO
+   vendor: Chris Snell, NW5W
+   model: NW5W Graywolf
+   class: software
+   os: Multiple
+   
  - tocall: APHAX?
    vendor: PY2UEP
    model: SM2APRS SondeMonitor
