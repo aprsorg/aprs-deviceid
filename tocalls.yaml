@@ -2074,6 +2074,12 @@ tocalls:
    class: software
    os: Windows
 
+ - tocall: APUAGP
+   vendor: YF9UAG
+   model: Python APRS UI
+   class: software
+   os: Windows
+
  - tocall: APUDR?
    vendor: NW Digital Radio
    model: UDR
