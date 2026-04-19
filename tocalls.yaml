@@ -269,6 +269,13 @@ tocalls:
    model: APRS4R
    class: software
 
+ - tocall: AP9BBL
+   vendor: BI9BBL
+   model: APRS Beacon Bot
+   class: daemon
+   os: Linux/Unix
+   contact: bi9bbl@outlook.com
+
  - tocall: APAEP1
    vendor: Paraguay Space Agency (AEP)
    model: "EIRUAPRSDIGIS&FV1"
@@ -614,6 +621,12 @@ tocalls:
    os: embedded
    contact: pegloff@gmail.com
 
+ - tocall: APERHX
+   vendor: Damian, SQ9RHX
+   model: WX, Telemetry Scripts
+   class: software
+   contact: sq9rhx@gmail.com
+
  - tocall: APERRB
    vendor: KG5JNC
    model: APRS Backend for Errbot
@@ -708,6 +721,12 @@ tocalls:
    model: APRS-Go
    class: app
 
+ - tocall: APGRWO
+   vendor: Chris Snell, NW5W
+   model: NW5W Graywolf
+   class: software
+   os: Multiple
+   
  - tocall: APHAX?
    vendor: PY2UEP
    model: SM2APRS SondeMonitor
@@ -1820,6 +1839,13 @@ tocalls:
    vendor: Unknown
    model: Unknown
 
+ - tocall: APRTAC
+   vendor: ModernHam
+   model: APRStac
+   class: software
+   os: Multiple
+   contact: kn4mkb@aprstac.com
+
  - tocall: APRX??
    vendor: Kenneth W. Finnegan, W6KWF
    model: Aprx
@@ -2052,6 +2078,12 @@ tocalls:
  - tocall: APU2*
    vendor: Roger Barker, G4IDE
    model: UI-View32
+   class: software
+   os: Windows
+
+ - tocall: APUAGP
+   vendor: YF9UAG
+   model: Python APRS UI
    class: software
    os: Windows
 
