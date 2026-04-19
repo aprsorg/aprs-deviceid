@@ -1832,6 +1832,13 @@ tocalls:
    vendor: Unknown
    model: Unknown
 
+ - tocall: APRTAC
+   vendor: ModernHam
+   model: APRStac
+   class: software
+   os: Multiple
+   contact: kn4mkb@aprstac.com
+
  - tocall: APRX??
    vendor: Kenneth W. Finnegan, W6KWF
    model: Aprx
