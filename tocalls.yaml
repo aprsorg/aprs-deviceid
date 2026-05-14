@@ -688,6 +688,13 @@ tocalls:
    os: ios
    class: app
 
+ - tocall: APFLIP
+   vendor: LU3ARN
+   model: 818 APRS Transceiver
+   class: gadget
+   os: embedded
+   contact: https://github.com/reynico/flipper-818-aprs
+
  - tocall: APFMN?
    vendor: Thomas Beiderwieden, DL3EL
    model: FM-Funknetz HS Dashboard
@@ -956,6 +963,24 @@ tocalls:
    model: Ham Tracker
    class: app
    os: ios
+
+ - tocall: APKVPA
+   vendor: kv4p HT open source project
+   model: kv4p HT (Android)
+   class: app
+   os: Android
+   contact: kv4pht@gmail.com
+   features:
+     - item-in-msg
+
+ - tocall: APKVPI
+   vendor: kv4p HT open source project
+   model: kv4p HT (iOS)
+   class: app
+   os: iOS
+   contact: kv4pht@gmail.com
+   features:
+     - item-in-msg
 
  - tocall: APLC??
    vendor: DL3DCW
@@ -1743,6 +1768,13 @@ tocalls:
    os: embedded
    contact: pawel.sq2ips@gmail.com
 
+ - tocall: APRMI?
+   vendor: Island Magic Co.
+   model: iPhone/iPad app
+   os: ios
+   class: app
+   contact: aloha@islandmagic.co
+
  - tocall: APRNFW
    vendor: Franek SP5FRA
    model: RS41-NFW
@@ -1882,10 +1914,17 @@ tocalls:
    class: software
    os: Windows
    
- - tocall: APSC??
+ - tocall: APSC20
    vendor: OH2MQK, OH7LZB
    model: aprsc
    class: software
+
+ - tocall: APSCOP
+   vendor: Greg, K0GDI
+   model: APRScope
+   class: software
+   os: Windows
+   contact: k0gdi73@gmail.com
 
  - tocall: APSDA?
    vendor: APSD Developers
@@ -2118,6 +2157,13 @@ tocalls:
    vendor: Digital Radio China Club
    model: DRCC-DVM
    class: igate
+
+ - tocall: APVOX?
+   vendor: Joel Calado, CS7BLE
+   model: VoxLink
+   class: app
+   os: Android
+   contact: voxlink@jcalado.com
 
  - tocall: APVR??
    vendor: unknown
