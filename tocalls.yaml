@@ -2151,6 +2151,13 @@ tocalls:
    model: DRCC-DVM
    class: igate
 
+ - tocall: APVOX?
+   vendor: Joel Calado, CS7BLE
+   model: VoxLink
+   class: app
+   os: Android
+   contact: voxlink@jcalado.com
+
  - tocall: APVR??
    vendor: unknown
    model: IRLP
