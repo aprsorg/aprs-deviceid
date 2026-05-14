@@ -957,6 +957,24 @@ tocalls:
    class: app
    os: ios
 
+ - tocall: APKVPA
+   vendor: kv4p HT open source project
+   model: kv4p HT (Android)
+   class: app
+   os: Android
+   contact: kv4pht@gmail.com
+   features:
+     - item-in-msg
+
+ - tocall: APKVPI
+   vendor: kv4p HT open source project
+   model: kv4p HT (iOS)
+   class: app
+   os: iOS
+   contact: kv4pht@gmail.com
+   features:
+     - item-in-msg
+
  - tocall: APLC??
    vendor: DL3DCW
    model: APRScube
