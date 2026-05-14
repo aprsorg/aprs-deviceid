@@ -676,6 +676,12 @@ tocalls:
    vendor: aprs.fi
    class: app
 
+ - tocall: APFIAN
+   model: Android app
+   vendor: aprs.fi
+   os: Android
+   class: app
+
  - tocall: APFII?
    model: iPhone/iPad app
    vendor: aprs.fi
@@ -938,6 +944,12 @@ tocalls:
    class: wx
    os: embedded
    contact: w3sn@moxracing.33mail.com
+
+ - tocall: APKJH?
+   vendor: VA3KJH
+   model: TD-H9 BLE KISS
+   class: app
+   os: Android
 
  - tocall: APKRAM
    vendor: kramstuff.com
@@ -1555,6 +1567,13 @@ tocalls:
    os: Windows
    contact: KO6IKR@gmail.com
 
+ - tocall: APPRPV
+   vendor: Wicker Made, LLC
+   model: APRS PropView
+   class: software
+   os: Windows
+   contact: madebywicker@gmail.com
+
  - tocall: APPS??
    vendor: Øyvind, LA7ECA (for the Norwegian Radio Relay League)
    model: Polaric Server
@@ -2146,6 +2165,10 @@ tocalls:
    features:
      - messaging
      - item-in-msg
+
+ - tocall: APWOLF
+   vendor: Jim Perry, WT1W
+   model: APRSWolf
 
  - tocall: APWW??
    vendor: KJ4ERJ
