@@ -676,6 +676,12 @@ tocalls:
    vendor: aprs.fi
    class: app
 
+ - tocall: APFIAN
+   model: Android app
+   vendor: aprs.fi
+   os: Android
+   class: app
+
  - tocall: APFII?
    model: iPhone/iPad app
    vendor: aprs.fi
