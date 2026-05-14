@@ -939,6 +939,12 @@ tocalls:
    os: embedded
    contact: w3sn@moxracing.33mail.com
 
+ - tocall: APKJH?
+   vendor: VA3KJH
+   model: TD-H9 BLE KISS
+   class: app
+   os: Android
+
  - tocall: APKRAM
    vendor: kramstuff.com
    model: Ham Tracker
