@@ -2159,6 +2159,10 @@ tocalls:
      - messaging
      - item-in-msg
 
+ - tocall: APWOLF
+   vendor: Jim Perry, WT1W
+   model: APRSWolf
+
  - tocall: APWW??
    vendor: KJ4ERJ
    model: APRSIS32
