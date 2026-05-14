@@ -1914,10 +1914,17 @@ tocalls:
    class: software
    os: Windows
    
- - tocall: APSC??
+ - tocall: APSC20
    vendor: OH2MQK, OH7LZB
    model: aprsc
    class: software
+
+ - tocall: APSCOP
+   vendor: Greg, K0GDI
+   model: APRScope
+   class: software
+   os: Windows
+   contact: k0gdi73@gmail.com
 
  - tocall: APSDA?
    vendor: APSD Developers
