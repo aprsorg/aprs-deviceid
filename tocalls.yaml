@@ -688,6 +688,13 @@ tocalls:
    os: ios
    class: app
 
+ - tocall: APFLIP
+   vendor: LU3ARN
+   model: 818 APRS Transceiver
+   class: gadget
+   os: embedded
+   contact: https://github.com/reynico/flipper-818-aprs
+
  - tocall: APFMN?
    vendor: Thomas Beiderwieden, DL3EL
    model: FM-Funknetz HS Dashboard
