@@ -1768,6 +1768,13 @@ tocalls:
    os: embedded
    contact: pawel.sq2ips@gmail.com
 
+ - tocall: APRMI?
+   vendor: Island Magic Co.
+   model: iPhone/iPad app
+   os: ios
+   class: app
+   contact: aloha@islandmagic.co
+
  - tocall: APRNFW
    vendor: Franek SP5FRA
    model: RS41-NFW
