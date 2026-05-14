@@ -1567,6 +1567,13 @@ tocalls:
    os: Windows
    contact: KO6IKR@gmail.com
 
+ - tocall: APPRPV
+   vendor: Wicker Made, LLC
+   model: APRS PropView
+   class: software
+   os: Windows
+   contact: madebywicker@gmail.com
+
  - tocall: APPS??
    vendor: Øyvind, LA7ECA (for the Norwegian Radio Relay League)
    model: Polaric Server
