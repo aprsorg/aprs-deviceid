@@ -1178,6 +1178,24 @@ tocalls:
    os: embedded
    contact: wajdzik.m@gmail.com
 
+ - tocall: APLUL?
+   vendor: Alex YO2LDK
+   contact: yo2ldk@yahoo.com
+
+ - tocall: APLULD
+   vendor: Alex YO2LDK
+   model: ESP32S3 UltimateLoRa iGate+Digi
+   os: embedded
+   class: tracker
+   contact: yo2ldk@yahoo.com
+
+ - tocall: APLULT
+   vendor: Alex YO2LDK
+   model: ESP32S3 UltimateLoRa Tracker
+   os: embedded
+   class: tracker
+   contact: yo2ldk@yahoo.com
+
  - tocall: APLZA?
    vendor: Huang Xuewu, BD5HTY
    model: LoRa
