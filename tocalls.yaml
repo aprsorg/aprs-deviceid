@@ -695,6 +695,13 @@ tocalls:
    os: embedded
    contact: https://github.com/reynico/flipper-818-aprs
 
+ - tocall: APFLPZ
+   vendor: YO3GND
+   model: Flipper Zero standalone beacon
+   class: gadget
+   os: embedded
+   contact: https://github.com/yo3gnd/flipper-zero-aprs-tx
+
  - tocall: APFMN?
    vendor: Thomas Beiderwieden, DL3EL
    model: FM-Funknetz HS Dashboard
