@@ -741,7 +741,7 @@ tocalls:
    model: APRS-Go
    class: app
 
- - tocall: APGRWO
+ - tocall: APGRW?
    vendor: Chris Snell, NW5W
    model: NW5W Graywolf
    class: software
