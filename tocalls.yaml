@@ -1240,6 +1240,10 @@ tocalls:
    class: daemon
    contact: johannes.leroux@gmail.com
 
+ - tocall: APMAA?
+   vendor: Terje Husby, LA3MAA
+   model: LA3MAA messaging projects
+
  - tocall: APMAIL
    vendor: Mike, NA7Q
    model: APRS Mailbox
