@@ -264,6 +264,13 @@ tocalls:
    model: T-238+
    class: wx
 
+ - tocall: AP3VSS
+   vendor: Artur Schreiber, SP3VSS
+   model: Active APRS tracker
+   class: app
+   os: Android
+   contact: artur.schreiber@gmail.com
+
  - tocall: AP4R??
    vendor: Open Source
    model: APRS4R
@@ -275,6 +282,13 @@ tocalls:
    class: daemon
    os: Linux/Unix
    contact: bi9bbl@outlook.com
+
+ - tocall: AP9UAG
+   vendor: Stefendy Handoko, YF9UAG
+   model: NusaAPRS
+   class: app
+   os: Android
+   contact: stefendy@yahoo.com
 
  - tocall: APAEP1
    vendor: Paraguay Space Agency (AEP)
@@ -735,6 +749,11 @@ tocalls:
    model: 9W2KEY iGate
    class: igate
    contact: mzakiab@gmail.com
+
+ - tocall: APGLDG
+   vendor: AI7BQ
+   model: GoldenGate AREDN MeshChat gateway
+   class: service
 
  - tocall: APGO??
    vendor: AA3NJ
@@ -1221,6 +1240,10 @@ tocalls:
    class: daemon
    contact: johannes.leroux@gmail.com
 
+ - tocall: APMAA?
+   vendor: Terje Husby, LA3MAA
+   model: LA3MAA messaging projects
+
  - tocall: APMAIL
    vendor: Mike, NA7Q
    model: APRS Mailbox
@@ -1483,7 +1506,7 @@ tocalls:
    model: OZ-TRAK APRS Mobile Tracker
    class: tracker
    os: Linux
-   contact: admin@oz-dmr.network
+   contact: https://www.oz-trak.uk/
 
  - tocall: APONE?
    vendor: aprs.one
