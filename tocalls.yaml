@@ -750,6 +750,11 @@ tocalls:
    class: igate
    contact: mzakiab@gmail.com
 
+ - tocall: APGLDG
+   vendor: AI7BQ
+   model: GoldenGate AREDN MeshChat gateway
+   class: service
+
  - tocall: APGO??
    vendor: AA3NJ
    model: APRS-Go
