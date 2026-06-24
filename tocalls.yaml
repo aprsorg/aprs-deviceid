@@ -276,6 +276,13 @@ tocalls:
    os: Linux/Unix
    contact: bi9bbl@outlook.com
 
+ - tocall: AP9UAG
+   vendor: Stefendy Handoko, YF9UAG
+   model: NusaAPRS
+   class: app
+   os: Android
+   contact: stefendy@yahoo.com
+
  - tocall: APAEP1
    vendor: Paraguay Space Agency (AEP)
    model: "EIRUAPRSDIGIS&FV1"
