@@ -264,6 +264,13 @@ tocalls:
    model: T-238+
    class: wx
 
+ - tocall: AP3VSS
+   vendor: Artur Schreiber, SP3VSS
+   model: Active APRS tracker
+   class: app
+   os: Android
+   contact: artur.schreiber@gmail.com
+
  - tocall: AP4R??
    vendor: Open Source
    model: APRS4R
