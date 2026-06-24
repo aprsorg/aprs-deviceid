@@ -1502,7 +1502,7 @@ tocalls:
    model: OZ-TRAK APRS Mobile Tracker
    class: tracker
    os: Linux
-   contact: admin@oz-dmr.network
+   contact: https://www.oz-trak.uk/
 
  - tocall: APONE?
    vendor: aprs.one
