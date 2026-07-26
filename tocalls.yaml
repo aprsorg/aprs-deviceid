@@ -1649,6 +1649,13 @@ tocalls:
    model: OpenTracker
    class: tracker
 
+ - tocall: APOVK5
+   vendor: Buğra Canata, TA1JS
+   model: UV-K5 TA1JS
+   class: ht
+   os: embedded
+   contact: bugra@radio.org.tr
+
  - tocall: APOVU?
    vendor: K J Somaiya Institute
    model: BeliefSat
