@@ -479,6 +479,12 @@ tocalls:
    model: cell tracker
    class: tracker
 
+ - tocall: APCHP?
+   vendor: Chip Cuccio, W0CHP
+   model: Digital Voice & APRS Software
+   class: software
+   os: Linux/Unix
+
  - tocall: APCLEY
    vendor: ZS6EY
    model: EYTraker
