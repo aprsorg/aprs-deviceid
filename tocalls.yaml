@@ -1101,6 +1101,18 @@ tocalls:
    class: wx
    contact: iw1cgw@libero.it
 
+ - tocall: APLHT1
+   vendor: HA8LHT
+   model: LoRa Gateway
+   class: igate
+   os: embedded
+
+ - tocall: APLHT2
+   vendor: HA8LHT
+   model: LoRa Tracker
+   class: tracker
+   os: embedded
+
  - tocall: APLIF?
    vendor: TA5Y
    model: TIF LORA APRS I-GATE
@@ -1703,6 +1715,12 @@ tocalls:
    model: radiosonde_auto_rx
    class: software
    os: Linux/Unix
+
+ - tocall: APREAL
+   vendor: HA8LHT
+   model: Real Packet
+   class: software
+   os: Windows
 
  - tocall: APREST
    vendor: cwop.rest
