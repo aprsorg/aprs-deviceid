@@ -544,6 +544,12 @@ tocalls:
    class: wx
    contact: hj3dag@gmail.com
 
+ - tocall: APDDRW
+   vendor: Ralph, DD5RW
+   model: Dynamic Mobile Multi-Band Tracker & Bidirectional iGate
+   class: igate
+   os: Linux/Unix
+
  - tocall: APDF??
    model: Automatic DF units
 
