@@ -1502,6 +1502,13 @@ tocalls:
    model: Oregon Department of Transportion Traffic Alerts
    class: service
 
+ - tocall: APOFA?
+   vendor: OffARO
+   model: OffARO — Offline APRS Radio Operation
+   class: software
+   os: Multiple
+   contact: support@offaro.io
+
  - tocall: APOG7?
    vendor: OpenGD77
    model: OpenGD77
