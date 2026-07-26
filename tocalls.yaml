@@ -2041,6 +2041,13 @@ tocalls:
  - tocall: APSN??
    vendor: CSN Technologies Inc.
 
+ - tocall: APSPOT
+   vendor: Razvan Zeces, YO6RZV
+   model: APRSpot
+   class: app
+   os: ios
+   contact: dev@zeces.ro
+
  - tocall: APSRF?
    vendor: SoftRF
    model: Ham Edition
