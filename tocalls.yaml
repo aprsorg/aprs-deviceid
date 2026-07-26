@@ -497,6 +497,13 @@ tocalls:
    model: EYWeather
    class: wx
 
+ - tocall: APCMD?
+   vendor: James Rospopo, KE4CON
+   model: APRS Command
+   class: software
+   os: Multiple
+   contact: https://github.com/KE4CON/APRS-Command
+
  - tocall: APCN??
    vendor: DG5OAW
    model: carNET
