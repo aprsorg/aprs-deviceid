@@ -617,6 +617,13 @@ tocalls:
    model: Pecan Pico APRS Balloon Tracker
    class: tracker
 
+ - tocall: APECWB
+   vendor: Tomas Voboril, KC0EQQ
+   model: ecowitt-to-aprs-bridge
+   class: daemon
+   os: Linux/Unix
+   contact: kc0eqq@gmail.com
+
  - tocall: APELK?
    vendor: WB8ELK
    model: Balloon tracker
