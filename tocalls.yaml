@@ -1907,6 +1907,12 @@ tocalls:
    os: Linux/Unix
    contact: 9m2pju@hamradio.my
 
+ - tocall: APRPJG
+   vendor: Piju, 9M2PJU
+   model: 9M2PJU APRS Riddle Game Bot
+   class: service
+   contact: 9m2pju@hamradio.my
+
  - tocall: APRPJH
    vendor: Piju, 9M2PJU
    model: 9M2PJU APRS Heat Bot
