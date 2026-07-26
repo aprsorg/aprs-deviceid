@@ -617,6 +617,13 @@ tocalls:
    model: Pecan Pico APRS Balloon Tracker
    class: tracker
 
+ - tocall: APECWB
+   vendor: Tomas Voboril, KC0EQQ
+   model: ecowitt-to-aprs-bridge
+   class: daemon
+   os: Linux/Unix
+   contact: kc0eqq@gmail.com
+
  - tocall: APELK?
    vendor: WB8ELK
    model: Balloon tracker
@@ -1101,6 +1108,18 @@ tocalls:
    class: wx
    contact: iw1cgw@libero.it
 
+ - tocall: APLHT1
+   vendor: HA8LHT
+   model: LoRa Gateway
+   class: igate
+   os: embedded
+
+ - tocall: APLHT2
+   vendor: HA8LHT
+   model: LoRa Tracker
+   class: tracker
+   os: embedded
+
  - tocall: APLIF?
    vendor: TA5Y
    model: TIF LORA APRS I-GATE
@@ -1490,6 +1509,13 @@ tocalls:
    model: Oregon Department of Transportion Traffic Alerts
    class: service
 
+ - tocall: APOFA?
+   vendor: OffARO
+   model: OffARO — Offline APRS Radio Operation
+   class: software
+   os: Multiple
+   contact: support@offaro.io
+
  - tocall: APOG7?
    vendor: OpenGD77
    model: OpenGD77
@@ -1703,6 +1729,12 @@ tocalls:
    model: radiosonde_auto_rx
    class: software
    os: Linux/Unix
+
+ - tocall: APREAL
+   vendor: HA8LHT
+   model: Real Packet
+   class: software
+   os: Windows
 
  - tocall: APREST
    vendor: cwop.rest
@@ -2040,6 +2072,13 @@ tocalls:
 
  - tocall: APSN??
    vendor: CSN Technologies Inc.
+
+ - tocall: APSPOT
+   vendor: Razvan Zeces, YO6RZV
+   model: APRSpot
+   class: app
+   os: ios
+   contact: dev@zeces.ro
 
  - tocall: APSRF?
    vendor: SoftRF
