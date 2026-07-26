@@ -1060,6 +1060,13 @@ tocalls:
    model: LoRa IGate/Digipeater
    class: digi
 
+ - tocall: APLDL1
+   vendor: ORARI Lokal KTS, Handiko Gesang, YB1SDL
+   model: LoRa Digipeater
+   class: digi
+   os: embedded
+   contact: handikogesang@gmail.com
+
  - tocall: APLDM?
    vendor: David, OK2DDS
    model: LoRa Meteostation
