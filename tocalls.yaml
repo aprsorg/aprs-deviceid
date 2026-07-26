@@ -1983,11 +1983,6 @@ tocalls:
    class: igate
    os: Linux/Unix
 
- - tocall: APS???
-   vendor: Brent Hildebrand, KH2Z
-   model: APRS+SA
-   class: software
-
  - tocall: APSAR
    vendor: ZL4FOX
    model: SARTrack
@@ -2115,6 +2110,11 @@ tocalls:
    class: app
    os: ios
    contact: bugra@radio.org.tr
+
+ - tocall: APSnnn
+   vendor: Brent Hildebrand, KH2Z
+   model: APRS+SA
+   class: software
 
  - tocall: APT2??
    vendor: Byonics
