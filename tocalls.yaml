@@ -479,6 +479,12 @@ tocalls:
    model: cell tracker
    class: tracker
 
+ - tocall: APCHP?
+   vendor: Chip Cuccio, W0CHP
+   model: Digital Voice & APRS Software
+   class: software
+   os: Linux/Unix
+
  - tocall: APCLEY
    vendor: ZS6EY
    model: EYTraker
@@ -496,6 +502,13 @@ tocalls:
    vendor: ZS6EY
    model: EYWeather
    class: wx
+
+ - tocall: APCMD?
+   vendor: James Rospopo, KE4CON
+   model: APRS Command
+   class: software
+   os: Multiple
+   contact: https://github.com/KE4CON/APRS-Command
 
  - tocall: APCN??
    vendor: DG5OAW
@@ -997,6 +1010,13 @@ tocalls:
    class: app
    os: ios
 
+ - tocall: APKTY1
+   vendor: Kirby Frugia, W7TTY
+   model: KISSTTY
+   class: software
+   os: Multiple
+   contact: w7tty.kirby@gmail.com
+
  - tocall: APKVPA
    vendor: kv4p HT open source project
    model: kv4p HT (Android)
@@ -1045,6 +1065,13 @@ tocalls:
    vendor: David, OK2DDS
    model: LoRa IGate/Digipeater
    class: digi
+
+ - tocall: APLDL1
+   vendor: ORARI Lokal KTS, Handiko Gesang, YB1SDL
+   model: LoRa Digipeater
+   class: digi
+   os: embedded
+   contact: handikogesang@gmail.com
 
  - tocall: APLDM?
    vendor: David, OK2DDS
@@ -1135,6 +1162,13 @@ tocalls:
    model: HAB BOT
    class: tracker
    contact: david.perrin@hb9hiz.ch
+
+ - tocall: APLLT?
+   vendor: George K. Scott, K6GKS (Technology Integrators)
+   model: LoRa Tracker
+   class: tracker
+   os: embedded
+   contact: george@techi.net
 
  - tocall: APLM??
    vendor: WA0TQG
@@ -1615,6 +1649,13 @@ tocalls:
    model: OpenTracker
    class: tracker
 
+ - tocall: APOVK5
+   vendor: Buğra Canata, TA1JS
+   model: UV-K5 TA1JS
+   class: ht
+   os: embedded
+   contact: bugra@radio.org.tr
+
  - tocall: APOVU?
    vendor: K J Somaiya Institute
    model: BeliefSat
@@ -1683,6 +1724,13 @@ tocalls:
    vendor: JF6LZE
    model: KetaiTracker
    class: tracker
+
+ - tocall: APPYTT
+   vendor: Lorenzo "vash" IU1BOT
+   model: PyttiAPRS
+   class: software
+   os: Multiple
+   contact: iu1bot@xzgroup.net
 
  - tocall: APQCA?
    vendor: Míra Svoboda, OK1IRY
@@ -1893,6 +1941,12 @@ tocalls:
    os: Linux/Unix
    contact: 9m2pju@hamradio.my
 
+ - tocall: APRPJG
+   vendor: Piju, 9M2PJU
+   model: 9M2PJU APRS Riddle Game Bot
+   class: service
+   contact: 9m2pju@hamradio.my
+
  - tocall: APRPJH
    vendor: Piju, 9M2PJU
    model: 9M2PJU APRS Heat Bot
@@ -1982,11 +2036,6 @@ tocalls:
    model: Aprx
    class: igate
    os: Linux/Unix
-
- - tocall: APS???
-   vendor: Brent Hildebrand, KH2Z
-   model: APRS+SA
-   class: software
 
  - tocall: APSAR
    vendor: ZL4FOX
@@ -2108,6 +2157,18 @@ tocalls:
    class: daemon
    os: Linux/Unix
    contact: aprs-deviceid@cyberspejs.net
+
+ - tocall: APSWIF
+   vendor: Buğra Canata, TA1JS
+   model: APRSSwift
+   class: app
+   os: ios
+   contact: bugra@radio.org.tr
+
+ - tocall: APSnnn
+   vendor: Brent Hildebrand, KH2Z
+   model: APRS+SA
+   class: software
 
  - tocall: APT2??
    vendor: Byonics
