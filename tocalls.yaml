@@ -1684,6 +1684,13 @@ tocalls:
    model: KetaiTracker
    class: tracker
 
+ - tocall: APPYTT
+   vendor: Lorenzo "vash" IU1BOT
+   model: PyttiAPRS
+   class: software
+   os: Multiple
+   contact: iu1bot@xzgroup.net
+
  - tocall: APQCA?
    vendor: Míra Svoboda, OK1IRY
    model: ClassicAPRS
