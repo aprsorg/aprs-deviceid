@@ -1004,6 +1004,13 @@ tocalls:
    class: app
    os: ios
 
+ - tocall: APKTY1
+   vendor: Kirby Frugia, W7TTY
+   model: KISSTTY
+   class: software
+   os: Multiple
+   contact: w7tty.kirby@gmail.com
+
  - tocall: APKVPA
    vendor: kv4p HT open source project
    model: kv4p HT (Android)
