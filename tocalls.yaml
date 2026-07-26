@@ -1150,6 +1150,13 @@ tocalls:
    class: tracker
    contact: david.perrin@hb9hiz.ch
 
+ - tocall: APLLT?
+   vendor: George K. Scott, K6GKS (Technology Integrators)
+   model: LoRa Tracker
+   class: tracker
+   os: embedded
+   contact: george@techi.net
+
  - tocall: APLM??
    vendor: WA0TQG
    class: software
