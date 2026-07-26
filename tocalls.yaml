@@ -1275,6 +1275,13 @@ tocalls:
    class: tracker
    contact: yo2ldk@yahoo.com
 
+ - tocall: APLXY1
+   vendor: 2E0LXY
+   model: 2E0LXY LoRa APRS iGate
+   class: igate
+   os: embedded
+   contact: https://github.com/2E0LXY/2E0LXY-LoRa-APRS-iGate
+
  - tocall: APLZA?
    vendor: Huang Xuewu, BD5HTY
    model: LoRa
