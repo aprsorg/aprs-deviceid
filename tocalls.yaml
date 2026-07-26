@@ -2109,6 +2109,13 @@ tocalls:
    os: Linux/Unix
    contact: aprs-deviceid@cyberspejs.net
 
+ - tocall: APSWIF
+   vendor: Buğra Canata, TA1JS
+   model: APRSSwift
+   class: app
+   os: ios
+   contact: bugra@radio.org.tr
+
  - tocall: APT2??
    vendor: Byonics
    model: TinyTrak2
