@@ -21,11 +21,11 @@ classes:
  - class: wx
    shown: Weather station
    description: Dedicated weather station
-   
+
  - class: tracker
    shown: Tracker
    description: Tracker device
- 
+
  - class: gadget
    shown: Gadget
    description: Small non-tracker APRS device
@@ -33,7 +33,7 @@ classes:
  - class: rig
    shown: Rig
    description: Mobile or desktop radio
- 
+
  - class: ht
    shown: HT
    description: Hand-held radio
@@ -41,7 +41,7 @@ classes:
  - class: app
    shown: Mobile app
    description: Mobile phone or tablet app
- 
+
  - class: software
    shown: Desktop software
    description: Desktop software
@@ -65,11 +65,11 @@ classes:
  - class: igate
    shown: iGate
    description: iGate software
- 
+
  - class: dstar
    shown: D-Star
    description: D-Star radio
- 
+
  - class: satellite
    shown: Satellite
    description: Satellite-based station
@@ -83,17 +83,17 @@ mice:
    vendor: Yaesu
    model: VX-8
    class: ht
-   
+
  - suffix: "_\""
    vendor: Yaesu
    model: FTM-350
    class: rig
-   
+
  - suffix: "_#"
    vendor: Yaesu
    model: VX-8G
    class: ht
-   
+
  - suffix: "_$"
    vendor: Yaesu
    model: FT1D
@@ -108,7 +108,7 @@ mice:
    vendor: Yaesu
    model: FT3D
    class: ht
-   
+
  - suffix: "_3"
    vendor: Yaesu
    model: FT5D
@@ -148,7 +148,7 @@ mice:
    vendor: Yaesu
    model: FTM-100D
    class: rig
-   
+
  - suffix: "_%"
    vendor: Yaesu
    model: FTM-400DR
@@ -168,16 +168,16 @@ mice:
    vendor: Byonics
    model: TinyTrak3
    class: tracker
- 
+
  - suffix: "|4"
    vendor: Byonics
    model: TinyTrak4
    class: tracker
- 
+
  - suffix: "^v"
    vendor: HinzTec
    model: anyfrog
- 
+
  - suffix: "*v"
    vendor: KissOZ
    model: Tracker
@@ -689,7 +689,7 @@ tocalls:
    vendor: LY3PH
    model: APRS-ESP
    os: embedded
- 
+
  - tocall: APESPG
    vendor: OH2TH
    model: ESP SmartBeacon APRS-IS Client
@@ -791,7 +791,7 @@ tocalls:
    model: NW5W Graywolf
    class: software
    os: Multiple
-   
+
  - tocall: APHAX?
    vendor: PY2UEP
    model: SM2APRS SondeMonitor
@@ -1402,7 +1402,7 @@ tocalls:
  - tocall: APMQ??
    vendor: WB2OSZ
    model: Ham Radio of Things
- 
+
  - tocall: APMT??
    vendor: LZ1PPL
    model: Micro APRS Tracker
@@ -1726,6 +1726,13 @@ tocalls:
    class: software
    os: Windows
    contact: madebywicker@gmail.com
+
+ - tocall: APPRSP
+   vendor: Hafizi, 9M2FZY
+   model: RasPiAPRS
+   class: daemon
+   os: Linux
+   contact: pizi@hotmail.my
 
  - tocall: APPS??
    vendor: Øyvind, LA7ECA (for the Norwegian Radio Relay League)
@@ -2055,7 +2062,7 @@ tocalls:
    model: SARTrack
    class: software
    os: Windows
-   
+
  - tocall: APSC20
    vendor: OH2MQK, OH7LZB
    model: aprsc
@@ -2507,7 +2514,7 @@ tocalls:
    model: TrackPoint
    class: tracker
    os: embedded
-   
+
  - tocall: APZWKR
    vendor: GM1WKR
    model: NetSked
@@ -2527,4 +2534,3 @@ tocalls:
    vendor: Open Source
    model: PSKmail
    class: software
-
