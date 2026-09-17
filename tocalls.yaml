@@ -422,6 +422,13 @@ tocalls:
    class: software
    os: Windows
 
+ - tocall: APBCNF
+   vendor: Daniel Redetzke, M0LII
+   model: BEACONFIRE
+   class: software
+   os: Multiple
+   contact: daniel@m0lii.com
+
  - tocall: APBK??
    vendor: PY5BK
    model: Bravo Tracker
@@ -568,6 +575,12 @@ tocalls:
    vendor: Bela, HA5DI
    model: DIXPRS
    class: software
+
+ - tocall: APDMPS
+   vendor: Douglas Pervine
+   model: DMP APRS Simulator
+   class: software
+   os: Linux/Unix
 
  - tocall: APDNO?
    vendor: DO3SWW
@@ -2383,6 +2396,13 @@ tocalls:
  - tocall: APUDR?
    vendor: NW Digital Radio
    model: UDR
+
+ - tocall: APURSX
+   vendor: Rich Beckwith, WN0X
+   model: UPRSx
+   class: software
+   os: Windows
+   contact: rjbeckwith@gmail.com
 
  - tocall: APVE??
    vendor: unknown
