@@ -576,6 +576,12 @@ tocalls:
    model: DIXPRS
    class: software
 
+ - tocall: APDMPS
+   vendor: Douglas Pervine
+   model: DMP APRS Simulator
+   class: software
+   os: Linux/Unix
+
  - tocall: APDNO?
    vendor: DO3SWW
    model: APRSduino
