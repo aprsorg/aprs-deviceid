@@ -628,6 +628,13 @@ tocalls:
    class: software
    os: Linux/Unix
 
+ - tocall: APE32I
+   vendor: Hiperion
+   model: esp32idf_APRS
+   class: igate
+   os: embedded
+   contact: lu3vea@gmail.com
+
  - tocall: APE???
    model: Telemetry devices
 
