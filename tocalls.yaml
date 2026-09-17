@@ -422,6 +422,13 @@ tocalls:
    class: software
    os: Windows
 
+ - tocall: APBCNF
+   vendor: Daniel Redetzke, M0LII
+   model: BEACONFIRE
+   class: software
+   os: Multiple
+   contact: daniel@m0lii.com
+
  - tocall: APBK??
    vendor: PY5BK
    model: Bravo Tracker
