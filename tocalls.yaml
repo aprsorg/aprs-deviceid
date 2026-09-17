@@ -1966,6 +1966,12 @@ tocalls:
    class: service
    contact: 9m2pju@hamradio.my
 
+ - tocall: APRPJL
+   vendor: Piju, 9M2PJU
+   model: 9M2PJU Bidirectional APRS To Email Bot
+   class: service
+   contact: 9m2pju@hamradio.my
+
  - tocall: APRPJM
    vendor: Piju, 9M2PJU
    model: APRSMY Net Bot
