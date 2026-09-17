@@ -2113,6 +2113,13 @@ tocalls:
    class: service
    contact: henri.bergius@iki.fi
 
+ - tocall: APSIK?
+   vendor: Zihao Meng, BI4KYG
+   model: SiKA APRS Suite
+   class: daemon
+   os: Multiple
+   contact: makisekurisu@sern.science
+
  - tocall: APSK63
    vendor: Chris Moulding, G4HYG
    model: APRS Messenger
