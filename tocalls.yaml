@@ -2391,6 +2391,13 @@ tocalls:
    vendor: NW Digital Radio
    model: UDR
 
+ - tocall: APURSX
+   vendor: Rich Beckwith, WN0X
+   model: UPRSx
+   class: software
+   os: Windows
+   contact: rjbeckwith@gmail.com
+
  - tocall: APVE??
    vendor: unknown
    model: EchoLink
