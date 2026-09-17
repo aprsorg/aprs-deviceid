@@ -2205,6 +2205,12 @@ tocalls:
    model: TinyTrak4
    class: tracker
 
+ - tocall: APTAAP
+   vendor: TA2AEC, TA3JO
+   model: TA-APRS
+   os: Windows
+   contact: ta2aec@gmail.com
+
  - tocall: APTB??
    vendor: BG5HHP
    model: TinyAPRS
