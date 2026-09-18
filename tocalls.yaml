@@ -261,6 +261,14 @@ micelegacy:
    features:
      - messaging
 
+ - prefix: "]"
+   suffix: "&"
+   vendor: Kenwood
+   model: TM-D750
+   class: rig
+   features:
+     - messaging
+
 #
 # TOCALL index
 #
@@ -1003,6 +1011,11 @@ tocalls:
    vendor: Kenwood
    model: TH-D7
    class: ht
+
+ - tocall: APK103
+   vendor: Kenwood
+   model: TM-D750
+   class: rig
 
  - tocall: APK1??
    vendor: Kenwood
