@@ -344,6 +344,13 @@ tocalls:
    model: Ailunce HA2
    class: ht
 
+ - tocall: APALOC
+   vendor: Darion, BG7LZQ
+   model: APRSlocus
+   class: software
+   os: Multiple
+   contact: mc081208@163.com
+
  - tocall: APAM??
    vendor: Altus Metrum
    model: AltOS
@@ -462,6 +469,12 @@ tocalls:
 
  - tocall: APBT*
    vendor: BTECH
+   contact: support@baofengtech.com
+
+ - tocall: APBT50
+   vendor: BTECH
+   model: UV-50 PRO Mobile
+   class: rig
    contact: support@baofengtech.com
 
  - tocall: APBT62
@@ -1036,6 +1049,13 @@ tocalls:
    class: app
    os: Android
 
+ - tocall: APKPPR
+   vendor: Open Source, KP3M
+   model: KP4PRA TNC
+   class: daemon
+   os: Linux/Unix
+   contact: https://github.com/hebersoto/kp4pra
+
  - tocall: APKRAM
    vendor: kramstuff.com
    model: Ham Tracker
@@ -1115,6 +1135,20 @@ tocalls:
    model: TROY LoRa Tracker/iGate
    os: embedded
    contact: ta3oer@gmail.com
+
+ - tocall: APLEST
+   vendor: Eawan, 9M2SES
+   model: ESP32 LoRa Tracker
+   class: tracker
+   os: embedded
+   contact: 9m2ses@gmail.com
+
+ - tocall: APLESW
+   vendor: Eawan, 9M2SES
+   model: ESP32 LoRa Weather Station
+   class: wx
+   os: embedded
+   contact: 9m2ses@gmail.com
 
  - tocall: APLETK
    vendor: DL5TKL
@@ -2403,6 +2437,13 @@ tocalls:
    class: software
    os: Windows
    contact: rjbeckwith@gmail.com
+
+ - tocall: APVCTR
+   vendor: SP3LSN
+   model: APRS Vector
+   class: app
+   os: Multiple
+   contact: sp3lsn@gmail.com
 
  - tocall: APVE??
    vendor: unknown
