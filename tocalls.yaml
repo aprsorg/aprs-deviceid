@@ -1631,6 +1631,13 @@ tocalls:
    vendor: N0AGI
    model: POCSAG
 
+ - tocall: APOCWA
+   vendor: 9M2OCW
+   model: aprsCW
+   class: app
+   os: Android
+   contact: 9m2ocw@gmail.com
+
  - tocall: APODOT
    vendor: Mike, NA7Q
    model: Oregon Department of Transportion Traffic Alerts
