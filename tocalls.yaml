@@ -1036,6 +1036,13 @@ tocalls:
    class: app
    os: Android
 
+ - tocall: APKPPR
+   vendor: Open Source, KP3M
+   model: KP4PRA TNC
+   class: daemon
+   os: Linux/Unix
+   contact: https://github.com/hebersoto/kp4pra
+
  - tocall: APKRAM
    vendor: kramstuff.com
    model: Ham Tracker
