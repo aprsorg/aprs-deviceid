@@ -2432,6 +2432,13 @@ tocalls:
    os: Windows
    contact: rjbeckwith@gmail.com
 
+ - tocall: APVCTR
+   vendor: SP3LSN
+   model: APRS Vector
+   class: app
+   os: Multiple
+   contact: sp3lsn@gmail.com
+
  - tocall: APVE??
    vendor: unknown
    model: EchoLink
