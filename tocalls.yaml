@@ -344,6 +344,13 @@ tocalls:
    model: Ailunce HA2
    class: ht
 
+ - tocall: APALOC
+   vendor: Darion, BG7LZQ
+   model: APRSlocus
+   class: software
+   os: Multiple
+   contact: mc081208@163.com
+
  - tocall: APAM??
    vendor: Altus Metrum
    model: AltOS
