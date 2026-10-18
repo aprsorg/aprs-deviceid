@@ -1493,6 +1493,12 @@ tocalls:
    vendor: Kantronics
    model: KPC-9612
 
+ - tocall: APNAVP
+   vendor: Navprise
+   model: Ground Team
+   class: software
+   os: Windows
+
  - tocall: APNCM
    vendor: Keith Kaiser, WA0TJT
    model: Net Control Manager
