@@ -429,6 +429,13 @@ tocalls:
    class: software
    os: Windows
 
+ - tocall: APB730
+   vendor: Bret Sanders, K6BAT
+   model: Beacon 73
+   class: app
+   os: ios
+   contact: bret@k6bat.com
+
  - tocall: APBCNF
    vendor: Daniel Redetzke, M0LII
    model: BEACONFIRE
