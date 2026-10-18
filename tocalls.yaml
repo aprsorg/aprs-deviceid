@@ -471,6 +471,12 @@ tocalls:
    vendor: BTECH
    contact: support@baofengtech.com
 
+ - tocall: APBT50
+   vendor: BTECH
+   model: UV-50 PRO Mobile
+   class: rig
+   contact: support@baofengtech.com
+
  - tocall: APBT62
    vendor: BTECH
    model: DMR 6x2
