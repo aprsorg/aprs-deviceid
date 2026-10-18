@@ -1572,6 +1572,13 @@ tocalls:
    vendor: MFJ
    model: TNC
 
+ - tocall: APNOCT
+   vendor: The Comms Channel, LLC
+   model: NOCT (Networked Off-grid Communications Terminal)
+   class: software
+   os: Linux
+   contact: thecommschannel@proton.me
+
  - tocall: APNP??
    vendor: PacComm
    model: TNC
