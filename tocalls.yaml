@@ -626,6 +626,13 @@ tocalls:
    os: Android
    class: app
 
+ - tocall: APDRMO
+   vendor: BD3QID
+   model: APRSdroid Mod
+   class: app
+   os: Android
+   contact: https://github.com/nimenhagg/aprsdroid-ic705
+
  - tocall: APDS??
    vendor: SP9UOB
    model: dsDIGI
