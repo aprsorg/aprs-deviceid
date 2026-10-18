@@ -1871,6 +1871,13 @@ tocalls:
    model: APRSdos
    class: software
 
+ - tocall: APRAGT
+   vendor: Hüseyin Erhan Özkan, TA3HX
+   model: APRS-Agent
+   class: service
+   os: Linux/Unix
+   contact: ta3hx.radio@gmail.com
+
  - tocall: APRARX
    vendor: Open Source
    model: radiosonde_auto_rx
