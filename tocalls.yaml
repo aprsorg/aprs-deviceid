@@ -1123,6 +1123,20 @@ tocalls:
    os: embedded
    contact: ta3oer@gmail.com
 
+ - tocall: APLEST
+   vendor: Eawan, 9M2SES
+   model: ESP32 LoRa Tracker
+   class: tracker
+   os: embedded
+   contact: 9m2ses@gmail.com
+
+ - tocall: APLESW
+   vendor: Eawan, 9M2SES
+   model: ESP32 LoRa Weather Station
+   class: wx
+   os: embedded
+   contact: 9m2ses@gmail.com
+
  - tocall: APLETK
    vendor: DL5TKL
    model: T-Echo
