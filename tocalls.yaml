@@ -1286,15 +1286,15 @@ tocalls:
    contact: richonguzman@gmail.com
 
  - tocall: APLRM?
-   vendor: Railab Srl, IU2TZK
-   model: Railab LoRa board
+   vendor: Railab Srl, IU2SNX - IU2TZK
+   model: ResQMesh
    class: tracker
    os: embedded
    contact: support@railab.com
 
  - tocall: APLRS?
-   vendor: Railab Srl, IU2TZK
-   model: Railab LoRa board
+   vendor: Railab Srl, IU2SNX - IU2TZK
+   model: ResQMesh
    class: igate
    os: embedded
    contact: support@railab.com
