@@ -429,6 +429,13 @@ tocalls:
    class: software
    os: Windows
 
+ - tocall: APB730
+   vendor: Bret Sanders, K6BAT
+   model: Beacon 73
+   class: app
+   os: ios
+   contact: bret@k6bat.com
+
  - tocall: APBCNF
    vendor: Daniel Redetzke, M0LII
    model: BEACONFIRE
@@ -618,6 +625,13 @@ tocalls:
    model: APRSdroid
    os: Android
    class: app
+
+ - tocall: APDRMO
+   vendor: BD3QID
+   model: APRSdroid Mod
+   class: app
+   os: Android
+   contact: https://github.com/nimenhagg/aprsdroid-ic705
 
  - tocall: APDS??
    vendor: SP9UOB
@@ -1279,15 +1293,15 @@ tocalls:
    contact: richonguzman@gmail.com
 
  - tocall: APLRM?
-   vendor: Railab Srl, IU2TZK
-   model: Railab LoRa board
+   vendor: Railab Srl, IU2SNX - IU2TZK
+   model: ResQMesh
    class: tracker
    os: embedded
    contact: support@railab.com
 
  - tocall: APLRS?
-   vendor: Railab Srl, IU2TZK
-   model: Railab LoRa board
+   vendor: Railab Srl, IU2SNX - IU2TZK
+   model: ResQMesh
    class: igate
    os: embedded
    contact: support@railab.com
@@ -1493,6 +1507,12 @@ tocalls:
    vendor: Kantronics
    model: KPC-9612
 
+ - tocall: APNAVP
+   vendor: Navprise
+   model: Ground Team
+   class: software
+   os: Windows
+
  - tocall: APNCM
    vendor: Keith Kaiser, WA0TJT
    model: Net Control Manager
@@ -1559,6 +1579,13 @@ tocalls:
    vendor: MFJ
    model: TNC
 
+ - tocall: APNOCT
+   vendor: The Comms Channel, LLC
+   model: NOCT (Networked Off-grid Communications Terminal)
+   class: software
+   os: Linux
+   contact: thecommschannel@proton.me
+
  - tocall: APNP??
    vendor: PacComm
    model: TNC
@@ -1610,6 +1637,13 @@ tocalls:
  - tocall: APOCSG
    vendor: N0AGI
    model: POCSAG
+
+ - tocall: APOCWA
+   vendor: 9M2OCW
+   model: aprsCW
+   class: app
+   os: Android
+   contact: 9m2ocw@gmail.com
 
  - tocall: APODOT
    vendor: Mike, NA7Q
@@ -1741,6 +1775,12 @@ tocalls:
  - tocall: APP6??
    model: APRSlib
 
+ - tocall: APPC10
+   vendor: TA2WI
+   model: TA2WI Infrastructure & Mobile Devices
+   os: embedded
+   contact: osmangunr@gmail.com
+
  - tocall: APPCO?
    vendor: RadCommSoft, LLC
    model: PicoAPRSTracker
@@ -1844,6 +1884,13 @@ tocalls:
    vendor: Bob Bruninga, WB4APR
    model: APRSdos
    class: software
+
+ - tocall: APRAGT
+   vendor: Hüseyin Erhan Özkan, TA3HX
+   model: APRS-Agent
+   class: service
+   os: Linux/Unix
+   contact: ta3hx.radio@gmail.com
 
  - tocall: APRARX
    vendor: Open Source
