@@ -1097,6 +1097,12 @@ tocalls:
    class: app
    os: ios
 
+ - tocall: APKSXI
+   vendor: JR2TTA
+   model: KISAXI
+   class: software
+   os: Multiple
+
  - tocall: APKTY1
    vendor: Kirby Frugia, W7TTY
    model: KISSTTY
