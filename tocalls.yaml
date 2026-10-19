@@ -681,6 +681,13 @@ tocalls:
    os: embedded
    contact: lu3vea@gmail.com
 
+ - tocall: APE3HC
+   vendor: Konrad, SP3KON
+   model: ESP32-HAM-CLOCK
+   class: gadget
+   os: embedded
+   contact: sp3kon@gmail.com
+
  - tocall: APE???
    model: Telemetry devices
 
