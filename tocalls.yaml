@@ -2247,6 +2247,12 @@ tocalls:
    class: wx
    os: embedded
 
+ - tocall: APSHRT
+   vendor: Patrick Narkinsky, NB8K
+   model: ShackRat
+   class: software
+   os: Multiple
+
  - tocall: APSIGK
    vendor: Henri Bergius, DF4HB
    model: Signal K APRS Plugin
