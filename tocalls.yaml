@@ -760,6 +760,20 @@ tocalls:
    os: embedded
    contact: roel@kroes.com
 
+ - tocall: APEXRE
+   vendor: N2PWG
+   model: DESMA Remus
+   class: app
+   os: Android
+   contact: troylink@gmail.com
+
+ - tocall: APEXRO
+   vendor: N2PWG
+   model: DESMA Romulus
+   class: app
+   os: ios
+   contact: troylink@gmail.com
+
  - tocall: APFG??
    vendor: KP4DJT
    model: Flood Gage
@@ -855,6 +869,13 @@ tocalls:
    vendor: KF7EEL
    model: HBLink D-APRS Gateway
    class: software
+
+ - tocall: APHC01
+   vendor: HamTetra-CT
+   model: HamTetra-Core
+   class: daemon
+   os: Linux/Unix
+   contact: https://github.com/HamTetra-CT
 
  - tocall: APHH?
    vendor: Steven D. Bragg, KA9MVA
@@ -1898,6 +1919,12 @@ tocalls:
    class: software
    os: Linux/Unix
 
+ - tocall: APRCAC
+   vendor: Andreas Pachler, OE8APR
+   model: APRScaching
+   os: Multiple
+   contact: oe8apr@aprscaching.net
+
  - tocall: APREAL
    vendor: HA8LHT
    model: Real Packet
@@ -2538,6 +2565,24 @@ tocalls:
    model: WeeWX Weather Software
    class: software
    os: Linux/Unix
+
+ - tocall: APWFD2
+   vendor: Kenneth W. Finnegan, W6KWF
+   model: Whiskey Fox Digi (TAPR TNC2)
+   class: digi
+   contact: kennethfinnegan2007@gmail.com
+
+ - tocall: APWFD?
+   vendor: Kenneth W. Finnegan, W6KWF
+   model: Whiskey Fox Digi
+   class: digi
+   contact: kennethfinnegan2007@gmail.com
+
+ - tocall: APWFDP
+   vendor: Kenneth W. Finnegan, W6KWF
+   model: Whiskey Fox Digi (AEA PK-88)
+   class: digi
+   contact: kennethfinnegan2007@gmail.com
 
  - tocall: APWHE?
    vendor: KF6UFO
