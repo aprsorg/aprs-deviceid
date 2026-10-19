@@ -870,6 +870,13 @@ tocalls:
    model: HBLink D-APRS Gateway
    class: software
 
+ - tocall: APHC01
+   vendor: HamTetra-CT
+   model: HamTetra-Core
+   class: daemon
+   os: Linux/Unix
+   contact: https://github.com/HamTetra-CT
+
  - tocall: APHH?
    vendor: Steven D. Bragg, KA9MVA
    model: HamHud
