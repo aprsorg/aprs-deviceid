@@ -681,6 +681,13 @@ tocalls:
    os: embedded
    contact: lu3vea@gmail.com
 
+ - tocall: APE3HC
+   vendor: Konrad, SP3KON
+   model: ESP32-HAM-CLOCK
+   class: gadget
+   os: embedded
+   contact: sp3kon@gmail.com
+
  - tocall: APE???
    model: Telemetry devices
 
@@ -1096,6 +1103,12 @@ tocalls:
    model: Ham Tracker
    class: app
    os: ios
+
+ - tocall: APKSXI
+   vendor: JR2TTA
+   model: KISAXI
+   class: software
+   os: Multiple
 
  - tocall: APKTY1
    vendor: Kirby Frugia, W7TTY
@@ -2246,6 +2259,12 @@ tocalls:
    model: embedded Weather Station
    class: wx
    os: embedded
+
+ - tocall: APSHRT
+   vendor: Patrick Narkinsky, NB8K
+   model: ShackRat
+   class: software
+   os: Multiple
 
  - tocall: APSIGK
    vendor: Henri Bergius, DF4HB
