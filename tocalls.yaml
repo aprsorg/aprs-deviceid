@@ -760,6 +760,20 @@ tocalls:
    os: embedded
    contact: roel@kroes.com
 
+ - tocall: APEXRE
+   vendor: N2PWG
+   model: DESMA Remus
+   class: app
+   os: Android
+   contact: troylink@gmail.com
+
+ - tocall: APEXRO
+   vendor: N2PWG
+   model: DESMA Romulus
+   class: app
+   os: ios
+   contact: troylink@gmail.com
+
  - tocall: APFG??
    vendor: KP4DJT
    model: Flood Gage
