@@ -344,6 +344,13 @@ tocalls:
    model: Ailunce HA2
    class: ht
 
+ - tocall: APALOC
+   vendor: Darion, BG7LZQ
+   model: APRSlocus
+   class: software
+   os: Multiple
+   contact: mc081208@163.com
+
  - tocall: APAM??
    vendor: Altus Metrum
    model: AltOS
@@ -422,6 +429,13 @@ tocalls:
    class: software
    os: Windows
 
+ - tocall: APB730
+   vendor: Bret Sanders, K6BAT
+   model: Beacon 73
+   class: app
+   os: ios
+   contact: bret@k6bat.com
+
  - tocall: APBCNF
    vendor: Daniel Redetzke, M0LII
    model: BEACONFIRE
@@ -462,6 +476,12 @@ tocalls:
 
  - tocall: APBT*
    vendor: BTECH
+   contact: support@baofengtech.com
+
+ - tocall: APBT50
+   vendor: BTECH
+   model: UV-50 PRO Mobile
+   class: rig
    contact: support@baofengtech.com
 
  - tocall: APBT62
@@ -606,6 +626,13 @@ tocalls:
    os: Android
    class: app
 
+ - tocall: APDRMO
+   vendor: BD3QID
+   model: APRSdroid Mod
+   class: app
+   os: Android
+   contact: https://github.com/nimenhagg/aprsdroid-ic705
+
  - tocall: APDS??
    vendor: SP9UOB
    model: dsDIGI
@@ -653,6 +680,13 @@ tocalls:
    class: igate
    os: embedded
    contact: lu3vea@gmail.com
+
+ - tocall: APE3HC
+   vendor: Konrad, SP3KON
+   model: ESP32-HAM-CLOCK
+   class: gadget
+   os: embedded
+   contact: sp3kon@gmail.com
 
  - tocall: APE???
    model: Telemetry devices
@@ -732,6 +766,20 @@ tocalls:
    class: tracker
    os: embedded
    contact: roel@kroes.com
+
+ - tocall: APEXRE
+   vendor: N2PWG
+   model: DESMA Remus
+   class: app
+   os: Android
+   contact: troylink@gmail.com
+
+ - tocall: APEXRO
+   vendor: N2PWG
+   model: DESMA Romulus
+   class: app
+   os: ios
+   contact: troylink@gmail.com
 
  - tocall: APFG??
    vendor: KP4DJT
@@ -828,6 +876,13 @@ tocalls:
    vendor: KF7EEL
    model: HBLink D-APRS Gateway
    class: software
+
+ - tocall: APHC01
+   vendor: HamTetra-CT
+   model: HamTetra-Core
+   class: daemon
+   os: Linux/Unix
+   contact: https://github.com/HamTetra-CT
 
  - tocall: APHH?
    vendor: Steven D. Bragg, KA9MVA
@@ -1036,11 +1091,24 @@ tocalls:
    class: app
    os: Android
 
+ - tocall: APKPPR
+   vendor: Open Source, KP3M
+   model: KP4PRA TNC
+   class: daemon
+   os: Linux/Unix
+   contact: https://github.com/hebersoto/kp4pra
+
  - tocall: APKRAM
    vendor: kramstuff.com
    model: Ham Tracker
    class: app
    os: ios
+
+ - tocall: APKSXI
+   vendor: JR2TTA
+   model: KISAXI
+   class: software
+   os: Multiple
 
  - tocall: APKTY1
    vendor: Kirby Frugia, W7TTY
@@ -1115,6 +1183,20 @@ tocalls:
    model: TROY LoRa Tracker/iGate
    os: embedded
    contact: ta3oer@gmail.com
+
+ - tocall: APLEST
+   vendor: Eawan, 9M2SES
+   model: ESP32 LoRa Tracker
+   class: tracker
+   os: embedded
+   contact: 9m2ses@gmail.com
+
+ - tocall: APLESW
+   vendor: Eawan, 9M2SES
+   model: ESP32 LoRa Weather Station
+   class: wx
+   os: embedded
+   contact: 9m2ses@gmail.com
 
  - tocall: APLETK
    vendor: DL5TKL
@@ -1245,15 +1327,15 @@ tocalls:
    contact: richonguzman@gmail.com
 
  - tocall: APLRM?
-   vendor: Railab Srl, IU2TZK
-   model: Railab LoRa board
+   vendor: Railab Srl, IU2SNX - IU2TZK
+   model: ResQMesh
    class: tracker
    os: embedded
    contact: support@railab.com
 
  - tocall: APLRS?
-   vendor: Railab Srl, IU2TZK
-   model: Railab LoRa board
+   vendor: Railab Srl, IU2SNX - IU2TZK
+   model: ResQMesh
    class: igate
    os: embedded
    contact: support@railab.com
@@ -1459,6 +1541,12 @@ tocalls:
    vendor: Kantronics
    model: KPC-9612
 
+ - tocall: APNAVP
+   vendor: Navprise
+   model: Ground Team
+   class: software
+   os: Windows
+
  - tocall: APNCM
    vendor: Keith Kaiser, WA0TJT
    model: Net Control Manager
@@ -1525,6 +1613,13 @@ tocalls:
    vendor: MFJ
    model: TNC
 
+ - tocall: APNOCT
+   vendor: The Comms Channel, LLC
+   model: NOCT (Networked Off-grid Communications Terminal)
+   class: software
+   os: Linux
+   contact: thecommschannel@proton.me
+
  - tocall: APNP??
    vendor: PacComm
    model: TNC
@@ -1576,6 +1671,13 @@ tocalls:
  - tocall: APOCSG
    vendor: N0AGI
    model: POCSAG
+
+ - tocall: APOCWA
+   vendor: 9M2OCW
+   model: aprsCW
+   class: app
+   os: Android
+   contact: 9m2ocw@gmail.com
 
  - tocall: APODOT
    vendor: Mike, NA7Q
@@ -1707,6 +1809,12 @@ tocalls:
  - tocall: APP6??
    model: APRSlib
 
+ - tocall: APPC10
+   vendor: TA2WI
+   model: TA2WI Infrastructure & Mobile Devices
+   os: embedded
+   contact: osmangunr@gmail.com
+
  - tocall: APPCO?
    vendor: RadCommSoft, LLC
    model: PicoAPRSTracker
@@ -1818,11 +1926,24 @@ tocalls:
    model: APRSdos
    class: software
 
+ - tocall: APRAGT
+   vendor: Hüseyin Erhan Özkan, TA3HX
+   model: APRS-Agent
+   class: service
+   os: Linux/Unix
+   contact: ta3hx.radio@gmail.com
+
  - tocall: APRARX
    vendor: Open Source
    model: radiosonde_auto_rx
    class: software
    os: Linux/Unix
+
+ - tocall: APRCAC
+   vendor: Andreas Pachler, OE8APR
+   model: APRScaching
+   os: Multiple
+   contact: oe8apr@aprscaching.net
 
  - tocall: APREAL
    vendor: HA8LHT
@@ -2146,6 +2267,12 @@ tocalls:
    class: wx
    os: embedded
 
+ - tocall: APSHRT
+   vendor: Patrick Narkinsky, NB8K
+   model: ShackRat
+   class: software
+   os: Multiple
+
  - tocall: APSIGK
    vendor: Henri Bergius, DF4HB
    model: Signal K APRS Plugin
@@ -2411,6 +2538,13 @@ tocalls:
    os: Windows
    contact: rjbeckwith@gmail.com
 
+ - tocall: APVCTR
+   vendor: SP3LSN
+   model: APRS Vector
+   class: app
+   os: Multiple
+   contact: sp3lsn@gmail.com
+
  - tocall: APVE??
    vendor: unknown
    model: EchoLink
@@ -2457,6 +2591,24 @@ tocalls:
    model: WeeWX Weather Software
    class: software
    os: Linux/Unix
+
+ - tocall: APWFD2
+   vendor: Kenneth W. Finnegan, W6KWF
+   model: Whiskey Fox Digi (TAPR TNC2)
+   class: digi
+   contact: kennethfinnegan2007@gmail.com
+
+ - tocall: APWFD?
+   vendor: Kenneth W. Finnegan, W6KWF
+   model: Whiskey Fox Digi
+   class: digi
+   contact: kennethfinnegan2007@gmail.com
+
+ - tocall: APWFDP
+   vendor: Kenneth W. Finnegan, W6KWF
+   model: Whiskey Fox Digi (AEA PK-88)
+   class: digi
+   contact: kennethfinnegan2007@gmail.com
 
  - tocall: APWHE?
    vendor: KF6UFO
