@@ -352,6 +352,13 @@ tocalls:
    features:
      - messaging
 
+ - tocall: APALGD
+   vendor: QRV73.com
+   model: Digi APRS
+   class: app
+   os: Multiple
+   contact: fatih05onder@gmail.com
+
  - tocall: APALH*
    vendor: Retevis
 
