@@ -2591,6 +2591,12 @@ tocalls:
    os: Windows
    contact: ta2aec@gmail.com
 
+ - tocall: APTAIO
+   vendor: DB3FAT
+   model: All In One R3 APRS Tracker
+   class: tracker
+   os: embedded
+
  - tocall: APTB??
    vendor: BG5HHP
    model: TinyAPRS
