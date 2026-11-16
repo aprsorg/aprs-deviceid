@@ -217,7 +217,7 @@ mice:
 micelegacy:
  - prefix: ">"
    vendor: Kenwood
-   model: TH-D7A
+   model: TH-D7
    class: ht
    features:
      - messaging
