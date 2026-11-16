@@ -270,6 +270,13 @@ tocalls:
    model: T-238+
    class: wx
 
+ - tocall: AP3GKD
+   vendor: Katsariotis Dimitris, SV3GKD
+   model: Arduino Digipeater
+   class: digi
+   os: embedded
+   contact: sv3gkd@yahoo.gr
+
  - tocall: AP3VSS
    vendor: Artur Schreiber, SP3VSS
    model: Active APRS tracker
