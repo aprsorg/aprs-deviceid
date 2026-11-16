@@ -939,6 +939,13 @@ tocalls:
    model: APRS-IS Client for Athom Homey
    contact: oh2th@iki.fi
 
+ - tocall: APHNAV
+   vendor: RO Design Co.
+   model: HamNav Android Auto App
+   class: app
+   os: Android
+   contact: support@rodesign.com.tr
+
  - tocall: APHPIA
    vendor: HP3ICC
    model: Arduino APRS
