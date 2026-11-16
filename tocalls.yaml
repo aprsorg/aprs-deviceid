@@ -906,7 +906,13 @@ tocalls:
    model: NW5W Graywolf
    class: software
    os: Multiple
-   
+
+ - tocall: APHAMT
+   vendor: HamThings
+   model: HamThings
+   class: service
+   contact: https://hamthings.it
+
  - tocall: APHAX?
    vendor: PY2UEP
    model: SM2APRS SondeMonitor
