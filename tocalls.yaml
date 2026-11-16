@@ -2666,6 +2666,13 @@ tocalls:
    os: Linux
    contact: https://github.com/kf6ufo/kf6ufo-wx-helios
 
+ - tocall: APWLNK
+   vendor: K8OTY
+   model: WX-Link
+   class: wx
+   os: embedded
+   contact: https://github.com/sideout909/WX-Link
+
  - tocall: APWM??
    vendor: KJ4ERJ
    model: APRSISCE
