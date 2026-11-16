@@ -1431,6 +1431,11 @@ tocalls:
    os: embedded
    contact: https://github.com/2E0LXY/2E0LXY-LoRa-APRS-iGate
 
+ - tocall: APLYNX
+   vendor: HA8LHT
+   model: AirLynx HAM
+   os: embedded
+
  - tocall: APLZA?
    vendor: Huang Xuewu, BD5HTY
    model: LoRa
