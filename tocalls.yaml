@@ -1360,6 +1360,13 @@ tocalls:
    os: embedded
    contact: sq9p.peter@gmail.com
 
+ - tocall: APLPIK
+   vendor: Walter Dunckel, K6ATV
+   model: LoRa APRS Pi
+   class: digi
+   os: Linux/Unix
+   contact: radiohound@gmail.com
+
  - tocall: APLPS?
    vendor: Jose, XE3JAC
    model: ESP-32 LoRa
