@@ -180,6 +180,13 @@ mice:
    class: app
    contact: support@aprsconnect.com
 
+ - suffix: "^L"
+   vendor: Fabrice, F4MLV
+   model: ESP32 LoRa Tracker LVGL-UI
+   class: tracker
+   os: embedded
+   contact: https://github.com/moricef
+
  - suffix: "^v"
    vendor: HinzTec
    model: anyfrog
@@ -609,6 +616,12 @@ tocalls:
    vendor: Bela, HA5DI
    model: DIXPRS
    class: software
+
+ - tocall: APDLPW
+   vendor: Philipp Weber, DL4PW
+   model: UV-K1/K5 V3 APRS Messenger
+   class: ht
+   os: embedded
 
  - tocall: APDMPS
    vendor: Douglas Pervine
@@ -1119,6 +1132,12 @@ tocalls:
    class: app
    os: Android
 
+ - tocall: APKPGI
+   vendor: Alec Swinton, VK4AZ
+   model: Kelly Page
+   class: igate
+   os: browser
+
  - tocall: APKPPR
    vendor: Open Source, KP3M
    model: KP4PRA TNC
@@ -1299,6 +1318,12 @@ tocalls:
    model: LightAPRS Tracker
    class: tracker
 
+ - tocall: APLINK
+   vendor: HA8LHT
+   model: AirLynx APRS
+   class: software
+   os: Windows
+
  - tocall: APLLO?
    vendor: HB4LO
    model: HAB BOT
@@ -1430,6 +1455,11 @@ tocalls:
    class: igate
    os: embedded
    contact: https://github.com/2E0LXY/2E0LXY-LoRa-APRS-iGate
+
+ - tocall: APLYNX
+   vendor: HA8LHT
+   model: AirLynx HAM
+   os: embedded
 
  - tocall: APLZA?
    vendor: Huang Xuewu, BD5HTY
@@ -1857,6 +1887,12 @@ tocalls:
  - tocall: APP6??
    model: APRSlib
 
+ - tocall: APPASP
+   vendor: BI4TES
+   model: FMO Passport
+   class: gadget
+   os: embedded
+
  - tocall: APPC10
    vendor: TA2WI
    model: TA2WI Infrastructure & Mobile Devices
@@ -1919,6 +1955,12 @@ tocalls:
    vendor: JF6LZE
    model: KetaiTracker
    class: tracker
+
+ - tocall: APPYCM
+   vendor: Steve, M0SNZ
+   model: Pycom Radio Controller
+   class: software
+   os: Multiple
 
  - tocall: APPYTT
    vendor: Lorenzo "vash" IU1BOT
@@ -2700,6 +2742,13 @@ tocalls:
    features:
      - messaging
      - item-in-msg
+
+ - tocall: APWXFW
+   vendor: Mikel Berrocal, EA2CW
+   model: WX2APRS forwarder
+   class: software
+   os: Linux
+   contact: ea2cw@gautxori.com
 
  - tocall: APWXS?
    vendor: Colin Cogle, W1DNS
