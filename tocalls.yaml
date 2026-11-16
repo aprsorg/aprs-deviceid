@@ -2028,6 +2028,13 @@ tocalls:
    os: Multiple
    contact: oe8apr@aprscaching.net
 
+ - tocall: APRDF?
+   vendor: RadioFoundry
+   model: RadioFoundry firmware
+   class: ht
+   os: embedded
+   contact: https://github.com/RadioFoundry/RadioFoundry
+
  - tocall: APREAL
    vendor: HA8LHT
    model: Real Packet
