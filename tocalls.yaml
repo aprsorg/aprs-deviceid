@@ -912,6 +912,11 @@ tocalls:
    vendor: VK4FAST
    model: Graphic Data Terminal
 
+ - tocall: APGEMI
+   vendor: DB3FAT
+   model: APRS multi I-Gate
+   class: igate
+
  - tocall: APGJJF
    vendor: Jon Welch, G7JJF
    model: G7JJF APRS Client
