@@ -180,6 +180,13 @@ mice:
    class: app
    contact: support@aprsconnect.com
 
+ - suffix: "^L"
+   vendor: Fabrice, F4MLV
+   model: ESP32 LoRa Tracker LVGL-UI
+   class: tracker
+   os: embedded
+   contact: https://github.com/moricef
+
  - suffix: "^v"
    vendor: HinzTec
    model: anyfrog
