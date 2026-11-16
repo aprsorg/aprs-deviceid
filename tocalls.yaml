@@ -598,6 +598,13 @@ tocalls:
    model: ircDDB Gateway
    class: dstar
 
+ - tocall: APDHUB
+   vendor: Jacob McSwain, KI5VMF
+   model: DMRHub
+   class: daemon
+   os: Multiple
+   contact: dmrhub@mcswain.dev
+
  - tocall: APDI??
    vendor: Bela, HA5DI
    model: DIXPRS
