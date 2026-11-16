@@ -1126,6 +1126,12 @@ tocalls:
    class: app
    os: Android
 
+ - tocall: APKPGI
+   vendor: Alec Swinton, VK4AZ
+   model: Kelly Page
+   class: igate
+   os: browser
+
  - tocall: APKPPR
    vendor: Open Source, KP3M
    model: KP4PRA TNC
