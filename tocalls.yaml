@@ -277,6 +277,13 @@ tocalls:
    model: T-238+
    class: wx
 
+ - tocall: AP2BIG
+   vendor: yATOLYE / Murat OZ, TA2BI
+   model: AselGate
+   class: igate
+   os: embedded
+   contact: ta2bi.murat@gmail.com
+
  - tocall: AP3GKD
    vendor: Katsariotis Dimitris, SV3GKD
    model: Arduino Digipeater
