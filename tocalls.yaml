@@ -1123,6 +1123,20 @@ tocalls:
    model: D-Star APJID2
    class: dstar
 
+ - tocall: APJMF1
+   vendor: Marcelo Ferreira, LU6JMF
+   model: AR-APRS
+   class: network
+   os: embedded
+   contact: marcelobrachile@gmail.com
+
+ - tocall: APJMF2
+   vendor: Marcelo Ferreira, LU6JMF
+   model: AR-LORA
+   class: network
+   os: embedded
+   contact: marcelobrachile@gmail.com
+
  - tocall: APJS??
    vendor: Peter Loveall, AE5PL
    model: javAPRSSrvr
