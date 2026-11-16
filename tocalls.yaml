@@ -2464,6 +2464,13 @@ tocalls:
    model: TR80 APRS Tracker
    class: tracker
 
+ - tocall: APTNCS
+   vendor: Dave Berkompas, N5BA
+   model: tncstation
+   class: daemon
+   os: Linux/Unix
+   contact: david.berkompas@gmail.com
+
  - tocall: APTNG?
    vendor: Filip YU1TTN
    model: Tango Tracker
