@@ -1182,6 +1182,20 @@ tocalls:
    features:
      - item-in-msg
 
+ - tocall: APLAB0
+   vendor: Walter Dunckel, K6ATV
+   model: LoRa Tracker Digipeater
+   class: tracker
+   os: embedded
+   contact: radiohound@gmail.com
+
+ - tocall: APLAB1
+   vendor: Walter Dunckel, K6ATV
+   model: PicoTrack
+   class: tracker
+   os: embedded
+   contact: radiohound@gmail.com
+
  - tocall: APLC??
    vendor: DL3DCW
    model: APRScube
