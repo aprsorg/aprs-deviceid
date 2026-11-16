@@ -2232,6 +2232,13 @@ tocalls:
    os: Multiple
    contact: kn4mkb@aprstac.com
 
+ - tocall: APRVCK
+   vendor: IU0VCK
+   model: RS41-VCK
+   class: tracker
+   os: embedded
+   contact: IU0VCK@gmail.com
+
  - tocall: APRX??
    vendor: Kenneth W. Finnegan, W6KWF
    model: Aprx
