@@ -649,6 +649,13 @@ tocalls:
    class: software
    os: Linux/Unix
 
+ - tocall: APDMRZ
+   vendor: Radio Amateur Club Z37CPR
+   model: Z3DMR
+   class: app
+   os: Android
+   contact: https://z3dmr.com
+
  - tocall: APDNO?
    vendor: DO3SWW
    model: APRSduino
