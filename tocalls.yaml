@@ -457,6 +457,13 @@ tocalls:
    os: ios
    contact: bret@k6bat.com
 
+ - tocall: APBBSX
+   vendor: Lee, VA3XLC
+   model: XLC BBS
+   class: daemon
+   os: Multiple
+   contact: https://xlcbbs.cassar.tech/
+
  - tocall: APBCNF
    vendor: Daniel Redetzke, M0LII
    model: BEACONFIRE
