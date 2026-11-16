@@ -1389,6 +1389,13 @@ tocalls:
    class: tracker
    contact: yo2ldk@yahoo.com
 
+ - tocall: APLVGL
+   vendor: Fabrice, F4MLV
+   model: ESP32 LoRa Tracker LVGL-UI
+   class: tracker
+   os: embedded
+   contact: https://github.com/moricef
+
  - tocall: APLXY1
    vendor: 2E0LXY
    model: 2E0LXY LoRa APRS iGate
