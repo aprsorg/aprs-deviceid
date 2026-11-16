@@ -1390,6 +1390,20 @@ tocalls:
    class: software
    os: Windows
 
+ - tocall: APLJRA
+   vendor: Manuel, EA7JRS
+   model: APRS LoRa+ for Android
+   class: app
+   os: Android
+   contact: https://github.com/EA7JRS/APRS-LoRa-Plus
+
+ - tocall: APLJRT
+   vendor: Manuel, EA7JRS
+   model: APRS LoRa+
+   class: tracker
+   os: embedded
+   contact: https://github.com/EA7JRS/APRS-LoRa-Plus
+
  - tocall: APLLO?
    vendor: HB4LO
    model: HAB BOT
