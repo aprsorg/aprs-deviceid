@@ -1887,6 +1887,12 @@ tocalls:
  - tocall: APP6??
    model: APRSlib
 
+ - tocall: APPASP
+   vendor: BI4TES
+   model: FMO Passport
+   class: gadget
+   os: embedded
+
  - tocall: APPC10
    vendor: TA2WI
    model: TA2WI Infrastructure & Mobile Devices
