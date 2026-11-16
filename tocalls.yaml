@@ -1723,6 +1723,13 @@ tocalls:
    os: Linux
    contact: GitHub - chevybowtie
 
+ - tocall: APNETC
+   vendor: Derek Rowland, NZ0P
+   model: APRS.NET APRS-IS CLI
+   class: software
+   os: Multiple
+   contact: admin@nz0p.com
+
  - tocall: APNIC4
    vendor: SQ5EKU
    model: BidaTrak
