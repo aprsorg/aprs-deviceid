@@ -1299,6 +1299,12 @@ tocalls:
    model: LightAPRS Tracker
    class: tracker
 
+ - tocall: APLINK
+   vendor: HA8LHT
+   model: AirLynx APRS
+   class: software
+   os: Windows
+
  - tocall: APLLO?
    vendor: HB4LO
    model: HAB BOT
