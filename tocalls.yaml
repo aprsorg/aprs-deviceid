@@ -2056,6 +2056,13 @@ tocalls:
    class: software
    os: Linux/Unix
 
+ - tocall: APRASP
+   vendor: Hafizi Ruslan, 9M2FZY
+   model: RasPiAPRS
+   class: daemon
+   os: Linux/Unix
+   contact: https://github.com/HafiziRuslan/RasPiAPRS/issues
+
  - tocall: APRCAC
    vendor: Andreas Pachler, OE8APR
    model: APRScaching
