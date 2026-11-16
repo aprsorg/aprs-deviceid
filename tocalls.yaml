@@ -617,6 +617,12 @@ tocalls:
    model: DIXPRS
    class: software
 
+ - tocall: APDLPW
+   vendor: Philipp Weber, DL4PW
+   model: UV-K1/K5 V3 APRS Messenger
+   class: ht
+   os: embedded
+
  - tocall: APDMPS
    vendor: Douglas Pervine
    model: DMP APRS Simulator
