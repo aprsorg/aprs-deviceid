@@ -277,6 +277,13 @@ tocalls:
    model: T-238+
    class: wx
 
+ - tocall: AP2BIG
+   vendor: yATOLYE / Murat OZ, TA2BI
+   model: AselGate
+   class: igate
+   os: embedded
+   contact: ta2bi.murat@gmail.com
+
  - tocall: AP3GKD
    vendor: Katsariotis Dimitris, SV3GKD
    model: Arduino Digipeater
@@ -344,6 +351,13 @@ tocalls:
    contact: info@aprsph.net
    features:
      - messaging
+
+ - tocall: APALGD
+   vendor: QRV73.com
+   model: Digi APRS
+   class: app
+   os: Multiple
+   contact: fatih05onder@gmail.com
 
  - tocall: APALH*
    vendor: Retevis
@@ -449,6 +463,13 @@ tocalls:
    class: app
    os: ios
    contact: bret@k6bat.com
+
+ - tocall: APBBSX
+   vendor: Lee, VA3XLC
+   model: XLC BBS
+   class: daemon
+   os: Multiple
+   contact: https://xlcbbs.cassar.tech/
 
  - tocall: APBCNF
    vendor: Daniel Redetzke, M0LII
@@ -579,6 +600,12 @@ tocalls:
    model: WinphoneAPRS
    class: app
 
+ - tocall: APCZMO
+   vendor: Cozmo, KM7DOS
+   model: CozmoAPRS
+   class: software
+   os: Multiple
+
  - tocall: APD5T?
    vendor: Geoffrey, F4FXL
    model: Open Source DStarGateway
@@ -628,6 +655,13 @@ tocalls:
    model: DMP APRS Simulator
    class: software
    os: Linux/Unix
+
+ - tocall: APDMRZ
+   vendor: Radio Amateur Club Z37CPR
+   model: Z3DMR
+   class: app
+   os: Android
+   contact: https://z3dmr.com
 
  - tocall: APDNO?
    vendor: DO3SWW
@@ -878,6 +912,11 @@ tocalls:
    vendor: VK4FAST
    model: Graphic Data Terminal
 
+ - tocall: APGEMI
+   vendor: DB3FAT
+   model: APRS multi I-Gate
+   class: igate
+
  - tocall: APGJJF
    vendor: Jon Welch, G7JJF
    model: G7JJF APRS Client
@@ -906,7 +945,13 @@ tocalls:
    model: NW5W Graywolf
    class: software
    os: Multiple
-   
+
+ - tocall: APHAMT
+   vendor: HamThings
+   model: HamThings
+   class: service
+   contact: https://hamthings.it
+
  - tocall: APHAX?
    vendor: PY2UEP
    model: SM2APRS SondeMonitor
@@ -938,6 +983,13 @@ tocalls:
    vendor: Tapio Heiskanen, OH2TH
    model: APRS-IS Client for Athom Homey
    contact: oh2th@iki.fi
+
+ - tocall: APHNAV
+   vendor: RO Design Co.
+   model: HamNav Android Auto App
+   class: app
+   os: Android
+   contact: support@rodesign.com.tr
 
  - tocall: APHPIA
    vendor: HP3ICC
@@ -1182,6 +1234,20 @@ tocalls:
    features:
      - item-in-msg
 
+ - tocall: APLAB0
+   vendor: Walter Dunckel, K6ATV
+   model: LoRa Tracker Digipeater
+   class: tracker
+   os: embedded
+   contact: radiohound@gmail.com
+
+ - tocall: APLAB1
+   vendor: Walter Dunckel, K6ATV
+   model: PicoTrack
+   class: tracker
+   os: embedded
+   contact: radiohound@gmail.com
+
  - tocall: APLC??
    vendor: DL3DCW
    model: APRScube
@@ -1324,6 +1390,20 @@ tocalls:
    class: software
    os: Windows
 
+ - tocall: APLJRA
+   vendor: Manuel, EA7JRS
+   model: APRS LoRa+ for Android
+   class: app
+   os: Android
+   contact: https://github.com/EA7JRS/APRS-LoRa-Plus
+
+ - tocall: APLJRT
+   vendor: Manuel, EA7JRS
+   model: APRS LoRa+
+   class: tracker
+   os: embedded
+   contact: https://github.com/EA7JRS/APRS-LoRa-Plus
+
  - tocall: APLLO?
    vendor: HB4LO
    model: HAB BOT
@@ -1359,6 +1439,13 @@ tocalls:
    class: tracker
    os: embedded
    contact: sq9p.peter@gmail.com
+
+ - tocall: APLPIK
+   vendor: Walter Dunckel, K6ATV
+   model: LoRa APRS Pi
+   class: digi
+   os: Linux/Unix
+   contact: radiohound@gmail.com
 
  - tocall: APLPS?
    vendor: Jose, XE3JAC
@@ -2022,11 +2109,25 @@ tocalls:
    class: software
    os: Linux/Unix
 
+ - tocall: APRASP
+   vendor: Hafizi Ruslan, 9M2FZY
+   model: RasPiAPRS
+   class: daemon
+   os: Linux/Unix
+   contact: https://github.com/HafiziRuslan/RasPiAPRS/issues
+
  - tocall: APRCAC
    vendor: Andreas Pachler, OE8APR
    model: APRScaching
    os: Multiple
    contact: oe8apr@aprscaching.net
+
+ - tocall: APRDF?
+   vendor: RadioFoundry
+   model: RadioFoundry firmware
+   class: ht
+   os: embedded
+   contact: https://github.com/RadioFoundry/RadioFoundry
 
  - tocall: APREAL
    vendor: HA8LHT
@@ -2509,6 +2610,12 @@ tocalls:
    os: Windows
    contact: ta2aec@gmail.com
 
+ - tocall: APTAIO
+   vendor: DB3FAT
+   model: All In One R3 APRS Tracker
+   class: tracker
+   os: embedded
+
  - tocall: APTB??
    vendor: BG5HHP
    model: TinyAPRS
@@ -2634,6 +2741,13 @@ tocalls:
    class: software
    os: Windows
    contact: rjbeckwith@gmail.com
+
+ - tocall: APUSKM
+   vendor: e04, JK1IFA
+   model: USKM
+   class: gadget
+   os: embedded
+   contact: ward-devise.8m@icloud.com
 
  - tocall: APVCTR
    vendor: SP3LSN
