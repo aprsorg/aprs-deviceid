@@ -593,6 +593,12 @@ tocalls:
    model: WinphoneAPRS
    class: app
 
+ - tocall: APCZMO
+   vendor: Cozmo, KM7DOS
+   model: CozmoAPRS
+   class: software
+   os: Multiple
+
  - tocall: APD5T?
    vendor: Geoffrey, F4FXL
    model: Open Source DStarGateway
