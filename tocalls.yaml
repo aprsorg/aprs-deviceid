@@ -691,6 +691,13 @@ tocalls:
  - tocall: APE???
    model: Telemetry devices
 
+ - tocall: APEASY
+   vendor: VA3OSO
+   model: Easy APRS
+   class: app
+   os: Android
+   contact: w3bguru@gmail.com
+
  - tocall: APECAN
    vendor: KT5TK/DL7AD
    model: Pecan Pico APRS Balloon Tracker
