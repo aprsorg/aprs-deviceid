@@ -2670,6 +2670,13 @@ tocalls:
    os: Windows
    contact: rjbeckwith@gmail.com
 
+ - tocall: APUSKM
+   vendor: e04, JK1IFA
+   model: USKM
+   class: gadget
+   os: embedded
+   contact: ward-devise.8m@icloud.com
+
  - tocall: APVCTR
    vendor: SP3LSN
    model: APRS Vector
