@@ -2712,6 +2712,13 @@ tocalls:
      - messaging
      - item-in-msg
 
+ - tocall: APWXFW
+   vendor: Mikel Berrocal, EA2CW
+   model: WX2APRS forwarder
+   class: software
+   os: Linux
+   contact: ea2cw@gautxori.com
+
  - tocall: APWXS?
    vendor: Colin Cogle, W1DNS
    model: aprs-weather-submit
