@@ -884,6 +884,13 @@ tocalls:
    os: embedded
    contact: https://github.com/yo3gnd/flipper-zero-aprs-tx
 
+ - tocall: APFMLT
+   vendor: BG6HFD
+   model: FMO-LITE (NFM Over Internet Lite Version)
+   class: gadget
+   os: embedded
+   contact: bg6hfd@sltplan.com
+
  - tocall: APFMN?
    vendor: Thomas Beiderwieden, DL3EL
    model: FM-Funknetz HS Dashboard
