@@ -217,7 +217,7 @@ mice:
 micelegacy:
  - prefix: ">"
    vendor: Kenwood
-   model: TH-D7A
+   model: TH-D7
    class: ht
    features:
      - messaging
@@ -269,6 +269,13 @@ tocalls:
    vendor: TAPR
    model: T-238+
    class: wx
+
+ - tocall: AP3GKD
+   vendor: Katsariotis Dimitris, SV3GKD
+   model: Arduino Digipeater
+   class: digi
+   os: embedded
+   contact: sv3gkd@yahoo.gr
 
  - tocall: AP3VSS
    vendor: Artur Schreiber, SP3VSS
@@ -591,6 +598,13 @@ tocalls:
    model: ircDDB Gateway
    class: dstar
 
+ - tocall: APDHUB
+   vendor: Jacob McSwain, KI5VMF
+   model: DMRHub
+   class: daemon
+   os: Multiple
+   contact: dmrhub@mcswain.dev
+
  - tocall: APDI??
    vendor: Bela, HA5DI
    model: DIXPRS
@@ -690,6 +704,13 @@ tocalls:
 
  - tocall: APE???
    model: Telemetry devices
+
+ - tocall: APEASY
+   vendor: VA3OSO
+   model: Easy APRS
+   class: app
+   os: Android
+   contact: w3bguru@gmail.com
 
  - tocall: APECAN
    vendor: KT5TK/DL7AD
@@ -843,6 +864,13 @@ tocalls:
  - tocall: APGDT?
    vendor: VK4FAST
    model: Graphic Data Terminal
+
+ - tocall: APGJJF
+   vendor: Jon Welch, G7JJF
+   model: G7JJF APRS Client
+   class: app
+   os: Android
+   contact: jon@g7jjf.com
 
  - tocall: APGKEY
    vendor: Mohammad Zaki, 9W2KEY
@@ -1389,6 +1417,13 @@ tocalls:
    class: tracker
    contact: yo2ldk@yahoo.com
 
+ - tocall: APLVGL
+   vendor: Fabrice, F4MLV
+   model: ESP32 LoRa Tracker LVGL-UI
+   class: tracker
+   os: embedded
+   contact: https://github.com/moricef
+
  - tocall: APLXY1
    vendor: 2E0LXY
    model: 2E0LXY LoRa APRS iGate
@@ -1413,6 +1448,12 @@ tocalls:
    model: Meshtastic to APRS (mesh2aprs)
    class: daemon
    contact: johannes.leroux@gmail.com
+
+ - tocall: APM5AP
+   vendor: Minato Suzuki, JA1SJS
+   model: M5APRS
+   class: tracker
+   os: embedded
 
  - tocall: APMAA?
    vendor: Terje Husby, LA3MAA
@@ -1667,6 +1708,13 @@ tocalls:
    model: app
    class: app
    os: ios
+
+ - tocall: APOBCN
+   vendor: K8OTY
+   model: OpenBeacon
+   class: software
+   os: Multiple
+   contact: https://github.com/sideout909/OpenBeacon
 
  - tocall: APOCSG
    vendor: N0AGI
@@ -2197,6 +2245,13 @@ tocalls:
    os: Multiple
    contact: kn4mkb@aprstac.com
 
+ - tocall: APRVCK
+   vendor: IU0VCK
+   model: RS41-VCK
+   class: tracker
+   os: embedded
+   contact: IU0VCK@gmail.com
+
  - tocall: APRX??
    vendor: Kenneth W. Finnegan, W6KWF
    model: Aprx
@@ -2464,6 +2519,13 @@ tocalls:
    model: TR80 APRS Tracker
    class: tracker
 
+ - tocall: APTNCS
+   vendor: Dave Berkompas, N5BA
+   model: tncstation
+   class: daemon
+   os: Linux/Unix
+   contact: david.berkompas@gmail.com
+
  - tocall: APTNG?
    vendor: Filip YU1TTN
    model: Tango Tracker
@@ -2609,6 +2671,13 @@ tocalls:
    class: wx
    os: Linux
    contact: https://github.com/kf6ufo/kf6ufo-wx-helios
+
+ - tocall: APWLNK
+   vendor: K8OTY
+   model: WX-Link
+   class: wx
+   os: embedded
+   contact: https://github.com/sideout909/WX-Link
 
  - tocall: APWM??
    vendor: KJ4ERJ
