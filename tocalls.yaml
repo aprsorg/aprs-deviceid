@@ -1703,6 +1703,13 @@ tocalls:
    class: app
    os: ios
 
+ - tocall: APOBCN
+   vendor: K8OTY
+   model: OpenBeacon
+   class: software
+   os: Multiple
+   contact: https://github.com/sideout909/OpenBeacon
+
  - tocall: APOCSG
    vendor: N0AGI
    model: POCSAG
