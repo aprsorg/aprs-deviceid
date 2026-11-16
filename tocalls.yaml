@@ -2388,6 +2388,12 @@ tocalls:
    os: Multiple
    contact: kn4mkb@aprstac.com
 
+ - tocall: APRTSQ
+   vendor: SQ3A
+   model: APRST
+   class: app
+   os: Multiple
+
  - tocall: APRVCK
    vendor: IU0VCK
    model: RS41-VCK
