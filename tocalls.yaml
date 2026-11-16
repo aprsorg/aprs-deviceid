@@ -1449,6 +1449,12 @@ tocalls:
    class: daemon
    contact: johannes.leroux@gmail.com
 
+ - tocall: APM5AP
+   vendor: Minato Suzuki, JA1SJS
+   model: M5APRS
+   class: tracker
+   os: embedded
+
  - tocall: APMAA?
    vendor: Terje Husby, LA3MAA
    model: LA3MAA messaging projects
