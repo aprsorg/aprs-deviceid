@@ -1950,6 +1950,12 @@ tocalls:
    model: KetaiTracker
    class: tracker
 
+ - tocall: APPYCM
+   vendor: Steve, M0SNZ
+   model: Pycom Radio Controller
+   class: software
+   os: Multiple
+
  - tocall: APPYTT
    vendor: Lorenzo "vash" IU1BOT
    model: PyttiAPRS
