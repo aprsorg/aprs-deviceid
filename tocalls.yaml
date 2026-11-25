@@ -330,6 +330,12 @@ tocalls:
    model: "EIRUAPRSDIGIS&FV1"
    class: satellite
 
+ - tocall: APADNS
+   vendor: ADN Systems
+   model: DMR APRS
+   class: Tracker
+   contact: https://adn.systems/
+   
  - tocall: APAF??
    model: AFilter
 
@@ -1006,6 +1012,11 @@ tocalls:
    os: Android
    contact: support@rodesign.com.tr
 
+ - tocall: APHPEM
+   vendor: HP3ICC
+   model: APRS Earthquakes Worldwide Monitor
+   class: service
+   
  - tocall: APHPIA
    vendor: HP3ICC
    model: Arduino APRS
